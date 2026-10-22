@@ -1,0 +1,24 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "faster-qwen3-tts": "0.5.4",
+    "qwen-tts": null,
+    "speech-to-speech": "0.2.10",
+    "funasr": "1.4.16",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "driver": "595.84",
+  "executed_files": {
+    "bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789",
+    "bench_generation_layout.py": "5b1d30a72f6b1f15557cbe8dac578e8beca8911951fd1ebe991f1e885b56c7e7",
+    "bench_tts_contention.py": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d",
+    "bench_xvector_numbers.py": "96759d4e496216b89b31295f2c4b720d01d3c0b6ac64b72dbabef9c52c77a9c2",
+    "cases.json": "ae6266b79dfbbb6887925d8f7ff563d720d04ea5d6719c1d937a1c4a39e5a177",
+    "generation_end_metrics.py": "7980902a862de6f3cf9161cdf8f063374ff8ca76f1d0c21a4674ae29d76b77d6",
+    "number_reading.py": "11816818545a3cee383b3ced8da6b80cf9343b8caf854623ea2e70fa6349564f",
+    "recheck_audio_stt.py": "71e4714050aeb62b99a0b4bea86bddc94097d464ea601d9e51db942ce6aa3aa6"
+  }
+}

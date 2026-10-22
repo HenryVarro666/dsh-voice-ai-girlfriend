@@ -1,0 +1,130 @@
+{
+  "groups": {
+    "diagnostic": {
+      "baseline": {
+        "trials": 12,
+        "errors": 0,
+        "eos": 12,
+        "max_tokens": 0,
+        "asr_exact": 12,
+        "asr_ending_match": 12,
+        "edit_distance": 0,
+        "long_tails": 0,
+        "tail_total_ms": 5026.625,
+        "tail_max_ms": 971.0,
+        "first_voiced_median_ms": 268.00196900148876,
+        "generation_median_ms": 1015.804032998858,
+        "frames_median": 49.0
+      },
+      "xvector": {
+        "trials": 12,
+        "errors": 0,
+        "eos": 12,
+        "max_tokens": 0,
+        "asr_exact": 12,
+        "asr_ending_match": 12,
+        "edit_distance": 0,
+        "long_tails": 0,
+        "tail_total_ms": 912.6875,
+        "tail_max_ms": 137.6875,
+        "first_voiced_median_ms": 92.37818648398388,
+        "generation_median_ms": 675.2251319849165,
+        "frames_median": 35.0
+      }
+    }
+  },
+  "known_seed_diagnostics": [
+    {
+      "profile": "xvector",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 16,
+      "stop_reason": "eos",
+      "frames": 21,
+      "cap": null,
+      "pcm": {
+        "duration_ms": 1696.0,
+        "leading_ms": 2.0625,
+        "tail_ms": 26.75,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 1680.0,
+        "leading_ms": 1.9583333333333333,
+        "tail_ms": 10.75,
+        "all_quiet": false
+      },
+      "edit_distance": 0,
+      "eos_steps": null
+    },
+    {
+      "profile": "xvector",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 25,
+      "stop_reason": "eos",
+      "frames": 23,
+      "cap": null,
+      "pcm": {
+        "duration_ms": 1792.0,
+        "leading_ms": 28.0625,
+        "tail_ms": 103.6875,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 1840.0,
+        "leading_ms": 88.08333333333333,
+        "tail_ms": 91.54166666666666,
+        "all_quiet": false
+      },
+      "edit_distance": 0,
+      "eos_steps": null
+    },
+    {
+      "profile": "baseline",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 16,
+      "stop_reason": "eos",
+      "frames": 76,
+      "cap": null,
+      "pcm": {
+        "duration_ms": 1536.0,
+        "leading_ms": 32.0625,
+        "tail_ms": 89.0625,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 6080.0,
+        "leading_ms": 4581.625,
+        "tail_ms": 83.54166666666667,
+        "all_quiet": false
+      },
+      "edit_distance": 0,
+      "eos_steps": null
+    },
+    {
+      "profile": "baseline",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 25,
+      "stop_reason": "eos",
+      "frames": 30,
+      "cap": null,
+      "pcm": {
+        "duration_ms": 1728.0,
+        "leading_ms": 29.375,
+        "tail_ms": 23.875,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 2400.0,
+        "leading_ms": 702.125,
+        "tail_ms": 23.083333333333336,
+        "all_quiet": false
+      },
+      "edit_distance": 0,
+      "eos_steps": null
+    }
+  ]
+}

@@ -1,0 +1,1274 @@
+[
+  {
+    "trial_id": 1,
+    "policy": "sentence",
+    "text_index": 2,
+    "whole": {
+      "audio_ms": 9568.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 220.0625,
+      "longest_low_run_ms": 624.75,
+      "low_fraction": 0.40877795777591974
+    },
+    "segments": [
+      {
+        "text": "先检查服务日志里的报错，再确认端口和模型路径，最后重试一次请求。",
+        "audio_ms": 6784.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 584.75,
+        "longest_low_run_ms": 584.75,
+        "low_fraction": 0.4294019015330189
+      },
+      {
+        "text": "每次只改一个地方更容易定位问题。",
+        "audio_ms": 2784.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 220.0625,
+        "longest_low_run_ms": 220.0625,
+        "low_fraction": 0.3585219109195402
+      }
+    ]
+  },
+  {
+    "trial_id": 2,
+    "policy": "current_5",
+    "text_index": 3,
+    "whole": {
+      "audio_ms": 12544.0,
+      "leading_low_ms": 2.875,
+      "trailing_low_ms": 555.375,
+      "longest_low_run_ms": 606.125,
+      "low_fraction": 0.48423549107142855
+    },
+    "segments": [
+      {
+        "text": "先把最紧急的任务做完，",
+        "audio_ms": 2016.0,
+        "leading_low_ms": 2.875,
+        "trailing_low_ms": 76.1875,
+        "longest_low_run_ms": 76.1875,
+        "low_fraction": 0.27827380952380953
+      },
+      {
+        "text": "再处理需要集中精力的部分，最后留出时间检查结果。",
+        "audio_ms": 7968.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 314.0,
+        "longest_low_run_ms": 606.125,
+        "low_fraction": 0.5537619226907631
+      },
+      {
+        "text": "中途可以安排一次短休息。",
+        "audio_ms": 2560.0,
+        "leading_low_ms": 38.625,
+        "trailing_low_ms": 555.375,
+        "longest_low_run_ms": 555.375,
+        "low_fraction": 0.430029296875
+      }
+    ]
+  },
+  {
+    "trial_id": 3,
+    "policy": "sentence",
+    "text_index": 1,
+    "whole": {
+      "audio_ms": 7840.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 155.8125,
+      "longest_low_run_ms": 601.375,
+      "low_fraction": 0.3913105867346939
+    },
+    "segments": [
+      {
+        "text": "午饭可以先吃一碗面，再搭配鸡蛋和青菜，准备起来比较省时间。",
+        "audio_ms": 5632.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 561.375,
+        "longest_low_run_ms": 561.375,
+        "low_fraction": 0.4263583096590909
+      },
+      {
+        "text": "吃完以后再安排下午的事情。",
+        "audio_ms": 2208.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 155.8125,
+        "longest_low_run_ms": 155.8125,
+        "low_fraction": 0.3019134963768116
+      }
+    ]
+  },
+  {
+    "trial_id": 4,
+    "policy": "current_5",
+    "text_index": 0,
+    "whole": {
+      "audio_ms": 8320.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 226.375,
+      "longest_low_run_ms": 582.0,
+      "low_fraction": 0.34691256009615384
+    },
+    "segments": [
+      {
+        "text": "先把重要文件备份好，",
+        "audio_ms": 1824.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 139.875,
+        "longest_low_run_ms": 139.875,
+        "low_fraction": 0.29711485745614036
+      },
+      {
+        "text": "再更新显卡驱动，最后重启电脑检查是否正常。",
+        "audio_ms": 4448.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 542.0,
+        "longest_low_run_ms": 542.0,
+        "low_fraction": 0.38142142535971224
+      },
+      {
+        "text": "这样出问题时也容易恢复。",
+        "audio_ms": 2048.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 226.375,
+        "longest_low_run_ms": 226.375,
+        "low_fraction": 0.316314697265625
+      }
+    ]
+  },
+  {
+    "trial_id": 5,
+    "policy": "later_18",
+    "text_index": 2,
+    "whole": {
+      "audio_ms": 9280.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 126.9375,
+      "longest_low_run_ms": 339.5,
+      "low_fraction": 0.38686018318965515
+    },
+    "segments": [
+      {
+        "text": "先检查服务日志里的报错，再确认端口和模型路径，",
+        "audio_ms": 4544.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 299.5,
+        "longest_low_run_ms": 299.5,
+        "low_fraction": 0.3673800616197183
+      },
+      {
+        "text": "最后重试一次请求。",
+        "audio_ms": 1920.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 239.0,
+        "longest_low_run_ms": 239.0,
+        "low_fraction": 0.4239908854166667
+      },
+      {
+        "text": "每次只改一个地方更容易定位问题。",
+        "audio_ms": 2816.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 126.9375,
+        "longest_low_run_ms": 126.9375,
+        "low_fraction": 0.3929776278409091
+      }
+    ]
+  },
+  {
+    "trial_id": 6,
+    "policy": "sentence",
+    "text_index": 3,
+    "whole": {
+      "audio_ms": 8384.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 141.9375,
+      "longest_low_run_ms": 355.0625,
+      "low_fraction": 0.3652045562977099
+    },
+    "segments": [
+      {
+        "text": "先把最紧急的任务做完，再处理需要集中精力的部分，最后留出时间检查结果。",
+        "audio_ms": 6208.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 84.5,
+        "longest_low_run_ms": 355.0625,
+        "low_fraction": 0.3500523518041237
+      },
+      {
+        "text": "中途可以安排一次短休息。",
+        "audio_ms": 2176.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 141.9375,
+        "longest_low_run_ms": 141.9375,
+        "low_fraction": 0.4084329044117647
+      }
+    ]
+  },
+  {
+    "trial_id": 7,
+    "policy": "sentence",
+    "text_index": 3,
+    "whole": {
+      "audio_ms": 8832.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 239.1875,
+      "longest_low_run_ms": 599.3125,
+      "low_fraction": 0.39138218976449274
+    },
+    "segments": [
+      {
+        "text": "先把最紧急的任务做完，再处理需要集中精力的部分，最后留出时间检查结果。",
+        "audio_ms": 6624.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 559.3125,
+        "longest_low_run_ms": 559.3125,
+        "low_fraction": 0.3851807820048309
+      },
+      {
+        "text": "中途可以安排一次短休息。",
+        "audio_ms": 2208.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 239.1875,
+        "longest_low_run_ms": 239.1875,
+        "low_fraction": 0.40998641304347827
+      }
+    ]
+  },
+  {
+    "trial_id": 8,
+    "policy": "sentence",
+    "text_index": 3,
+    "whole": {
+      "audio_ms": 8832.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 190.25,
+      "longest_low_run_ms": 369.125,
+      "low_fraction": 0.3545983355978261
+    },
+    "segments": [
+      {
+        "text": "先把最紧急的任务做完，再处理需要集中精力的部分，最后留出时间检查结果。",
+        "audio_ms": 6592.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 87.5,
+        "longest_low_run_ms": 369.125,
+        "low_fraction": 0.34599704186893204
+      },
+      {
+        "text": "中途可以安排一次短休息。",
+        "audio_ms": 2240.0,
+        "leading_low_ms": 22.25,
+        "trailing_low_ms": 190.25,
+        "longest_low_run_ms": 190.25,
+        "low_fraction": 0.37991071428571427
+      }
+    ]
+  },
+  {
+    "trial_id": 9,
+    "policy": "later_18",
+    "text_index": 3,
+    "whole": {
+      "audio_ms": 8832.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 100.5625,
+      "longest_low_run_ms": 582.125,
+      "low_fraction": 0.4074317821557971
+    },
+    "segments": [
+      {
+        "text": "先把最紧急的任务做完，再处理需要集中精力的部分，",
+        "audio_ms": 4640.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 577.8125,
+        "longest_low_run_ms": 577.8125,
+        "low_fraction": 0.41377963362068965
+      },
+      {
+        "text": "最后留出时间检查结果。",
+        "audio_ms": 2176.0,
+        "leading_low_ms": 4.3125,
+        "trailing_low_ms": 206.9375,
+        "longest_low_run_ms": 223.25,
+        "low_fraction": 0.44861557904411764
+      },
+      {
+        "text": "中途可以安排一次短休息。",
+        "audio_ms": 2016.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 100.5625,
+        "longest_low_run_ms": 100.5625,
+        "low_fraction": 0.34836929563492064
+      }
+    ]
+  },
+  {
+    "trial_id": 10,
+    "policy": "later_18",
+    "text_index": 1,
+    "whole": {
+      "audio_ms": 8416.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 652.6875,
+      "longest_low_run_ms": 652.6875,
+      "low_fraction": 0.3942341967680608
+    },
+    "segments": [
+      {
+        "text": "午饭可以先吃一碗面，再搭配鸡蛋和青菜，",
+        "audio_ms": 3456.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 188.5,
+        "longest_low_run_ms": 188.5,
+        "low_fraction": 0.3836082175925926
+      },
+      {
+        "text": "准备起来比较省时间。",
+        "audio_ms": 1952.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 199.625,
+        "longest_low_run_ms": 199.625,
+        "low_fraction": 0.345062756147541
+      },
+      {
+        "text": "吃完以后再安排下午的事情。",
+        "audio_ms": 3008.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 652.6875,
+        "longest_low_run_ms": 652.6875,
+        "low_fraction": 0.4383518949468085
+      }
+    ]
+  },
+  {
+    "trial_id": 11,
+    "policy": "current_5",
+    "text_index": 0,
+    "whole": {
+      "audio_ms": 8576.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 191.125,
+      "longest_low_run_ms": 232.0625,
+      "low_fraction": 0.3562193913246269
+    },
+    "segments": [
+      {
+        "text": "先把重要文件备份好，",
+        "audio_ms": 2112.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 162.25,
+        "longest_low_run_ms": 162.25,
+        "low_fraction": 0.3777521306818182
+      },
+      {
+        "text": "再更新显卡驱动，最后重启电脑检查是否正常。",
+        "audio_ms": 4160.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 152.8125,
+        "longest_low_run_ms": 232.0625,
+        "low_fraction": 0.36899038461538464
+      },
+      {
+        "text": "这样出问题时也容易恢复。",
+        "audio_ms": 2304.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 191.125,
+        "longest_low_run_ms": 191.125,
+        "low_fraction": 0.3134223090277778
+      }
+    ]
+  },
+  {
+    "trial_id": 12,
+    "policy": "sentence",
+    "text_index": 0,
+    "whole": {
+      "audio_ms": 9248.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 321.1875,
+      "longest_low_run_ms": 540.125,
+      "low_fraction": 0.38918549956747406
+    },
+    "segments": [
+      {
+        "text": "先把重要文件备份好，再更新显卡驱动，最后重启电脑检查是否正常。",
+        "audio_ms": 6912.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 536.1875,
+        "longest_low_run_ms": 536.1875,
+        "low_fraction": 0.3785807291666667
+      },
+      {
+        "text": "这样出问题时也容易恢复。",
+        "audio_ms": 2336.0,
+        "leading_low_ms": 3.9375,
+        "trailing_low_ms": 321.1875,
+        "longest_low_run_ms": 321.1875,
+        "low_fraction": 0.4205639982876712
+      }
+    ]
+  },
+  {
+    "trial_id": 13,
+    "policy": "current_5",
+    "text_index": 2,
+    "whole": {
+      "audio_ms": 9632.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 573.375,
+      "longest_low_run_ms": 573.375,
+      "low_fraction": 0.43371054817275745
+    },
+    "segments": [
+      {
+        "text": "先检查服务日志里的报错，",
+        "audio_ms": 2144.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 194.1875,
+        "longest_low_run_ms": 194.1875,
+        "low_fraction": 0.357363572761194
+      },
+      {
+        "text": "再确认端口和模型路径，最后重试一次请求。",
+        "audio_ms": 4224.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 504.0625,
+        "longest_low_run_ms": 504.0625,
+        "low_fraction": 0.4558919270833333
+      },
+      {
+        "text": "每次只改一个地方更容易定位问题。",
+        "audio_ms": 3264.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 573.375,
+        "longest_low_run_ms": 573.375,
+        "low_fraction": 0.4551547181372549
+      }
+    ]
+  },
+  {
+    "trial_id": 14,
+    "policy": "current_5",
+    "text_index": 0,
+    "whole": {
+      "audio_ms": 13888.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 78.625,
+      "longest_low_run_ms": 1214.1875,
+      "low_fraction": 0.5426267281105991
+    },
+    "segments": [
+      {
+        "text": "先把重要文件备份好，",
+        "audio_ms": 2016.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 220.8125,
+        "longest_low_run_ms": 220.8125,
+        "low_fraction": 0.3648933531746032
+      },
+      {
+        "text": "再更新显卡驱动，最后重启电脑检查是否正常。",
+        "audio_ms": 4448.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 481.75,
+        "longest_low_run_ms": 481.75,
+        "low_fraction": 0.43459138938848924
+      },
+      {
+        "text": "这样出问题时也容易恢复。",
+        "audio_ms": 7424.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 78.625,
+        "longest_low_run_ms": 1214.1875,
+        "low_fraction": 0.6556186018318966
+      }
+    ]
+  },
+  {
+    "trial_id": 15,
+    "policy": "sentence",
+    "text_index": 1,
+    "whole": {
+      "audio_ms": 8256.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 217.25,
+      "longest_low_run_ms": 573.3125,
+      "low_fraction": 0.4124500363372093
+    },
+    "segments": [
+      {
+        "text": "午饭可以先吃一碗面，再搭配鸡蛋和青菜，准备起来比较省时间。",
+        "audio_ms": 5856.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 533.3125,
+        "longest_low_run_ms": 533.3125,
+        "low_fraction": 0.4464758367486339
+      },
+      {
+        "text": "吃完以后再安排下午的事情。",
+        "audio_ms": 2400.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 217.25,
+        "longest_low_run_ms": 217.25,
+        "low_fraction": 0.3294270833333333
+      }
+    ]
+  },
+  {
+    "trial_id": 16,
+    "policy": "current_5",
+    "text_index": 3,
+    "whole": {
+      "audio_ms": 9056.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 90.25,
+      "longest_low_run_ms": 831.4375,
+      "low_fraction": 0.3671460909893993
+    },
+    "segments": [
+      {
+        "text": "先把最紧急的任务做完，",
+        "audio_ms": 2016.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 127.125,
+        "longest_low_run_ms": 127.125,
+        "low_fraction": 0.2612847222222222
+      },
+      {
+        "text": "再处理需要集中精力的部分，最后留出时间检查结果。",
+        "audio_ms": 5120.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 791.4375,
+        "longest_low_run_ms": 791.4375,
+        "low_fraction": 0.4288330078125
+      },
+      {
+        "text": "中途可以安排一次短休息。",
+        "audio_ms": 1920.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 90.25,
+        "longest_low_run_ms": 90.25,
+        "low_fraction": 0.3138020833333333
+      }
+    ]
+  },
+  {
+    "trial_id": 17,
+    "policy": "later_18",
+    "text_index": 2,
+    "whole": {
+      "audio_ms": 15488.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 555.3125,
+      "longest_low_run_ms": 5607.25,
+      "low_fraction": 0.6266424005681818
+    },
+    "segments": [
+      {
+        "text": "先检查服务日志里的报错，再确认端口和模型路径，",
+        "audio_ms": 4480.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 280.75,
+        "longest_low_run_ms": 384.6875,
+        "low_fraction": 0.3744559151785714
+      },
+      {
+        "text": "最后重试一次请求。",
+        "audio_ms": 7904.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 5567.25,
+        "longest_low_run_ms": 5567.25,
+        "low_fraction": 0.8323317307692307
+      },
+      {
+        "text": "每次只改一个地方更容易定位问题。",
+        "audio_ms": 3104.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 555.3125,
+        "longest_low_run_ms": 555.3125,
+        "low_fraction": 0.46685728092783507
+      }
+    ]
+  },
+  {
+    "trial_id": 18,
+    "policy": "sentence",
+    "text_index": 2,
+    "whole": {
+      "audio_ms": 9376.0,
+      "leading_low_ms": 32.9375,
+      "trailing_low_ms": 608.5,
+      "longest_low_run_ms": 608.5,
+      "low_fraction": 0.4322938886518771
+    },
+    "segments": [
+      {
+        "text": "先检查服务日志里的报错，再确认端口和模型路径，最后重试一次请求。",
+        "audio_ms": 6080.0,
+        "leading_low_ms": 32.9375,
+        "trailing_low_ms": 169.4375,
+        "longest_low_run_ms": 394.6875,
+        "low_fraction": 0.3838815789473684
+      },
+      {
+        "text": "每次只改一个地方更容易定位问题。",
+        "audio_ms": 3296.0,
+        "leading_low_ms": 21.375,
+        "trailing_low_ms": 608.5,
+        "longest_low_run_ms": 608.5,
+        "low_fraction": 0.5215981492718447
+      }
+    ]
+  },
+  {
+    "trial_id": 19,
+    "policy": "current_5",
+    "text_index": 3,
+    "whole": {
+      "audio_ms": 9376.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 672.1875,
+      "longest_low_run_ms": 672.1875,
+      "low_fraction": 0.390824978668942
+    },
+    "segments": [
+      {
+        "text": "先把最紧急的任务做完，",
+        "audio_ms": 1920.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 130.5,
+        "longest_low_run_ms": 130.5,
+        "low_fraction": 0.2701822916666667
+      },
+      {
+        "text": "再处理需要集中精力的部分，最后留出时间检查结果。",
+        "audio_ms": 4704.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 168.25,
+        "longest_low_run_ms": 285.375,
+        "low_fraction": 0.3630686649659864
+      },
+      {
+        "text": "中途可以安排一次短休息。",
+        "audio_ms": 2752.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 672.1875,
+        "longest_low_run_ms": 672.1875,
+        "low_fraction": 0.522438226744186
+      }
+    ]
+  },
+  {
+    "trial_id": 20,
+    "policy": "later_18",
+    "text_index": 2,
+    "whole": {
+      "audio_ms": 10112.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 528.1875,
+      "longest_low_run_ms": 595.1875,
+      "low_fraction": 0.39932135087025317
+    },
+    "segments": [
+      {
+        "text": "先检查服务日志里的报错，再确认端口和模型路径，",
+        "audio_ms": 4992.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 105.4375,
+        "longest_low_run_ms": 595.1875,
+        "low_fraction": 0.38263721955128205
+      },
+      {
+        "text": "最后重试一次请求。",
+        "audio_ms": 1856.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 195.4375,
+        "longest_low_run_ms": 195.4375,
+        "low_fraction": 0.3459051724137931
+      },
+      {
+        "text": "每次只改一个地方更容易定位问题。",
+        "audio_ms": 3264.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 528.1875,
+        "longest_low_run_ms": 528.1875,
+        "low_fraction": 0.45521216299019607
+      }
+    ]
+  },
+  {
+    "trial_id": 21,
+    "policy": "sentence",
+    "text_index": 0,
+    "whole": {
+      "audio_ms": 8992.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 588.1875,
+      "longest_low_run_ms": 669.6875,
+      "low_fraction": 0.4487600088967972
+    },
+    "segments": [
+      {
+        "text": "先把重要文件备份好，再更新显卡驱动，最后重启电脑检查是否正常。",
+        "audio_ms": 6432.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 629.6875,
+        "longest_low_run_ms": 629.6875,
+        "low_fraction": 0.443339940920398
+      },
+      {
+        "text": "这样出问题时也容易恢复。",
+        "audio_ms": 2560.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 588.1875,
+        "longest_low_run_ms": 588.1875,
+        "low_fraction": 0.4623779296875
+      }
+    ]
+  },
+  {
+    "trial_id": 22,
+    "policy": "current_5",
+    "text_index": 2,
+    "whole": {
+      "audio_ms": 9216.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 263.0625,
+      "longest_low_run_ms": 263.0625,
+      "low_fraction": 0.3786417643229167
+    },
+    "segments": [
+      {
+        "text": "先检查服务日志里的报错，",
+        "audio_ms": 2144.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 152.125,
+        "longest_low_run_ms": 152.125,
+        "low_fraction": 0.3869811100746269
+      },
+      {
+        "text": "再确认端口和模型路径，最后重试一次请求。",
+        "audio_ms": 4192.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 216.5,
+        "longest_low_run_ms": 216.5,
+        "low_fraction": 0.36211832061068705
+      },
+      {
+        "text": "每次只改一个地方更容易定位问题。",
+        "audio_ms": 2880.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 263.0625,
+        "longest_low_run_ms": 263.0625,
+        "low_fraction": 0.396484375
+      }
+    ]
+  },
+  {
+    "trial_id": 23,
+    "policy": "later_18",
+    "text_index": 1,
+    "whole": {
+      "audio_ms": 13088.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 182.1875,
+      "longest_low_run_ms": 5446.25,
+      "low_fraction": 0.6167147386919315
+    },
+    "segments": [
+      {
+        "text": "午饭可以先吃一碗面，再搭配鸡蛋和青菜，",
+        "audio_ms": 3584.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 272.25,
+        "longest_low_run_ms": 283.9375,
+        "low_fraction": 0.3950718470982143
+      },
+      {
+        "text": "准备起来比较省时间。",
+        "audio_ms": 7136.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 5406.25,
+        "longest_low_run_ms": 5406.25,
+        "low_fraction": 0.8228699551569507
+      },
+      {
+        "text": "吃完以后再安排下午的事情。",
+        "audio_ms": 2368.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 182.1875,
+        "longest_low_run_ms": 182.1875,
+        "low_fraction": 0.33092271959459457
+      }
+    ]
+  },
+  {
+    "trial_id": 24,
+    "policy": "later_18",
+    "text_index": 3,
+    "whole": {
+      "audio_ms": 9056.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 116.9375,
+      "longest_low_run_ms": 679.75,
+      "low_fraction": 0.39399293286219084
+    },
+    "segments": [
+      {
+        "text": "先把最紧急的任务做完，再处理需要集中精力的部分，",
+        "audio_ms": 4000.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 235.5,
+        "longest_low_run_ms": 235.5,
+        "low_fraction": 0.3520625
+      },
+      {
+        "text": "最后留出时间检查结果。",
+        "audio_ms": 2944.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 639.75,
+        "longest_low_run_ms": 639.75,
+        "low_fraction": 0.4673488451086957
+      },
+      {
+        "text": "中途可以安排一次短休息。",
+        "audio_ms": 2112.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 116.9375,
+        "longest_low_run_ms": 116.9375,
+        "low_fraction": 0.3711529356060606
+      }
+    ]
+  },
+  {
+    "trial_id": 25,
+    "policy": "later_18",
+    "text_index": 0,
+    "whole": {
+      "audio_ms": 8128.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 170.75,
+      "longest_low_run_ms": 321.4375,
+      "low_fraction": 0.3308932086614173
+    },
+    "segments": [
+      {
+        "text": "先把重要文件备份好，再更新显卡驱动，",
+        "audio_ms": 3584.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 281.4375,
+        "longest_low_run_ms": 281.4375,
+        "low_fraction": 0.3605259486607143
+      },
+      {
+        "text": "最后重启电脑检查是否正常。",
+        "audio_ms": 2432.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 55.6875,
+        "longest_low_run_ms": 55.6875,
+        "low_fraction": 0.31997841282894735
+      },
+      {
+        "text": "这样出问题时也容易恢复。",
+        "audio_ms": 2112.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 170.75,
+        "longest_low_run_ms": 170.75,
+        "low_fraction": 0.2931758996212121
+      }
+    ]
+  },
+  {
+    "trial_id": 26,
+    "policy": "later_18",
+    "text_index": 1,
+    "whole": {
+      "audio_ms": 7296.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 68.5625,
+      "longest_low_run_ms": 327.25,
+      "low_fraction": 0.3656284265350877
+    },
+    "segments": [
+      {
+        "text": "午饭可以先吃一碗面，再搭配鸡蛋和青菜，",
+        "audio_ms": 3584.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 167.9375,
+        "longest_low_run_ms": 327.25,
+        "low_fraction": 0.3987513950892857
+      },
+      {
+        "text": "准备起来比较省时间。",
+        "audio_ms": 1760.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 133.6875,
+        "longest_low_run_ms": 133.6875,
+        "low_fraction": 0.41640625
+      },
+      {
+        "text": "吃完以后再安排下午的事情。",
+        "audio_ms": 1952.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 68.5625,
+        "longest_low_run_ms": 68.5625,
+        "low_fraction": 0.2590292008196721
+      }
+    ]
+  },
+  {
+    "trial_id": 27,
+    "policy": "sentence",
+    "text_index": 0,
+    "whole": {
+      "audio_ms": 9088.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 581.0,
+      "longest_low_run_ms": 581.0,
+      "low_fraction": 0.403533505721831
+    },
+    "segments": [
+      {
+        "text": "先把重要文件备份好，再更新显卡驱动，最后重启电脑检查是否正常。",
+        "audio_ms": 6336.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 200.875,
+        "longest_low_run_ms": 360.9375,
+        "low_fraction": 0.3961687184343434
+      },
+      {
+        "text": "这样出问题时也容易恢复。",
+        "audio_ms": 2752.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 581.0,
+        "longest_low_run_ms": 581.0,
+        "low_fraction": 0.4204896438953488
+      }
+    ]
+  },
+  {
+    "trial_id": 28,
+    "policy": "current_5",
+    "text_index": 1,
+    "whole": {
+      "audio_ms": 8160.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 721.5625,
+      "longest_low_run_ms": 721.5625,
+      "low_fraction": 0.4286994485294118
+    },
+    "segments": [
+      {
+        "text": "午饭可以先吃一碗面，",
+        "audio_ms": 1600.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 97.0,
+        "longest_low_run_ms": 97.0,
+        "low_fraction": 0.356484375
+      },
+      {
+        "text": "再搭配鸡蛋和青菜，准备起来比较省时间。",
+        "audio_ms": 3808.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 463.125,
+        "longest_low_run_ms": 463.125,
+        "low_fraction": 0.4477415966386555
+      },
+      {
+        "text": "吃完以后再安排下午的事情。",
+        "audio_ms": 2752.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 721.5625,
+        "longest_low_run_ms": 721.5625,
+        "low_fraction": 0.4443359375
+      }
+    ]
+  },
+  {
+    "trial_id": 29,
+    "policy": "later_18",
+    "text_index": 0,
+    "whole": {
+      "audio_ms": 8768.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 170.3125,
+      "longest_low_run_ms": 598.0,
+      "low_fraction": 0.34223882299270075
+    },
+    "segments": [
+      {
+        "text": "先把重要文件备份好，再更新显卡驱动，",
+        "audio_ms": 3264.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 91.6875,
+        "longest_low_run_ms": 171.5,
+        "low_fraction": 0.30809589460784315
+      },
+      {
+        "text": "最后重启电脑检查是否正常。",
+        "audio_ms": 3168.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 558.0,
+        "longest_low_run_ms": 558.0,
+        "low_fraction": 0.4093868371212121
+      },
+      {
+        "text": "这样出问题时也容易恢复。",
+        "audio_ms": 2336.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 170.3125,
+        "longest_low_run_ms": 170.3125,
+        "low_fraction": 0.2988816352739726
+      }
+    ]
+  },
+  {
+    "trial_id": 30,
+    "policy": "current_5",
+    "text_index": 1,
+    "whole": {
+      "audio_ms": 8064.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 201.125,
+      "longest_low_run_ms": 509.5625,
+      "low_fraction": 0.38049510168650796
+    },
+    "segments": [
+      {
+        "text": "午饭可以先吃一碗面，",
+        "audio_ms": 1728.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 133.8125,
+        "longest_low_run_ms": 133.8125,
+        "low_fraction": 0.2790798611111111
+      },
+      {
+        "text": "再搭配鸡蛋和青菜，准备起来比较省时间。",
+        "audio_ms": 3776.0,
+        "leading_low_ms": 5.1875,
+        "trailing_low_ms": 473.6875,
+        "longest_low_run_ms": 473.6875,
+        "low_fraction": 0.4376158633474576
+      },
+      {
+        "text": "吃完以后再安排下午的事情。",
+        "audio_ms": 2560.0,
+        "leading_low_ms": 35.875,
+        "trailing_low_ms": 201.125,
+        "longest_low_run_ms": 201.125,
+        "low_fraction": 0.364697265625
+      }
+    ]
+  },
+  {
+    "trial_id": 31,
+    "policy": "later_18",
+    "text_index": 3,
+    "whole": {
+      "audio_ms": 8896.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 117.5,
+      "longest_low_run_ms": 414.9375,
+      "low_fraction": 0.3997021133093525
+    },
+    "segments": [
+      {
+        "text": "先把最紧急的任务做完，再处理需要集中精力的部分，",
+        "audio_ms": 4576.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 374.9375,
+        "longest_low_run_ms": 374.9375,
+        "low_fraction": 0.4126010708041958
+      },
+      {
+        "text": "最后留出时间检查结果。",
+        "audio_ms": 2208.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 53.625,
+        "longest_low_run_ms": 99.375,
+        "low_fraction": 0.36625339673913043
+      },
+      {
+        "text": "中途可以安排一次短休息。",
+        "audio_ms": 2112.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 117.5,
+        "longest_low_run_ms": 117.5,
+        "low_fraction": 0.40672348484848486
+      }
+    ]
+  },
+  {
+    "trial_id": 32,
+    "policy": "current_5",
+    "text_index": 1,
+    "whole": {
+      "audio_ms": 7712.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 72.25,
+      "longest_low_run_ms": 582.3125,
+      "low_fraction": 0.4035188667012448
+    },
+    "segments": [
+      {
+        "text": "午饭可以先吃一碗面，",
+        "audio_ms": 1920.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 208.5625,
+        "longest_low_run_ms": 208.5625,
+        "low_fraction": 0.3548828125
+      },
+      {
+        "text": "再搭配鸡蛋和青菜，准备起来比较省时间。",
+        "audio_ms": 3584.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 542.3125,
+        "longest_low_run_ms": 542.3125,
+        "low_fraction": 0.5069231305803571
+      },
+      {
+        "text": "吃完以后再安排下午的事情。",
+        "audio_ms": 2208.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 72.25,
+        "longest_low_run_ms": 72.25,
+        "low_fraction": 0.2779664855072464
+      }
+    ]
+  },
+  {
+    "trial_id": 33,
+    "policy": "current_5",
+    "text_index": 2,
+    "whole": {
+      "audio_ms": 9440.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 114.3125,
+      "longest_low_run_ms": 506.5625,
+      "low_fraction": 0.365380031779661
+    },
+    "segments": [
+      {
+        "text": "先检查服务日志里的报错，",
+        "audio_ms": 2368.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 262.0,
+        "longest_low_run_ms": 262.0,
+        "low_fraction": 0.3773754222972973
+      },
+      {
+        "text": "再确认端口和模型路径，最后重试一次请求。",
+        "audio_ms": 4448.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 92.375,
+        "longest_low_run_ms": 506.5625,
+        "low_fraction": 0.37155744154676257
+      },
+      {
+        "text": "每次只改一个地方更容易定位问题。",
+        "audio_ms": 2624.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 114.3125,
+        "longest_low_run_ms": 114.3125,
+        "low_fraction": 0.34408346036585363
+      }
+    ]
+  },
+  {
+    "trial_id": 34,
+    "policy": "later_18",
+    "text_index": 0,
+    "whole": {
+      "audio_ms": 14784.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 5388.8125,
+      "longest_low_run_ms": 5388.8125,
+      "low_fraction": 0.6208781452922078
+    },
+    "segments": [
+      {
+        "text": "先把重要文件备份好，再更新显卡驱动，",
+        "audio_ms": 3904.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 492.0,
+        "longest_low_run_ms": 492.0,
+        "low_fraction": 0.43580302254098363
+      },
+      {
+        "text": "最后重启电脑检查是否正常。",
+        "audio_ms": 3072.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 477.875,
+        "longest_low_run_ms": 477.875,
+        "low_fraction": 0.4176025390625
+      },
+      {
+        "text": "这样出问题时也容易恢复。",
+        "audio_ms": 7808.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 5388.8125,
+        "longest_low_run_ms": 5388.8125,
+        "low_fraction": 0.7933929943647541
+      }
+    ]
+  },
+  {
+    "trial_id": 35,
+    "policy": "sentence",
+    "text_index": 2,
+    "whole": {
+      "audio_ms": 9696.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 608.125,
+      "longest_low_run_ms": 608.125,
+      "low_fraction": 0.4045804971122112
+    },
+    "segments": [
+      {
+        "text": "先检查服务日志里的报错，再确认端口和模型路径，最后重试一次请求。",
+        "audio_ms": 6400.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 274.375,
+        "longest_low_run_ms": 456.4375,
+        "low_fraction": 0.363115234375
+      },
+      {
+        "text": "每次只改一个地方更容易定位问题。",
+        "audio_ms": 3296.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 608.125,
+        "longest_low_run_ms": 608.125,
+        "low_fraction": 0.4850955703883495
+      }
+    ]
+  },
+  {
+    "trial_id": 36,
+    "policy": "sentence",
+    "text_index": 1,
+    "whole": {
+      "audio_ms": 8320.0,
+      "leading_low_ms": 40.0,
+      "trailing_low_ms": 751.0,
+      "longest_low_run_ms": 751.0,
+      "low_fraction": 0.42278395432692306
+    },
+    "segments": [
+      {
+        "text": "午饭可以先吃一碗面，再搭配鸡蛋和青菜，准备起来比较省时间。",
+        "audio_ms": 5440.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 201.6875,
+        "longest_low_run_ms": 347.6875,
+        "low_fraction": 0.4179113051470588
+      },
+      {
+        "text": "吃完以后再安排下午的事情。",
+        "audio_ms": 2880.0,
+        "leading_low_ms": 40.0,
+        "trailing_low_ms": 751.0,
+        "longest_low_run_ms": 751.0,
+        "low_fraction": 0.4319878472222222
+      }
+    ]
+  }
+]

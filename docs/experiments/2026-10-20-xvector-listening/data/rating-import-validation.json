@@ -1,0 +1,9 @@
+{
+  "test_scope": "real mapping hash with an explicitly synthetic empty export; no human ratings used",
+  "human_data_used": false,
+  "pack_id": "xvector-listening-20261020-468aa597e2e6",
+  "mapping_hash_verified": true,
+  "missing_rows": 32,
+  "evidence_status": "no_human_choices",
+  "python_contract_tests": 59
+}

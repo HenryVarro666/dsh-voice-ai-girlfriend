@@ -1,0 +1,107 @@
+/private/tmp/voice-maint-venv/lib/python3.15/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+2026-10-20 15:30:10,535 - voice_bridge - INFO - bridge log file -> /Users/caochao/Documents/voice_ai/dsh-voice-ai-girlfriend/bridge/logs/bridge.log
+/Users/caochao/Documents/voice_ai/dsh-voice-ai-girlfriend/bridge/voice_bridge.py:391: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/private/tmp/voice-maint-venv/lib/python3.15/site-packages/fastapi/applications.py:4723: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  return self.router.on_event(event_type)  # ty: ignore[deprecated]
+/Users/caochao/Documents/voice_ai/dsh-voice-ai-girlfriend/bridge/voice_bridge.py:594: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/private/tmp/voice-maint-venv/lib/python3.15/site-packages/fastapi/applications.py:4723: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  return self.router.on_event(event_type)  # ty: ignore[deprecated]
+/Users/caochao/Documents/voice_ai/dsh-voice-ai-girlfriend/bridge/voice_bridge.py:1665: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+/private/tmp/voice-maint-venv/lib/python3.15/site-packages/fastapi/applications.py:4723: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  return self.router.on_event(event_type)  # ty: ignore[deprecated]
+test_disabled_turn_gives_explicit_fallback (test_api_contracts.ApiTests.test_disabled_turn_gives_explicit_fallback) ... 2026-10-20 15:30:10,566 - httpx - INFO - HTTP Request: POST http://testserver/api/turn "HTTP/1.1 404 Not Found"
+ok
+test_empty_stt_is_rejected_before_loading (test_api_contracts.ApiTests.test_empty_stt_is_rejected_before_loading) ... 2026-10-20 15:30:10,568 - httpx - INFO - HTTP Request: POST http://testserver/api/stt "HTTP/1.1 400 Bad Request"
+ok
+test_health_requires_no_model_weights (test_api_contracts.ApiTests.test_health_requires_no_model_weights) ... 2026-10-20 15:30:10,570 - httpx - INFO - HTTP Request: GET http://testserver/api/health "HTTP/1.1 200 OK"
+ok
+test_stream_labels_little_endian_pcm_and_preserves_bytes (test_api_contracts.ApiTests.test_stream_labels_little_endian_pcm_and_preserves_bytes) ... 2026-10-20 15:30:10,572 - httpx - INFO - HTTP Request: POST http://testserver/api/tts/stream "HTTP/1.1 200 OK"
+2026-10-20 15:30:10,572 - voice_bridge - INFO - TTS stream OK: 2 chars -> 0.00s audio, first chunk 1 ms, 1 ms total
+ok
+test_all_quiet_is_explicit_instead_of_a_successful_empty_tail (test_generation_end_metrics.GenerationMetricsTests.test_all_quiet_is_explicit_instead_of_a_successful_empty_tail) ... ok
+test_candidate_requires_eos_and_better_tail_measurement (test_generation_end_metrics.GenerationMetricsTests.test_candidate_requires_eos_and_better_tail_measurement) ... ok
+test_candidate_with_content_regression_is_rejected (test_generation_end_metrics.GenerationMetricsTests.test_candidate_with_content_regression_is_rejected) ... ok
+test_quiet_tail_measurement_does_not_mutate_audio (test_generation_end_metrics.GenerationMetricsTests.test_quiet_tail_measurement_does_not_mutate_audio) ... ok
+test_token_cap_is_not_reported_as_natural_eos (test_generation_end_metrics.GenerationMetricsTests.test_token_cap_is_not_reported_as_natural_eos) ... ok
+test_cardinal_code_and_ambiguous_tokens_are_not_guessed (test_number_reading.NumberReadingTests.test_cardinal_code_and_ambiguous_tokens_are_not_guessed) ... ok
+test_dates_and_minutes_use_values (test_number_reading.NumberReadingTests.test_dates_and_minutes_use_values) ... ok
+test_leading_zero_and_repeated_digits_survive (test_number_reading.NumberReadingTests.test_leading_zero_and_repeated_digits_survive) ... ok
+test_missing_and_transposed_digits_fail (test_number_reading.NumberReadingTests.test_missing_and_transposed_digits_fail) ... ok
+test_missing_date_is_not_success (test_number_reading.NumberReadingTests.test_missing_date_is_not_success) ... ok
+test_unrecognized_syllable_is_not_silently_truncated (test_number_reading.NumberReadingTests.test_unrecognized_syllable_is_not_silently_truncated) ... ok
+test_pcm_wire_is_little_endian_and_normalized (test_speech_core.AudioTests.test_pcm_wire_is_little_endian_and_normalized) ... ok
+test_stereo_wav_is_downmixed_and_resampled (test_speech_core.AudioTests.test_stereo_wav_is_downmixed_and_resampled) ... ok
+test_wav_round_trip_and_header (test_speech_core.AudioTests.test_wav_round_trip_and_header) ... ok
+test_chat_template_uses_end_token_not_trailing_whitespace (test_speech_core.TurnTests.test_chat_template_uses_end_token_not_trailing_whitespace) ... ok
+test_construction_and_empty_transcript_do_not_load_models (test_speech_core.TurnTests.test_construction_and_empty_transcript_do_not_load_models) ... ok
+test_long_clip_keeps_the_last_eight_seconds (test_speech_core.TurnTests.test_long_clip_keeps_the_last_eight_seconds) ... ok
+test_short_clip_is_left_padded (test_speech_core.TurnTests.test_short_clip_is_left_padded) ... ok
+test_all_quiet_has_no_basis_for_cropping (test_stream_tail.TailTests.test_all_quiet_has_no_basis_for_cropping) ... ok
+test_already_cancelled_does_not_pull_another_chunk (test_stream_tail.TailTests.test_already_cancelled_does_not_pull_another_chunk) ... ok
+test_async_adapter_contract_matches_iterator (test_stream_tail.TailTests.test_async_adapter_contract_matches_iterator) ... ok
+test_cancel_discards_pending_and_closes_source (test_stream_tail.TailTests.test_cancel_discards_pending_and_closes_source) ... ok
+test_chunk_boundaries_do_not_change_samples (test_stream_tail.TailTests.test_chunk_boundaries_do_not_change_samples) ... ok
+test_conservative_threshold_keeps_weak_tail (test_stream_tail.TailTests.test_conservative_threshold_keeps_weak_tail) ... ok
+test_empty_input (test_stream_tail.TailTests.test_empty_input) ... ok
+test_error_does_not_flush_pending (test_stream_tail.TailTests.test_error_does_not_flush_pending) ... ok
+test_even_conservative_threshold_has_a_quieter_counterexample (test_stream_tail.TailTests.test_even_conservative_threshold_has_a_quieter_counterexample) ... ok
+test_invalid_threshold_is_rejected (test_stream_tail.TailTests.test_invalid_threshold_is_rejected) ... ok
+test_long_internal_pause_is_byte_identical (test_stream_tail.TailTests.test_long_internal_pause_is_byte_identical) ... ok
+test_long_tail_keeps_prefix_and_300ms (test_stream_tail.TailTests.test_long_tail_keeps_prefix_and_300ms) ... ok
+test_odd_byte_input_is_rejected (test_stream_tail.TailTests.test_odd_byte_input_is_rejected) ... ok
+test_overflow_does_not_disable_later_tail (test_stream_tail.TailTests.test_overflow_does_not_disable_later_tail) ... ok
+test_overflow_fails_open_and_stays_bounded (test_stream_tail.TailTests.test_overflow_fails_open_and_stays_bounded) ... ok
+test_retained_prefix_is_released_before_eof (test_stream_tail.TailTests.test_retained_prefix_is_released_before_eof) ... ok
+test_short_tail_and_threshold_boundary_are_unchanged (test_stream_tail.TailTests.test_short_tail_and_threshold_boundary_are_unchanged) ... ok
+test_subthreshold_tail_is_a_known_false_crop (test_stream_tail.TailTests.test_subthreshold_tail_is_a_known_false_crop) ... ok
+test_cancel_clears_pending_and_closes_blocked_source (test_tail_safety.AsyncSafetyTests.test_cancel_clears_pending_and_closes_blocked_source) ... ok
+test_consumer_close_stops_pulling_source (test_tail_safety.AsyncSafetyTests.test_consumer_close_stops_pulling_source) ... ok
+test_incomplete_pcm_sample_is_reported (test_tail_safety.AsyncSafetyTests.test_incomplete_pcm_sample_is_reported) ... ok
+test_network_byte_boundaries_and_zero_tail (test_tail_safety.AsyncSafetyTests.test_network_byte_boundaries_and_zero_tail) ... ok
+test_slow_internal_pause_is_released_before_voice_resumes (test_tail_safety.AsyncSafetyTests.test_slow_internal_pause_is_released_before_voice_resumes) ... ok
+test_source_error_discards_unsent_tail (test_tail_safety.AsyncSafetyTests.test_source_error_discards_unsent_tail) ... ok
+test_all_zeros_and_overflow_fail_open (test_tail_safety.ExactZeroTests.test_all_zeros_and_overflow_fail_open) ... ok
+test_exact_zero_tail_can_be_shortened_at_any_chunk_boundary (test_tail_safety.ExactZeroTests.test_exact_zero_tail_can_be_shortened_at_any_chunk_boundary) ... ok
+test_internal_pause_and_extreme_samples_are_unchanged (test_tail_safety.ExactZeroTests.test_internal_pause_and_extreme_samples_are_unchanged) ... ok
+test_noise_is_not_deleted_as_if_it_were_digital_silence (test_tail_safety.ExactZeroTests.test_noise_is_not_deleted_as_if_it_were_digital_silence) ... ok
+test_subthreshold_weak_word_is_preserved_in_full (test_tail_safety.ExactZeroTests.test_subthreshold_weak_word_is_preserved_in_full) ... ok
+test_weak_word_before_zero_tail_is_preserved (test_tail_safety.ExactZeroTests.test_weak_word_before_zero_tail_is_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 1.195s
+
+OK

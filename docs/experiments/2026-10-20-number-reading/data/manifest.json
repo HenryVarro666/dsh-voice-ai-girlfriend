@@ -1,0 +1,137 @@
+{
+  "scope": "isolated model/handler; no PCM cropping; all EOS hooks owned",
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 5462,
+    "free_mib": 10347,
+    "total_mib": 16303
+  },
+  "profiles": {
+    "raw": {},
+    "normalized": {}
+  },
+  "texts": [
+    "编号是110022。",
+    "编号是001100。",
+    "编号是100200300。",
+    "编号是77889900。",
+    "编号是110022。日期是2026年11月11日，时间是15点30分。",
+    "编号是001100。日期是2027年1月2日，时间是9点5分。",
+    "编号是100200300。日期是2028年2月29日，时间是0点0分。",
+    "编号是77889900。日期是2026年12月31日，时间是23点59分。"
+  ],
+  "validation_seeds": [
+    4409,
+    5519,
+    6619
+  ],
+  "cases": [
+    {
+      "code": "110022"
+    },
+    {
+      "code": "001100"
+    },
+    {
+      "code": "100200300"
+    },
+    {
+      "code": "77889900"
+    },
+    {
+      "code": "110022",
+      "date": [
+        2026,
+        11,
+        11
+      ],
+      "time": [
+        15,
+        30
+      ]
+    },
+    {
+      "code": "001100",
+      "date": [
+        2027,
+        1,
+        2
+      ],
+      "time": [
+        9,
+        5
+      ]
+    },
+    {
+      "code": "100200300",
+      "date": [
+        2028,
+        2,
+        29
+      ],
+      "time": [
+        0,
+        0
+      ]
+    },
+    {
+      "code": "77889900",
+      "date": [
+        2026,
+        12,
+        31
+      ],
+      "time": [
+        23,
+        59
+      ]
+    }
+  ],
+  "normalized_texts": [
+    "编号是一一零零二二。",
+    "编号是零零一一零零。",
+    "编号是一零零二零零三零零。",
+    "编号是七七八八九九零零。",
+    "编号是一一零零二二。日期是二零二六年十一月十一日，时间是十五点三十分。",
+    "编号是零零一一零零。日期是二零二七年一月二日，时间是九点五分。",
+    "编号是一零零二零零三零零。日期是二零二八年二月二十九日，时间是零点零分。",
+    "编号是七七八八九九零零。日期是二零二六年十二月三十一日，时间是二十三点五十九分。"
+  ],
+  "holdout_texts": [],
+  "holdout_seeds": [],
+  "hashes": {
+    "bench_number_reading.py": "bcea3f209010f811cea4025bdbe70caadafb48fa93f561dfea97c3c2578f4b4d",
+    "streaming.py": "39a1420626c49b87f3cda486f5a3f0fb8a82238f9a052114970ada40d1959010",
+    "voice_bridge.py": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576"
+  },
+  "load_ms": 9117.13599198265,
+  "gpu_loaded": {
+    "utilization_pct": 98,
+    "used_mib": 9172,
+    "free_mib": 6637,
+    "total_mib": 16303
+  },
+  "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+  "handler": {
+    "streaming_chunk_size": 4,
+    "non_streaming_mode": true,
+    "xvec_only": false,
+    "parity_mode": false,
+    "max_new_tokens": 1536
+  },
+  "summary": {
+    "raw": {
+      "eos": true,
+      "edits": 309,
+      "long_tails": 0,
+      "tail_ms": 2761.3125
+    },
+    "normalized": {
+      "eos": true,
+      "edits": 1,
+      "long_tails": 1,
+      "tail_ms": 13855.25
+    }
+  },
+  "completed": true
+}

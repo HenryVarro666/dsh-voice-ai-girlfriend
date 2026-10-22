@@ -1,0 +1,102 @@
+[
+  {
+    "kind": "restart",
+    "key": "restart-0",
+    "arm": "fixed",
+    "case": 0,
+    "result": {
+      "stream_id": "owned-0001",
+      "headers_ms": 59.22943801851943,
+      "first_voiced_pcm_ms": 254.04222798533738,
+      "total_ms": 905.1142469979823,
+      "received_samples": 43520,
+      "pcm_sha256": "cdeff993bdd5c380f6147f0a27ed0c9dc751790e2a89ea01a544ac75cffe826d",
+      "read_error": null
+    },
+    "server": [
+      {
+        "stream_id": "owned-0001",
+        "profile": "fixed",
+        "trial": "restart-0",
+        "seed": 6501,
+        "text_sha256": "048d9f60fba8a95341376266d7fd783e74e3bf1c9eef55fe1d2525e37d391aa2",
+        "chars": 11,
+        "segment": "1",
+        "t0": 332697.185642147,
+        "fault": "none",
+        "send_delay_ms": 0,
+        "lock_enter_ms": 0.11153903324157,
+        "producer_enter_ms": 0.8700650068931282,
+        "raw_chunks": 10,
+        "first_raw_ms": 110.75701302615926,
+        "first_pcm_ms": 194.72434901399538,
+        "produced_samples": 43520,
+        "queue_peak": 1,
+        "first_sent_ms": 194.87462902907282,
+        "sent_samples": 43520,
+        "raw_exit_ms": 845.5676700104959,
+        "producer_exit_ms": 845.7252600346692,
+        "cancel_set_at_exit": false,
+        "cancel_signal_ms": 845.7533690379933,
+        "consumer_completed": true,
+        "consumer_exit_ms": 845.8791590528563,
+        "idle_cache_clear_ms": 2.29719904018566,
+        "lock_exit_ms": 848.5275260172784,
+        "worker_exit_ms": 851.8478390178643,
+        "max_put_wait_ms": 5.526161985471845,
+        "worker_error": null,
+        "worker_done_ms": 851.9133490044624
+      }
+    ]
+  },
+  {
+    "kind": "restart",
+    "key": "restart-1",
+    "arm": "fixed",
+    "case": 1,
+    "result": {
+      "stream_id": "owned-0002",
+      "headers_ms": 38.55053998995572,
+      "first_voiced_pcm_ms": 140.34827798604965,
+      "total_ms": 528.4624740015715,
+      "received_samples": 24064,
+      "pcm_sha256": "ffa32e221e060ad29530e5d0044d0a16fc0c189a445673b2efc15ae5674f2b44",
+      "read_error": null
+    },
+    "server": [
+      {
+        "stream_id": "owned-0002",
+        "profile": "fixed",
+        "trial": "restart-1",
+        "seed": 6502,
+        "text_sha256": "d590277513d6b9c9c86729bb6ce5c5749f586030a62f4443c1249e879d0806e5",
+        "chars": 9,
+        "segment": "1",
+        "t0": 332698.102235207,
+        "fault": "none",
+        "send_delay_ms": 0,
+        "lock_enter_ms": 0.09700999362394214,
+        "producer_enter_ms": 0.52856799447909,
+        "raw_chunks": 6,
+        "first_raw_ms": 101.29305103328079,
+        "first_pcm_ms": 101.69372899690643,
+        "produced_samples": 24064,
+        "queue_peak": 1,
+        "first_sent_ms": 101.8545079859905,
+        "sent_samples": 24064,
+        "raw_exit_ms": 483.9319040183909,
+        "producer_exit_ms": 484.08058303175494,
+        "cancel_set_at_exit": false,
+        "cancel_signal_ms": 484.10607303958386,
+        "consumer_completed": true,
+        "consumer_exit_ms": 484.27039303351194,
+        "idle_cache_clear_ms": 2.1560490131378174,
+        "lock_exit_ms": 492.3856520326808,
+        "worker_exit_ms": 492.49405204318464,
+        "max_put_wait_ms": 6.0719510074704885,
+        "worker_error": null,
+        "worker_done_ms": 492.5635519903153
+      }
+    ]
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "verified_date": "2026-10-20",
+  "production_hashes_unchanged": true,
+  "complete_playback_cases": 26,
+  "scheduled_equals_received_e2e": 18,
+  "cancel_cases_without_late_sources": 12,
+  "independent_asr_decodes": 14,
+  "checked_pcm_files": 75,
+  "speaker_source_sha256": "9aa68fe7720e4646f48ddf435cb6f106f1fb02b19499afd7b6953bcc56005741",
+  "deployed_source_hash_verified": true,
+  "stage_source_hashes_verified": true,
+  "public_audio_or_verbatim_transcripts": false,
+  "known_tail_reproductions": [
+    {
+      "key": "queue-tail-r0",
+      "profile": "baseline",
+      "sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+      "old_sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+      "identical": true
+    },
+    {
+      "key": "queue-tail-r0",
+      "profile": "xvector",
+      "sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+      "old_sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+      "identical": true
+    },
+    {
+      "key": "queue-tail-r1",
+      "profile": "xvector",
+      "sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+      "old_sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+      "identical": true
+    },
+    {
+      "key": "queue-tail-r1",
+      "profile": "baseline",
+      "sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+      "old_sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+      "identical": true
+    }
+  ],
+  "root_and_private_links_valid": true,
+  "commands": [
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "bridge/tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "final-check-1.txt"
+    },
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/ruff",
+        "check",
+        "scripts/recheck_numeric_whisper.py",
+        "scripts/xvector_validation_server.py",
+        "scripts/player_validation_proxy.py",
+        "scripts/report_xvector_integration.py",
+        "scripts/integration_metrics.py",
+        "scripts/check_docs.py",
+        "bridge/tests/test_xvector_integration.py",
+        "bridge/tests/test_integration_metrics.py"
+      ],
+      "exit_code": 0,
+      "log": "final-check-2.txt"
+    },
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/ruff",
+        "format",
+        "--check",
+        "scripts/recheck_numeric_whisper.py",
+        "scripts/xvector_validation_server.py",
+        "scripts/player_validation_proxy.py",
+        "scripts/report_xvector_integration.py",
+        "scripts/integration_metrics.py",
+        "scripts/check_docs.py",
+        "bridge/tests/test_xvector_integration.py",
+        "bridge/tests/test_integration_metrics.py"
+      ],
+      "exit_code": 0,
+      "log": "final-check-3.txt"
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "scripts/xvector_validation_client.js"
+      ],
+      "exit_code": 0,
+      "log": "final-check-4.txt"
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "scripts/player_validation_client.js"
+      ],
+      "exit_code": 0,
+      "log": "final-check-5.txt"
+    },
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/python",
+        "scripts/check_docs.py"
+      ],
+      "exit_code": 0,
+      "log": "final-check-6.txt"
+    },
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/python",
+        "scripts/sync_plugin.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "final-check-7.txt"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "final-check-8.txt"
+    }
+  ],
+  "public_recompute_identical": true
+}

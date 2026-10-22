@@ -1,0 +1,32 @@
+[
+  {
+    "id": "numeric_doubt",
+    "wav": "/home/apex/voice-ai/experiments/20261020-number-reading/run-1/audio/numbers-normalized-t0-s4409.wav",
+    "sha256": "65be41bf5a1d992f7f6a3fb6249196e5381e2e0ac6aea273de06ca8b025934c5",
+    "text": "编号是一一零零二二。",
+    "case": {
+      "code": "110022"
+    },
+    "repeats": 20
+  },
+  {
+    "id": "original_input_control",
+    "wav": "/home/apex/voice-ai/experiments/20261020-number-reading/run-1/audio/numbers-raw-t0-s4409.wav",
+    "sha256": "72a27d58d0f8e99aa8341d179a7ada5949d3521877d0b1783ae9c2c25b046eea",
+    "text": "编号是一一零零二二。",
+    "case": {
+      "code": "110022"
+    },
+    "repeats": 5
+  },
+  {
+    "id": "long_tail",
+    "wav": "/home/apex/voice-ai/experiments/20261020-number-reading/run-1/audio/numbers-normalized-t2-s4409.wav",
+    "sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+    "text": "编号是一零零二零零三零零。",
+    "case": {
+      "code": "100200300"
+    },
+    "repeats": 5
+  }
+]

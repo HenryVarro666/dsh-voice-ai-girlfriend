@@ -1,0 +1,128 @@
+[
+  {
+    "id": "soft-0",
+    "policy": "baseline",
+    "removed_ms": 0.0,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-0",
+    "policy": "guard99",
+    "removed_ms": 2425.5,
+    "known_voice_samples_lost": 15025,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-0",
+    "policy": "guard3",
+    "removed_ms": 905.0,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-1",
+    "policy": "baseline",
+    "removed_ms": 0.0,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-1",
+    "policy": "guard99",
+    "removed_ms": 2212.25,
+    "known_voice_samples_lost": 12832,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-1",
+    "policy": "guard3",
+    "removed_ms": 901.6875,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-2",
+    "policy": "baseline",
+    "removed_ms": 0.0,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-2",
+    "policy": "guard99",
+    "removed_ms": 2100.0,
+    "known_voice_samples_lost": 11344,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-2",
+    "policy": "guard3",
+    "removed_ms": 902.125,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-3",
+    "policy": "baseline",
+    "removed_ms": 0.0,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-3",
+    "policy": "guard99",
+    "removed_ms": 2100.0,
+    "known_voice_samples_lost": 12841,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-3",
+    "policy": "guard3",
+    "removed_ms": 909.5,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-4",
+    "policy": "baseline",
+    "removed_ms": 0.0,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-4",
+    "policy": "guard99",
+    "removed_ms": 2100.0,
+    "known_voice_samples_lost": 10659,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-4",
+    "policy": "guard3",
+    "removed_ms": 909.125,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-5",
+    "policy": "baseline",
+    "removed_ms": 0.0,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-5",
+    "policy": "guard99",
+    "removed_ms": 2100.5,
+    "known_voice_samples_lost": 11492,
+    "prefix_preserved": true
+  },
+  {
+    "id": "soft-5",
+    "policy": "guard3",
+    "removed_ms": 901.3125,
+    "known_voice_samples_lost": 0,
+    "prefix_preserved": true
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "speech-to-speech": "0.2.10",
+    "faster-qwen3-tts": "0.5.4",
+    "transformers": "5.20.1",
+    "fastapi": "0.146.0",
+    "numpy": "2.5.4"
+  },
+  "tts_config": {
+    "model_name": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "dtype": "auto",
+    "streaming_chunk_size": 4
+  },
+  "default_voice": "xiaoya-qwen3",
+  "bridge_sha256": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+  "ollama": {
+    "version": "0.40.6"
+  }
+}

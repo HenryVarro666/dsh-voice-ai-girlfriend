@@ -1,0 +1,4900 @@
+{
+  "scope": "Exact-zero independent client; no production deployment or real microphone",
+  "archived": [
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-001.wav",
+      "sha256": "dfd90d8931330581293f7982eedef4abe4da1e4e217d1302cdc32ebe8b15d9c5",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 6346,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-002.wav",
+      "sha256": "a4b1531e9c1ee824266e6042c5192922ce542494ff7e83976c43553bd7c7ace5",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 6024,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7776,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-003.wav",
+      "sha256": "13ec107741454338a3e35f25296a648939e742301a652c53fb81f840216636b0",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8110,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-004.wav",
+      "sha256": "196c6dde7b5e9f948026382cdb2b0f968c7e598c64d1efdd85bffb6e8d266bf9",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7312,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-005.wav",
+      "sha256": "d2baf249ddeb65e10c84aab2a65c6e6672d03c79068d2d167e801c97a36a5389",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-006.wav",
+      "sha256": "19b952d51bfafb2e6415b3b5d3a40b6a72fbd2ce7357d25f19440cf34223d5c7",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-007.wav",
+      "sha256": "cab3db39fe48842f6a4bd92bff1c37257f808c2048b20410ccfc7a86562d4645",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7284,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-008.wav",
+      "sha256": "835ce30cc1c885e7cb4529fcc15c42f3064a01b96d17ed293f24f434b54d2e05",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-009.wav",
+      "sha256": "4a90cdaeb80e8feed441dc8189efbec1f931e9f1144a5542433da327ba593d2a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8740,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-010.wav",
+      "sha256": "f95c9e6c7e7e35e163752aac972a9b6dcbd85b305695a9e7cb7ea9a7d39e723b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 11118,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-011.wav",
+      "sha256": "43815e3aeabc8ab8e94a434cc47ca4f629c4a7c67196f028ace3d00c93e41b37",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-012.wav",
+      "sha256": "26d03b9d6add7d35e7ac5c1c42b5f0606113c074bd52f6266ca1c56f75d71c34",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 6660,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 474,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-013.wav",
+      "sha256": "28d6e23c7211b8ef1cf40072922d0f484fa863eb63b0aa4713e6437c14a114f3",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 6210,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8252,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-014.wav",
+      "sha256": "f9f01daa2a921b1e0e1c236f1874e11407fb253003e74ad3a26a850327fad946",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 5738,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 26110,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-015.wav",
+      "sha256": "4a3687ce3b8503cae15ddd8d3325326abf5ad3987c5a6b144c3cc72549b9ad0c",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7070,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-016.wav",
+      "sha256": "1719be8362d445e9891195b58874916594ed5783ddeac2355622cfb0e103ff85",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 15064,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-017.wav",
+      "sha256": "ef49af4da110c1ee673ed908b82e201a26a27a6b7bcd71d9a2952a88dd768eaa",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 526,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 5262.375,
+            "nonzero_samples_removed": 5365,
+            "peak_pending_bytes": 168396,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7884,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-018.wav",
+      "sha256": "6bb0d48ef90d640fc56cd628f1d992127b79ed09138ca43732d266d4014ac652",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 9506,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-019.wav",
+      "sha256": "5558ec47aebd1ec743691ce1684ccc0b9573b06705132e663f69498cd687ff6b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 11268,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-020.wav",
+      "sha256": "6f4d5f8d90a32119b7a04ea8e8cb48fd6d714258d1e2448ced438c3c830590cc",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8028,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7164,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-021.wav",
+      "sha256": "d034450c46f4c1281603e18366cee05d2ec0829bb05f6f9a3e49fa9171437fea",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 9998,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8870,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-022.wav",
+      "sha256": "a5988950aab35b23df69d8a27c66be5fd674910267f4d10a6e3ee669daa5448c",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-023.wav",
+      "sha256": "b47a20ecc9182096f8bdc2126506665633c1e74ab17498b5355f499d6e8868f5",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 5094.1875,
+            "nonzero_samples_removed": 4908,
+            "peak_pending_bytes": 163014,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-024.wav",
+      "sha256": "a53955f262e041046d10252d034c772fe1e517d634c7ab05df4543948d15500b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 10252,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-025.wav",
+      "sha256": "96664fc815ca72a2c822dbc11d5417539cab0fd7d91bf0bc94c986cb427db806",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-026.wav",
+      "sha256": "9bdc14a15546d048bf362d31796b7632c4df71cab5d732397483f3ab8fad5fb2",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-027.wav",
+      "sha256": "91b58469f2a1f9d95f4bdecd271825aa5548b096f7b852e7bfc92d313e86ab33",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8650,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-028.wav",
+      "sha256": "a25cea1932f22450aba955f63b4773433cb144e5fa36b8fc09848906cc21ac50",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 4772,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 13096,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-029.wav",
+      "sha256": "6a250c42db5ac794897574e2d35de8ed0a70cb02236bc37e7cf367bc84b73507",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7804,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-030.wav",
+      "sha256": "638fa5728df4563d66705622e647c42e7d5f8b107e07e8040d551489d429cdb6",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 5268,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-031.wav",
+      "sha256": "20ea10417a5d9840dabded6954a06dd37fc64901ef22a87b7495f07d30d4560d",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-032.wav",
+      "sha256": "afe5dde65ba7312e7c068b1c23b5c52c655471d5824a528224e02a97674a0db0",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7464,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-033.wav",
+      "sha256": "6d7cdbd506dd22854c50889ef80490f39567991d3fbee14a2777b203b16431cb",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-034.wav",
+      "sha256": "b728c06ca9e275789241d9ae97c64df80c5d0a4ecc7dbe0d6a4d5bf372178be2",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 5014,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 5094,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 5075.125,
+            "nonzero_samples_removed": 3925,
+            "peak_pending_bytes": 162404,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-035.wav",
+      "sha256": "cc0c16e9101304a7e4aa5b8523bbd38d3977d43b9ad1d50741bba4018ca08e3d",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 3402,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 9598,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-first-clause/main-01",
+      "file": "trial-036.wav",
+      "sha256": "fe96f17fa2202bcc8ddbba03875f1db20b690dcf6b49184c74e25cbded7b398a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        },
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 14066,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-000.wav",
+      "sha256": "59644624ae05d11a1f207b2389340052e9e919451a1e60e62a3d7687ded74b52",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-001.wav",
+      "sha256": "1e629d56925e19b6a0edf879a4f31809afa92935df9c3187a9952020fb982575",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 16132,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-002.wav",
+      "sha256": "fcb8e3f25c050eb153ed51523c800ce8675f1e9c2c6fe789e24724d97cee18df",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-003.wav",
+      "sha256": "10aaae10f3ad6028d3018d324661c7271a81117a8917e05c4cc4aefa3771c9d8",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 16368,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-004.wav",
+      "sha256": "cb529b8a3306dfdd75647bef11b9ec151493c21032ab63b474d67fe6aedb5406",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-005.wav",
+      "sha256": "4ccf0ad7f8f1b5a0604e72fbb659a9a068a8168f6e945ea95cf52a43cfb5302c",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-006.wav",
+      "sha256": "6e96f96652632dc433d58dd02cf9f0208663af49b754fe820c2b7fce13636592",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-007.wav",
+      "sha256": "3d4bc0c7d469623c261d0b44d48dd7c572d54eb820a84a32f975aed4a371e612",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-008.wav",
+      "sha256": "b3fea69040b36daebb6f0c425c56d672d97c8f08f0e77ee1ada55c990d7d47b5",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-009.wav",
+      "sha256": "66e78e81c9d56eebbe7a0a9a7a4abfa5d357bd42574f5a23619b3ac8285143e2",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-010.wav",
+      "sha256": "651bd4332396849f8c0b0e8616911aea83e8032153e58c02bfe28d96b3bfafdf",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-011.wav",
+      "sha256": "5133a78154fa45a66fdac42f8b0e7464bb7bb5231ec02edabb7321f63d106b49",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-012.wav",
+      "sha256": "891f25b37bb51edb2373424b1cb57cd9edbeff4af94a7e43b5c04560883de723",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-013.wav",
+      "sha256": "4d9f7540a303ba85a94971be493f2021cc22e411ea4d9ff08d1b5b282af05f2a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-014.wav",
+      "sha256": "b724258f09cf99bf3d6812be06967b920eef0840ff1113f87f6081bc5ef792f8",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-015.wav",
+      "sha256": "68cafd1bde43c42decb308b5d0626525e4a3501e2d5413c910959bacb3bdc830",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-016.wav",
+      "sha256": "c0bf74e61227042ff99df44251090bbc33a508cbc5a9e96283b43bf3e8ac5ebd",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-017.wav",
+      "sha256": "bc5fb92abac2220b5f859fd38bad946e96bf17c524d235f63a658b35ce8b159f",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-018.wav",
+      "sha256": "8d0cb7a6c7e86a731f32dc625ee49dcf664a4f055344c28e4e6f1d1ed5a35ffc",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-019.wav",
+      "sha256": "4cd4554b0820845e5e505afe3fefd5579f5384a1b90bd7de19034395a79ec333",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 5076,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-020.wav",
+      "sha256": "e834475549a89d0f2d4e626c559e654d0f4d69c00ac2479b5379bb87a158c8f6",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-021.wav",
+      "sha256": "5fe8464974ace4bcf210862c2fdcd5cf0f680a245a6cd18200f579051c145f3b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 222,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-022.wav",
+      "sha256": "ad119602d200c8f20376ffae55c82b3792fad28d4b897d34a7012b46f5e23c92",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-023.wav",
+      "sha256": "5c19cc10a25a422f00f2ce46399df4ad2d37cf2156314f4a8aba09d8a3cd2963",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-024.wav",
+      "sha256": "95bd8d10f99c7c18d94b5b4fdab1cad2357969ebeaab14afe44661899cb37363",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-025.wav",
+      "sha256": "a57df1e5838160b27e9d02b4cce05aa8c6b7bd27bbc2b0167b52e9b2dd23c800",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 5055.5,
+            "nonzero_samples_removed": 3172,
+            "peak_pending_bytes": 161776,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-026.wav",
+      "sha256": "783e07d1483490c7624c3671ef28bc4cd1c7ffbbaf09d611c5065bba792199fe",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-027.wav",
+      "sha256": "2479c02c331aeeff3c0853cd833f63e5a37844877841550437cc23b27d58f7b0",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-028.wav",
+      "sha256": "e46a37e23e5e617fa2760b08681ad1febd785dfb07d029b74f96f418ddc10874",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-029.wav",
+      "sha256": "6fcb65dad810e3ff22c0cbc01ca647fe979c245f04447ecffc9a7abed969521c",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-030.wav",
+      "sha256": "8c86f8c2bdddbe18363b7831f13d7e0af879ddba304dc6a240f7086d39fe8b31",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-031.wav",
+      "sha256": "71b1437a13b7d4194146385803b3d12868c1fec4e6f4dc35e63953e954be8b57",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-032.wav",
+      "sha256": "942c4c87051de0fcc874cb869d2b29b376c7a64bc67c439a04605652ddf09b7a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-033.wav",
+      "sha256": "cfdf5d5925530a2862b3801148054f1e62f9bf22eed1d1ccac1c6141ba11b543",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-034.wav",
+      "sha256": "2f0e5678daa445d6975e3ee62ddcac5eda0527b6090ded3adbb2662216545838",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 21072,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-035.wav",
+      "sha256": "5366d7f2eda962e56db7c1ad706225535d5956b78465efa78dce25be7e7ae5bc",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-036.wav",
+      "sha256": "d6945dbaf3a79adc54d29f3e2c58b0305d4650d627bbc4dad8861966f981f785",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 12632,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-037.wav",
+      "sha256": "7508ad1744824ee9cdf7238ffef2ad21d6646dc08722d611133cf5a75c71bc91",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-038.wav",
+      "sha256": "f3a35c495f6e9560c340f0dfc0cdc8511a57e5d62f427ca53e263fe3bb25daa8",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "main-039.wav",
+      "sha256": "29ab3aada0a1a50bf4cbb37a40d3ab3a5b6bfcf1f1f954d1090adaffb61f3ada",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-tts-tail/main-01",
+      "file": "replay-016.wav",
+      "sha256": "c0bf74e61227042ff99df44251090bbc33a508cbc5a9e96283b43bf3e8ac5ebd",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-0-seed-16-original.wav",
+      "sha256": "c0bf74e61227042ff99df44251090bbc33a508cbc5a9e96283b43bf3e8ac5ebd",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-0-seed-25-original.wav",
+      "sha256": "a57df1e5838160b27e9d02b4cce05aa8c6b7bd27bbc2b0167b52e9b2dd23c800",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 5055.5,
+            "nonzero_samples_removed": 3172,
+            "peak_pending_bytes": 161776,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-1-seed-16-original.wav",
+      "sha256": "2d505c1faf7e77e7d80c647068ec0a3b41df23a4d148686fb33a6874eaf65a06",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 11430,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-2-seed-00-original.wav",
+      "sha256": "f3dbddec6c66aa3610cfc60ecda956188714e33e5c4f4ae27d90df67ca61df06",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8944,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-2-seed-25-original.wav",
+      "sha256": "764ba3b78300055a4aacf43dc63b5a5e386ccb586eae121374560b3654e8b9ad",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 6414,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-3-seed-00-original.wav",
+      "sha256": "c7f5db3f65fcf837144d42012cce6dc7929f3faf8aa507fc0573c1dbce0ce952",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 9598,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-0-seed-00-original.wav",
+      "sha256": "59644624ae05d11a1f207b2389340052e9e919451a1e60e62a3d7687ded74b52",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-3-seed-25-original.wav",
+      "sha256": "9338f4a92f5fa7640fd993b080535352b9f40a29c7c577a9e687485d03c82494",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-1-seed-00-original.wav",
+      "sha256": "eb0ce2523457e1845aef80494b3d5f7aeffb0946715e5608fb332077bcd0a7e8",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-1-seed-25-original.wav",
+      "sha256": "e807d2a25f0033b2a616b98e44e3d6e69662ae779dfb4836352c75a4e68dab94",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8298,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-3-seed-16-original.wav",
+      "sha256": "0a726b965ef79d02619a5a751f62868de8121f6086f39e952b1c533c9241a70a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 10046,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/0.6b",
+      "file": "text-2-seed-16-original.wav",
+      "sha256": "9458661351eb157e21a2f62a8965c5d10badfed5e759ac683854bcba087f0cc8",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 9344,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-0-seed-16-original.wav",
+      "sha256": "7d5b371cc858126efac0a8c7c57c7d2edb1d703761f90457c520fde7f7c013b4",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 436,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-0-seed-25-original.wav",
+      "sha256": "2cc863c229c928f4745e1e8adb85dd6d16a98c8b209c22671bf391293f352a30",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-1-seed-16-original.wav",
+      "sha256": "14472730f6fa286865dc47b9d32e3612bbc9010300c96ff8a148a0357218f9e0",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-2-seed-00-original.wav",
+      "sha256": "cc9bf9e8f23a49899120c325d1d5def187a3664c2cbaddf46dc9c267c3063876",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-2-seed-25-original.wav",
+      "sha256": "5c216c43dbdca0be5b70464881cc5889d2f2e185da380682b15d504639b23695",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 2310,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-3-seed-00-original.wav",
+      "sha256": "10ba4bd23cf2d4c9c06d831d8e9aac149c3cd8d1aeddb30bb579ced4a670b0a9",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-0-seed-00-original.wav",
+      "sha256": "7c5a5d12e054861f417919b7c7b5aa4dac350c47c45bd8f2e35d0c5397ade5f0",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-3-seed-25-original.wav",
+      "sha256": "6332342a2124dbe5d43495d67a8fe4be301215b04fdc7bffe72be7c0a858e864",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-1-seed-00-original.wav",
+      "sha256": "1a8e041dccd9a51dc44733d65e95d343b8cebf3fccca94d667438ae006cdc834",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-1-seed-25-original.wav",
+      "sha256": "af134b41f7f45d3b8b9ad4adc64ff4cf70f07f7523688a37f1d63244b938312b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-3-seed-16-original.wav",
+      "sha256": "9df47f333333c81a10ada23621f65dbd839cd31ad306f6bd2cfbe959e2df0330",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/1.7b",
+      "file": "text-2-seed-16-original.wav",
+      "sha256": "a2aca96f9c8fbefae58e133376718c470fe5577f77fe006f21b408d06fe9072a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-4-seed-505-original.wav",
+      "sha256": "ed5c12cf10706c91ceefabd9bed72053db18ea682cd34fcbc31c8d1de9dc490a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-1-seed-404-original.wav",
+      "sha256": "9cede85f84878494d6cf67f8bdeed18aac1142ae72651fae5b8c85dda4b4cc7a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 154,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-2-seed-505-original.wav",
+      "sha256": "98ffd3bdda5b10973967cd8b2c1f8966668f64b8cae4a722edce803ceee978b9",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-0-seed-101-original.wav",
+      "sha256": "c6bce9acf05f91821aacd677c90728f21dafa17425c6acebbea8899912141df8",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 5280,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-7-seed-202-original.wav",
+      "sha256": "a5aa2542380b7ee2301054c5c54d75b3a73ffb3be38601e782e51ca4c78c605b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 6346,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-3-seed-101-original.wav",
+      "sha256": "c92c3e0b62eed1cf6adce31b0277f217c60d00f29bd99f1f621a6691f759b2b3",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 3760,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-6-seed-303-original.wav",
+      "sha256": "46dcad2a518529a588b550bf5f88178dc84bfc03193015a67163dbcaeabcf10f",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 548,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-7-seed-101-original.wav",
+      "sha256": "04d5524f415d68118ca72fadacf7e13912610e1fd16ee9297a248500b18396c1",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-2-seed-303-original.wav",
+      "sha256": "f72119e2964e9235b0528124e534aabf8fff7b092212890ef60bd65c75bb5bbd",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-3-seed-505-original.wav",
+      "sha256": "b2fb7c7ea1a8b435de45dec64ce8bc409c8b5577bfcb1239c0862a701394b017",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-4-seed-303-original.wav",
+      "sha256": "e76ad06560e4d82d35efcc32b810741ddc58f336d3a4e3daedb0f7599d331886",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-3-seed-404-original.wav",
+      "sha256": "c6233c6f96a480fc2c1cff062b1cbecf7a7dd5d02d7965c963935796faa514df",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-5-seed-101-original.wav",
+      "sha256": "2745d9e9540d5b7f1ca591e8554d2761290d25b424ed255774ade364d229826e",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-2-seed-202-original.wav",
+      "sha256": "eed3e92ca1379d2d9b257f56fc8b142718bd3d7cb38ba69be1519f6a64bfed85",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-4-seed-202-original.wav",
+      "sha256": "a548087a37fdcfdf4f15c476a3c1af85ce6611d3bd59b48a98803b7950ad8331",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-6-seed-404-original.wav",
+      "sha256": "bfb266e883b60a8d6b48d85be57732c04eb5fbbe008f368a8f8e044e85330d1c",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 5646,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-4-seed-404-original.wav",
+      "sha256": "1145cc8d94006d0f30a3915a3603094a1a82b2fd6940d1c1bab01fc0e7518ed2",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 6756,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-0-seed-202-original.wav",
+      "sha256": "6af448a637928d97e0ce705b4cf18c596c1880dc971612c1c1bfcead4b7dce12",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-0-seed-505-original.wav",
+      "sha256": "7c87f8372ff96c4fe170a78039a09d52d68b2e8ef009f60c4ac3667192e30833",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7458,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-5-seed-404-original.wav",
+      "sha256": "03dbc69316459ee122fb24eb2369fa973bbcb306114bb281fe1851c61ef289ce",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-7-seed-505-original.wav",
+      "sha256": "231f902f12a7b582db86c95dc2b2ab5c9d788c4fb330f8392905ec30acc01948",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 1304,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-7-seed-404-original.wav",
+      "sha256": "6062f718a19c0e3e244a10964c33b7c8aa6cec47a30d9d3e573044f89c90e064",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8116,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-5-seed-202-original.wav",
+      "sha256": "026e4fef4b20e7140a0631cb70697036cc016f3eb5739815cc79f6bc26be52e8",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8306,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-3-seed-303-original.wav",
+      "sha256": "6b52d9bfc1e01503341878ad28e5d5313c6c7d84246e5dc25906df51afc04370",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-5-seed-303-original.wav",
+      "sha256": "9499aa3b02f96ca610ec7ad5d387e781513ec666a38e18ce65cf577cfc084e58",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7940,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-7-seed-303-original.wav",
+      "sha256": "e6297561aba8f63343f1e348379553a08a7792ee55258eccd3b6032a669b48ad",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 7492,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-1-seed-303-original.wav",
+      "sha256": "3eedadfeb3949c2b8b152f401d1641b2151781cb6264c965f828cb4d3d50a12e",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 5724,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-6-seed-505-original.wav",
+      "sha256": "41e2277077700b853db807d6c242899fccc3967dc3e6bf2e80ceb56a077dba45",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 12342,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-1-seed-202-original.wav",
+      "sha256": "a576e6ac8bc36fb733f7fb197003fed36b720d596f184dbdd6d0fd080b05aac6",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 8066,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-3-seed-202-original.wav",
+      "sha256": "6b4d4ad4c5a2074e657ea5b54e865b4ff9c7569f714ed367f1026f21641b9082",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-2-seed-101-original.wav",
+      "sha256": "aa27fbd0d851caa3d14a885ec732808be6330bcde511a32938c3d1ee25433844",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-0-seed-303-original.wav",
+      "sha256": "b071744d63538b69475725daf793fccb9a9e31168bcef1591d04eec78bd56bee",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 4666,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-1-seed-505-original.wav",
+      "sha256": "58d44281ace5bcf58e1b448e945c11afdb61753c193095b6d67de5737928e678",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 9520,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-1-seed-101-original.wav",
+      "sha256": "fa1f5e3d39b501cb39194679263d03f4ff6509e7eb8a2c173ff3ced32ab48611",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 6876,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-6-seed-202-original.wav",
+      "sha256": "fbb042857aa20ff69e0eb0ebfc110397b1e87be85efadc4563f3f9afbf711285",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-0-seed-404-original.wav",
+      "sha256": "c9761aaecf3545564b4faf792c2801c6fd45b7651bb0fcbbddeec94b6ca6ff2d",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-6-seed-101-original.wav",
+      "sha256": "5399ddfaa7d3563787318eec5d849511fe31177830fc6119d9307650b8074640",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 10844,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-2-seed-404-original.wav",
+      "sha256": "2c0ba1f7678fa1c22e6940b61327dd77c715c25244663314450668475f2a0041",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-4-seed-101-original.wav",
+      "sha256": "bdb8c604c0ddeb24190b9a4a1eaf4fa342936816fdd28806bb49b034d5facfce",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-0.6b",
+      "file": "text-5-seed-505-original.wav",
+      "sha256": "4b784abade4fa6063e50e88ea0b0eb232ac4f1ed6f6e742ae71f3b0584d27d02",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 5588,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-4-seed-505-original.wav",
+      "sha256": "4d128339ef3dd060d371a6a8543024e2fcd126cc81e1328ff04f87c040f3ab4c",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-1-seed-404-original.wav",
+      "sha256": "74e54d663dce4d519cfa144fff5f6bf904ab875e8edec5150540c9f5d493398b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-2-seed-505-original.wav",
+      "sha256": "30df168f36e9be0570e3e7a578271d705a5fdcac80b4052f981df88e6931bfd9",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-0-seed-101-original.wav",
+      "sha256": "903327f85665de1111c34e7e53de0e281a0cf7fe6f925569aa1864093479f73e",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 2248,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-7-seed-202-original.wav",
+      "sha256": "b0690c8d1c8a5ec0ec642a8c647c88bf303fb9551360afc08906e37191f1a3cb",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-3-seed-101-original.wav",
+      "sha256": "76e4d2b1d0a9e0c94886ed78ab8ea1d50de91f35601ad88f8d7d4f9529d156d2",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-6-seed-303-original.wav",
+      "sha256": "1eda97d8a9b5b716252325eaf754d9865191b304764e6c0045c423310a055268",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-7-seed-101-original.wav",
+      "sha256": "0dc13b0078cd08ad466fcfa246b4c32303272c1a3276938474ee885bb482760e",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 3128,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-2-seed-303-original.wav",
+      "sha256": "8eaa031aefff4585e41b0caf70f2703972c8ec64a1687da98faebc26d7623a36",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-3-seed-505-original.wav",
+      "sha256": "83dc52d37cbf314755570f4fd4dfb8b3956698a4a83d2277e39b166393d806d6",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-4-seed-303-original.wav",
+      "sha256": "739597f055525a1b53ec602c968f46a43de709327bb290631ea231afb7990468",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-3-seed-404-original.wav",
+      "sha256": "0aef7a3c01451e3bcc56b1520bf8286c3d28252bd470186223726737b93be1de",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-5-seed-101-original.wav",
+      "sha256": "77c8b3f1c994717dd084845619d66ad2e0eca12a2e9ec81ab1da8b5f365a5c58",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-2-seed-202-original.wav",
+      "sha256": "556ae5d2a48fde1ed7323c166711184b51fa7d4e1daa91570be0e9efebbef293",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-4-seed-202-original.wav",
+      "sha256": "eff6328b5f2c1bbbd8fd1da5cf47741ee8d216a96b2a91e047b35d0f062a63e9",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-6-seed-404-original.wav",
+      "sha256": "27f64a703ac6060db69e3c0a7c2d73b93ec1930745991ca0e082276e322e81ed",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 1242,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-4-seed-404-original.wav",
+      "sha256": "b583820479d1563f04601f2e69398034ed61e9d476127bc12c2e7163bca31471",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-0-seed-202-original.wav",
+      "sha256": "a1220b50aea01f8e34f26885b0d93ba6fe771b5d08402f5caf32b1721f1febef",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-0-seed-505-original.wav",
+      "sha256": "6f055c496f4c3837f73af9ec927e395ddd71af15d10ed539c7d2a1d074fa9cbf",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-5-seed-404-original.wav",
+      "sha256": "e0e8ed580aabcf71f0f565169190fc118b6a68e79618e0cff85626b856f84464",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-7-seed-505-original.wav",
+      "sha256": "593bc3f1f43a61e7637e3923f326890fdb83d8eb3606a5e2625f953cac802a37",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-7-seed-404-original.wav",
+      "sha256": "1a0246c179b65bd17e89897aefea0989111b1bde110a298e11fdc3765eab163e",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-5-seed-202-original.wav",
+      "sha256": "2d362a69a5d629e931525ab6a94cf47025c80af5220ff881696244957efe059c",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-3-seed-303-original.wav",
+      "sha256": "ba4def9e0d291d9cd562c03ff8cf8cd296c12943f4232374ec4f057a93cd1404",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-5-seed-303-original.wav",
+      "sha256": "14e73917798dc52f6c0fdd8a94904f1a1d199e36d1b73a7e77e352b5e5086e2b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-7-seed-303-original.wav",
+      "sha256": "ebe90ff307a368564ee510f9c674d8031bb5867d3d4ea1896d0ee9d27d777c58",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-1-seed-303-original.wav",
+      "sha256": "f8dbb5835ee47236662d47791a3503ca6856ae15de971c548b9060c17714f052",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-6-seed-505-original.wav",
+      "sha256": "c881b0df1e6e010cacced1dd88de0efb73cc1415b8abab77bd5f5c015cb00095",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-1-seed-202-original.wav",
+      "sha256": "da76e496ee179e7a0aa12e7b18acace7e8d7ffe9e127cd4c9a58346dd4ca425a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-3-seed-202-original.wav",
+      "sha256": "34c6f52a112f6f49cb0356c83b94cfad4801fa1078089e3d848933497845249a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-2-seed-101-original.wav",
+      "sha256": "8864c8397206397df76bc89cade0de32a032459f42d153bd9aea2c9a4d210159",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-0-seed-303-original.wav",
+      "sha256": "3b6f735ccf168e7ecfcf2078fd6da6cdcb2b30d6c6724167c15957aa2ab0329b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-1-seed-505-original.wav",
+      "sha256": "0848865d8ede4889832c9425b66cc90a154600d84bf945d09c825b32c765dc0f",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-1-seed-101-original.wav",
+      "sha256": "168a2bae4baf5442a442930767601cc8c0d1a01660d0f610f310239d428c570d",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-6-seed-202-original.wav",
+      "sha256": "0ed9b57c021c65c387c4403cae8e5c3d6b4162dd3c75c9fa17408e4200d2078a",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-0-seed-404-original.wav",
+      "sha256": "4382186a34f385aa30bb54ff4863f629d372c797872c4bdbdbf7770ecb7749b0",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-6-seed-101-original.wav",
+      "sha256": "7bcad107260154cde034d11cd46664fc44ae854eba7debd1d62659ee0c4b7658",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-2-seed-404-original.wav",
+      "sha256": "939eb72089b244fb92618a136725495feb80145d198507b6ec5c2622ef6c36d0",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-4-seed-101-original.wav",
+      "sha256": "57a986584cdbd356fb71b22a52833b49b065605f3d9fa3be38e6bdb06e110dc4",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    },
+    {
+      "source": "20261020-stream-guard/holdout-1.7b",
+      "file": "text-5-seed-505-original.wav",
+      "sha256": "6570512f891da40c6e5d7f1a426e67b41dc2228daf486a0efc3ea0a3de09040b",
+      "segments": [
+        {
+          "amplitude_v2": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          },
+          "exact_zero": {
+            "removed_ms": 0.0,
+            "nonzero_samples_removed": 0,
+            "peak_pending_bytes": 0,
+            "overflows": 0
+          }
+        }
+      ]
+    }
+  ],
+  "weak_challenges": [
+    {
+      "peak": 70,
+      "kind": "attenuated repeated generated ending; not natural soft speech",
+      "amplitude_v2": {
+        "removed_ms": 3200.0,
+        "nonzero_samples_removed": 18050,
+        "peak_pending_bytes": 102400,
+        "overflows": 0
+      },
+      "exact_zero": {
+        "removed_ms": 1700.0,
+        "nonzero_samples_removed": 0,
+        "peak_pending_bytes": 54400,
+        "overflows": 0
+      }
+    },
+    {
+      "peak": 1,
+      "kind": "attenuated repeated generated ending; not natural soft speech",
+      "amplitude_v2": {
+        "removed_ms": 3200.0,
+        "nonzero_samples_removed": 962,
+        "peak_pending_bytes": 102400,
+        "overflows": 0
+      },
+      "exact_zero": {
+        "removed_ms": 1767.0625,
+        "nonzero_samples_removed": 0,
+        "peak_pending_bytes": 56546,
+        "overflows": 0
+      }
+    }
+  ],
+  "paced": [
+    {
+      "name": "fast_zero_tail",
+      "before": {
+        "first_voice_ms": 0.05758000770583749,
+        "ideal_end_ms": 2100.057580007706,
+        "underrun_ms": 0
+      },
+      "after": {
+        "first_voice_ms": 0.08219998562708497,
+        "ideal_end_ms": 400.0821999856271,
+        "underrun_ms": 0
+      },
+      "nonzero_removed": 0,
+      "unchanged": false,
+      "timed_releases": 0,
+      "added_underrun_ms": 0
+    },
+    {
+      "name": "slow_internal_pause",
+      "before": {
+        "first_voice_ms": 0.01493000308983028,
+        "ideal_end_ms": 800.0149300030898,
+        "underrun_ms": 0
+      },
+      "after": {
+        "first_voice_ms": 0.02644001506268978,
+        "ideal_end_ms": 800.0264400150627,
+        "underrun_ms": 0
+      },
+      "nonzero_removed": 0,
+      "unchanged": true,
+      "timed_releases": 1,
+      "added_underrun_ms": 0
+    },
+    {
+      "name": "low_playable_lead",
+      "before": {
+        "first_voice_ms": 0.022980006178840995,
+        "ideal_end_ms": 900.4192810039967,
+        "underrun_ms": 290.3963009978179
+      },
+      "after": {
+        "first_voice_ms": 0.03674000618048012,
+        "ideal_end_ms": 900.5117409920786,
+        "underrun_ms": 290.4750009858981
+      },
+      "nonzero_removed": 0,
+      "unchanged": true,
+      "timed_releases": 1,
+      "added_underrun_ms": 0.07869998808018863
+    },
+    {
+      "name": "weak_tail",
+      "before": {
+        "first_voice_ms": 0.020720006432384253,
+        "ideal_end_ms": 3506.2707200064324,
+        "underrun_ms": 0
+      },
+      "after": {
+        "first_voice_ms": 0.060349993873387575,
+        "ideal_end_ms": 1806.3103499938734,
+        "underrun_ms": 0
+      },
+      "nonzero_removed": 0,
+      "unchanged": false,
+      "timed_releases": 0,
+      "added_underrun_ms": 0
+    }
+  ],
+  "live": [
+    {
+      "index": 0,
+      "text": "你好，我在听。",
+      "before": {
+        "first_voice_ms": 162.10186701850034,
+        "ideal_end_ms": 1293.3575130121317,
+        "underrun_ms": 19.255645993631333
+      },
+      "after": {
+        "first_voice_ms": 162.16019700281322,
+        "ideal_end_ms": 1293.4314220149536,
+        "underrun_ms": 19.27122501214035
+      },
+      "removed_ms": 0.0,
+      "nonzero_removed": 0,
+      "processing_wall_ms": 409.5279510074761,
+      "first_voice_delay_ms": 0.05832998431287706,
+      "added_underrun_ms": 0.015579018509015441,
+      "peak_pending_bytes": 0
+    },
+    {
+      "index": 1,
+      "text": "今天先休息吧。",
+      "before": {
+        "first_voice_ms": 477.8891430096701,
+        "ideal_end_ms": 1461.88914300967,
+        "underrun_ms": 0
+      },
+      "after": {
+        "first_voice_ms": 477.96982301864773,
+        "ideal_end_ms": 1461.9698230186477,
+        "underrun_ms": 0
+      },
+      "removed_ms": 0.0,
+      "nonzero_removed": 0,
+      "processing_wall_ms": 653.3226070168894,
+      "first_voice_delay_ms": 0.0806800089776516,
+      "added_underrun_ms": 0,
+      "peak_pending_bytes": 0
+    },
+    {
+      "index": 2,
+      "text": "你说的是星期四吗？",
+      "before": {
+        "first_voice_ms": 142.2762429784052,
+        "ideal_end_ms": 1702.2762429784052,
+        "underrun_ms": 0
+      },
+      "after": {
+        "first_voice_ms": 142.34728298382834,
+        "ideal_end_ms": 1702.3472829838283,
+        "underrun_ms": 0
+      },
+      "removed_ms": 0.0,
+      "nonzero_removed": 0,
+      "processing_wall_ms": 498.7829669844359,
+      "first_voice_delay_ms": 0.0710400054231286,
+      "added_underrun_ms": 0,
+      "peak_pending_bytes": 0
+    },
+    {
+      "index": 3,
+      "text": "慢慢来，别着急呀。",
+      "before": {
+        "first_voice_ms": 141.23704801662825,
+        "ideal_end_ms": 1861.2370480166283,
+        "underrun_ms": 0
+      },
+      "after": {
+        "first_voice_ms": 141.29267800948583,
+        "ideal_end_ms": 1861.2926780094858,
+        "underrun_ms": 0
+      },
+      "removed_ms": 0.0,
+      "nonzero_removed": 0,
+      "processing_wall_ms": 526.2852240120992,
+      "first_voice_delay_ms": 0.05562999285757542,
+      "added_underrun_ms": 0,
+      "peak_pending_bytes": 0
+    },
+    {
+      "index": 4,
+      "text": "先把文件保存好，然后再关闭窗口。",
+      "before": {
+        "first_voice_ms": 224.26388502120972,
+        "ideal_end_ms": 3672.2638850212097,
+        "underrun_ms": 0
+      },
+      "after": {
+        "first_voice_ms": 224.33912500040606,
+        "ideal_end_ms": 3672.339125000406,
+        "underrun_ms": 0
+      },
+      "removed_ms": 0.0,
+      "nonzero_removed": 0,
+      "processing_wall_ms": 994.1030720074195,
+      "first_voice_delay_ms": 0.07523997919633985,
+      "added_underrun_ms": 0,
+      "peak_pending_bytes": 0
+    },
+    {
+      "index": 5,
+      "text": "好的，我会等你把话说完。",
+      "before": {
+        "first_voice_ms": 140.87601002305746,
+        "ideal_end_ms": 2372.8760100230575,
+        "underrun_ms": 0
+      },
+      "after": {
+        "first_voice_ms": 140.93368901289068,
+        "ideal_end_ms": 2372.9336890128907,
+        "underrun_ms": 0
+      },
+      "removed_ms": 0.0,
+      "nonzero_removed": 0,
+      "processing_wall_ms": 671.8929860217031,
+      "first_voice_delay_ms": 0.05767898983322084,
+      "added_underrun_ms": 0,
+      "peak_pending_bytes": 0
+    }
+  ],
+  "cancel": [
+    {
+      "delay_after_first_packet_ms": 50.0,
+      "cancel_to_close_ms": 0.2691789995878935,
+      "source_closed": true,
+      "outputs_after_cancel": 0,
+      "pending_bytes": 0
+    },
+    {
+      "delay_after_first_packet_ms": 150.0,
+      "cancel_to_close_ms": 0.1512089802417904,
+      "source_closed": true,
+      "outputs_after_cancel": 0,
+      "pending_bytes": 0
+    },
+    {
+      "delay_after_first_packet_ms": 350.0,
+      "cancel_to_close_ms": 0.23376900935545564,
+      "source_closed": true,
+      "outputs_after_cancel": 0,
+      "pending_bytes": 0
+    }
+  ],
+  "hashes": {
+    "bench_tail_safety.py": "9b10a5a7c52a633be0eef8eaf2f16f259f4a710b4168d7b161b302800154b3d1",
+    "stream_tail.py": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+    "stream_tail_safe.py": "9a63344ce461d3af49bb7c4fa22febbcdb8b0d4faae0b09abcacd771e2ce65eb"
+  }
+}

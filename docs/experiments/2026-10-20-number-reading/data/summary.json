@@ -1,0 +1,1091 @@
+{
+  "groups": {
+    "raw": {
+      "trials": 24,
+      "errors": 0,
+      "eos": 24,
+      "max_tokens": 0,
+      "asr_exact": 0,
+      "asr_ending_match": 0,
+      "edit_distance": 309,
+      "long_tails": 0,
+      "tail_total_ms": 2761.3125,
+      "tail_max_ms": 665.4375,
+      "first_voiced_median_ms": 268.3784940163605,
+      "generation_median_ms": 1377.4611629924038,
+      "frames_median": 68.0,
+      "numeric_status": {
+        "unparsed": 6,
+        "match": 12,
+        "mismatch": 6
+      },
+      "fields": {
+        "code": {
+          "unparsed": 6,
+          "match": 12,
+          "mismatch": 6
+        },
+        "date": {
+          "match": 12
+        },
+        "time": {
+          "match": 12
+        }
+      }
+    },
+    "normalized": {
+      "trials": 24,
+      "errors": 0,
+      "eos": 24,
+      "max_tokens": 0,
+      "asr_exact": 23,
+      "asr_ending_match": 24,
+      "edit_distance": 1,
+      "long_tails": 1,
+      "tail_total_ms": 13855.25,
+      "tail_max_ms": 5412.8125,
+      "first_voiced_median_ms": 267.9067910066806,
+      "generation_median_ms": 1778.098984999815,
+      "frames_median": 89.0,
+      "numeric_status": {
+        "match": 23,
+        "mismatch": 1
+      },
+      "fields": {
+        "code": {
+          "match": 23,
+          "mismatch": 1
+        },
+        "date": {
+          "match": 12
+        },
+        "time": {
+          "match": 12
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "index": 0,
+      "expected": {
+        "code": "110022"
+      },
+      "profiles": {
+        "raw": [
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "一一零零二二",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "一一零零二二",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "110022",
+              "code": null,
+              "fields": {
+                "code": "unparsed"
+              },
+              "code_token": "一一零ln二二",
+              "status": "unparsed"
+            },
+            "error": null
+          }
+        ],
+        "normalized": [
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "110022",
+              "code": "10022",
+              "fields": {
+                "code": "mismatch"
+              },
+              "code_token": "一零零二二",
+              "status": "mismatch"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "一一零零二二",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "一一零零二二",
+              "status": "match"
+            },
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "expected": {
+        "code": "001100"
+      },
+      "profiles": {
+        "raw": [
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "001100",
+              "code": null,
+              "fields": {
+                "code": "unparsed"
+              },
+              "code_token": "零零幺幺零打",
+              "status": "unparsed"
+            },
+            "error": null
+          },
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "001100",
+              "code": "00110",
+              "fields": {
+                "code": "mismatch"
+              },
+              "code_token": "零零幺幺零",
+              "status": "mismatch"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "001100",
+              "code": "00110",
+              "fields": {
+                "code": "mismatch"
+              },
+              "code_token": "零零幺幺零",
+              "status": "mismatch"
+            },
+            "error": null
+          }
+        ],
+        "normalized": [
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "001100",
+              "code": "001100",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "零零一一零零",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "001100",
+              "code": "001100",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "零零一一零零",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "001100",
+              "code": "001100",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "零零一一零零",
+              "status": "match"
+            },
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "expected": {
+        "code": "100200300"
+      },
+      "profiles": {
+        "raw": [
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "100200300",
+              "code": null,
+              "fields": {
+                "code": "unparsed"
+              },
+              "code_token": "一零零二零零三零m",
+              "status": "unparsed"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "100200300",
+              "code": null,
+              "fields": {
+                "code": "unparsed"
+              },
+              "code_token": "一零狼二零狼三零",
+              "status": "unparsed"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "100200300",
+              "code": "10020030",
+              "fields": {
+                "code": "mismatch"
+              },
+              "code_token": "一零零二零零三零",
+              "status": "mismatch"
+            },
+            "error": null
+          }
+        ],
+        "normalized": [
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "100200300",
+              "code": "100200300",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "一零零二零零三零零",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "100200300",
+              "code": "100200300",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "一零零二零零三零零",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "100200300",
+              "code": "100200300",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "一零零二零零三零零",
+              "status": "match"
+            },
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "expected": {
+        "code": "77889900"
+      },
+      "profiles": {
+        "raw": [
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "status": "match"
+            },
+            "error": null
+          }
+        ],
+        "normalized": [
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "status": "match"
+            },
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "expected": {
+        "code": "110022",
+        "date": [
+          2026,
+          11,
+          11
+        ],
+        "time": [
+          15,
+          30
+        ]
+      },
+      "profiles": {
+        "raw": [
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一一零零二二",
+              "date": [
+                2026,
+                11,
+                11
+              ],
+              "time": [
+                15,
+                30
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一一零零二二",
+              "date": [
+                2026,
+                11,
+                11
+              ],
+              "time": [
+                15,
+                30
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一一零零二二",
+              "date": [
+                2026,
+                11,
+                11
+              ],
+              "time": [
+                15,
+                30
+              ],
+              "status": "match"
+            },
+            "error": null
+          }
+        ],
+        "normalized": [
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一一零零二二",
+              "date": [
+                2026,
+                11,
+                11
+              ],
+              "time": [
+                15,
+                30
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一一零零二二",
+              "date": [
+                2026,
+                11,
+                11
+              ],
+              "time": [
+                15,
+                30
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "110022",
+              "code": "110022",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一一零零二二",
+              "date": [
+                2026,
+                11,
+                11
+              ],
+              "time": [
+                15,
+                30
+              ],
+              "status": "match"
+            },
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "expected": {
+        "code": "001100",
+        "date": [
+          2027,
+          1,
+          2
+        ],
+        "time": [
+          9,
+          5
+        ]
+      },
+      "profiles": {
+        "raw": [
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "001100",
+              "code": "001100",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "零零幺幺零零",
+              "date": [
+                2027,
+                1,
+                2
+              ],
+              "time": [
+                9,
+                5
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "001100",
+              "code": null,
+              "fields": {
+                "code": "unparsed",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "零零幺幺零郎",
+              "date": [
+                2027,
+                1,
+                2
+              ],
+              "time": [
+                9,
+                5
+              ],
+              "status": "unparsed"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "001100",
+              "code": "001100",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "零零幺幺零零",
+              "date": [
+                2027,
+                1,
+                2
+              ],
+              "time": [
+                9,
+                5
+              ],
+              "status": "match"
+            },
+            "error": null
+          }
+        ],
+        "normalized": [
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "001100",
+              "code": "001100",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "零零一一零零",
+              "date": [
+                2027,
+                1,
+                2
+              ],
+              "time": [
+                9,
+                5
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "001100",
+              "code": "001100",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "零零一一零零",
+              "date": [
+                2027,
+                1,
+                2
+              ],
+              "time": [
+                9,
+                5
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "001100",
+              "code": "001100",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "零零一一零零",
+              "date": [
+                2027,
+                1,
+                2
+              ],
+              "time": [
+                9,
+                5
+              ],
+              "status": "match"
+            },
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "expected": {
+        "code": "100200300",
+        "date": [
+          2028,
+          2,
+          29
+        ],
+        "time": [
+          0,
+          0
+        ]
+      },
+      "profiles": {
+        "raw": [
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "100200300",
+              "code": "10020030",
+              "fields": {
+                "code": "mismatch",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一零零二零零三零",
+              "date": [
+                2028,
+                2,
+                29
+              ],
+              "time": [
+                0,
+                0
+              ],
+              "status": "mismatch"
+            },
+            "error": null
+          },
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "100200300",
+              "code": "10020030",
+              "fields": {
+                "code": "mismatch",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一零零二零零三零",
+              "date": [
+                2028,
+                2,
+                29
+              ],
+              "time": [
+                0,
+                0
+              ],
+              "status": "mismatch"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "100200300",
+              "code": null,
+              "fields": {
+                "code": "unparsed",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一零狼二零零三零",
+              "date": [
+                2028,
+                2,
+                29
+              ],
+              "time": [
+                0,
+                0
+              ],
+              "status": "unparsed"
+            },
+            "error": null
+          }
+        ],
+        "normalized": [
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "100200300",
+              "code": "100200300",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一零零二零零三零零",
+              "date": [
+                2028,
+                2,
+                29
+              ],
+              "time": [
+                0,
+                0
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "100200300",
+              "code": "100200300",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一零零二零零三零零",
+              "date": [
+                2028,
+                2,
+                29
+              ],
+              "time": [
+                0,
+                0
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "100200300",
+              "code": "100200300",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "一零零二零零三零零",
+              "date": [
+                2028,
+                2,
+                29
+              ],
+              "time": [
+                0,
+                0
+              ],
+              "status": "match"
+            },
+            "error": null
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "expected": {
+        "code": "77889900",
+        "date": [
+          2026,
+          12,
+          31
+        ],
+        "time": [
+          23,
+          59
+        ]
+      },
+      "profiles": {
+        "raw": [
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "date": [
+                2026,
+                12,
+                31
+              ],
+              "time": [
+                23,
+                59
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "77889900",
+              "code": "7788990",
+              "fields": {
+                "code": "mismatch",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "七七八八九九零",
+              "date": [
+                2026,
+                12,
+                31
+              ],
+              "time": [
+                23,
+                59
+              ],
+              "status": "mismatch"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "date": [
+                2026,
+                12,
+                31
+              ],
+              "time": [
+                23,
+                59
+              ],
+              "status": "match"
+            },
+            "error": null
+          }
+        ],
+        "normalized": [
+          {
+            "seed": 4409,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "date": [
+                2026,
+                12,
+                31
+              ],
+              "time": [
+                23,
+                59
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 5519,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "date": [
+                2026,
+                12,
+                31
+              ],
+              "time": [
+                23,
+                59
+              ],
+              "status": "match"
+            },
+            "error": null
+          },
+          {
+            "seed": 6619,
+            "check": {
+              "expected_code": "77889900",
+              "code": "77889900",
+              "fields": {
+                "code": "match",
+                "date": "match",
+                "time": "match"
+              },
+              "code_token": "七七八八九九零零",
+              "date": [
+                2026,
+                12,
+                31
+              ],
+              "time": [
+                23,
+                59
+              ],
+              "status": "match"
+            },
+            "error": null
+          }
+        ]
+      }
+    }
+  ],
+  "persistent_normalized_issues": []
+}

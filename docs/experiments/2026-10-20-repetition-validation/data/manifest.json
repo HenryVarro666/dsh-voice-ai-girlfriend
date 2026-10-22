@@ -1,0 +1,151 @@
+{
+  "scope": "isolated model/handler; no PCM cropping; all EOS hooks owned",
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 5624,
+    "free_mib": 10185,
+    "total_mib": 16303
+  },
+  "profiles": {
+    "baseline": {},
+    "repetition_115": {
+      "repetition_penalty": 1.15
+    }
+  },
+  "texts": [
+    "慢慢来，慢慢来，我们一步一步地做。",
+    "好好好，我知道了，你先别着急。",
+    "谢谢，谢谢你一直陪着我。",
+    "看一看，想一想，再试一试。",
+    "一个一个来，不要一个接一个地抢着说。",
+    "我说的是天天见，不是今天见。",
+    "验证码是三三七七零零，请再读一遍三三七七零零。",
+    "明天下午三点十五分见，不是三点五十分。",
+    "一百零一，一百一十，一千零一，请按顺序记录。",
+    "日期是二零二六年十一月十一日。",
+    "金额是十二点五零元，数量是二十二个。",
+    "预约在2026年11月11日15点30分，编号110022。",
+    "时间还早，先坐一会儿吧。",
+    "别着急，我在这里等着你呢。",
+    "刚才说的话，你都记住了吗？",
+    "这件事交给我，你就放心好了。",
+    "你看，桌上还放着一个小盒子。",
+    "今天忙了一天，快去歇着吧。"
+  ],
+  "validation_seeds": [
+    1103,
+    2207,
+    3301
+  ],
+  "cases": [
+    [
+      "repetition",
+      "慢慢来，慢慢来，我们一步一步地做。"
+    ],
+    [
+      "repetition",
+      "好好好，我知道了，你先别着急。"
+    ],
+    [
+      "repetition",
+      "谢谢，谢谢你一直陪着我。"
+    ],
+    [
+      "repetition",
+      "看一看，想一想，再试一试。"
+    ],
+    [
+      "repetition",
+      "一个一个来，不要一个接一个地抢着说。"
+    ],
+    [
+      "repetition",
+      "我说的是天天见，不是今天见。"
+    ],
+    [
+      "numbers",
+      "验证码是三三七七零零，请再读一遍三三七七零零。"
+    ],
+    [
+      "numbers",
+      "明天下午三点十五分见，不是三点五十分。"
+    ],
+    [
+      "numbers",
+      "一百零一，一百一十，一千零一，请按顺序记录。"
+    ],
+    [
+      "numbers",
+      "日期是二零二六年十一月十一日。"
+    ],
+    [
+      "numbers",
+      "金额是十二点五零元，数量是二十二个。"
+    ],
+    [
+      "numbers",
+      "预约在2026年11月11日15点30分，编号110022。"
+    ],
+    [
+      "neutral_ending",
+      "时间还早，先坐一会儿吧。"
+    ],
+    [
+      "neutral_ending",
+      "别着急，我在这里等着你呢。"
+    ],
+    [
+      "neutral_ending",
+      "刚才说的话，你都记住了吗？"
+    ],
+    [
+      "neutral_ending",
+      "这件事交给我，你就放心好了。"
+    ],
+    [
+      "neutral_ending",
+      "你看，桌上还放着一个小盒子。"
+    ],
+    [
+      "neutral_ending",
+      "今天忙了一天，快去歇着吧。"
+    ]
+  ],
+  "holdout_texts": [],
+  "holdout_seeds": [],
+  "hashes": {
+    "bench_repetition_validation.py": "a116985798022b078f1434162637d03811bdc2425fdf92d45cd340869275d3a5",
+    "streaming.py": "39a1420626c49b87f3cda486f5a3f0fb8a82238f9a052114970ada40d1959010",
+    "voice_bridge.py": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576"
+  },
+  "load_ms": 2903.9953039900865,
+  "gpu_loaded": {
+    "utilization_pct": 91,
+    "used_mib": 9333,
+    "free_mib": 6476,
+    "total_mib": 16303
+  },
+  "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+  "handler": {
+    "streaming_chunk_size": 4,
+    "non_streaming_mode": true,
+    "xvec_only": false,
+    "parity_mode": false,
+    "max_new_tokens": 1536
+  },
+  "summary": {
+    "baseline": {
+      "eos": true,
+      "edits": 60,
+      "long_tails": 0,
+      "tail_ms": 18225.875
+    },
+    "repetition_115": {
+      "eos": true,
+      "edits": 60,
+      "long_tails": 0,
+      "tail_ms": 13900.5625
+    }
+  },
+  "completed": true
+}

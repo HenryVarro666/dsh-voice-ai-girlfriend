@@ -1,0 +1,642 @@
+[
+  {
+    "id": "p01-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t0-s16.wav",
+    "sha256": "c8cc2ee9f32d4808d92ae136bcc65a5d634d1f3d8e7ead1bfbea73f7e05cf4e9",
+    "text": "今天就先聊到这里吧。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p01",
+    "source": "endings"
+  },
+  {
+    "id": "p01-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t0-s16.wav",
+    "sha256": "12a3b8383fa717ffe363e66e72ef3884408def8285668613ca626071e7f561c5",
+    "text": "今天就先聊到这里吧。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p01",
+    "source": "endings"
+  },
+  {
+    "id": "p02-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t1-s16.wav",
+    "sha256": "68859016ff854e233fa4c853d95e22be8b744ba6dff50c40099df345e4b1e46f",
+    "text": "别着急，我还在这里陪着你呢。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p02",
+    "source": "endings"
+  },
+  {
+    "id": "p02-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t1-s16.wav",
+    "sha256": "e215550b307fb0483b8ef8f962454cb8e77772ac66469e5e5345f24d6b18f41b",
+    "text": "别着急，我还在这里陪着你呢。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p02",
+    "source": "endings"
+  },
+  {
+    "id": "p03-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t2-s16.wav",
+    "sha256": "c10387e77532d1bf98aed3cc424d514a1d5c582b5a9256695233ef0855c0df9c",
+    "text": "刚才说的那件事，你都记住了吗？",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p03",
+    "source": "endings"
+  },
+  {
+    "id": "p03-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t2-s16.wav",
+    "sha256": "48962d961a0aeaa46521ec1259f77b9536e1f112c8aa627677550b315d819df3",
+    "text": "刚才说的那件事，你都记住了吗？",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p03",
+    "source": "endings"
+  },
+  {
+    "id": "p04-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t3-s16.wav",
+    "sha256": "c032622e1043c8962091dd29b8f793c03f72c36edd46ce9d3a30375e0056fe6d",
+    "text": "放心，这件事我已经处理好了。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p04",
+    "source": "endings"
+  },
+  {
+    "id": "p04-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t3-s16.wav",
+    "sha256": "5c0f2e0220dfbd063d0724e0ec3e9a7c3bffcd4347dc599ed983f0914c94299f",
+    "text": "放心，这件事我已经处理好了。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p04",
+    "source": "endings"
+  },
+  {
+    "id": "p05-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t4-s16.wav",
+    "sha256": "59bcb4b312f5957e3889aaab7df8f1320f84684f173f6edfd00427be908f6c89",
+    "text": "桌上有个小盒子，旁边放着一把椅子。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p05",
+    "source": "endings"
+  },
+  {
+    "id": "p05-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t4-s16.wav",
+    "sha256": "6b301c0213832f7b31d67b17e84258b00ba006adadc2f72ee7501fc86c87c7eb",
+    "text": "桌上有个小盒子，旁边放着一把椅子。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p05",
+    "source": "endings"
+  },
+  {
+    "id": "p06-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t5-s16.wav",
+    "sha256": "f23f07c51c9d725fe53c76a1d5d58f9134ca2d60dca254b95cb3f398327f24d7",
+    "text": "谢谢你一直听我说话，我现在好多了。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p06",
+    "source": "endings"
+  },
+  {
+    "id": "p06-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t5-s16.wav",
+    "sha256": "f91d714699adca55347db79cc63ab977e1a8ea202937eab5a9a3b056cda127b8",
+    "text": "谢谢你一直听我说话，我现在好多了。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p06",
+    "source": "endings"
+  },
+  {
+    "id": "p07-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t1-s4201.wav",
+    "sha256": "af467d3dd5e660f99f0b872abd9c85079276c6fb1a48e113729a6a8171d5901a",
+    "text": "谢谢，谢谢，今天真的麻烦你了。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p07",
+    "source": "layout"
+  },
+  {
+    "id": "p07-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t1-s4201.wav",
+    "sha256": "5a8e9d49832c63f024ff0a3fd0af2e4ad7ef7805ff66e886a91f8e077e44521d",
+    "text": "谢谢，谢谢，今天真的麻烦你了。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p07",
+    "source": "layout"
+  },
+  {
+    "id": "p08-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t5-s4201.wav",
+    "sha256": "1f819e0736e4b84226481cc96bf34944f54b79fc22ce41a4e6f955b730cd8ede",
+    "text": "如果你现在还不确定，我们可以先把问题记下来，等明天检查完结果以后，再一起决定下一步怎么做。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p08",
+    "source": "layout"
+  },
+  {
+    "id": "p08-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t5-s4201.wav",
+    "sha256": "22fedfcf4600e0826322d8e2e53dde93190b3f42f2975d2939b62c266b2d9938",
+    "text": "如果你现在还不确定，我们可以先把问题记下来，等明天检查完结果以后，再一起决定下一步怎么做。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p08",
+    "source": "layout"
+  },
+  {
+    "id": "p09-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t0-s25.wav",
+    "sha256": "66b791a70a4ff54f8503d04293228b05d70437422a1b92bb24b70ad91dcb05d5",
+    "text": "今天就先聊到这里吧。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p09",
+    "source": "endings"
+  },
+  {
+    "id": "p09-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t0-s25.wav",
+    "sha256": "75858001db423d6678cef6bfa0155a02ea76aed5fc1c857418a1fc63ef6c472e",
+    "text": "今天就先聊到这里吧。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p09",
+    "source": "endings"
+  },
+  {
+    "id": "p10-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t1-s25.wav",
+    "sha256": "885f8c5baf5df6202d14dea7a6dcf24b5d7fac5f82c3d3daf405a1d694542f65",
+    "text": "别着急，我还在这里陪着你呢。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p10",
+    "source": "endings"
+  },
+  {
+    "id": "p10-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t1-s25.wav",
+    "sha256": "8d97241150d2bd0578ce9193e583880a14b052a2ec2b3c89a57b302edda93338",
+    "text": "别着急，我还在这里陪着你呢。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p10",
+    "source": "endings"
+  },
+  {
+    "id": "p11-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t2-s25.wav",
+    "sha256": "92bf55b38aa49120298787212e358253f69131205f913183e6b1da3c13c086c5",
+    "text": "刚才说的那件事，你都记住了吗？",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p11",
+    "source": "endings"
+  },
+  {
+    "id": "p11-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t2-s25.wav",
+    "sha256": "c81e29273ae2d48792938d1331c8f85eec99fa4e287cfc00330d73f18a29294e",
+    "text": "刚才说的那件事，你都记住了吗？",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p11",
+    "source": "endings"
+  },
+  {
+    "id": "p12-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t3-s25.wav",
+    "sha256": "291415cfae783e78a5bc77ed5d1743c84d476c5027c48575ef58fe9b3a10c087",
+    "text": "放心，这件事我已经处理好了。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p12",
+    "source": "endings"
+  },
+  {
+    "id": "p12-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t3-s25.wav",
+    "sha256": "015705751e6773e50e06ea15d2ad45d48c3cc9393903664321b7d8ebdd1ab8e5",
+    "text": "放心，这件事我已经处理好了。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p12",
+    "source": "endings"
+  },
+  {
+    "id": "p13-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t4-s25.wav",
+    "sha256": "374b26c68661d9663779fa44a4317ce8a0ec75c60a54ffb195939b74d448a8bb",
+    "text": "桌上有个小盒子，旁边放着一把椅子。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p13",
+    "source": "endings"
+  },
+  {
+    "id": "p13-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t4-s25.wav",
+    "sha256": "83d25c6f4e6b790bcccf2ae3cfbb7c8dfc72661975eb468c2f933f3edc0a43da",
+    "text": "桌上有个小盒子，旁边放着一把椅子。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p13",
+    "source": "endings"
+  },
+  {
+    "id": "p14-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-xvector-t5-s25.wav",
+    "sha256": "d6b2b84079c3fdc328c1bd3c5c2ad45b1948ab36ad8866a26df99433647f0632",
+    "text": "谢谢你一直听我说话，我现在好多了。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p14",
+    "source": "endings"
+  },
+  {
+    "id": "p14-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-xvector-listening/run-1/audio/diagnostic-baseline-t5-s25.wav",
+    "sha256": "9d5267b091ddaf5d679081e37a163c166253463113d1db482b8ad01f3554605c",
+    "text": "谢谢你一直听我说话，我现在好多了。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p14",
+    "source": "endings"
+  },
+  {
+    "id": "p15-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-baseline-t0-s16.wav",
+    "sha256": "2e7675ffd0077565c768d13387ffd964f0c0eb771d8c49b0a8dcfc640efed8d1",
+    "text": "好呀，我们开始吧。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p15",
+    "source": "layout"
+  },
+  {
+    "id": "p15-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-xvector-t0-s16.wav",
+    "sha256": "9de29edb2b841c3a9b88a5e825420d461c9dad080d741dcefd7fe6f1499f9e55",
+    "text": "好呀，我们开始吧。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p15",
+    "source": "layout"
+  },
+  {
+    "id": "p16-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-baseline-t0-s25.wav",
+    "sha256": "0ea6a5c5ff6f9109cc9543bffcf3fc0cdb030d04576720d395d616db1bc57909",
+    "text": "好呀，我们开始吧。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p16",
+    "source": "layout"
+  },
+  {
+    "id": "p16-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-xvector-t0-s25.wav",
+    "sha256": "f96be3fff002ddf6fdc33b87acf2cdabfe3e218602332b95edce4d494b43a9a2",
+    "text": "好呀，我们开始吧。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p16",
+    "source": "layout"
+  },
+  {
+    "id": "p17-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-xvector-t1-s16.wav",
+    "sha256": "c78d07e1443729b952d8f5641438848899979b09ae131af2778d8c9bfb72ab10",
+    "text": "你是想吃火锅还是螺蛳粉呢？",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p17",
+    "source": "layout"
+  },
+  {
+    "id": "p17-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-baseline-t1-s16.wav",
+    "sha256": "d28d0b900e1aae4562e2c313040263127f5e0a07518a1e5b25e6a3e8ae56b56a",
+    "text": "你是想吃火锅还是螺蛳粉呢？",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p17",
+    "source": "layout"
+  },
+  {
+    "id": "p18-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-xvector-t1-s25.wav",
+    "sha256": "5c11725e98eb774b00d367e13f48dbc2ee4954a7b9fc5411ad1e39aa008da26d",
+    "text": "你是想吃火锅还是螺蛳粉呢？",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p18",
+    "source": "layout"
+  },
+  {
+    "id": "p18-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-baseline-t1-s25.wav",
+    "sha256": "1a33318433a759017261e79436a2e4a8716bd8b51986c55db10f1c41ff1f7486",
+    "text": "你是想吃火锅还是螺蛳粉呢？",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p18",
+    "source": "layout"
+  },
+  {
+    "id": "p19-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-xvector-t2-s16.wav",
+    "sha256": "113ccf07383171bec9a718db9ab107774247ba763c95d7437fdca79edc8692a7",
+    "text": "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p19",
+    "source": "layout"
+  },
+  {
+    "id": "p19-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-baseline-t2-s16.wav",
+    "sha256": "aec21a8748c86bab0c4006864a45a80d5d06af64f75c9d148186ca54e226dd2f",
+    "text": "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p19",
+    "source": "layout"
+  },
+  {
+    "id": "p20-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-baseline-t2-s25.wav",
+    "sha256": "b9aa6e52a0f0d9524e27560f6af1414b13353be4e55f922b32a1b19540260187",
+    "text": "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p20",
+    "source": "layout"
+  },
+  {
+    "id": "p20-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-xvector-t2-s25.wav",
+    "sha256": "f6c452e038ab0c6d85c3d426e89fbde249ac1a39bb220f4f29af7e82e2a71d3f",
+    "text": "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p20",
+    "source": "layout"
+  },
+  {
+    "id": "p21-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-xvector-t3-s16.wav",
+    "sha256": "5d3f37185dfaaca9f558af8e9176dd782cf2e054a5f744010dec78c3827fe0e1",
+    "text": "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p21",
+    "source": "layout"
+  },
+  {
+    "id": "p21-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-baseline-t3-s16.wav",
+    "sha256": "1a51d95e21de9f1f602fec296d7a08d25799d31db09f1cc5c98a3c94ba05b01d",
+    "text": "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p21",
+    "source": "layout"
+  },
+  {
+    "id": "p22-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-xvector-t3-s25.wav",
+    "sha256": "c24a729c09fdec0a8a6aaecf626bdfc3bcbe8b396598d95ba9d7bb6b1f79c1aa",
+    "text": "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p22",
+    "source": "layout"
+  },
+  {
+    "id": "p22-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/diagnostic-baseline-t3-s25.wav",
+    "sha256": "97692a20f049acf326e45e79896182067cd0febc66ebd03f5c97dffb4e569f7c",
+    "text": "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p22",
+    "source": "layout"
+  },
+  {
+    "id": "p23-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t0-s4201.wav",
+    "sha256": "acc151bddf1bbd72da5f75d39a4bfd090a6167f026a80fc996ff59abbf6f2efe",
+    "text": "我在这儿，你慢慢说吧。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p23",
+    "source": "layout"
+  },
+  {
+    "id": "p23-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t0-s4201.wav",
+    "sha256": "68607fae7c749dab28e69f5a919d24e6837637f9bd9a1692c7635ffe9b83477a",
+    "text": "我在这儿，你慢慢说吧。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p23",
+    "source": "layout"
+  },
+  {
+    "id": "p24-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t0-s4207.wav",
+    "sha256": "a5108bc88c1c9f19023036145c4efe733f482b8b079a41f4a4639f43bfde530e",
+    "text": "我在这儿，你慢慢说吧。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p24",
+    "source": "layout"
+  },
+  {
+    "id": "p24-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t0-s4207.wav",
+    "sha256": "2f7790e3e476a59a6e45f3a6b9cf310f192018f21dbf60d07124d080df9490f0",
+    "text": "我在这儿，你慢慢说吧。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p24",
+    "source": "layout"
+  },
+  {
+    "id": "p25-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t1-s4207.wav",
+    "sha256": "61f66475d6b2cbd808d5843ec81a633c7b892377a486022fc1547f306d8cd4d4",
+    "text": "谢谢，谢谢，今天真的麻烦你了。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p25",
+    "source": "layout"
+  },
+  {
+    "id": "p25-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t1-s4207.wav",
+    "sha256": "6640533314fd0ee8346ed537f3cc2a3dbdacf9b72dafec01f63e36d9676b7cb2",
+    "text": "谢谢，谢谢，今天真的麻烦你了。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p25",
+    "source": "layout"
+  },
+  {
+    "id": "p26-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t2-s4201.wav",
+    "sha256": "2d9d8db5d766decf4d0f4e59ce61139b31d66641c44c21804caf6b29ffea174e",
+    "text": "提醒时间是明天上午八点零五分。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p26",
+    "source": "layout"
+  },
+  {
+    "id": "p26-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t2-s4201.wav",
+    "sha256": "31ea78145ffd1bd28b38e8fac50347c9bb51fe3861c97f265059954e14ac9289",
+    "text": "提醒时间是明天上午八点零五分。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p26",
+    "source": "layout"
+  },
+  {
+    "id": "p27-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t2-s4207.wav",
+    "sha256": "1663fea70537a6d7a4b9f684db43950317a175d10ff72758618032cbfa576898",
+    "text": "提醒时间是明天上午八点零五分。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p27",
+    "source": "layout"
+  },
+  {
+    "id": "p27-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t2-s4207.wav",
+    "sha256": "7d20bbb5309c8bbc98944059001906268ac86af9abd2a3530ef42a4094b0a201",
+    "text": "提醒时间是明天上午八点零五分。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p27",
+    "source": "layout"
+  },
+  {
+    "id": "p28-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t3-s4201.wav",
+    "sha256": "8957f3041d3f561a59109e685673ccad180f48f153eac3152ac079bf825496fb",
+    "text": "你的意思是先保存，再退出，对吗？",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p28",
+    "source": "layout"
+  },
+  {
+    "id": "p28-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t3-s4201.wav",
+    "sha256": "473112a37ba993a7062fdc6f092e1470574cf204718552ac7325ddcd2f21a39c",
+    "text": "你的意思是先保存，再退出，对吗？",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p28",
+    "source": "layout"
+  },
+  {
+    "id": "p29-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t3-s4207.wav",
+    "sha256": "233e7443f6a0428fc72d7dc8ac4d60b4fb85cc8261594e6110b7f93f509c9ab5",
+    "text": "你的意思是先保存，再退出，对吗？",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p29",
+    "source": "layout"
+  },
+  {
+    "id": "p29-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t3-s4207.wav",
+    "sha256": "d6f346f545f5ebe2906df7eb6007b62881ad6c04b151c9eae8af0acc00333ed7",
+    "text": "你的意思是先保存，再退出，对吗？",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p29",
+    "source": "layout"
+  },
+  {
+    "id": "p30-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t4-s4201.wav",
+    "sha256": "2994e799b9f255c6f2809d0e12eb2298cb8e72ba09e1e15bb10eb9994b6b0619",
+    "text": "桌子上的小盒子，等一会儿再打开吧。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p30",
+    "source": "layout"
+  },
+  {
+    "id": "p30-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t4-s4201.wav",
+    "sha256": "ea1a78fc1b02b43ccfd5c8f4dda355dbdf0dedaefa030d235ca87eb9ffbfb3e9",
+    "text": "桌子上的小盒子，等一会儿再打开吧。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p30",
+    "source": "layout"
+  },
+  {
+    "id": "p31-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t4-s4207.wav",
+    "sha256": "63436a05dcf6594fb021276da93f0f2f83bd927e5971d4321c723079af73305c",
+    "text": "桌子上的小盒子，等一会儿再打开吧。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p31",
+    "source": "layout"
+  },
+  {
+    "id": "p31-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t4-s4207.wav",
+    "sha256": "225c79634ef69017934067ba9d88601c2f1be09dc4a43463d936ae430e484e29",
+    "text": "桌子上的小盒子，等一会儿再打开吧。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p31",
+    "source": "layout"
+  },
+  {
+    "id": "p32-baseline",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-baseline-t5-s4207.wav",
+    "sha256": "591360d5fd0cf30a19908ad8fbb3dcbaeec80a49354fd54ac11a11cdce3f3717",
+    "text": "如果你现在还不确定，我们可以先把问题记下来，等明天检查完结果以后，再一起决定下一步怎么做。",
+    "repeats": 3,
+    "profile": "baseline",
+    "pair_id": "p32",
+    "source": "layout"
+  },
+  {
+    "id": "p32-xvector",
+    "wav": "/home/apex/voice-ai/experiments/20261020-generation-layout/run-2/audio/holdout-xvector-t5-s4207.wav",
+    "sha256": "3f2a730968bb08cd8ba919d23f078d426b548ec91af289c56c59e3fc7535b07d",
+    "text": "如果你现在还不确定，我们可以先把问题记下来，等明天检查完结果以后，再一起决定下一步怎么做。",
+    "repeats": 3,
+    "profile": "xvector",
+    "pair_id": "p32",
+    "source": "layout"
+  }
+]

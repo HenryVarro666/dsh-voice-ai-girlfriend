@@ -1,0 +1,74 @@
+[
+  {
+    "category": "repetition",
+    "text": "慢慢来，慢慢来，我们一步一步地做。"
+  },
+  {
+    "category": "repetition",
+    "text": "好好好，我知道了，你先别着急。"
+  },
+  {
+    "category": "repetition",
+    "text": "谢谢，谢谢你一直陪着我。"
+  },
+  {
+    "category": "repetition",
+    "text": "看一看，想一想，再试一试。"
+  },
+  {
+    "category": "repetition",
+    "text": "一个一个来，不要一个接一个地抢着说。"
+  },
+  {
+    "category": "repetition",
+    "text": "我说的是天天见，不是今天见。"
+  },
+  {
+    "category": "numbers",
+    "text": "验证码是三三七七零零，请再读一遍三三七七零零。"
+  },
+  {
+    "category": "numbers",
+    "text": "明天下午三点十五分见，不是三点五十分。"
+  },
+  {
+    "category": "numbers",
+    "text": "一百零一，一百一十，一千零一，请按顺序记录。"
+  },
+  {
+    "category": "numbers",
+    "text": "日期是二零二六年十一月十一日。"
+  },
+  {
+    "category": "numbers",
+    "text": "金额是十二点五零元，数量是二十二个。"
+  },
+  {
+    "category": "numbers",
+    "text": "预约在2026年11月11日15点30分，编号110022。"
+  },
+  {
+    "category": "neutral_ending",
+    "text": "时间还早，先坐一会儿吧。"
+  },
+  {
+    "category": "neutral_ending",
+    "text": "别着急，我在这里等着你呢。"
+  },
+  {
+    "category": "neutral_ending",
+    "text": "刚才说的话，你都记住了吗？"
+  },
+  {
+    "category": "neutral_ending",
+    "text": "这件事交给我，你就放心好了。"
+  },
+  {
+    "category": "neutral_ending",
+    "text": "你看，桌上还放着一个小盒子。"
+  },
+  {
+    "category": "neutral_ending",
+    "text": "今天忙了一天，快去歇着吧。"
+  }
+]

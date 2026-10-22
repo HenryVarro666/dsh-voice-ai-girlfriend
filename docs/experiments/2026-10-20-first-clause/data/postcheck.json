@@ -1,0 +1,45 @@
+{
+  "health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  },
+  "models": {
+    "models": []
+  },
+  "dsh_unauthenticated_http_status": 401,
+  "plugin_sha256": "4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74",
+  "bridge_sha256": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+  "gpu": "0 %, 5456 MiB, 10353 MiB",
+  "gpu_processes": [
+    {
+      "pid": 128361,
+      "process": "ptyxis",
+      "memory": "137 MiB"
+    },
+    {
+      "pid": 184829,
+      "process": "coolercontrol",
+      "memory": "193 MiB"
+    },
+    {
+      "pid": 108257,
+      "process": "xdg-desktop-portal-gnome",
+      "memory": "6 MiB"
+    },
+    {
+      "pid": 408436,
+      "process": "python",
+      "memory": "470 MiB"
+    },
+    {
+      "pid": 3504737,
+      "process": "python",
+      "memory": "3750 MiB"
+    }
+  ]
+}

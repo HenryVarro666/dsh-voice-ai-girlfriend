@@ -1,0 +1,166 @@
+[
+  {
+    "id": "diagnostic-baseline-t0-s4409",
+    "new_sha256": "65be41bf5a1d992f7f6a3fb6249196e5381e2e0ac6aea273de06ca8b025934c5",
+    "old_sha256": "65be41bf5a1d992f7f6a3fb6249196e5381e2e0ac6aea273de06ca8b025934c5",
+    "byte_identical": true,
+    "original_raw_wav_available": false,
+    "new": {
+      "frames": 42,
+      "first_voiced_ms": 353.18033600924537,
+      "generation_ms": 882.2862829838414,
+      "pcm": {
+        "duration_ms": 2400.0,
+        "leading_ms": 39.0625,
+        "tail_ms": 521.375,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 3360.0,
+        "leading_ms": 1028.375,
+        "tail_ms": 492.0833333333333,
+        "all_quiet": false
+      }
+    },
+    "original": {
+      "frames": 42,
+      "first_voiced_ms": 353.96534198662266,
+      "generation_ms": 883.1749940000009,
+      "pcm": {
+        "duration_ms": 2400.0,
+        "leading_ms": 39.0625,
+        "tail_ms": 521.375,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 3360.0,
+        "leading_ms": 1028.375,
+        "tail_ms": 492.0833333333333,
+        "all_quiet": false
+      }
+    }
+  },
+  {
+    "id": "diagnostic-xvector-t0-s4409",
+    "new_sha256": "98b02a6971f321b7fce177b5d0f2204837a5b0238391aed7d854593b2e39342f",
+    "old_sha256": "65be41bf5a1d992f7f6a3fb6249196e5381e2e0ac6aea273de06ca8b025934c5",
+    "byte_identical": false,
+    "original_raw_wav_available": false,
+    "new": {
+      "frames": 30,
+      "first_voiced_ms": 165.27954800403677,
+      "generation_ms": 582.1951710095163,
+      "pcm": {
+        "duration_ms": 2080.0,
+        "leading_ms": 37.0625,
+        "tail_ms": 13.1875,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 2400.0,
+        "leading_ms": 363.4166666666667,
+        "tail_ms": 6.833333333333334,
+        "all_quiet": false
+      }
+    },
+    "original": {
+      "frames": 42,
+      "first_voiced_ms": 353.96534198662266,
+      "generation_ms": 883.1749940000009,
+      "pcm": {
+        "duration_ms": 2400.0,
+        "leading_ms": 39.0625,
+        "tail_ms": 521.375,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 3360.0,
+        "leading_ms": 1028.375,
+        "tail_ms": 492.0833333333333,
+        "all_quiet": false
+      }
+    }
+  },
+  {
+    "id": "diagnostic-baseline-t1-s4409",
+    "new_sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+    "old_sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+    "byte_identical": true,
+    "original_raw_wav_available": false,
+    "new": {
+      "frames": 197,
+      "first_voiced_ms": 1978.400748979766,
+      "generation_ms": 3825.073590996908,
+      "pcm": {
+        "duration_ms": 8096.0,
+        "leading_ms": 37.5,
+        "tail_ms": 5412.8125,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 15760.0,
+        "leading_ms": 7493.583333333334,
+        "tail_ms": 5396.166666666667,
+        "all_quiet": false
+      }
+    },
+    "original": {
+      "frames": 197,
+      "first_voiced_ms": 1982.2160530020483,
+      "generation_ms": 3830.9963490173686,
+      "pcm": {
+        "duration_ms": 8096.0,
+        "leading_ms": 37.5,
+        "tail_ms": 5412.8125,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 15760.0,
+        "leading_ms": 7493.583333333334,
+        "tail_ms": 5396.166666666667,
+        "all_quiet": false
+      }
+    }
+  },
+  {
+    "id": "diagnostic-xvector-t1-s4409",
+    "new_sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+    "old_sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+    "byte_identical": false,
+    "original_raw_wav_available": false,
+    "new": {
+      "frames": 33,
+      "first_voiced_ms": 91.34141501272097,
+      "generation_ms": 640.2270950202364,
+      "pcm": {
+        "duration_ms": 2400.0,
+        "leading_ms": 23.3125,
+        "tail_ms": 120.6875,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 2640.0,
+        "leading_ms": 273.08333333333337,
+        "tail_ms": 110.91666666666666,
+        "all_quiet": false
+      }
+    },
+    "original": {
+      "frames": 197,
+      "first_voiced_ms": 1982.2160530020483,
+      "generation_ms": 3830.9963490173686,
+      "pcm": {
+        "duration_ms": 8096.0,
+        "leading_ms": 37.5,
+        "tail_ms": 5412.8125,
+        "all_quiet": false
+      },
+      "raw": {
+        "duration_ms": 15760.0,
+        "leading_ms": 7493.583333333334,
+        "tail_ms": 5396.166666666667,
+        "all_quiet": false
+      }
+    }
+  }
+]

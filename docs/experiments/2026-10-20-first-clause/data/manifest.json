@@ -1,0 +1,476 @@
+{
+  "answers": [
+    "先把重要文件备份好，再更新显卡驱动，最后重启电脑检查是否正常。这样出问题时也容易恢复。",
+    "午饭可以先吃一碗面，再搭配鸡蛋和青菜，准备起来比较省时间。吃完以后再安排下午的事情。",
+    "先检查服务日志里的报错，再确认端口和模型路径，最后重试一次请求。每次只改一个地方更容易定位问题。",
+    "先把最紧急的任务做完，再处理需要集中精力的部分，最后留出时间检查结果。中途可以安排一次短休息。"
+  ],
+  "policies": {
+    "current_5": 5,
+    "later_18": 18,
+    "sentence": 100000
+  },
+  "repeats": 3,
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 5456,
+    "free_mib": 10353,
+    "total_mib": 16303
+  },
+  "initial_models": {
+    "models": []
+  },
+  "script_sha256": "317e7fff2d33a10728e53cc4c68aa7f4d2d4b304bd95e587383c93b324488100",
+  "scope": "Recorded copy-task text stream replay; HTTP PCM availability plus ideal playback estimate",
+  "captures": [
+    [
+      {
+        "at_ms": 0.0,
+        "end_char": 2
+      },
+      {
+        "at_ms": 10.223,
+        "end_char": 4
+      },
+      {
+        "at_ms": 19.333,
+        "end_char": 6
+      },
+      {
+        "at_ms": 27.01,
+        "end_char": 8
+      },
+      {
+        "at_ms": 34.701,
+        "end_char": 9
+      },
+      {
+        "at_ms": 42.34,
+        "end_char": 10
+      },
+      {
+        "at_ms": 50.026,
+        "end_char": 11
+      },
+      {
+        "at_ms": 57.652,
+        "end_char": 13
+      },
+      {
+        "at_ms": 65.349,
+        "end_char": 15
+      },
+      {
+        "at_ms": 72.981,
+        "end_char": 17
+      },
+      {
+        "at_ms": 80.691,
+        "end_char": 18
+      },
+      {
+        "at_ms": 88.354,
+        "end_char": 20
+      },
+      {
+        "at_ms": 96.068,
+        "end_char": 22
+      },
+      {
+        "at_ms": 103.7,
+        "end_char": 24
+      },
+      {
+        "at_ms": 111.462,
+        "end_char": 26
+      },
+      {
+        "at_ms": 119.064,
+        "end_char": 30
+      },
+      {
+        "at_ms": 126.811,
+        "end_char": 31
+      },
+      {
+        "at_ms": 134.351,
+        "end_char": 33
+      },
+      {
+        "at_ms": 142.003,
+        "end_char": 34
+      },
+      {
+        "at_ms": 149.616,
+        "end_char": 37
+      },
+      {
+        "at_ms": 157.264,
+        "end_char": 40
+      },
+      {
+        "at_ms": 164.862,
+        "end_char": 42
+      },
+      {
+        "at_ms": 172.484,
+        "end_char": 43
+      }
+    ],
+    [
+      {
+        "at_ms": 0.0,
+        "end_char": 2
+      },
+      {
+        "at_ms": 8.302,
+        "end_char": 5
+      },
+      {
+        "at_ms": 16.779,
+        "end_char": 6
+      },
+      {
+        "at_ms": 24.491,
+        "end_char": 8
+      },
+      {
+        "at_ms": 32.132,
+        "end_char": 9
+      },
+      {
+        "at_ms": 39.838,
+        "end_char": 10
+      },
+      {
+        "at_ms": 47.47,
+        "end_char": 11
+      },
+      {
+        "at_ms": 55.159,
+        "end_char": 13
+      },
+      {
+        "at_ms": 62.796,
+        "end_char": 15
+      },
+      {
+        "at_ms": 70.482,
+        "end_char": 16
+      },
+      {
+        "at_ms": 78.113,
+        "end_char": 18
+      },
+      {
+        "at_ms": 85.799,
+        "end_char": 19
+      },
+      {
+        "at_ms": 93.421,
+        "end_char": 21
+      },
+      {
+        "at_ms": 101.108,
+        "end_char": 23
+      },
+      {
+        "at_ms": 108.763,
+        "end_char": 25
+      },
+      {
+        "at_ms": 116.443,
+        "end_char": 26
+      },
+      {
+        "at_ms": 124.068,
+        "end_char": 28
+      },
+      {
+        "at_ms": 131.786,
+        "end_char": 29
+      },
+      {
+        "at_ms": 142.462,
+        "end_char": 31
+      },
+      {
+        "at_ms": 150.118,
+        "end_char": 34
+      },
+      {
+        "at_ms": 157.799,
+        "end_char": 36
+      },
+      {
+        "at_ms": 165.393,
+        "end_char": 38
+      },
+      {
+        "at_ms": 173.065,
+        "end_char": 41
+      },
+      {
+        "at_ms": 180.681,
+        "end_char": 42
+      }
+    ],
+    [
+      {
+        "at_ms": 0.0,
+        "end_char": 1
+      },
+      {
+        "at_ms": 8.306,
+        "end_char": 3
+      },
+      {
+        "at_ms": 16.945,
+        "end_char": 5
+      },
+      {
+        "at_ms": 24.723,
+        "end_char": 7
+      },
+      {
+        "at_ms": 32.381,
+        "end_char": 9
+      },
+      {
+        "at_ms": 40.191,
+        "end_char": 11
+      },
+      {
+        "at_ms": 47.82,
+        "end_char": 12
+      },
+      {
+        "at_ms": 55.631,
+        "end_char": 13
+      },
+      {
+        "at_ms": 63.185,
+        "end_char": 15
+      },
+      {
+        "at_ms": 70.9,
+        "end_char": 17
+      },
+      {
+        "at_ms": 78.534,
+        "end_char": 18
+      },
+      {
+        "at_ms": 86.266,
+        "end_char": 20
+      },
+      {
+        "at_ms": 93.875,
+        "end_char": 22
+      },
+      {
+        "at_ms": 101.598,
+        "end_char": 23
+      },
+      {
+        "at_ms": 109.211,
+        "end_char": 25
+      },
+      {
+        "at_ms": 116.973,
+        "end_char": 27
+      },
+      {
+        "at_ms": 124.546,
+        "end_char": 29
+      },
+      {
+        "at_ms": 132.221,
+        "end_char": 31
+      },
+      {
+        "at_ms": 139.815,
+        "end_char": 32
+      },
+      {
+        "at_ms": 147.507,
+        "end_char": 34
+      },
+      {
+        "at_ms": 155.115,
+        "end_char": 35
+      },
+      {
+        "at_ms": 162.797,
+        "end_char": 36
+      },
+      {
+        "at_ms": 170.331,
+        "end_char": 38
+      },
+      {
+        "at_ms": 178.002,
+        "end_char": 40
+      },
+      {
+        "at_ms": 185.558,
+        "end_char": 43
+      },
+      {
+        "at_ms": 193.201,
+        "end_char": 45
+      },
+      {
+        "at_ms": 200.74,
+        "end_char": 47
+      },
+      {
+        "at_ms": 208.385,
+        "end_char": 48
+      }
+    ],
+    [
+      {
+        "at_ms": 0.0,
+        "end_char": 2
+      },
+      {
+        "at_ms": 8.281,
+        "end_char": 3
+      },
+      {
+        "at_ms": 16.948,
+        "end_char": 5
+      },
+      {
+        "at_ms": 24.7,
+        "end_char": 8
+      },
+      {
+        "at_ms": 32.365,
+        "end_char": 10
+      },
+      {
+        "at_ms": 40.068,
+        "end_char": 11
+      },
+      {
+        "at_ms": 47.697,
+        "end_char": 12
+      },
+      {
+        "at_ms": 55.459,
+        "end_char": 14
+      },
+      {
+        "at_ms": 63.083,
+        "end_char": 16
+      },
+      {
+        "at_ms": 70.828,
+        "end_char": 18
+      },
+      {
+        "at_ms": 78.445,
+        "end_char": 19
+      },
+      {
+        "at_ms": 86.173,
+        "end_char": 21
+      },
+      {
+        "at_ms": 93.808,
+        "end_char": 23
+      },
+      {
+        "at_ms": 101.495,
+        "end_char": 24
+      },
+      {
+        "at_ms": 109.102,
+        "end_char": 26
+      },
+      {
+        "at_ms": 116.776,
+        "end_char": 28
+      },
+      {
+        "at_ms": 124.395,
+        "end_char": 30
+      },
+      {
+        "at_ms": 132.106,
+        "end_char": 34
+      },
+      {
+        "at_ms": 139.655,
+        "end_char": 35
+      },
+      {
+        "at_ms": 147.318,
+        "end_char": 37
+      },
+      {
+        "at_ms": 154.936,
+        "end_char": 39
+      },
+      {
+        "at_ms": 162.63,
+        "end_char": 41
+      },
+      {
+        "at_ms": 170.302,
+        "end_char": 43
+      },
+      {
+        "at_ms": 177.903,
+        "end_char": 44
+      },
+      {
+        "at_ms": 185.556,
+        "end_char": 46
+      },
+      {
+        "at_ms": 193.192,
+        "end_char": 47
+      }
+    ]
+  ],
+  "resident_models": {
+    "models": [
+      {
+        "name": "qwen3.5-voice:latest",
+        "model": "qwen3.5-voice:latest",
+        "size": 6315069931,
+        "digest": "8a7424b465556f982cd18c05cd8c4f575aecd47e874b8877d6fc47da44b3f67b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "9.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-20T03:30:26.473197963-05:00",
+        "size_vram": 6315069931,
+        "context_length": 32768,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "completed": true,
+  "final_models": {
+    "models": []
+  },
+  "final_health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  }
+}

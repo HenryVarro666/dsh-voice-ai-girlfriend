@@ -1,0 +1,71 @@
+{
+  "scope": "isolated generation/handler; no additional audio cropping",
+  "load_ms": 2713.4237040008884,
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 5456,
+    "free_mib": 10353,
+    "total_mib": 16303
+  },
+  "allowed_gpu_pids": [
+    108257,
+    128361,
+    184829,
+    349106,
+    408436,
+    3504737
+  ],
+  "gpu_loaded": {
+    "utilization_pct": 71,
+    "used_mib": 9085,
+    "free_mib": 6724,
+    "total_mib": 16303
+  },
+  "base": {
+    "streaming_chunk_size": 4,
+    "non_streaming_mode": true,
+    "xvec_only": false
+  },
+  "profiles": {
+    "baseline": {},
+    "xvector": {
+      "xvec_only": true
+    }
+  },
+  "diagnostic": {
+    "texts": [
+      "编号是一一零零二二。",
+      "编号是一零零二零零三零零。"
+    ],
+    "seeds": [
+      4409,
+      5519,
+      6619
+    ]
+  },
+  "holdout": {
+    "texts": [
+      "编号是二二零零一一。",
+      "编号是零零三三零零。",
+      "编号是一零一零二零二零。",
+      "编号是九九零零八八七七。",
+      "编号是零零七七零零。日期是二零二七年三月四日，时间是十点五分。",
+      "编号是三三零零四四。日期是二零二八年二月二十九日，时间是二十三点零分。"
+    ],
+    "seeds": [
+      7703,
+      8803,
+      9901
+    ]
+  },
+  "warmups_per_profile": 2,
+  "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+  "hashes": {
+    "bench_generation_layout.py": "5b1d30a72f6b1f15557cbe8dac578e8beca8911951fd1ebe991f1e885b56c7e7",
+    "streaming.py": "39a1420626c49b87f3cda486f5a3f0fb8a82238f9a052114970ada40d1959010",
+    "model.py": "7d45740b805bb1a4798fbe20ffd580e2a35361e744c4645da106c2b6383d4de2",
+    "qwen3_tts_handler.py": "d90b7d0904023e6e7b484d725c630f46001df691061b7e974a3f2049c710f0e8",
+    "voice_bridge.py": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576"
+  },
+  "completed": true
+}

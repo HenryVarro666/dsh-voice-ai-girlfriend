@@ -1,0 +1,12 @@
+2026-10-20T15:15:47-05:00
+d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576  /home/apex/voice-ai/dsh-voice-ai-girlfriend/bridge/voice_bridge.py
+4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74  /home/apex/voice-ai/dsh-home/profiles/web/node_modules/@beiyege-01/dsh-voice-ai-girlfriend/lib/client.js
+    PID COMMAND
+ 408436 python
+3504737 python
+128361, 137 MiB
+184829, 193 MiB
+108257, 6 MiB
+408436, 470 MiB
+3504737, 3750 MiB
+{"status":"ok","stt":true,"tts":true,"stt_error":null,"tts_error":null,"turn":true,"turn_error":null}{"models":[]}

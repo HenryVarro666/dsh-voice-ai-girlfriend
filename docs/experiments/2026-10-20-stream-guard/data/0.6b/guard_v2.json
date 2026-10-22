@@ -1,0 +1,125 @@
+{
+  "guard_sha256": "42f4eb29056df73c322c280b8d8536e77478b35bdacbee22931d8fd9c1bff6f6",
+  "records": [
+    {
+      "text_index": 0,
+      "seed": 16,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 0,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 0,
+      "seed": 25,
+      "removed_ms": 5055.5,
+      "peak_pending_bytes": 161776,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 5055.5,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 1,
+      "seed": 16,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 11430,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 2,
+      "seed": 0,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 8944,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 2,
+      "seed": 25,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 6414,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 3,
+      "seed": 0,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 9598,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 0,
+      "seed": 0,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 0,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 3,
+      "seed": 25,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 0,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 1,
+      "seed": 0,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 0,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 1,
+      "seed": 25,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 8298,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 3,
+      "seed": 16,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 10046,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "text_index": 2,
+      "seed": 16,
+      "removed_ms": 0.0,
+      "peak_pending_bytes": 9344,
+      "overflows": 0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    }
+  ]
+}

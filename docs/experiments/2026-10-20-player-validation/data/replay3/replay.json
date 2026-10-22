@@ -1,0 +1,2590 @@
+{
+  "scope": "Archived packet clock replay, not browser playback",
+  "threshold": 3,
+  "guard_sha256": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+  "records": [
+    {
+      "source": "main-01",
+      "file": "trial-001.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 2568,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 365.409,
+            "end_ms": 7109.409,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 365.409,
+            "end_ms": 7109.409,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 7149.409,
+            "end_ms": 9893.409,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 7149.409,
+            "end_ms": 9893.409,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.5021780089009553,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-002.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 228.37,
+            "end_ms": 2241.495,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 228.37,
+            "end_ms": 2241.495,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2389.848,
+            "end_ms": 10317.848,
+            "underrun_ms": 108.35300000000007
+          },
+          "after": {
+            "first_voice_ms": 2389.848,
+            "end_ms": 10317.848,
+            "underrun_ms": 108.35300000000007
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 1450,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 10356.473,
+            "end_ms": 12877.848,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 10356.473,
+            "end_ms": 12877.848,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.5713179998565465,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-003.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 1800,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 274.55899999999997,
+            "end_ms": 5866.559,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 274.55899999999997,
+            "end_ms": 5866.559,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 5906.559,
+            "end_ms": 8074.559,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 5906.559,
+            "end_ms": 8074.559,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.3590279957279563,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-004.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 234.643,
+            "end_ms": 2018.643,
+            "underrun_ms": 51.503000000000014
+          },
+          "after": {
+            "first_voice_ms": 234.643,
+            "end_ms": 2018.643,
+            "underrun_ms": 51.503000000000014
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 2980,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2058.643,
+            "end_ms": 6466.643,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 2058.643,
+            "end_ms": 6466.643,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6506.643,
+            "end_ms": 8514.643,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6506.643,
+            "end_ms": 8514.643,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.37375700776465237,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-005.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 411.508,
+            "end_ms": 4915.508,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 411.508,
+            "end_ms": 4915.508,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 4955.508,
+            "end_ms": 6835.508,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 4955.508,
+            "end_ms": 6835.508,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6875.508,
+            "end_ms": 9651.508,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6875.508,
+            "end_ms": 9651.508,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.4090879810974002,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-006.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 364.343,
+            "end_ms": 6532.343,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 364.343,
+            "end_ms": 6532.343,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6572.343,
+            "end_ms": 8708.343,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6572.343,
+            "end_ms": 8708.343,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.3745189751498401,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-007.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 5058,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 332.377,
+            "end_ms": 6916.377,
+            "underrun_ms": 51.41300000000001
+          },
+          "after": {
+            "first_voice_ms": 332.377,
+            "end_ms": 6916.377,
+            "underrun_ms": 51.41300000000001
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6956.377,
+            "end_ms": 9124.377,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6956.377,
+            "end_ms": 9124.377,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.3669770376291126,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-008.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 281.881,
+            "end_ms": 6833.880999999999,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 281.881,
+            "end_ms": 6833.880999999999,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6856.130999999999,
+            "end_ms": 9073.881,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6856.130999999999,
+            "end_ms": 9073.881,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.2814090112224221,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-009.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 3512,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 326.939,
+            "end_ms": 4926.939,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 326.939,
+            "end_ms": 4926.939,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 4931.2515,
+            "end_ms": 7102.939,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 4931.2515,
+            "end_ms": 7102.939,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 7142.939,
+            "end_ms": 9118.939,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 7142.939,
+            "end_ms": 9118.939,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.301838997984305,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-010.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 310.187,
+            "end_ms": 3726.187,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 310.187,
+            "end_ms": 3726.187,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 3766.187,
+            "end_ms": 5678.187,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 3766.187,
+            "end_ms": 5678.187,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 6830,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 5718.187,
+            "end_ms": 8686.187,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 5718.187,
+            "end_ms": 8686.187,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.270828022621572,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-011.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 267.682,
+            "end_ms": 2339.682,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 267.682,
+            "end_ms": 2339.682,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2379.682,
+            "end_ms": 6499.682,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 2379.682,
+            "end_ms": 6499.682,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6539.682,
+            "end_ms": 8803.682,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6539.682,
+            "end_ms": 8803.682,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.28124998789280653,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-012.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 3058,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 268.91200000000003,
+            "end_ms": 7140.912,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 268.91200000000003,
+            "end_ms": 7140.912,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 7144.8495,
+            "end_ms": 9476.912,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 7144.8495,
+            "end_ms": 9476.912,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.3017179842572659,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-013.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 190.437,
+            "end_ms": 2294.437,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 190.437,
+            "end_ms": 2294.437,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 1424,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2334.437,
+            "end_ms": 6518.437,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 2334.437,
+            "end_ms": 6518.437,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 3574,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6558.437,
+            "end_ms": 9782.437,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6558.437,
+            "end_ms": 9782.437,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.31787800253368914,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-014.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 183.109,
+            "end_ms": 2178.676,
+            "underrun_ms": 19.56699999999998
+          },
+          "after": {
+            "first_voice_ms": 183.109,
+            "end_ms": 2178.676,
+            "underrun_ms": 19.56699999999998
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2218.676,
+            "end_ms": 6626.6759999999995,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 2218.676,
+            "end_ms": 6626.6759999999995,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6666.6759999999995,
+            "end_ms": 14050.676,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6666.6759999999995,
+            "end_ms": 14050.676,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.45464799040928483,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-015.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 2690,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 274.43899999999996,
+            "end_ms": 6110.016,
+            "underrun_ms": 19.577000000000055
+          },
+          "after": {
+            "first_voice_ms": 274.43899999999996,
+            "end_ms": 6110.016,
+            "underrun_ms": 19.577000000000055
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6150.016,
+            "end_ms": 8510.016,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6150.016,
+            "end_ms": 8510.016,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.2573489909991622,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-016.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 181.252,
+            "end_ms": 2176.772,
+            "underrun_ms": 19.519999999999982
+          },
+          "after": {
+            "first_voice_ms": 181.252,
+            "end_ms": 2176.772,
+            "underrun_ms": 19.519999999999982
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 11740,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2216.772,
+            "end_ms": 7296.772,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 2216.772,
+            "end_ms": 7296.772,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 7336.772,
+            "end_ms": 9216.772,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 7336.772,
+            "end_ms": 9216.772,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.29953900957480073,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-017.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 328.466,
+            "end_ms": 4768.466,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 328.466,
+            "end_ms": 4768.466,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 4949.4375,
+          "peak_pending_bytes": 158382,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 4808.466,
+            "end_ms": 12672.466,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 4808.466,
+            "end_ms": 7723.0285,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 3854,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 12712.466,
+            "end_ms": 15776.466,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 7763.0285,
+            "end_ms": 10827.0285,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.48946801689453423,
+      "packet_times_available": true,
+      "removed_ms": 4949.4375,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 4949.4375,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-018.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 357.7365,
+            "end_ms": 6404.799,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 357.7365,
+            "end_ms": 6404.799,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 5836,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6426.174,
+            "end_ms": 9700.798999999999,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6426.174,
+            "end_ms": 9700.798999999999,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.29918798827566206,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-019.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 264.986,
+            "end_ms": 2144.986,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 264.986,
+            "end_ms": 2144.986,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2184.986,
+            "end_ms": 6848.986,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 2184.986,
+            "end_ms": 6848.986,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6888.986,
+            "end_ms": 9600.986,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6888.986,
+            "end_ms": 9600.986,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.3143979993183166,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-020.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 1893.934,
+            "end_ms": 6845.934,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 1893.934,
+            "end_ms": 6845.934,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6885.934,
+            "end_ms": 8701.934000000001,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6885.934,
+            "end_ms": 8701.934000000001,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 5050,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 8741.934000000001,
+            "end_ms": 11965.934000000001,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 8741.934000000001,
+            "end_ms": 11965.934000000001,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.3457890124991536,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-021.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 268.60699999999997,
+            "end_ms": 6680.334,
+            "underrun_ms": 19.727000000000032
+          },
+          "after": {
+            "first_voice_ms": 268.60699999999997,
+            "end_ms": 6680.334,
+            "underrun_ms": 19.727000000000032
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 4320,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6720.334,
+            "end_ms": 9240.333999999999,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6720.334,
+            "end_ms": 9240.333999999999,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.2926290035247803,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-022.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 272.015,
+            "end_ms": 2376.015,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 272.015,
+            "end_ms": 2376.015,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2416.015,
+            "end_ms": 6568.014999999999,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 2416.015,
+            "end_ms": 6568.014999999999,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6608.014999999999,
+            "end_ms": 9448.015,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6608.014999999999,
+            "end_ms": 9448.015,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.3027090278919786,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-023.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 226.193,
+            "end_ms": 3770.193,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 226.193,
+            "end_ms": 3770.193,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 5006.125,
+          "peak_pending_bytes": 160196,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 3810.193,
+            "end_ms": 10906.193,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 3810.193,
+            "end_ms": 5900.068,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 10946.193,
+            "end_ms": 13274.193,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 5940.068,
+            "end_ms": 8268.068,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.386056985007599,
+      "packet_times_available": true,
+      "removed_ms": 5006.125,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 5006.125,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-024.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 326.38,
+            "end_ms": 4286.38,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 326.38,
+            "end_ms": 4286.38,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 1078,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 4326.38,
+            "end_ms": 7230.38,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 4326.38,
+            "end_ms": 7230.38,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 7270.38,
+            "end_ms": 9342.380000000001,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 7270.38,
+            "end_ms": 9342.380000000001,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.2943399886135012,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-025.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 360.884,
+            "end_ms": 3904.884,
+            "underrun_ms": 52.83699999999999
+          },
+          "after": {
+            "first_voice_ms": 360.884,
+            "end_ms": 3904.884,
+            "underrun_ms": 52.83699999999999
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 3944.884,
+            "end_ms": 6336.884,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 3944.884,
+            "end_ms": 6336.884,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6376.884,
+            "end_ms": 8448.884,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6376.884,
+            "end_ms": 8448.884,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.2664479543454945,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-026.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 227.789,
+            "end_ms": 3771.7889999999998,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 227.789,
+            "end_ms": 3771.7889999999998,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 3811.7889999999998,
+            "end_ms": 5531.789,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 3811.7889999999998,
+            "end_ms": 5531.789,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 5571.789,
+            "end_ms": 7483.789,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 5571.789,
+            "end_ms": 7483.789,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.2314980374649167,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-027.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 268.154,
+            "end_ms": 6583.8060000000005,
+            "underrun_ms": 19.651999999999987
+          },
+          "after": {
+            "first_voice_ms": 268.154,
+            "end_ms": 6583.8060000000005,
+            "underrun_ms": 19.651999999999987
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 2444,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6623.8060000000005,
+            "end_ms": 9335.806,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6623.8060000000005,
+            "end_ms": 9335.806,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.26806897949427366,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-028.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 264.389,
+            "end_ms": 1824.3890000000001,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 264.389,
+            "end_ms": 1824.3890000000001,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 1776,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 1864.3890000000001,
+            "end_ms": 5632.389,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 1864.3890000000001,
+            "end_ms": 5632.389,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 9660,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 5672.389,
+            "end_ms": 8384.389,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 5672.389,
+            "end_ms": 8384.389,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.25363898021169007,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-029.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 305.177,
+            "end_ms": 3529.177,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 305.177,
+            "end_ms": 3529.177,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 4498,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 3569.177,
+            "end_ms": 6697.177,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 3569.177,
+            "end_ms": 6697.177,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6737.177,
+            "end_ms": 9033.177,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6737.177,
+            "end_ms": 9033.177,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.2654890122357756,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-030.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 265.788,
+            "end_ms": 1953.788,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 265.788,
+            "end_ms": 1953.788,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 1958.9755,
+            "end_ms": 5729.7880000000005,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 1958.9755,
+            "end_ms": 5729.7880000000005,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 5765.6630000000005,
+            "end_ms": 8289.788,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 5765.6630000000005,
+            "end_ms": 8289.788,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.24650897830724716,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-031.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 326.328,
+            "end_ms": 4862.3279999999995,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 326.328,
+            "end_ms": 4862.3279999999995,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 4902.3279999999995,
+            "end_ms": 7070.3279999999995,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 4902.3279999999995,
+            "end_ms": 7070.3279999999995,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 7110.3279999999995,
+            "end_ms": 9182.328,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 7110.3279999999995,
+            "end_ms": 9182.328,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.26291701942682266,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-032.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 265.209,
+            "end_ms": 2145.209,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 265.209,
+            "end_ms": 2145.209,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 3452,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2185.209,
+            "end_ms": 5729.209,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 2185.209,
+            "end_ms": 5729.209,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 5769.209,
+            "end_ms": 7937.209,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 5769.209,
+            "end_ms": 7937.209,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.23901797248981893,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-033.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 188.211,
+            "end_ms": 2516.2110000000002,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 188.211,
+            "end_ms": 2516.2110000000002,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 2556.2110000000002,
+            "end_ms": 6964.211,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 2556.2110000000002,
+            "end_ms": 6964.211,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 7004.211,
+            "end_ms": 9588.211,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 7004.211,
+            "end_ms": 9588.211,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.2768870326690376,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-034.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 1966,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 221.551,
+            "end_ms": 4085.551,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 221.551,
+            "end_ms": 4085.551,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 1490,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 4125.5509999999995,
+            "end_ms": 7157.5509999999995,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 4125.5509999999995,
+            "end_ms": 7157.5509999999995,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 4204.1875,
+          "peak_pending_bytes": 134534,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 7197.5509999999995,
+            "end_ms": 14965.551,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 7197.5509999999995,
+            "end_ms": 10761.3635,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.4183990240562707,
+      "packet_times_available": true,
+      "removed_ms": 4204.1875,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 4204.1875,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-035.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 281.296,
+            "end_ms": 6641.296,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 281.296,
+            "end_ms": 6641.296,
+            "underrun_ms": 0.0
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 6042,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 6681.296,
+            "end_ms": 9937.296,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 6681.296,
+            "end_ms": 9937.296,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.27199898613616824,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "trial-036.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 273.624,
+            "end_ms": 5693.364,
+            "underrun_ms": 19.739999999999952
+          },
+          "after": {
+            "first_voice_ms": 273.624,
+            "end_ms": 5693.364,
+            "underrun_ms": 19.739999999999952
+          }
+        },
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 11338,
+          "overflows": 0,
+          "offline_bytes_match": true,
+          "before": {
+            "first_voice_ms": 5733.364,
+            "end_ms": 8573.364,
+            "underrun_ms": 0.0
+          },
+          "after": {
+            "first_voice_ms": 5733.364,
+            "end_ms": 8573.364,
+            "underrun_ms": 0.0
+          }
+        }
+      ],
+      "processing_ms": 0.23085903376340866,
+      "packet_times_available": true,
+      "removed_ms": 0.0,
+      "first_voice_delay_ms": 0.0,
+      "playback_saved_ms": 0.0,
+      "added_underrun_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-000.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.024729990400373936,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-001.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 10198,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.02619001315906644,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-002.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01707000774331391,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-003.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 11652,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.026080000679939985,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-004.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.02042000414803624,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-005.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01745900954119861,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-006.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.018420018022879958,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-007.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.018610007828101516,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-008.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.016579986549913883,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-009.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01789900125004351,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-010.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01601999974809587,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-011.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.018129998352378607,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-012.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.017529993783682585,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-013.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.016628997400403023,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-014.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.016579986549913883,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-015.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.0161500065587461,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-016.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.016479985788464546,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-017.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01934898318722844,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-018.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01689000055193901,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-019.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01908000558614731,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-020.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.016709993360564113,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-021.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.018219987396150827,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-022.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.015069992514327168,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-023.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.017069978639483452,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-024.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01680999412201345,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-025.wav",
+      "segments": [
+        {
+          "removed_ms": 4926.4375,
+          "peak_pending_bytes": 157646,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.06545998621731997,
+      "packet_times_available": false,
+      "removed_ms": 4926.4375
+    },
+    {
+      "source": "main-01",
+      "file": "main-026.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01781000173650682,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-027.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.017618993297219276,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-028.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.015479978173971176,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-029.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01794000854715705,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-030.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.01558999065309763,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-031.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.016620004316791892,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-032.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.016110017895698547,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-033.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.015389989130198956,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-034.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 16918,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.021810003090649843,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-035.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.018269987776875496,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-036.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 9476,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.020450010197237134,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-037.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.018360005924478173,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-038.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.018139980966225266,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "main-039.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.016928999684751034,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    },
+    {
+      "source": "main-01",
+      "file": "replay-016.wav",
+      "segments": [
+        {
+          "removed_ms": 0.0,
+          "peak_pending_bytes": 0,
+          "overflows": 0,
+          "offline_bytes_match": true
+        }
+      ],
+      "processing_ms": 0.015550001990050077,
+      "packet_times_available": false,
+      "removed_ms": 0.0
+    }
+  ]
+}

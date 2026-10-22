@@ -1,0 +1,25 @@
+{
+  "checked_at_utc": "2026-10-20T20:27:45.655041+00:00",
+  "python": "3.12.14 (main, Aug 14 2026, 15:34:45) [Clang 22.1.3 ]",
+  "packages": {
+    "speech-to-speech": "0.2.10",
+    "faster-qwen3-tts": "0.5.4",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "numpy": "2.5.4"
+  },
+  "tts": {
+    "model_name": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "device": "cuda",
+    "dtype": "auto",
+    "attn_implementation": "sdpa",
+    "language": "zh",
+    "streaming_chunk_size": 4
+  },
+  "tools_sha256": {
+    "bench_tts_contention.py": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d",
+    "bench_generation_layout.py": "4f08af45488bca904b97c0b20228d3e9f4c7d109e4b1ae82901d7ff3ffa5fac0",
+    "bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789",
+    "generation_end_metrics.py": "7980902a862de6f3cf9161cdf8f063374ff8ca76f1d0c21a4674ae29d76b77d6"
+  }
+}

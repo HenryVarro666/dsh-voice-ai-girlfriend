@@ -1,0 +1,37 @@
+{
+  "before": "7466, 8343\n",
+  "load_request_ms": 1452.4230980023276,
+  "response": {
+    "model": "qwen3.5-voice",
+    "created_at": "2026-10-20T22:23:42.731003001Z",
+    "response": "",
+    "done": true,
+    "done_reason": "load"
+  },
+  "loaded": {
+    "models": [
+      {
+        "name": "qwen3.5-voice:latest",
+        "model": "qwen3.5-voice:latest",
+        "size": 6315069931,
+        "digest": "8a7424b465556f982cd18c05cd8c4f575aecd47e874b8877d6fc47da44b3f67b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "9.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-20T17:38:42.731086781-05:00",
+        "size_vram": 6315069931,
+        "context_length": 32768,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "gpu": "1130, 14679\n",
+  "runners": "488516 bash -c ~/voice-ai/venv-bridge/bin/python - <<'PY' import json,urllib.request,subprocess,time from pathlib import Path base='http://127.0.0.1:11434' def call(path,data=None):  req=urllib.request.Request(base+path,data=None if data is None else json.dumps(data).encode(),headers={'Content-Type':'application/json'})  return json.load(urllib.request.urlopen(req,timeout=180)) assert call('/api/ps')['models']==[] before=subprocess.check_output(['nvidia-smi','--query-gpu=memory.free,memory.used','--format=csv,noheader,nounits'],text=True) t=time.perf_counter() response=call('/api/generate',{'model':'qwen3.5-voice','prompt':'','keep_alive':'15m','options':{'num_ctx':32768}}) loaded=call('/api/ps') out={'before':before,'load_request_ms':(time.perf_counter()-t)*1000,'response':response,'loaded':loaded,'gpu':subprocess.check_output(['nvidia-smi','--query-gpu=memory.free,memory.used','--format=csv,noheader,nounits'],text=True),'runners':subprocess.check_output(['pgrep','-a','-f','ollama runner'],text=True)} p=Path.home()/'voice-ai/experiments/20261020-xvector-integration/e2e-run-1/llm-load.json' p.write_text(json.dumps(out,ensure_ascii=False,indent=2)) print(json.dumps(out,ensure_ascii=False)) PY\n"
+}

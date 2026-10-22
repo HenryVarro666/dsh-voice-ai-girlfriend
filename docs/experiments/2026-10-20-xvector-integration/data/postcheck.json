@@ -1,0 +1,25 @@
+{
+  "verified_date": "2026-10-20",
+  "hashes": {
+    "bridge": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+    "plugin": "4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74",
+    "config": "68dcd0a74297ad2179e42494a80ad125496db3b0aad15a2c3458f46bd4835f70"
+  },
+  "health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  },
+  "ollama": {
+    "models": []
+  },
+  "gpu": "5456, 10353, 0\n",
+  "processes": "128361, /usr/bin/ptyxis, 137\n184829, /usr/bin/coolercontrol, 193\n108257, /usr/libexec/xdg-desktop-portal-gnome, 6\n408436, /home/apex/.local/share/local-ai/comfyui-env/bin/python, 470\n3504737, /home/apex/voice-ai/venv-bridge/bin/python, 3750\n",
+  "original_services": " 408436 python\n3504737 python\n",
+  "sizes": "940M\t/home/apex/voice-ai/experiments/20261020-xvector-integration\n",
+  "test_listeners": "State Recv-Q Send-Q Local Address:Port Peer Address:PortProcess\n"
+}

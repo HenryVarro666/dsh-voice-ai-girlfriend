@@ -1,0 +1,93 @@
+[
+  {
+    "trial_id": 1,
+    "condition": "unloaded",
+    "text_index": 0,
+    "expected": "好呀，我们开始吧。",
+    "transcript": "好呀我们开始吧"
+  },
+  {
+    "trial_id": 2,
+    "condition": "unloaded",
+    "text_index": 1,
+    "expected": "你是想吃火锅还是螺蛳粉呢？",
+    "transcript": "你是想吃火锅还是螺蛳粉呢"
+  },
+  {
+    "trial_id": 3,
+    "condition": "unloaded",
+    "text_index": 2,
+    "expected": "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "transcript": "这个问题我想了一下我们可以先从最简单的方法开始"
+  },
+  {
+    "trial_id": 4,
+    "condition": "unloaded",
+    "text_index": 3,
+    "expected": "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。",
+    "transcript": "不过我知道大概的原理是因为阳光穿过大气层时蓝光最容易被空气中的小颗粒散射开来"
+  },
+  {
+    "trial_id": 9,
+    "condition": "resident",
+    "text_index": 0,
+    "expected": "好呀，我们开始吧。",
+    "transcript": "好呀我们开始吧"
+  },
+  {
+    "trial_id": 11,
+    "condition": "resident",
+    "text_index": 3,
+    "expected": "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。",
+    "transcript": "不过我知道大概的原理是因为阳光穿过大气层时蓝光最容易被空气中的小颗粒散射开来"
+  },
+  {
+    "trial_id": 13,
+    "condition": "resident",
+    "text_index": 2,
+    "expected": "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "transcript": "这个问题我想了一下我们可以先从最简单的方法开始"
+  },
+  {
+    "trial_id": 14,
+    "condition": "decode",
+    "text_index": 3,
+    "expected": "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。",
+    "transcript": "不过我知道大概的原理是因为阳光穿过大气层时蓝光最容易被空气中的小颗粒散射开来"
+  },
+  {
+    "trial_id": 16,
+    "condition": "decode",
+    "text_index": 1,
+    "expected": "你是想吃火锅还是螺蛳粉呢？",
+    "transcript": "你是想吃火锅还是螺蛳粉呢"
+  },
+  {
+    "trial_id": 20,
+    "condition": "resident",
+    "text_index": 1,
+    "expected": "你是想吃火锅还是螺蛳粉呢？",
+    "transcript": "你是想吃火锅还是螺蛳粉呢"
+  },
+  {
+    "trial_id": 21,
+    "condition": "decode",
+    "text_index": 0,
+    "expected": "好呀，我们开始吧。",
+    "transcript": "好呀我们开始吧"
+  },
+  {
+    "trial_id": 23,
+    "condition": "decode",
+    "text_index": 2,
+    "expected": "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "transcript": "这个问题我想了一下我们可以先从最简单的方法开始"
+  },
+  {
+    "trial_id": 38,
+    "condition": "resident",
+    "text_index": 0,
+    "expected": "好呀，我们开始吧。",
+    "transcript": "好呀我们开始吧"
+  }
+]

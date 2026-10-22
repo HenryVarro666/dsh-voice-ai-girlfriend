@@ -1,0 +1,24 @@
+# Merge into your DSH profile's cordis.patch.yml; use an actual ollama model ID.
+- id: llm-pi-ai
+  config:
+    providers:
+      ollama-local:
+        displayName: Local Ollama
+        api: openai-completions
+        baseURL: http://127.0.0.1:11434/v1
+        apiKeyEnv: OLLAMA_API_KEY
+        reasoning: 'off'
+        compat:
+          supportsDeveloperRole: false
+          supportsStore: false
+          supportsReasoningEffort: true
+        models:
+          - id: qwen3.5:9b
+            name: Local Qwen3.5 9B
+            contextWindow: 32768
+            reasoningEfforts:
+              'off': none
+- id: agent-default-model
+  config:
+    provider: ollama-local
+    model: qwen3.5:9b

@@ -1,0 +1,66 @@
+{
+  "scope": "isolated generation/handler; no additional audio cropping",
+  "load_ms": 2869.1767389827874,
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 5456,
+    "free_mib": 10353,
+    "total_mib": 16303
+  },
+  "allowed_gpu_pids": [
+    108257,
+    128361,
+    184829,
+    408436,
+    3504737,
+    4066721
+  ],
+  "gpu_loaded": {
+    "utilization_pct": 92,
+    "used_mib": 9167,
+    "free_mib": 6642,
+    "total_mib": 16303
+  },
+  "base": {
+    "streaming_chunk_size": 4,
+    "non_streaming_mode": true,
+    "xvec_only": false
+  },
+  "profiles": {
+    "baseline": {},
+    "xvector": {
+      "xvec_only": true
+    }
+  },
+  "diagnostic": {
+    "texts": [
+      "今天就先聊到这里吧。",
+      "别着急，我还在这里陪着你呢。",
+      "刚才说的那件事，你都记住了吗？",
+      "放心，这件事我已经处理好了。",
+      "桌上有个小盒子，旁边放着一把椅子。",
+      "谢谢你一直听我说话，我现在好多了。"
+    ],
+    "seeds": [
+      16,
+      25
+    ]
+  },
+  "holdout": {
+    "texts": [],
+    "seeds": [
+      4201,
+      4207
+    ]
+  },
+  "warmups_per_profile": 2,
+  "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+  "hashes": {
+    "bench_generation_layout.py": "ecbdc3837d7fea8f146577ed00405571f79f6f22e83473d53171f5e966b3017b",
+    "streaming.py": "39a1420626c49b87f3cda486f5a3f0fb8a82238f9a052114970ada40d1959010",
+    "model.py": "7d45740b805bb1a4798fbe20ffd580e2a35361e744c4645da106c2b6383d4de2",
+    "qwen3_tts_handler.py": "d90b7d0904023e6e7b484d725c630f46001df691061b7e974a3f2049c710f0e8",
+    "voice_bridge.py": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576"
+  },
+  "completed": true
+}

@@ -1,0 +1,11 @@
+# Lightweight CPU verification and documentation figures, independent of CUDA.
+numpy>=2.0
+scipy>=1.13
+soundfile>=0.12
+ruff>=0.9
+fastapi>=0.115
+httpx>=0.28
+uvicorn>=0.30
+websockets>=14
+# Only needed to regenerate documentation figures:
+matplotlib>=3.9

@@ -1,0 +1,144 @@
+{
+  "started_utc": "2026-10-20T07:54:44Z",
+  "script_sha256": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d",
+  "production_bundle_sha256": "4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74",
+  "initial_models": {
+    "models": []
+  },
+  "initial_gpu": {
+    "utilization_pct": 0,
+    "used_mib": 6238,
+    "free_mib": 9571,
+    "total_mib": 16303
+  },
+  "initial_health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  },
+  "model": "qwen3.5-voice:latest",
+  "texts": [
+    "好呀，我们开始吧。",
+    "你是想吃火锅还是螺蛳粉呢？",
+    "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。"
+  ],
+  "repeats": 5,
+  "scope": "HTTP first voiced PCM received; excludes ASR, DSH and browser playback",
+  "warmups": [
+    {
+      "phase": "unloaded-before",
+      "headers_ms": 0.88,
+      "first_byte_ms": 188.54,
+      "first_voiced_received_ms": 188.54,
+      "total_ms": 513.42,
+      "audio_s": 1.536,
+      "leading_silence_ms": 0.56,
+      "peak_pcm": 15204,
+      "content_type": "audio/L16;rate=16000;channels=1"
+    },
+    {
+      "phase": "unloaded-before",
+      "headers_ms": 1.39,
+      "first_byte_ms": 99.75,
+      "first_voiced_received_ms": 99.75,
+      "total_ms": 438.89,
+      "audio_s": 1.536,
+      "leading_silence_ms": 40.0,
+      "peak_pcm": 16727,
+      "content_type": "audio/L16;rate=16000;channels=1"
+    },
+    {
+      "phase": "resident",
+      "headers_ms": 0.76,
+      "first_byte_ms": 185.44,
+      "first_voiced_received_ms": 185.44,
+      "total_ms": 527.24,
+      "audio_s": 1.6,
+      "leading_silence_ms": 40.0,
+      "peak_pcm": 20399,
+      "content_type": "audio/L16;rate=16000;channels=1"
+    },
+    {
+      "phase": "resident",
+      "headers_ms": 0.95,
+      "first_byte_ms": 99.56,
+      "first_voiced_received_ms": 99.56,
+      "total_ms": 472.86,
+      "audio_s": 1.536,
+      "leading_silence_ms": 40.0,
+      "peak_pcm": 18880,
+      "content_type": "audio/L16;rate=16000;channels=1"
+    },
+    {
+      "phase": "unloaded-after",
+      "headers_ms": 1.43,
+      "first_byte_ms": 272.92,
+      "first_voiced_received_ms": 272.92,
+      "total_ms": 666.49,
+      "audio_s": 1.728,
+      "leading_silence_ms": 40.0,
+      "peak_pcm": 20019,
+      "content_type": "audio/L16;rate=16000;channels=1"
+    },
+    {
+      "phase": "unloaded-after",
+      "headers_ms": 0.85,
+      "first_byte_ms": 185.19,
+      "first_voiced_received_ms": 185.19,
+      "total_ms": 591.69,
+      "audio_s": 1.536,
+      "leading_silence_ms": 40.0,
+      "peak_pcm": 17057,
+      "content_type": "audio/L16;rate=16000;channels=1"
+    }
+  ],
+  "resident_models": {
+    "models": [
+      {
+        "name": "qwen3.5-voice:latest",
+        "model": "qwen3.5-voice:latest",
+        "size": 6315069931,
+        "digest": "8a7424b465556f982cd18c05cd8c4f575aecd47e874b8877d6fc47da44b3f67b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "9.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-20T03:04:57.757258115-05:00",
+        "size_vram": 6315069931,
+        "context_length": 32768,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "completed": true,
+  "final_models": {
+    "models": []
+  },
+  "final_health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  },
+  "final_gpu": {
+    "utilization_pct": 0,
+    "used_mib": 6238,
+    "free_mib": 9571,
+    "total_mib": 16303
+  },
+  "final_bundle_sha256": "4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74"
+}

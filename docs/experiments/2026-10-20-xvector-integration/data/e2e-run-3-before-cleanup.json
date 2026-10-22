@@ -1,0 +1,38 @@
+{
+  "verified_date": "2026-10-20",
+  "health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  },
+  "ollama": {
+    "models": [
+      {
+        "name": "qwen3.5-voice:latest",
+        "model": "qwen3.5-voice:latest",
+        "size": 6315069931,
+        "digest": "8a7424b465556f982cd18c05cd8c4f575aecd47e874b8877d6fc47da44b3f67b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "9.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-20T17:49:39.87781806-05:00",
+        "size_vram": 6315069931,
+        "context_length": 32768,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "gpu": "14693, 1116, 0\n",
+  "pending": 0
+}

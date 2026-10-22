@@ -1,0 +1,91 @@
+{
+  "scope": "isolated model/handler; no PCM cropping; all EOS hooks owned",
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 6406,
+    "free_mib": 9403,
+    "total_mib": 16303
+  },
+  "profiles": {
+    "baseline": {},
+    "temperature_05": {
+      "temperature": 0.5
+    },
+    "repetition_115": {
+      "repetition_penalty": 1.15
+    },
+    "eos_bias_1": {
+      "eos_bias": 1.0
+    }
+  },
+  "texts": [
+    "好呀，我们开始吧。",
+    "你是想吃火锅还是螺蛳粉呢？",
+    "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。"
+  ],
+  "diagnostic_seeds": [
+    0,
+    16,
+    25
+  ],
+  "holdout_texts": [
+    "今天先休息吧，明天再继续。",
+    "你说的是星期四上午九点吗？",
+    "我想确认一下，最后一个字是轻声的呢。",
+    "请先保存文件，等检查完成以后，再关闭窗口。"
+  ],
+  "holdout_seeds": [
+    606,
+    707,
+    808
+  ],
+  "hashes": {
+    "bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789",
+    "streaming.py": "39a1420626c49b87f3cda486f5a3f0fb8a82238f9a052114970ada40d1959010",
+    "voice_bridge.py": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576"
+  },
+  "load_ms": 2703.6567379836924,
+  "gpu_loaded": {
+    "utilization_pct": 62,
+    "used_mib": 10033,
+    "free_mib": 5776,
+    "total_mib": 16303
+  },
+  "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+  "handler": {
+    "streaming_chunk_size": 4,
+    "non_streaming_mode": true,
+    "xvec_only": false,
+    "parity_mode": false,
+    "max_new_tokens": 1536
+  },
+  "diagnostic_summary": {
+    "baseline": {
+      "eos": true,
+      "edits": 0,
+      "long_tails": 1,
+      "tail_ms": 10271.375
+    },
+    "temperature_05": {
+      "eos": false,
+      "edits": 1,
+      "long_tails": 3,
+      "tail_ms": 18169.6875
+    },
+    "repetition_115": {
+      "eos": true,
+      "edits": 0,
+      "long_tails": 0,
+      "tail_ms": 3897.625
+    },
+    "eos_bias_1": {
+      "eos": true,
+      "edits": 0,
+      "long_tails": 0,
+      "tail_ms": 5471.375
+    }
+  },
+  "chosen": "repetition_115",
+  "completed": true
+}

@@ -1,0 +1,36 @@
+{
+  "load_request_ms": 1451.425423991168,
+  "response": {
+    "model": "qwen3.5-voice",
+    "created_at": "2026-10-20T22:29:23.560338221Z",
+    "response": "",
+    "done": true,
+    "done_reason": "load"
+  },
+  "loaded": {
+    "models": [
+      {
+        "name": "qwen3.5-voice:latest",
+        "model": "qwen3.5-voice:latest",
+        "size": 6315069931,
+        "digest": "8a7424b465556f982cd18c05cd8c4f575aecd47e874b8877d6fc47da44b3f67b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "9.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-20T17:44:23.56042848-05:00",
+        "size_vram": 6315069931,
+        "context_length": 32768,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "gpu": "1130, 14679, 52\n",
+  "compute": "128361, /usr/bin/ptyxis, 137\n184829, /usr/bin/coolercontrol, 193\n108257, /usr/libexec/xdg-desktop-portal-gnome, 6\n408436, /home/apex/.local/share/local-ai/comfyui-env/bin/python, 470\n3504737, /home/apex/voice-ai/venv-bridge/bin/python, 3750\n517802, /home/apex/voice-ai/venv-bridge/bin/python, 2882\n521529, /usr/local/lib/ollama/llama-server, 6330\n"
+}

@@ -1,0 +1,163 @@
+[
+  {
+    "id": "diagnostic-baseline-t0-s4409",
+    "wav_sha256": "65be41bf5a1d992f7f6a3fb6249196e5381e2e0ac6aea273de06ca8b025934c5",
+    "expected": "110022",
+    "funasr_codes": [
+      "10022"
+    ],
+    "funasr_status": [
+      "mismatch"
+    ],
+    "whisper_codes": [
+      "110022",
+      "110022"
+    ],
+    "whisper_strict": [
+      "match",
+      "match"
+    ],
+    "whisper_label_canonicalized": [
+      "match",
+      "match"
+    ]
+  },
+  {
+    "id": "diagnostic-xvector-t0-s4409",
+    "wav_sha256": "98b02a6971f321b7fce177b5d0f2204837a5b0238391aed7d854593b2e39342f",
+    "expected": "110022",
+    "funasr_codes": [
+      "110022"
+    ],
+    "funasr_status": [
+      "match"
+    ],
+    "whisper_codes": [
+      "110022",
+      "110022"
+    ],
+    "whisper_strict": [
+      "match",
+      "match"
+    ],
+    "whisper_label_canonicalized": [
+      "match",
+      "match"
+    ]
+  },
+  {
+    "id": "diagnostic-baseline-t0-s6619",
+    "wav_sha256": "87632666c86662790b206d05b43dfe85e88026fff3378591f53869f167e26be6",
+    "expected": "110022",
+    "funasr_codes": [
+      "110022"
+    ],
+    "funasr_status": [
+      "match"
+    ],
+    "whisper_codes": [
+      "11002",
+      "11002"
+    ],
+    "whisper_strict": [
+      "unparsed",
+      "mismatch"
+    ],
+    "whisper_label_canonicalized": [
+      "mismatch",
+      "mismatch"
+    ]
+  },
+  {
+    "id": "diagnostic-xvector-t0-s6619",
+    "wav_sha256": "dd82df1a757a77580f797212b6b80612050bd4f0bba5e5cddb1c4c0c6126fc60",
+    "expected": "110022",
+    "funasr_codes": [
+      "10022"
+    ],
+    "funasr_status": [
+      "mismatch"
+    ],
+    "whisper_codes": [
+      "10022",
+      "10022"
+    ],
+    "whisper_strict": [
+      "unparsed",
+      "unparsed"
+    ],
+    "whisper_label_canonicalized": [
+      "mismatch",
+      "mismatch"
+    ]
+  },
+  {
+    "id": "holdout-baseline-t2-s7703",
+    "wav_sha256": "aae6856009db85385e8f8173e566cff1a29d15c2b3d3b99258ccf01b5952900b",
+    "expected": "10102020",
+    "funasr_codes": [
+      "10102020"
+    ],
+    "funasr_status": [
+      "match"
+    ],
+    "whisper_codes": [
+      "10102020",
+      "10102020"
+    ],
+    "whisper_strict": [
+      "match",
+      "match"
+    ],
+    "whisper_label_canonicalized": [
+      "match",
+      "match"
+    ]
+  },
+  {
+    "id": "holdout-xvector-t2-s7703",
+    "wav_sha256": "122efb868e1713963e71d1526704c97d0bb53e5c7c04a7b75fb5890115e53380",
+    "expected": "10102020",
+    "funasr_codes": [
+      "None"
+    ],
+    "funasr_status": [
+      "unparsed"
+    ],
+    "whisper_codes": [
+      "10102020",
+      "10102020"
+    ],
+    "whisper_strict": [
+      "unparsed",
+      "unparsed"
+    ],
+    "whisper_label_canonicalized": [
+      "match",
+      "match"
+    ]
+  },
+  {
+    "id": "original_input_control",
+    "wav_sha256": "72a27d58d0f8e99aa8341d179a7ada5949d3521877d0b1783ae9c2c25b046eea",
+    "expected": "110022",
+    "funasr_codes": [
+      "110022"
+    ],
+    "funasr_status": [
+      "match"
+    ],
+    "whisper_codes": [
+      "110022",
+      "110022"
+    ],
+    "whisper_strict": [
+      "match",
+      "match"
+    ],
+    "whisper_label_canonicalized": [
+      "match",
+      "match"
+    ]
+  }
+]

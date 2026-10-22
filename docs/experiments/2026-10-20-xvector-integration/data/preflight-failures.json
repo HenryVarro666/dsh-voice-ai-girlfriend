@@ -1,0 +1,202 @@
+[
+  {
+    "phase": "e2e-run-1",
+    "rows": [
+      {
+        "error": "Error: test timeout",
+        "partial": {
+          "kind": "e2e",
+          "key": "first-baseline",
+          "policy": "baseline",
+          "started": 18511.5,
+          "events": [
+            {
+              "api": "turn",
+              "at": 22410,
+              "status": 200,
+              "headers_at": 22515.5,
+              "stream_id": null,
+              "result": {
+                "complete": false,
+                "probability": 0.0884,
+                "text_sha256": "955c9f91276707ec7f302078a4a7dcd0243003a3e22a7cd2d172017f4210783c",
+                "text_chars": 15,
+                "ms": 67.1,
+                "stt_ms": 29.3
+              },
+              "done": 22515.899999976158
+            },
+            {
+              "api": "stt",
+              "at": 23087.19999998808,
+              "status": 200,
+              "headers_at": 23142.29999998212,
+              "stream_id": null,
+              "result": {
+                "text_sha256": "955c9f91276707ec7f302078a4a7dcd0243003a3e22a7cd2d172017f4210783c",
+                "text_chars": 15,
+                "language": "zh"
+              },
+              "done": 23156.19999998808
+            },
+            {
+              "api": "tts/stream",
+              "at": 23540.69999998808,
+              "text_sha256": "6db797952feb6e8e0a17605207b07d8fe19aba4ff53ecb51ce00ad15a24b6a57",
+              "text_chars": 7,
+              "status": 409,
+              "headers_at": 23569.59999999404,
+              "stream_id": null,
+              "done": 23571.79999998212
+            },
+            {
+              "api": "tts/stream",
+              "at": 23680.29999998212,
+              "text_sha256": "fa2b1926bb85d36b8f26664c60653562a410fa5ceedc8e9248313ece7e350b05",
+              "text_chars": 24,
+              "status": 409,
+              "headers_at": 23702.5,
+              "stream_id": null,
+              "done": 23702.59999999404
+            }
+          ],
+          "sources": [],
+          "seedBase": 8101,
+          "ttsCount": 2,
+          "warmup": true,
+          "case_index": 0,
+          "input_marks": [
+            {
+              "start": 18762.19999998808,
+              "end": 21872.44999998808
+            }
+          ],
+          "input_end": 21872.44999998808
+        }
+      }
+    ]
+  },
+  {
+    "phase": "e2e-run-2",
+    "rows": [
+      {
+        "error": "Error: TTS rejected with 409",
+        "partial": {
+          "kind": "e2e",
+          "key": "first-baseline",
+          "policy": "baseline",
+          "started": 6927.0999999940395,
+          "events": [
+            {
+              "api": "turn",
+              "at": 10845.800000011921,
+              "status": 200,
+              "headers_at": 10939.40000000596,
+              "stream_id": null,
+              "result": {
+                "complete": false,
+                "probability": 0.0884,
+                "text_sha256": "955c9f91276707ec7f302078a4a7dcd0243003a3e22a7cd2d172017f4210783c",
+                "text_chars": 15,
+                "ms": 58.5,
+                "stt_ms": 22.1
+              },
+              "done": 10939.699999988079
+            },
+            {
+              "api": "stt",
+              "at": 11528.5,
+              "status": 200,
+              "headers_at": 11571.300000011921,
+              "stream_id": null,
+              "result": {
+                "text_sha256": "955c9f91276707ec7f302078a4a7dcd0243003a3e22a7cd2d172017f4210783c",
+                "text_chars": 15,
+                "language": "zh"
+              },
+              "done": 11576.5
+            },
+            {
+              "api": "tts/stream",
+              "at": 11969.40000000596,
+              "text_sha256": "9b98ae2e3927b9e7ae4b2409a705145df82bb3213db4d5dd7cefb436e279c2b5",
+              "text_chars": 5,
+              "status": 200,
+              "headers_at": 12018.800000011921,
+              "stream_id": "owned-0001",
+              "done": 12481.5
+            },
+            {
+              "api": "tts/stream",
+              "at": 12481.5,
+              "text_sha256": "ef688e0186501a3487d4c1fcaf5a594e13d799cd7b70ea6486598f0a138aa098",
+              "text_chars": 15,
+              "status": 409,
+              "headers_at": 12514.59999999404,
+              "stream_id": null,
+              "done": 12514.800000011921
+            }
+          ],
+          "sources": [
+            {
+              "called_at": 12236,
+              "scheduled_start": 12286,
+              "scheduled_end": 12478,
+              "first_voiced_at": 12326,
+              "frames": 3072,
+              "sample_rate": 16000,
+              "context_state": "running",
+              "segment": null,
+              "context_id": 1,
+              "ended_at": 12477.59999999404
+            },
+            {
+              "called_at": 12318.800000011921,
+              "scheduled_start": 12472.699999988079,
+              "scheduled_end": 12792.699999988079,
+              "first_voiced_at": 12473.012499988079,
+              "frames": 5120,
+              "sample_rate": 16000,
+              "context_state": "running",
+              "segment": null,
+              "context_id": 1
+            },
+            {
+              "called_at": 12438.59999999404,
+              "scheduled_start": 12792.59999999404,
+              "scheduled_end": 13112.59999999404,
+              "first_voiced_at": 12792.59999999404,
+              "frames": 5120,
+              "sample_rate": 16000,
+              "context_state": "running",
+              "segment": null,
+              "context_id": 1
+            },
+            {
+              "called_at": 12480.699999988079,
+              "scheduled_start": 13114.699999988079,
+              "scheduled_end": 13370.699999988079,
+              "first_voiced_at": 13114.762499988079,
+              "frames": 4096,
+              "sample_rate": 16000,
+              "context_state": "running",
+              "segment": null,
+              "context_id": 1
+            }
+          ],
+          "seedBase": 8101,
+          "ttsCount": 2,
+          "warmup": true,
+          "case_index": 0,
+          "input_marks": [
+            {
+              "start": 7132.4000000059605,
+              "end": 10242.65000000596
+            }
+          ],
+          "input_end": 10242.65000000596
+        }
+      }
+    ]
+  }
+]

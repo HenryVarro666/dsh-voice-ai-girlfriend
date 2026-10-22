@@ -1,0 +1,163 @@
+{
+  "existing": {
+    "baseline": {
+      "audios": 32,
+      "calls": 96,
+      "errors": 0,
+      "missing": 0,
+      "stable_exact": 32,
+      "variable_transcripts": 0
+    },
+    "xvector": {
+      "audios": 32,
+      "calls": 96,
+      "errors": 0,
+      "missing": 0,
+      "stable_exact": 32,
+      "variable_transcripts": 0
+    },
+    "paired": {
+      "pairs": 32,
+      "outcomes": {
+        "both_stable": 32
+      }
+    }
+  },
+  "new": {
+    "diagnostic": {
+      "baseline": {
+        "trials": 6,
+        "errors": 0,
+        "eos": 6,
+        "max_tokens": 0,
+        "asr_exact": 5,
+        "asr_ending_match": 6,
+        "edit_distance": 1,
+        "long_tails": 1,
+        "tail_total_ms": 6629.375,
+        "tail_max_ms": 5412.8125,
+        "first_voiced_median_ms": 268.71300450875424,
+        "generation_median_ms": 836.2946064880816,
+        "frames_median": 39.5,
+        "first_voiced_max_ms": 1978.400748979766,
+        "raw_leading_over_1s": 2,
+        "unexpected_gpu_trials": 0,
+        "repeated_asr": {
+          "audios": 6,
+          "calls": 18,
+          "errors": 0,
+          "missing": 0,
+          "stable_exact": 5,
+          "variable_transcripts": 0,
+          "stable_fields": 5,
+          "any_fields_match": 5,
+          "variable_field_results": 0
+        }
+      },
+      "xvector": {
+        "trials": 6,
+        "errors": 0,
+        "eos": 6,
+        "max_tokens": 0,
+        "asr_exact": 5,
+        "asr_ending_match": 6,
+        "edit_distance": 1,
+        "long_tails": 0,
+        "tail_total_ms": 529.75,
+        "tail_max_ms": 139.125,
+        "first_voiced_median_ms": 92.29579100792762,
+        "generation_median_ms": 611.2111330148764,
+        "frames_median": 31.5,
+        "first_voiced_max_ms": 166.50771198328584,
+        "raw_leading_over_1s": 0,
+        "unexpected_gpu_trials": 0,
+        "repeated_asr": {
+          "audios": 6,
+          "calls": 18,
+          "errors": 0,
+          "missing": 0,
+          "stable_exact": 5,
+          "variable_transcripts": 0,
+          "stable_fields": 5,
+          "any_fields_match": 5,
+          "variable_field_results": 0
+        }
+      },
+      "paired": {
+        "pairs": 6,
+        "outcomes": {
+          "both_stable": 4,
+          "candidate_only_stable": 1,
+          "baseline_only_stable": 1
+        }
+      }
+    },
+    "holdout": {
+      "baseline": {
+        "trials": 18,
+        "errors": 0,
+        "eos": 18,
+        "max_tokens": 0,
+        "asr_exact": 18,
+        "asr_ending_match": 18,
+        "edit_distance": 0,
+        "long_tails": 0,
+        "tail_total_ms": 6860.125,
+        "tail_max_ms": 984.5,
+        "first_voiced_median_ms": 184.4285734841833,
+        "generation_median_ms": 854.6835150045808,
+        "frames_median": 40.5,
+        "first_voiced_max_ms": 1221.9319379946683,
+        "raw_leading_over_1s": 1,
+        "unexpected_gpu_trials": 0,
+        "repeated_asr": {
+          "audios": 18,
+          "calls": 54,
+          "errors": 0,
+          "missing": 0,
+          "stable_exact": 18,
+          "variable_transcripts": 0,
+          "stable_fields": 18,
+          "any_fields_match": 18,
+          "variable_field_results": 0
+        }
+      },
+      "xvector": {
+        "trials": 18,
+        "errors": 0,
+        "eos": 18,
+        "max_tokens": 0,
+        "asr_exact": 17,
+        "asr_ending_match": 18,
+        "edit_distance": 1,
+        "long_tails": 0,
+        "tail_total_ms": 2135.25,
+        "tail_max_ms": 307.0625,
+        "first_voiced_median_ms": 91.94712650787551,
+        "generation_median_ms": 604.690912499791,
+        "frames_median": 31.0,
+        "first_voiced_max_ms": 92.55294999456964,
+        "raw_leading_over_1s": 0,
+        "unexpected_gpu_trials": 0,
+        "repeated_asr": {
+          "audios": 18,
+          "calls": 54,
+          "errors": 0,
+          "missing": 0,
+          "stable_exact": 17,
+          "variable_transcripts": 0,
+          "stable_fields": 17,
+          "any_fields_match": 17,
+          "variable_field_results": 0
+        }
+      },
+      "paired": {
+        "pairs": 18,
+        "outcomes": {
+          "both_stable": 17,
+          "baseline_only_stable": 1
+        }
+      }
+    }
+  }
+}

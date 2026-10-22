@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>音色与收尾 · A/B 盲听</title>
+  <style>
+    :root{color-scheme:light;--ink:#25332f;--muted:#65716a;--line:#d9ded6;--accent:#28614c}
+    *{box-sizing:border-box}body{margin:0;background:#f5f4ef;color:var(--ink);font:16px/1.6 system-ui,sans-serif}
+    main,header>div{max-width:1120px;margin:auto;padding:22px}header{position:sticky;top:0;z-index:2;background:#f5f4eff5;border-bottom:1px solid var(--line)}
+    header>div{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding-top:12px;padding-bottom:12px}header strong{margin-right:auto}
+    button,select,input,textarea{font:inherit}button{cursor:pointer;border:1px solid #b7c4b9;border-radius:7px;padding:7px 12px;background:#fff;color:var(--ink)}
+    button:hover{border-color:var(--accent);background:#eff5ef}button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+    button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #8ab7a1;outline-offset:2px}
+    h1{font-size:clamp(28px,4vw,42px);line-height:1.2;margin:14px 0}h2{font-size:21px;line-height:1.5;margin:12px 0}
+    p{margin:10px 0}.sub,.focus{color:var(--muted)}.intro{max-width:850px}.reference{margin:24px 0;padding:20px;border-left:4px solid var(--accent);background:#eaf0e7}
+    audio{display:block;width:100%;margin:10px 0}.reference audio{max-width:680px}.filters{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:24px 0}
+    .pair{padding:24px;margin:20px 0;background:#fff;border:1px solid var(--line);border-radius:13px;scroll-margin-top:95px}
+    .pair-heading{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:14px;color:var(--muted)}
+    .players{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:20px 0}.player{background:#f5f7f3;padding:16px;border-radius:9px}.player strong{font-size:22px}.player button{margin-right:4px;margin-top:4px}
+    .scores{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.scores label{font-size:14px}.scores select{display:block;width:100%;margin-top:7px;padding:9px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--ink)}
+    .note{display:block;margin-top:16px;font-size:14px}.note input{width:100%;display:block;padding:10px;border:1px solid var(--line);border-radius:6px;margin-top:5px}
+    .revealed{padding:10px;background:#fff1da}.status{min-height:24px;font-size:14px;color:var(--muted)}[hidden]{display:none!important}details{margin:24px 0}summary{cursor:pointer}textarea{width:100%;height:160px;font:12px monospace}footer{padding:30px 0;color:var(--muted);font-size:13px}
+    @media(max-width:720px){.players,.scores{grid-template-columns:1fr}.pair{padding:16px}header>div{gap:8px}header strong{width:100%}main{padding:14px}}
+  </style>
+</head>
+<body>
+<header><div><strong>音色与收尾 / A·B</strong><span id="progress" aria-live="polite"></span><button id="stop">停止播放</button><button id="export" class="primary">导出评分</button></div></header>
+<main>
+  <div class="intro">
+    <p class="sub">小雅 · 两种克隆模式 · 32 对 / 优先 8 对</p>
+    <h1>哪个声音更像她？<br>哪个结尾更自然？</h1>
+    <p>先听参考，再用相同音量比较 A/B。A/B 每对重新随机，不要根据前一对猜模式。优先听前 8 对即可，其余保留供补听。</p>
+    <p class="sub">不用强行选赢家：细微差别可以选“无明显差异”，听不清就选“无法判断”。轻声或音量较低本身不等于漏字。所有人工评分等待你填写。</p>
+  </div>
+  <aside class="reference"><strong>先熟悉音色参考</strong><p>这是生成时使用的同一份小雅参考原音。两边的节奏与情绪可以不同；先判断是否仍像同一个说话人。</p><audio id="reference" aria-label="小雅音色参考" controls preload="metadata" src="data:audio/wav;base64,@@REFERENCE@@"></audio><button data-play="reference">播放参考</button></aside>
+  <div class="filters"><label>试听范围 <select id="scope"><option value="priority">优先 8 对</option><option value="all">全部 32 对</option></select></label><label><input id="unrated" type="checkbox"> 只看未完成</label><span id="visible-count"></span></div>
+  <p id="status" class="status" role="status">音频已内嵌，可离线试听。评分只在此浏览器保存，请及时导出。</p>
+  <p class="sub">“听尾词”只跳到末尾发声附近，继续播放到原始结束；没有裁剪、调音量或变速。长静音仍保留。请先听整句，再判断末字、停顿和语气。</p>
+  @@CARDS@@
+  <details id="export-details"><summary>查看 / 复制刚生成的评分 JSON</summary><textarea id="export-preview" aria-label="评分JSON" readonly></textarea></details>
+  <details><summary>评分完成后揭盲</summary><p>揭盲会显示每对 A/B 的模式。建议先导出一份盲听评分；页面隐藏模式名称，但不防止查看源码或本地映射文件。</p><button id="reveal">显示本页映射</button></details>
+  <footer>这是试听材料的技术验证，不是音质签收。生产配置保持不变，裁剪关闭。页面不上传录音或评分，也不需要连接 apex。</footer>
+</main>
+<script>
+const packId = '@@PACK_ID@@';
+const mappingHash = '@@PACK_HASH@@';
+const storageKey = packId + '-ratings-v1';
+const cards = Array.from(document.querySelectorAll('.pair'));
+const audios = Array.from(document.querySelectorAll('audio'));
+const status = document.querySelector('#status');
+let epoch = 0;
+let nextPlayback = null;
+let revealed = false;
+
+function ratings() {
+  return cards.map(card => ({id:card.dataset.id, ...Object.fromEntries(Array.from(card.querySelectorAll('[data-field]')).map(el => [el.dataset.field,el.value]))}));
+}
+function complete(row) { return ['timbre','prosody','ending'].every(field => row[field] !== 'pending'); }
+function refresh() {
+  const rows = ratings();
+  document.querySelector('#progress').textContent = `已完成 ${rows.filter(complete).length}/32`;
+  let count = 0;
+  cards.forEach((card,index) => {
+    const visible = (document.querySelector('#scope').value === 'all' || card.dataset.priority === 'true') && (!document.querySelector('#unrated').checked || !complete(rows[index]));
+    card.hidden = !visible;
+    count += visible;
+  });
+  document.querySelector('#visible-count').textContent = `当前 ${count} 对`;
+}
+function persist() {
+  try { localStorage.setItem(storageKey,JSON.stringify({pack_id:packId,ratings:ratings()})); }
+  catch { status.textContent = '浏览器没有保存本地评分；请使用导出评分，避免关闭后丢失。'; }
+  refresh();
+}
+try {
+  const saved = JSON.parse(localStorage.getItem(storageKey) || 'null');
+  if (saved && saved.pack_id === packId) for (const row of saved.ratings) {
+    const card = cards.find(c => c.dataset.id === row.id);
+    if (card) for (const el of card.querySelectorAll('[data-field]')) {
+      if (typeof row[el.dataset.field] === 'string' && (el.tagName !== 'SELECT' || Array.from(el.options).some(o => o.value === row[el.dataset.field]))) el.value = row[el.dataset.field];
+    }
+  }
+} catch { status.textContent = '没有恢复旧评分；本次试听后请及时导出。'; }
+for (const el of document.querySelectorAll('[data-field]')) el.addEventListener('input',persist);
+document.querySelector('#scope').addEventListener('change',refresh);
+document.querySelector('#unrated').addEventListener('change',refresh);
+
+function stopAll() {
+  epoch++;
+  if (nextPlayback) nextPlayback.audio.removeEventListener('ended',nextPlayback.handler);
+  nextPlayback = null;
+  audios.forEach(audio => audio.pause());
+}
+function metadata(audio) {
+  if (audio.readyState >= 1) return Promise.resolve();
+  return new Promise((resolve,reject) => {
+    const cleanup = () => { clearTimeout(timer); audio.removeEventListener('loadedmetadata',loaded); audio.removeEventListener('error',failed); };
+    const loaded = () => { cleanup(); resolve(); };
+    const failed = () => { cleanup(); reject(new Error('音频加载失败')); };
+    const timer = setTimeout(failed,8000);
+    audio.addEventListener('loadedmetadata',loaded);
+    audio.addEventListener('error',failed);
+    audio.load();
+  });
+}
+async function startAudio(id,seek,ticket) {
+  const audio = document.getElementById(id);
+  await metadata(audio);
+  if (ticket !== epoch) return;
+  audio.currentTime = Math.min(seek,Math.max(0,audio.duration - 0.01));
+  await audio.play();
+  status.textContent = '正在播放 ' + (id === 'reference' ? '参考' : id);
+}
+function playbackError(error) { status.textContent = '播放未完成：' + error.message + '。可使用音频自带的播放按钮。'; }
+for (const audio of audios) {
+  audio.addEventListener('ended',() => {
+    if (audios.every(item => item.paused)) status.textContent = '播放结束，可继续比较或评分。';
+  });
+  audio.addEventListener('play',() => {
+    if (nextPlayback && audio !== nextPlayback.audio) {
+      nextPlayback.audio.removeEventListener('ended',nextPlayback.handler);
+      nextPlayback = null;
+    }
+    audios.forEach(other => { if (other !== audio) other.pause(); });
+  });
+  audio.addEventListener('pause',() => {
+    if (!audio.ended && nextPlayback && nextPlayback.audio === audio) {
+      nextPlayback.audio.removeEventListener('ended',nextPlayback.handler);
+      nextPlayback = null;
+    }
+  });
+}
+document.querySelector('#stop').addEventListener('click',() => { stopAll(); status.textContent = '已停止播放。'; });
+for (const button of document.querySelectorAll('[data-play],[data-ending]')) button.addEventListener('click',() => {
+  stopAll();
+  startAudio(button.dataset.play || button.dataset.ending,Number(button.dataset.seek || 0),epoch).catch(playbackError);
+});
+for (const button of document.querySelectorAll('[data-sequence]')) button.addEventListener('click',() => {
+  stopAll();
+  const ticket = epoch, id = button.dataset.sequence;
+  const audio = document.getElementById(id + '-A');
+  const handler = () => { nextPlayback = null; if (ticket === epoch) startAudio(id + '-B',0,ticket).catch(playbackError); };
+  nextPlayback = {audio,handler};
+  audio.addEventListener('ended',handler,{once:true});
+  startAudio(id + '-A',0,ticket).catch(error => { stopAll(); playbackError(error); });
+});
+document.querySelector('#export').addEventListener('click',() => {
+  const result = {version:1,pack_id:packId,mapping_sha256:mappingHash,exported_at:new Date().toISOString(),revealed,ratings:ratings()};
+  const text = JSON.stringify(result,null,2);
+  document.querySelector('#export-preview').value = text;
+  const url = URL.createObjectURL(new Blob([text],{type:'application/json'}));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'xvector-listening-ratings.json';
+  link.click();
+  setTimeout(() => URL.revokeObjectURL(url),1000);
+  status.textContent = '已生成评分导出；也可展开页面底部的评分 JSON 复制保存。';
+});
+document.querySelector('#reveal').addEventListener('click',() => {
+  revealed = true;
+  const names = {baseline:'当前默认 ICL',xvector:'仅说话人向量'};
+  const data = JSON.parse(atob('@@REVEAL@@'));
+  for (const item of data) {
+    const card = cards.find(c => c.dataset.id === item.id);
+    const output = card.querySelector('.revealed');
+    output.textContent = `A：${names[item.mapping.A]}；B：${names[item.mapping.B]}`;
+    output.hidden = false;
+  }
+});
+refresh();
+</script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+{
+  "scope": "isolated generation/handler; no additional audio cropping",
+  "load_ms": 2789.781628991477,
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 5463,
+    "free_mib": 10346,
+    "total_mib": 16303
+  },
+  "gpu_loaded": {
+    "utilization_pct": 60,
+    "used_mib": 9172,
+    "free_mib": 6637,
+    "total_mib": 16303
+  },
+  "base": {
+    "streaming_chunk_size": 4,
+    "non_streaming_mode": true,
+    "xvec_only": false
+  },
+  "profiles": {
+    "baseline": {},
+    "text_step": {
+      "non_streaming_mode": false
+    },
+    "xvector": {
+      "xvec_only": true
+    },
+    "chunk2": {
+      "streaming_chunk_size": 2
+    }
+  },
+  "diagnostic": {
+    "texts": [
+      "好呀，我们开始吧。",
+      "你是想吃火锅还是螺蛳粉呢？",
+      "这个问题我想了一下，我们可以先从最简单的方法开始。",
+      "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。"
+    ],
+    "seeds": [
+      16,
+      25
+    ]
+  },
+  "holdout": {
+    "texts": [
+      "我在这儿，你慢慢说吧。",
+      "谢谢，谢谢，今天真的麻烦你了。",
+      "提醒时间是明天上午八点零五分。",
+      "你的意思是先保存，再退出，对吗？",
+      "桌子上的小盒子，等一会儿再打开吧。",
+      "如果你现在还不确定，我们可以先把问题记下来，等明天检查完结果以后，再一起决定下一步怎么做。"
+    ],
+    "seeds": [
+      4201,
+      4207
+    ]
+  },
+  "warmups_per_profile": 2,
+  "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+  "hashes": {
+    "bench_generation_layout.py": "4f08af45488bca904b97c0b20228d3e9f4c7d109e4b1ae82901d7ff3ffa5fac0",
+    "streaming.py": "39a1420626c49b87f3cda486f5a3f0fb8a82238f9a052114970ada40d1959010",
+    "model.py": "7d45740b805bb1a4798fbe20ffd580e2a35361e744c4645da106c2b6383d4de2",
+    "qwen3_tts_handler.py": "d90b7d0904023e6e7b484d725c630f46001df691061b7e974a3f2049c710f0e8",
+    "voice_bridge.py": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576"
+  },
+  "completed": true
+}

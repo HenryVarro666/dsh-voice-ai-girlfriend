@@ -1,0 +1,38 @@
+{
+  "ready": true,
+  "pid": 471876,
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 5456,
+    "free_mib": 10353,
+    "total_mib": 16303
+  },
+  "gpu_before_empty_cache": {
+    "utilization_pct": 88,
+    "used_mib": 9169,
+    "free_mib": 6640,
+    "total_mib": 16303
+  },
+  "gpu_ready": {
+    "utilization_pct": 88,
+    "used_mib": 8343,
+    "free_mib": 7466,
+    "total_mib": 16303
+  },
+  "allowed_gpu_pids": [
+    108257,
+    128361,
+    184829,
+    408436,
+    471876,
+    3504737
+  ],
+  "bridge_sha256": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+  "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+  "tts_defaults": {
+    "streaming_chunk_size": 4,
+    "non_streaming_mode": true,
+    "xvec_only": false
+  },
+  "scope": "Actual deployed tts_stream and synthesize_iter, privately loaded; no tail wrapper"
+}

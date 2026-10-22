@@ -1,0 +1,16 @@
+{
+  "diagnostic_seeds": [4409, 5519, 6619],
+  "holdout_seeds": [7703, 8803, 9901],
+  "diagnostic": [
+    {"code": "110022", "original_scenario_index": 0},
+    {"code": "100200300", "original_scenario_index": 2}
+  ],
+  "holdout": [
+    {"code": "220011"},
+    {"code": "003300"},
+    {"code": "10102020"},
+    {"code": "99008877"},
+    {"code": "007700", "date": [2027, 3, 4], "time": [10, 5]},
+    {"code": "330044", "date": [2028, 2, 29], "time": [23, 0]}
+  ]
+}

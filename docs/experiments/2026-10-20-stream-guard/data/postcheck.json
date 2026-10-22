@@ -1,0 +1,35 @@
+{
+  "verified_at_utc": "2026-10-20T08:52:19Z",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "faster-qwen3-tts": "0.5.4",
+    "speech-to-speech": "0.2.10",
+    "numpy": "2.5.4"
+  },
+  "bridge_sha256": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+  "health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  },
+  "ollama_ps": {
+    "models": []
+  },
+  "gpu": "0 %, 5456 MiB, 10353 MiB",
+  "compute_processes": [
+    "128361, /usr/bin/ptyxis, 137 MiB",
+    "184829, /usr/bin/coolercontrol, 193 MiB",
+    "108257, /usr/libexec/xdg-desktop-portal-gnome, 6 MiB",
+    "408436, /home/apex/.local/share/local-ai/comfyui-env/bin/python, 470 MiB",
+    "3504737, /home/apex/voice-ai/venv-bridge/bin/python, 3750 MiB"
+  ],
+  "0.6b_revision": "5d83992436eae1d760afd27aff78a71d676296fc",
+  "1.7b_revision": "fd4b254389122332181a7c3db7f27e918eec64e3",
+  "plugin_sha256": "4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74",
+  "dsh_unauthenticated_http_status": 401
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "Isolated model/handler; no HTTP queue or browser timing",
+  "bridge_sha256": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+  "script_sha256": "51d6295208a9241a03cf8e57d86c73780b18a6493c0b0f8cf826e82e0700838b",
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 5456,
+    "free_mib": 10353,
+    "total_mib": 16303
+  },
+  "voice": "xiaoya-qwen3",
+  "text": "好呀，我们开始吧。",
+  "runs": 40,
+  "warmup_excluded": true,
+  "load_s": 3.18,
+  "gpu_loaded": {
+    "utilization_pct": 90,
+    "used_mib": 9083,
+    "free_mib": 6726,
+    "total_mib": 16303
+  },
+  "completed": true,
+  "slow_seeds_replayed": [
+    16
+  ]
+}

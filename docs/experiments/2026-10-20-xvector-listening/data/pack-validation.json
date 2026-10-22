@@ -1,0 +1,21 @@
+{
+  "pack_id": "xvector-listening-20261020-468aa597e2e6",
+  "mapping_sha256": "468aa597e2e60816405c958aee6d02e4c6d56011a60f27f7471a553f28002a70",
+  "pairs": 32,
+  "existing_pairs": 20,
+  "new_ending_pairs": 12,
+  "priority_pairs": 8,
+  "audio_files": 64,
+  "reference_files": 1,
+  "a_baseline": 16,
+  "priority_a_baseline": 4,
+  "new_outputs": 24,
+  "new_eos": 24,
+  "new_errors": 0,
+  "new_gpu_interference": 0,
+  "human_rating_status": "pending",
+  "html_sha256": "f64770adcb3681a9db0497c472d99f9a3c07cbbc54da5b941cefa18a2ca1b2bf",
+  "html_bytes": 10365192,
+  "embedded_source_hashes_match": true,
+  "all_audio_decoded": true
+}

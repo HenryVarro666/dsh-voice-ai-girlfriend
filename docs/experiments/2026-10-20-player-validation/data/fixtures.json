@@ -1,0 +1,162 @@
+{
+  "scope": "Synthetic and controlled attenuation, no natural human whisper",
+  "fixtures": [
+    {
+      "id": "normal-0",
+      "file": "normal-0.wav",
+      "samples": 34816,
+      "kind": "natural_tts",
+      "text": "好呀，今天就先这样吧。"
+    },
+    {
+      "id": "soft-0",
+      "file": "soft-0.wav",
+      "samples": 49844,
+      "kind": "controlled_weak_ending",
+      "text": "好呀，今天就先这样吧。",
+      "weak_start": 11444,
+      "weak_end": 30644,
+      "tail_peak": 70
+    },
+    {
+      "id": "normal-1",
+      "file": "normal-1.wav",
+      "samples": 126464,
+      "kind": "natural_tts",
+      "text": "不着急，你慢慢说就好。"
+    },
+    {
+      "id": "soft-1",
+      "file": "soft-1.wav",
+      "samples": 57590,
+      "kind": "controlled_weak_ending",
+      "text": "不着急，你慢慢说就好。",
+      "weak_start": 19190,
+      "weak_end": 38390,
+      "tail_peak": 70
+    },
+    {
+      "id": "normal-2",
+      "file": "normal-2.wav",
+      "samples": 22528,
+      "kind": "natural_tts",
+      "text": "我在这里陪着你呢。"
+    },
+    {
+      "id": "soft-2",
+      "file": "soft-2.wav",
+      "samples": 39908,
+      "kind": "controlled_weak_ending",
+      "text": "我在这里陪着你呢。",
+      "weak_start": 1508,
+      "weak_end": 20708,
+      "tail_peak": 70
+    },
+    {
+      "id": "normal-3",
+      "file": "normal-3.wav",
+      "samples": 33280,
+      "kind": "natural_tts",
+      "text": "可以，记得早点休息哦。"
+    },
+    {
+      "id": "soft-3",
+      "file": "soft-3.wav",
+      "samples": 52151,
+      "kind": "controlled_weak_ending",
+      "text": "可以，记得早点休息哦。",
+      "weak_start": 13751,
+      "weak_end": 32951,
+      "tail_peak": 70
+    },
+    {
+      "id": "normal-4",
+      "file": "normal-4.wav",
+      "samples": 36864,
+      "kind": "natural_tts",
+      "text": "好的，我们明天再聊吧。"
+    },
+    {
+      "id": "soft-4",
+      "file": "soft-4.wav",
+      "samples": 53947,
+      "kind": "controlled_weak_ending",
+      "text": "好的，我们明天再聊吧。",
+      "weak_start": 15547,
+      "weak_end": 34747,
+      "tail_peak": 70
+    },
+    {
+      "id": "normal-5",
+      "file": "normal-5.wav",
+      "samples": 61952,
+      "kind": "natural_tts",
+      "text": "请记住，最后的数字是七二九。"
+    },
+    {
+      "id": "soft-5",
+      "file": "soft-5.wav",
+      "samples": 65391,
+      "kind": "controlled_weak_ending",
+      "text": "请记住，最后的数字是七二九。",
+      "weak_start": 26991,
+      "weak_end": 46191,
+      "tail_peak": 70
+    },
+    {
+      "id": "long-tail",
+      "file": "long-tail.wav",
+      "samples": 114176,
+      "kind": "archived_model_tail"
+    },
+    {
+      "id": "internal-pause",
+      "file": "internal-pause.wav",
+      "samples": 145664,
+      "kind": "inserted_inside_voiced_range",
+      "insert_start": 19514,
+      "insert_samples": 19200
+    },
+    {
+      "id": "late-packet",
+      "file": "late-packet.wav",
+      "samples": 126464,
+      "kind": "network_delay",
+      "late_packet": 2,
+      "extra_delay_ms": 800
+    }
+  ],
+  "inputs": [
+    {
+      "id": "input-0",
+      "file": "input-0.wav",
+      "text": "你好，请用一句简短的话和我打招呼。"
+    },
+    {
+      "id": "input-1",
+      "file": "input-1.wav",
+      "text": "你吃饭了吗？"
+    },
+    {
+      "id": "input-2",
+      "file": "input-2.wav",
+      "text": "给我讲一个很短的笑话吧。"
+    },
+    {
+      "id": "input-3",
+      "file": "input-3.wav",
+      "text": "我想问一下那个"
+    },
+    {
+      "id": "input-4",
+      "file": "input-4.wav",
+      "text": "明天出门要不要带伞？"
+    },
+    {
+      "id": "input-5",
+      "file": "input-5.wav",
+      "text": "等等，我想换个话题聊聊。"
+    }
+  ],
+  "guard_sha256": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631"
+}

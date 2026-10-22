@@ -1,0 +1,74 @@
+[
+  {
+    "case": 0,
+    "profile": "baseline",
+    "stream_id": "owned-0037",
+    "request_to_voiced_pcm_ms": 309.45772799896076,
+    "request_to_eof_ms": 637.540470022941,
+    "pcm_samples": 24064,
+    "pcm_sha256": "c512e6316e78eee4a75ef32197f618065d0a0ba1209b4fa0efe76ac182517a77"
+  },
+  {
+    "case": 0,
+    "profile": "fixed",
+    "stream_id": "owned-0038",
+    "request_to_voiced_pcm_ms": 308.76020100549795,
+    "request_to_eof_ms": 643.7924519996159,
+    "pcm_samples": 24064,
+    "pcm_sha256": "c512e6316e78eee4a75ef32197f618065d0a0ba1209b4fa0efe76ac182517a77"
+  },
+  {
+    "case": 1,
+    "profile": "fixed",
+    "stream_id": "owned-0039",
+    "request_to_voiced_pcm_ms": 223.69647899176925,
+    "request_to_eof_ms": 871.3938930013683,
+    "pcm_samples": 41984,
+    "pcm_sha256": "11351119bfee0e8901315f42b953f8201cfee5243b3b02ac3d7865626b3a0d05"
+  },
+  {
+    "case": 1,
+    "profile": "baseline",
+    "stream_id": "owned-0040",
+    "request_to_voiced_pcm_ms": 223.0711909942329,
+    "request_to_eof_ms": 869.3679620046169,
+    "pcm_samples": 41984,
+    "pcm_sha256": "11351119bfee0e8901315f42b953f8201cfee5243b3b02ac3d7865626b3a0d05"
+  },
+  {
+    "case": 2,
+    "profile": "baseline",
+    "stream_id": "owned-0041",
+    "request_to_voiced_pcm_ms": 227.06937399925664,
+    "request_to_eof_ms": 1268.1736820086371,
+    "pcm_samples": 70656,
+    "pcm_sha256": "e22822020f9420be781a1ae410f8f92580baa0dc13f4dcef9ca32efcfee267e8"
+  },
+  {
+    "case": 2,
+    "profile": "fixed",
+    "stream_id": "owned-0042",
+    "request_to_voiced_pcm_ms": 223.5326600202825,
+    "request_to_eof_ms": 1270.991949015297,
+    "pcm_samples": 70656,
+    "pcm_sha256": "e22822020f9420be781a1ae410f8f92580baa0dc13f4dcef9ca32efcfee267e8"
+  },
+  {
+    "case": 3,
+    "profile": "fixed",
+    "stream_id": "owned-0043",
+    "request_to_voiced_pcm_ms": 139.75336198927835,
+    "request_to_eof_ms": 486.2154509755783,
+    "pcm_samples": 22016,
+    "pcm_sha256": "c78c7a7b0bcfd6d39496da5b89cc7a651b45a3b52b9365669d37695412760663"
+  },
+  {
+    "case": 3,
+    "profile": "baseline",
+    "stream_id": "owned-0044",
+    "request_to_voiced_pcm_ms": 139.56142298411578,
+    "request_to_eof_ms": 479.9524389964063,
+    "pcm_samples": 22016,
+    "pcm_sha256": "c78c7a7b0bcfd6d39496da5b89cc7a651b45a3b52b9365669d37695412760663"
+  }
+]

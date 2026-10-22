@@ -1,0 +1,102 @@
+{
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "faster-qwen3-tts": "0.5.4",
+    "speech-to-speech": "0.2.10",
+    "funasr": "1.4.16",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "httpx": "0.28.1",
+    "uvicorn": "0.54.0",
+    "websockets": "17.2"
+  },
+  "source_hashes": {
+    "/home/apex/voice-ai/dsh-voice-ai-girlfriend/bridge/voice_bridge.py": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+    "/home/apex/voice-ai/dsh-voice-ai-girlfriend-plugin/src/client/voice/speaker.ts": "9aa68fe7720e4646f48ddf435cb6f106f1fb02b19499afd7b6953bcc56005741",
+    "/home/apex/voice-ai/venv-bridge/lib/python3.12/site-packages/faster_qwen3_tts/model.py": "7d45740b805bb1a4798fbe20ffd580e2a35361e744c4645da106c2b6383d4de2",
+    "/home/apex/voice-ai/venv-bridge/lib/python3.12/site-packages/faster_qwen3_tts/streaming.py": "39a1420626c49b87f3cda486f5a3f0fb8a82238f9a052114970ada40d1959010",
+    "/home/apex/voice-ai/venv-bridge/lib/python3.12/site-packages/speech_to_speech/TTS/qwen3_tts_handler.py": "d90b7d0904023e6e7b484d725c630f46001df691061b7e974a3f2049c710f0e8"
+  },
+  "run_source_hashes": {
+    "development-1": {
+      "bench_tts_contention.py": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d",
+      "bench_generation_layout.py": "5b1d30a72f6b1f15557cbe8dac578e8beca8911951fd1ebe991f1e885b56c7e7",
+      "stream_tail.py": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+      "recheck_numeric_whisper.py": "8e2f3748f289fb6753426c347b6d2f5054405bdb7814b5a01df89036f065feee",
+      "targeted-suite.json": "60bf01458c33a27d3edc5b5e9b71df87acb2576de7f1e1a6514a90c430a92795",
+      "number_reading.py": "11816818545a3cee383b3ced8da6b80cf9343b8caf854623ea2e70fa6349564f",
+      "xvector_validation_server.py": "86d8065efd52ed39f909cd218973645437b1fbda35fa31dfa772e69e5dc3ad16",
+      "player_validation_proxy.py": "1f5309dda5507c527854142af2acab6d84845d4767c275826072444a3b035cbb",
+      "xvector-integration-client.js": "cef9157567870d8a1f61ff8cb4e502ce8d836eb834d13deef64683a82a23341b",
+      "bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789",
+      "generation_end_metrics.py": "7980902a862de6f3cf9161cdf8f063374ff8ca76f1d0c21a4674ae29d76b77d6"
+    },
+    "run-2": {
+      "bench_tts_contention.py": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d",
+      "xvector_validation_client.js": "65e22f1cfdbcedf7d0c21ff5a7d8f84312673314552031b3393cc1c3f364cb95",
+      "bench_generation_layout.py": "5b1d30a72f6b1f15557cbe8dac578e8beca8911951fd1ebe991f1e885b56c7e7",
+      "stream_tail.py": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+      "recheck_numeric_whisper.py": "8e2f3748f289fb6753426c347b6d2f5054405bdb7814b5a01df89036f065feee",
+      "targeted-suite.json": "60bf01458c33a27d3edc5b5e9b71df87acb2576de7f1e1a6514a90c430a92795",
+      "number_reading.py": "11816818545a3cee383b3ced8da6b80cf9343b8caf854623ea2e70fa6349564f",
+      "xvector_validation_server.py": "47681a7bd8ff8f39b438b82f57552dbf3925a038bfde6865c10be3526ed36604",
+      "player_validation_proxy.py": "94fc664379fb8c2f7eb3fa13867183f36074dd7090a47661e528a0f2ccd6b07d",
+      "xvector-integration-client.js": "cef9157567870d8a1f61ff8cb4e502ce8d836eb834d13deef64683a82a23341b",
+      "xvector-integration-client-v2.js": "94a684d955bcfb74bbe3d6824177512a97d94c34fa8fe43caf3be340fa016a9e",
+      "bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789",
+      "player_validation_client.js": "cb121f350c17a2106c7bdab5273da970476ea7f4421cc24c2193190de63cdf60",
+      "generation_end_metrics.py": "7980902a862de6f3cf9161cdf8f063374ff8ca76f1d0c21a4674ae29d76b77d6"
+    },
+    "e2e-run-1": {
+      "bench_tts_contention.py": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d",
+      "xvector_validation_client.js": "65e22f1cfdbcedf7d0c21ff5a7d8f84312673314552031b3393cc1c3f364cb95",
+      "bench_generation_layout.py": "5b1d30a72f6b1f15557cbe8dac578e8beca8911951fd1ebe991f1e885b56c7e7",
+      "stream_tail.py": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+      "recheck_numeric_whisper.py": "8e2f3748f289fb6753426c347b6d2f5054405bdb7814b5a01df89036f065feee",
+      "targeted-suite.json": "60bf01458c33a27d3edc5b5e9b71df87acb2576de7f1e1a6514a90c430a92795",
+      "number_reading.py": "11816818545a3cee383b3ced8da6b80cf9343b8caf854623ea2e70fa6349564f",
+      "xvector_validation_server.py": "47681a7bd8ff8f39b438b82f57552dbf3925a038bfde6865c10be3526ed36604",
+      "player_validation_proxy.py": "94fc664379fb8c2f7eb3fa13867183f36074dd7090a47661e528a0f2ccd6b07d",
+      "xvector-integration-client.js": "cef9157567870d8a1f61ff8cb4e502ce8d836eb834d13deef64683a82a23341b",
+      "xvector-integration-client-v2.js": "94a684d955bcfb74bbe3d6824177512a97d94c34fa8fe43caf3be340fa016a9e",
+      "bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789",
+      "player_validation_client.js": "cb121f350c17a2106c7bdab5273da970476ea7f4421cc24c2193190de63cdf60",
+      "generation_end_metrics.py": "7980902a862de6f3cf9161cdf8f063374ff8ca76f1d0c21a4674ae29d76b77d6"
+    },
+    "e2e-run-2": {
+      "bench_tts_contention.py": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d",
+      "xvector_validation_client.js": "ce33ee884fb6588273ff0d15444c755995dc8e2d65309d5a960ece7b6aedcc72",
+      "bench_generation_layout.py": "5b1d30a72f6b1f15557cbe8dac578e8beca8911951fd1ebe991f1e885b56c7e7",
+      "stream_tail.py": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+      "recheck_numeric_whisper.py": "8e2f3748f289fb6753426c347b6d2f5054405bdb7814b5a01df89036f065feee",
+      "xvector-integration-client-v3.js": "d9706412246b7195cdf976cd6933f980d522cc8106990af00dfceb8850044c0e",
+      "targeted-suite.json": "60bf01458c33a27d3edc5b5e9b71df87acb2576de7f1e1a6514a90c430a92795",
+      "number_reading.py": "11816818545a3cee383b3ced8da6b80cf9343b8caf854623ea2e70fa6349564f",
+      "xvector_validation_server.py": "96b5abd838e0ed125472fb36680a89157184e061e292e13ec6d8465572a577ba",
+      "player_validation_proxy.py": "94fc664379fb8c2f7eb3fa13867183f36074dd7090a47661e528a0f2ccd6b07d",
+      "xvector-integration-client.js": "cef9157567870d8a1f61ff8cb4e502ce8d836eb834d13deef64683a82a23341b",
+      "xvector-integration-client-v2.js": "94a684d955bcfb74bbe3d6824177512a97d94c34fa8fe43caf3be340fa016a9e",
+      "bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789",
+      "player_validation_client.js": "cb121f350c17a2106c7bdab5273da970476ea7f4421cc24c2193190de63cdf60",
+      "generation_end_metrics.py": "7980902a862de6f3cf9161cdf8f063374ff8ca76f1d0c21a4674ae29d76b77d6"
+    },
+    "e2e-run-3": {
+      "bench_tts_contention.py": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d",
+      "xvector_validation_client.js": "ce33ee884fb6588273ff0d15444c755995dc8e2d65309d5a960ece7b6aedcc72",
+      "bench_generation_layout.py": "5b1d30a72f6b1f15557cbe8dac578e8beca8911951fd1ebe991f1e885b56c7e7",
+      "stream_tail.py": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+      "recheck_numeric_whisper.py": "8e2f3748f289fb6753426c347b6d2f5054405bdb7814b5a01df89036f065feee",
+      "xvector-integration-client-v3.js": "d9706412246b7195cdf976cd6933f980d522cc8106990af00dfceb8850044c0e",
+      "targeted-suite.json": "60bf01458c33a27d3edc5b5e9b71df87acb2576de7f1e1a6514a90c430a92795",
+      "number_reading.py": "11816818545a3cee383b3ced8da6b80cf9343b8caf854623ea2e70fa6349564f",
+      "xvector_validation_server.py": "8326e0e2a76b310e200247ebc4026efe76ec44727cb892d626939377f27a930b",
+      "player_validation_proxy.py": "94fc664379fb8c2f7eb3fa13867183f36074dd7090a47661e528a0f2ccd6b07d",
+      "xvector-integration-client.js": "cef9157567870d8a1f61ff8cb4e502ce8d836eb834d13deef64683a82a23341b",
+      "xvector-integration-client-v2.js": "94a684d955bcfb74bbe3d6824177512a97d94c34fa8fe43caf3be340fa016a9e",
+      "bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789",
+      "player_validation_client.js": "cb121f350c17a2106c7bdab5273da970476ea7f4421cc24c2193190de63cdf60",
+      "generation_end_metrics.py": "7980902a862de6f3cf9161cdf8f063374ff8ca76f1d0c21a4674ae29d76b77d6"
+    }
+  }
+}

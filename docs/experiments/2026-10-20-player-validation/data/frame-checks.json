@@ -1,0 +1,310 @@
+[
+  {
+    "key": "soft-0",
+    "policy": "baseline",
+    "prefix_equal": true,
+    "browser_frames": 49844,
+    "wire_frames": 49844
+  },
+  {
+    "key": "soft-0",
+    "policy": "guard99",
+    "prefix_equal": true,
+    "browser_frames": 11036,
+    "wire_frames": 11036
+  },
+  {
+    "key": "soft-0",
+    "policy": "guard3",
+    "prefix_equal": true,
+    "browser_frames": 35364,
+    "wire_frames": 35364
+  },
+  {
+    "key": "soft-1",
+    "policy": "baseline",
+    "prefix_equal": true,
+    "browser_frames": 57590,
+    "wire_frames": 57590
+  },
+  {
+    "key": "soft-1",
+    "policy": "guard99",
+    "prefix_equal": true,
+    "browser_frames": 22194,
+    "wire_frames": 22194
+  },
+  {
+    "key": "soft-1",
+    "policy": "guard3",
+    "prefix_equal": true,
+    "browser_frames": 43163,
+    "wire_frames": 43163
+  },
+  {
+    "key": "soft-2",
+    "policy": "baseline",
+    "prefix_equal": true,
+    "browser_frames": 39908,
+    "wire_frames": 39908
+  },
+  {
+    "key": "soft-2",
+    "policy": "guard99",
+    "prefix_equal": true,
+    "browser_frames": 6308,
+    "wire_frames": 6308
+  },
+  {
+    "key": "soft-2",
+    "policy": "guard3",
+    "prefix_equal": true,
+    "browser_frames": 25474,
+    "wire_frames": 25474
+  },
+  {
+    "key": "soft-3",
+    "policy": "baseline",
+    "prefix_equal": true,
+    "browser_frames": 52151,
+    "wire_frames": 52151
+  },
+  {
+    "key": "soft-3",
+    "policy": "guard99",
+    "prefix_equal": true,
+    "browser_frames": 18551,
+    "wire_frames": 18551
+  },
+  {
+    "key": "soft-3",
+    "policy": "guard3",
+    "prefix_equal": true,
+    "browser_frames": 37599,
+    "wire_frames": 37599
+  },
+  {
+    "key": "soft-4",
+    "policy": "baseline",
+    "prefix_equal": true,
+    "browser_frames": 53947,
+    "wire_frames": 53947
+  },
+  {
+    "key": "soft-4",
+    "policy": "guard99",
+    "prefix_equal": true,
+    "browser_frames": 20347,
+    "wire_frames": 20347
+  },
+  {
+    "key": "soft-4",
+    "policy": "guard3",
+    "prefix_equal": true,
+    "browser_frames": 39401,
+    "wire_frames": 39401
+  },
+  {
+    "key": "soft-5",
+    "policy": "baseline",
+    "prefix_equal": true,
+    "browser_frames": 65391,
+    "wire_frames": 65391
+  },
+  {
+    "key": "soft-5",
+    "policy": "guard99",
+    "prefix_equal": true,
+    "browser_frames": 31783,
+    "wire_frames": 31783
+  },
+  {
+    "key": "soft-5",
+    "policy": "guard3",
+    "prefix_equal": true,
+    "browser_frames": 50970,
+    "wire_frames": 50970
+  },
+  {
+    "key": "long-tail",
+    "policy": "baseline",
+    "prefix_equal": true,
+    "browser_frames": 114176,
+    "wire_frames": 114176
+  },
+  {
+    "key": "long-tail",
+    "policy": "guard99",
+    "prefix_equal": true,
+    "browser_frames": 33288,
+    "wire_frames": 33288
+  },
+  {
+    "key": "long-tail",
+    "policy": "guard3",
+    "prefix_equal": true,
+    "browser_frames": 35353,
+    "wire_frames": 35353
+  },
+  {
+    "key": "internal-pause",
+    "policy": "baseline",
+    "prefix_equal": true,
+    "browser_frames": 145664,
+    "wire_frames": 145664
+  },
+  {
+    "key": "internal-pause",
+    "policy": "guard99",
+    "prefix_equal": true,
+    "browser_frames": 62488,
+    "wire_frames": 62488
+  },
+  {
+    "key": "internal-pause",
+    "policy": "guard3",
+    "prefix_equal": true,
+    "browser_frames": 66130,
+    "wire_frames": 66130
+  },
+  {
+    "key": "late-packet",
+    "policy": "baseline",
+    "prefix_equal": true,
+    "browser_frames": 126464,
+    "wire_frames": 126464
+  },
+  {
+    "key": "late-packet",
+    "policy": "guard99",
+    "prefix_equal": true,
+    "browser_frames": 43288,
+    "wire_frames": 43288
+  },
+  {
+    "key": "late-packet",
+    "policy": "guard3",
+    "prefix_equal": true,
+    "browser_frames": 46930,
+    "wire_frames": 46930
+  },
+  {
+    "key": "first-new-session",
+    "policy": "baseline",
+    "kind": "e2e",
+    "browser_frames": 48640,
+    "wire_frames": 48640
+  },
+  {
+    "key": "case-0-repeat-0",
+    "policy": "baseline",
+    "kind": "e2e",
+    "browser_frames": 89600,
+    "wire_frames": 89600
+  },
+  {
+    "key": "case-0-repeat-0",
+    "policy": "guard3",
+    "kind": "e2e",
+    "browser_frames": 86528,
+    "wire_frames": 86528
+  },
+  {
+    "key": "case-1-repeat-0",
+    "policy": "guard3",
+    "kind": "e2e",
+    "browser_frames": 83968,
+    "wire_frames": 83968
+  },
+  {
+    "key": "case-1-repeat-0",
+    "policy": "baseline",
+    "kind": "e2e",
+    "browser_frames": 100352,
+    "wire_frames": 100352
+  },
+  {
+    "key": "case-2-repeat-0",
+    "policy": "baseline",
+    "kind": "e2e",
+    "browser_frames": 162304,
+    "wire_frames": 162304
+  },
+  {
+    "key": "case-2-repeat-0",
+    "policy": "guard3",
+    "kind": "e2e",
+    "browser_frames": 138752,
+    "wire_frames": 138752
+  },
+  {
+    "key": "case-3-repeat-0",
+    "policy": "guard3",
+    "kind": "e2e",
+    "browser_frames": 140288,
+    "wire_frames": 140288
+  },
+  {
+    "key": "case-3-repeat-0",
+    "policy": "baseline",
+    "kind": "e2e",
+    "browser_frames": 123904,
+    "wire_frames": 123904
+  },
+  {
+    "key": "case-0-repeat-1",
+    "policy": "guard3",
+    "kind": "e2e",
+    "browser_frames": 52224,
+    "wire_frames": 52224
+  },
+  {
+    "key": "case-0-repeat-1",
+    "policy": "baseline",
+    "kind": "e2e",
+    "browser_frames": 43520,
+    "wire_frames": 43520
+  },
+  {
+    "key": "case-1-repeat-1",
+    "policy": "baseline",
+    "kind": "e2e",
+    "browser_frames": 64000,
+    "wire_frames": 64000
+  },
+  {
+    "key": "case-1-repeat-1",
+    "policy": "guard3",
+    "kind": "e2e",
+    "browser_frames": 83968,
+    "wire_frames": 83968
+  },
+  {
+    "key": "case-2-repeat-1",
+    "policy": "guard3",
+    "kind": "e2e",
+    "browser_frames": 124928,
+    "wire_frames": 124928
+  },
+  {
+    "key": "case-2-repeat-1",
+    "policy": "baseline",
+    "kind": "e2e",
+    "browser_frames": 146944,
+    "wire_frames": 146944
+  },
+  {
+    "key": "case-3-repeat-1",
+    "policy": "baseline",
+    "kind": "e2e",
+    "browser_frames": 117760,
+    "wire_frames": 117760
+  },
+  {
+    "key": "case-3-repeat-1",
+    "policy": "guard3",
+    "kind": "e2e",
+    "browser_frames": 157184,
+    "wire_frames": 157184
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "scope": "post-run ASR repeated on byte-identical discrepant PCM; no new TTS",
+  "rows": [
+    {
+      "repeat": 1,
+      "asr_exact": true,
+      "edit_distance": 0
+    },
+    {
+      "repeat": 2,
+      "asr_exact": true,
+      "edit_distance": 0
+    },
+    {
+      "repeat": 3,
+      "asr_exact": false,
+      "edit_distance": 2
+    }
+  ]
+}

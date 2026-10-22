@@ -1,0 +1,218 @@
+[
+  {
+    "id": "soft-0",
+    "policy": "baseline",
+    "kind": "full",
+    "recognized": "好呀今天就先这样吧"
+  },
+  {
+    "id": "soft-0",
+    "policy": "baseline",
+    "kind": "amplified_suffix",
+    "recognized": "今天就先这样吧"
+  },
+  {
+    "id": "soft-0",
+    "policy": "guard99",
+    "kind": "full",
+    "recognized": "好呀"
+  },
+  {
+    "id": "soft-0",
+    "policy": "guard99",
+    "kind": "amplified_suffix",
+    "recognized": ""
+  },
+  {
+    "id": "soft-0",
+    "policy": "guard3",
+    "kind": "full",
+    "recognized": "好呀今天就先这样吧"
+  },
+  {
+    "id": "soft-0",
+    "policy": "guard3",
+    "kind": "amplified_suffix",
+    "recognized": "今天就先这样吧"
+  },
+  {
+    "id": "soft-1",
+    "policy": "baseline",
+    "kind": "full",
+    "recognized": "我不着急你慢慢说就好"
+  },
+  {
+    "id": "soft-1",
+    "policy": "baseline",
+    "kind": "amplified_suffix",
+    "recognized": "你慢慢说就好"
+  },
+  {
+    "id": "soft-1",
+    "policy": "guard99",
+    "kind": "full",
+    "recognized": "我不着急"
+  },
+  {
+    "id": "soft-1",
+    "policy": "guard99",
+    "kind": "amplified_suffix",
+    "recognized": "你好"
+  },
+  {
+    "id": "soft-1",
+    "policy": "guard3",
+    "kind": "full",
+    "recognized": "不不着急你慢慢说就好"
+  },
+  {
+    "id": "soft-1",
+    "policy": "guard3",
+    "kind": "amplified_suffix",
+    "recognized": "你慢慢说就好"
+  },
+  {
+    "id": "soft-2",
+    "policy": "baseline",
+    "kind": "full",
+    "recognized": "我在这里陪着你呢"
+  },
+  {
+    "id": "soft-2",
+    "policy": "baseline",
+    "kind": "amplified_suffix",
+    "recognized": "我在这里陪着你呢"
+  },
+  {
+    "id": "soft-2",
+    "policy": "guard99",
+    "kind": "full",
+    "recognized": "我在这里"
+  },
+  {
+    "id": "soft-2",
+    "policy": "guard99",
+    "kind": "amplified_suffix",
+    "recognized": "在这里"
+  },
+  {
+    "id": "soft-2",
+    "policy": "guard3",
+    "kind": "full",
+    "recognized": "我在这里陪着你呢"
+  },
+  {
+    "id": "soft-2",
+    "policy": "guard3",
+    "kind": "amplified_suffix",
+    "recognized": "我在这里陪着你呢"
+  },
+  {
+    "id": "soft-3",
+    "policy": "baseline",
+    "kind": "full",
+    "recognized": "可以记得早点休息哦"
+  },
+  {
+    "id": "soft-3",
+    "policy": "baseline",
+    "kind": "amplified_suffix",
+    "recognized": "记得早点休息哦"
+  },
+  {
+    "id": "soft-3",
+    "policy": "guard99",
+    "kind": "full",
+    "recognized": "可以记得"
+  },
+  {
+    "id": "soft-3",
+    "policy": "guard99",
+    "kind": "amplified_suffix",
+    "recognized": "记得做好"
+  },
+  {
+    "id": "soft-3",
+    "policy": "guard3",
+    "kind": "full",
+    "recognized": "可以记得早点休息哦"
+  },
+  {
+    "id": "soft-3",
+    "policy": "guard3",
+    "kind": "amplified_suffix",
+    "recognized": "记得早点休息哦"
+  },
+  {
+    "id": "soft-4",
+    "policy": "baseline",
+    "kind": "full",
+    "recognized": "好的我们明天再聊吧"
+  },
+  {
+    "id": "soft-4",
+    "policy": "baseline",
+    "kind": "amplified_suffix",
+    "recognized": "我们明天再聊吧"
+  },
+  {
+    "id": "soft-4",
+    "policy": "guard99",
+    "kind": "full",
+    "recognized": "好的我们明天"
+  },
+  {
+    "id": "soft-4",
+    "policy": "guard99",
+    "kind": "amplified_suffix",
+    "recognized": "我们民"
+  },
+  {
+    "id": "soft-4",
+    "policy": "guard3",
+    "kind": "full",
+    "recognized": "好的我们明天再聊吧"
+  },
+  {
+    "id": "soft-4",
+    "policy": "guard3",
+    "kind": "amplified_suffix",
+    "recognized": "我们明天再聊吧"
+  },
+  {
+    "id": "soft-5",
+    "policy": "baseline",
+    "kind": "full",
+    "recognized": "请记住最后的数字是七二九"
+  },
+  {
+    "id": "soft-5",
+    "policy": "baseline",
+    "kind": "amplified_suffix",
+    "recognized": "四是七二九"
+  },
+  {
+    "id": "soft-5",
+    "policy": "guard99",
+    "kind": "full",
+    "recognized": "请记住最后的数字是"
+  },
+  {
+    "id": "soft-5",
+    "policy": "guard99",
+    "kind": "amplified_suffix",
+    "recognized": "此时"
+  },
+  {
+    "id": "soft-5",
+    "policy": "guard3",
+    "kind": "full",
+    "recognized": "请记住最后的数字是七二九"
+  },
+  {
+    "id": "soft-5",
+    "policy": "guard3",
+    "kind": "amplified_suffix",
+    "recognized": "四是七二九"
+  }
+]

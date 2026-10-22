@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "timezone": "America/Chicago",
+  "production_hashes": {
+    "bridge": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+    "plugin": "4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74"
+  },
+  "health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  },
+  "ollama": {
+    "models": []
+  },
+  "gpu_processes": [
+    "128361, /usr/bin/ptyxis, 137 MiB",
+    "184829, /usr/bin/coolercontrol, 193 MiB",
+    "108257, /usr/libexec/xdg-desktop-portal-gnome, 6 MiB",
+    "408436, /home/apex/.local/share/local-ai/comfyui-env/bin/python, 470 MiB",
+    "3504737, /home/apex/voice-ai/venv-bridge/bin/python, 4548 MiB"
+  ],
+  "cancellation_log_excerpt": [
+    "2026-10-20 14:55:45,372 - voice_bridge - INFO - TTS stream cancelled: 160 chars -> 0.16s audio, first chunk 102 ms, 152 ms total",
+    "2026-10-20 14:55:45,405 - voice_bridge - INFO - TTS: cancelled mid-synthesis",
+    "2026-10-20 14:55:46,713 - voice_bridge - INFO - TTS stream cancelled: 160 chars -> 0.54s audio, first chunk 185 ms, 336 ms total",
+    "2026-10-20 14:55:46,731 - voice_bridge - INFO - TTS: cancelled mid-synthesis",
+    "2026-10-20 14:55:48,173 - voice_bridge - INFO - TTS stream cancelled: 160 chars -> 1.31s audio, first chunk 104 ms, 455 ms total",
+    "2026-10-20 14:55:48,247 - voice_bridge - INFO - TTS: cancelled mid-synthesis"
+  ]
+}

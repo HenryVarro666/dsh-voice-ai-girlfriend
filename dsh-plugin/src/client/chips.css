@@ -1,0 +1,91 @@
+/* Shared "chip" design language for the voice toolbar.
+   Rendered on <span role="button"> — dsh's composer button forcing (gray/white)
+   does not apply to spans, so hover/state animations are fully ours.
+   Everything here is tuned to feel AIRY and smooth, never abrupt:
+   slow eased transitions, small floats, soft glows. */
+
+.chip {
+  transition:
+    transform 0.32s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.4s ease,
+    filter 0.4s ease;
+  will-change: transform;
+}
+
+/* Hover: a gentle lift + a soft halo (not a hard pop). */
+.chip:hover {
+  transform: translateY(-1px) scale(1.045);
+  box-shadow:
+    0 3px 14px rgba(56, 132, 255, 0.16),
+    inset 0 0 0 1px rgba(56, 132, 255, 0.42);
+}
+
+.chip:active {
+  transform: scale(0.97);
+}
+
+/* ON state: a calm breathing glow (long period, subtle amplitude). */
+.on {
+  animation: chip-breathe 3.4s ease-in-out infinite;
+}
+
+@keyframes chip-breathe {
+  0%, 100% { box-shadow: inset 0 0 0 1px rgba(56, 132, 255, 0.45), 0 0 4px rgba(56, 132, 255, 0.08); }
+  50% { box-shadow: inset 0 0 0 1px rgba(56, 132, 255, 0.6), 0 0 11px rgba(56, 132, 255, 0.3); }
+}
+
+/* Mic listening: a soft, slow shimmer. */
+.listening {
+  animation: mic-listen 2.4s ease-in-out infinite;
+}
+
+@keyframes mic-listen {
+  0%, 100% { filter: drop-shadow(0 0 1px rgba(56, 132, 255, 0)); }
+  50% { filter: drop-shadow(0 0 6px rgba(56, 132, 255, 0.45)); }
+}
+
+/* Mic recording: a gentle, organic pulse (easy on the eyes). */
+.rec {
+  animation: mic-rec 1.5s ease-in-out infinite;
+}
+
+@keyframes mic-rec {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(34, 197, 94, 0.18)); }
+  50% { transform: scale(1.06); filter: drop-shadow(0 0 8px rgba(34, 197, 94, 0.5)); }
+}
+
+/* TTS playing: a smooth sound-wave ripple. */
+.playing {
+  animation: wave 1.4s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 2px rgba(103, 158, 254, 0.2)); }
+  50% { transform: scale(1.07); filter: drop-shadow(0 0 9px rgba(103, 158, 254, 0.6)); }
+}
+
+/* Digital-human task running: a periodic GREEN glow ring (breathing + halo).
+   数字人正在生成时给按钮戴上绿光，一眼看出后台真的有活在干，而不是「点了没
+   反应」。动画里的 box-shadow 优先级高于行内样式，不会被 chipStyle 的内联
+   阴影盖掉。 */
+.dhBusy {
+  animation: chip-dh-busy 1.9s ease-in-out infinite;
+}
+
+@keyframes chip-dh-busy {
+  0%, 100% {
+    box-shadow: inset 0 0 0 1px rgba(52, 211, 153, 0.55), 0 0 4px rgba(52, 211, 153, 0.18);
+    filter: drop-shadow(0 0 0 rgba(52, 211, 153, 0));
+  }
+  50% {
+    box-shadow: inset 0 0 0 1px rgba(52, 211, 153, 0.85), 0 0 16px rgba(52, 211, 153, 0.6);
+    filter: drop-shadow(0 0 7px rgba(52, 211, 153, 0.75));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dhBusy {
+    animation: none;
+    box-shadow: inset 0 0 0 1px rgba(52, 211, 153, 0.8), 0 0 12px rgba(52, 211, 153, 0.5);
+  }
+}

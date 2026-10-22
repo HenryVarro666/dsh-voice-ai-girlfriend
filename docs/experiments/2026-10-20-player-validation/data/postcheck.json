@@ -1,0 +1,64 @@
+{
+  "verified_at_utc": "2026-10-20T20:08:07Z",
+  "ollama_before_cleanup": {
+    "models": [
+      {
+        "name": "qwen3.5-voice:latest",
+        "model": "qwen3.5-voice:latest",
+        "size": 6315069931,
+        "digest": "8a7424b465556f982cd18c05cd8c4f575aecd47e874b8877d6fc47da44b3f67b",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen35",
+          "families": [
+            "qwen35"
+          ],
+          "parameter_size": "9.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-10-20T15:08:39.44783124-05:00",
+        "size_vram": 6315069931,
+        "context_length": 32768,
+        "runner": "llamacpp"
+      }
+    ]
+  },
+  "ollama_after_cleanup": {
+    "models": []
+  },
+  "health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  },
+  "bridge_sha256": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+  "plugin_sha256": "4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74",
+  "speaker_source_sha256": "9aa68fe7720e4646f48ddf435cb6f106f1fb02b19499afd7b6953bcc56005741",
+  "guard_sha256": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+  "bundle_sha256": "9124c473fa49f2b140923f00338e84cfacb6adc6bf842ca58882cd7e6bee48d5",
+  "gpu": "100 %, 6406 MiB, 9403 MiB",
+  "processes": [
+    "128361, /usr/bin/ptyxis, 137 MiB",
+    "184829, /usr/bin/coolercontrol, 193 MiB",
+    "108257, /usr/libexec/xdg-desktop-portal-gnome, 6 MiB",
+    "408436, /home/apex/.local/share/local-ai/comfyui-env/bin/python, 470 MiB",
+    "3504737, /home/apex/voice-ai/venv-bridge/bin/python, 4532 MiB"
+  ],
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "speech-to-speech": "0.2.10",
+    "faster-qwen3-tts": "0.5.4",
+    "httpx": "0.28.1",
+    "websockets": "17.2"
+  },
+  "gpu_after_idle": "0 %, 5624 MiB, 10185 MiB",
+  "cleanup_note": "Owned loopback proxies and experiment SSH forwards removed; production services not restarted.",
+  "proxy_pids_stopped": [
+    3853400
+  ]
+}

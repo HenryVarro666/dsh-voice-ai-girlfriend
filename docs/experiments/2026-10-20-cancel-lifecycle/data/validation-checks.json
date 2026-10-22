@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "python_tests": 81,
+  "ruff": "passed",
+  "formatted_files": 11,
+  "js_bundle_sha256": "1063f20e63f04fa5ffc0198f311ac59ff5b5e5d54c79090154acca3e201c9e9e",
+  "js_syntax": "passed",
+  "plugin_mirror": "identical",
+  "maintained_docs": 49,
+  "extra_root_links_checked": 59,
+  "broken_local_links": 0,
+  "public_summary_recompute": "byte-identical",
+  "old_xvector_summary_recompute": "byte-identical",
+  "public_audio_files": 0,
+  "uncommitted": true,
+  "production_deployed": false
+}

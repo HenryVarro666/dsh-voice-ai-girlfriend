@@ -1,0 +1,87 @@
+{
+  "executed_date": "2026-10-21",
+  "archived_date": "2026-10-22",
+  "python": "3.12.14",
+  "versions": {
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "faster-qwen3-tts": "0.5.4",
+    "speech-to-speech": "0.2.10",
+    "uvicorn": "0.54.0",
+    "starlette": "1.9.0",
+    "fastapi": "0.146.0",
+    "httpx": "0.28.1",
+    "numpy": "2.5.4",
+    "soundfile": "0.14.0",
+    "onnxruntime": "1.31.0"
+  },
+  "library_sha256": {
+    "speech_to_speech.TTS.qwen3_tts_handler": "d90b7d0904023e6e7b484d725c630f46001df691061b7e974a3f2049c710f0e8",
+    "faster_qwen3_tts.streaming": "39a1420626c49b87f3cda486f5a3f0fb8a82238f9a052114970ada40d1959010",
+    "faster_qwen3_tts.model": "7d45740b805bb1a4798fbe20ffd580e2a35361e744c4645da106c2b6383d4de2"
+  },
+  "model": "Qwen3-TTS 0.6B Base; existing xiaoya-qwen3 reference, ICL both arms",
+  "manifest": {
+    "ready": true,
+    "pid": 2581600,
+    "gpu_before": {
+      "utilization_pct": 0,
+      "used_mib": 5508,
+      "free_mib": 10301,
+      "total_mib": 16303
+    },
+    "gpu_before_empty_cache": {
+      "utilization_pct": 97,
+      "used_mib": 9297,
+      "free_mib": 6512,
+      "total_mib": 16303
+    },
+    "gpu_ready": {
+      "utilization_pct": 97,
+      "used_mib": 8395,
+      "free_mib": 7414,
+      "total_mib": 16303
+    },
+    "allowed_gpu_pids": [
+      108257,
+      128361,
+      184829,
+      408436,
+      2581600,
+      3504737
+    ],
+    "bridge_sha256": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+    "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+    "tts_defaults": {
+      "streaming_chunk_size": 4,
+      "non_streaming_mode": true,
+      "xvec_only": false
+    },
+    "scope": "Frozen cancellation v1 versus bounded/disconnect-safe v2; ICL both arms; no crop",
+    "v1_sha256": "511b531190a042037fe4563aa6bb3d6d4776c1349e2536a2abd27a0e8c99f8e5"
+  },
+  "asgi_scope": "Uvicorn HTTP runtime path; ASGI 2.3/2.4 matrix additionally tested on CPU",
+  "queue_capacity": 8,
+  "pcm_block_samples": 512,
+  "pcm_rate": 16000,
+  "crop_enabled": false,
+  "snapshot_sha256": {
+    "bench_cancel_recovery.py": "47a0c124fcddb36f59ecebdb0fcbfd57871f9e2fffe30a09dad8f6f106b0f826",
+    "bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789",
+    "bench_generation_layout.py": "5b1d30a72f6b1f15557cbe8dac578e8beca8911951fd1ebe991f1e885b56c7e7",
+    "bench_tts_contention.py": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d",
+    "browser-client.js": "c84d94585d9a3bbd032ca05aa1b6ff5f4fba18b415f036f27c177f018587d041",
+    "cancel_recovery_client.js": "632a0dcfb76b55872235c85347baf890d642212a7615dc2116b32377b933e139",
+    "cancel_recovery_server.py": "b49affd25fbc2aa81865965e3b73f12598780c321e1089352a1154e356fe3db5",
+    "generation_end_metrics.py": "7980902a862de6f3cf9161cdf8f063374ff8ca76f1d0c21a4674ae29d76b77d6",
+    "player_validation_client.js": "cb121f350c17a2106c7bdab5273da970476ea7f4421cc24c2193190de63cdf60",
+    "player_validation_proxy.py": "85d863c3725b8071917b73325cac1bdcc4e3160164a8cf48eb4c338f2d6e7058",
+    "speaker.ts": "9aa68fe7720e4646f48ddf435cb6f106f1fb02b19499afd7b6953bcc56005741",
+    "stream_tail.py": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+    "test_tts_cancel_lifecycle.py": "a0d475e510471a70eb5b5b4be8f629939fb4ea1bd4126f761429fe04dade71c7",
+    "tts_cancel_lifecycle.py": "0d72f47ededd6196bf5b19aa11d7760a0033128af7096442ee4fd2856aa850d7",
+    "v1_tts_cancel_lifecycle.py": "511b531190a042037fe4563aa6bb3d6d4776c1349e2536a2abd27a0e8c99f8e5",
+    "xvector_validation_server.py": "f1d853b79cf72943ee15aab3a06cc20dd5b1ad2b6a9ab226366ecda1001b7aea"
+  },
+  "archive_note": "Python executor/dependency snapshots copied from apex tools; v1 is prior frozen source. Browser source and actual served bundle archived; report scripts remain in scripts/. Config, PCM and credentials excluded."
+}

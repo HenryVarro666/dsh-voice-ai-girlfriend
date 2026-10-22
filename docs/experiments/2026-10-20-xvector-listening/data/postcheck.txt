@@ -1,0 +1,20 @@
+POSTCHECK_UTC 2026-10-20T20:42:29.772716+00:00
+http://127.0.0.1:8765/api/health {'status': 'ok', 'stt': True, 'tts': True, 'stt_error': None, 'tts_error': None, 'turn': True, 'turn_error': None}
+http://127.0.0.1:11434/api/ps {'models': []}
+voice_bridge.py d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576
+client.js 4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74
+bridge-config.json 68dcd0a74297ad2179e42494a80ad125496db3b0aad15a2c3458f46bd4835f70
+ 408436 python          Sun Oct 18 04:28:18 2026
+3504737 python          Tue Oct 20 01:47:39 2026
+
+5463 MiB, 10346 MiB, 0 %
+
+128361, /usr/bin/ptyxis, 137 MiB
+184829, /usr/bin/coolercontrol, 193 MiB
+108257, /usr/libexec/xdg-desktop-portal-gnome, 6 MiB
+408436, /home/apex/.local/share/local-ai/comfyui-env/bin/python, 470 MiB
+3504737, /home/apex/voice-ai/venv-bridge/bin/python, 3750 MiB
+
+TOOLS_SHA256 {"bench_generation_end.py": "e6645e2a8d470e312ddcfbc1cff79b0dac9663c3bec7db7f2769e49feed6a789", "bench_generation_layout.py": "ecbdc3837d7fea8f146577ed00405571f79f6f22e83473d53171f5e966b3017b", "bench_tts_contention.py": "6634969eb92945aee7801d66ef210cc53bcbb5bd0270499c1f4039dc27bdd39d", "bench_xvector_endings.py": "0e8a248803a09aa4e4d131c691b513f4999f56806161101882cd98a9e7edeebd", "generation_end_metrics.py": "7980902a862de6f3cf9161cdf8f063374ff8ca76f1d0c21a4674ae29d76b77d6"}
+ARTIFACT_SIZE 13M	/home/apex/voice-ai/experiments/20261020-xvector-listening
+

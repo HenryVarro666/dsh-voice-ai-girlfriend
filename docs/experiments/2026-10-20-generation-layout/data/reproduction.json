@@ -1,0 +1,13 @@
+{
+  "pairs": 80,
+  "same_codes": 80,
+  "same_pcm_wav": 80,
+  "same_raw_wav": 80,
+  "asr_edit_difference": [
+    {
+      "key": "diagnostic-xvector-t2-s25",
+      "interfered_edits": 2,
+      "formal_edits": 0
+    }
+  ]
+}

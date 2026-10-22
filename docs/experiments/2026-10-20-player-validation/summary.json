@@ -1,0 +1,520 @@
+{
+  "e2e_n": 17,
+  "e2e_errors": 0,
+  "groups": {
+    "baseline-fast": {
+      "n": 4,
+      "median_ms": 1103.7374999970343,
+      "min_ms": 1063.0374999940395,
+      "max_ms": 1301.549999982104
+    },
+    "baseline-fallback": {
+      "n": 4,
+      "median_ms": 1840.2562499791347,
+      "min_ms": 1804.0499999821186,
+      "max_ms": 1910.862500011921
+    },
+    "baseline-all": {
+      "n": 8,
+      "median_ms": 1552.7999999821113,
+      "min_ms": 1063.0374999940395,
+      "max_ms": 1910.862500011921
+    },
+    "guard3-fast": {
+      "n": 4,
+      "median_ms": 1118.6437499970198,
+      "min_ms": 1040.637499988079,
+      "max_ms": 1182.5499999821186
+    },
+    "guard3-fallback": {
+      "n": 4,
+      "median_ms": 1888.5062500089407,
+      "min_ms": 1750.0500000119064,
+      "max_ms": 2010.2625000178814
+    },
+    "guard3-all": {
+      "n": 8,
+      "median_ms": 1466.2999999970125,
+      "min_ms": 1040.637499988079,
+      "max_ms": 2010.2625000178814
+    }
+  },
+  "first_session_ms": 3753.4500000178814,
+  "player_n": 31,
+  "weak_voice_loss_cases": {
+    "baseline": 0,
+    "guard99": 6,
+    "guard3": 0
+  },
+  "stages": [
+    {
+      "key": "first-new-session",
+      "policy": "baseline",
+      "warmup": true,
+      "path": "fallback",
+      "endpoint_stt_ms": 1306.4500000178814,
+      "dsh_llm_ms": 2081.5,
+      "tts_playback_ms": 365.5,
+      "total_ms": 3753.4500000178814,
+      "sources": 8
+    },
+    {
+      "key": "case-0-repeat-0",
+      "policy": "baseline",
+      "warmup": false,
+      "path": "fallback",
+      "endpoint_stt_ms": 1281.949999988079,
+      "dsh_llm_ms": 115.80000001192093,
+      "tts_playback_ms": 406.2999999821186,
+      "total_ms": 1804.0499999821186,
+      "sources": 12
+    },
+    {
+      "key": "case-0-repeat-0",
+      "policy": "guard3",
+      "warmup": false,
+      "path": "fallback",
+      "endpoint_stt_ms": 1282.6500000059605,
+      "dsh_llm_ms": 127.5,
+      "tts_playback_ms": 411.30000001192093,
+      "total_ms": 1821.4500000178814,
+      "sources": 15
+    },
+    {
+      "key": "case-1-repeat-0",
+      "policy": "guard3",
+      "warmup": false,
+      "path": "fast",
+      "endpoint_stt_ms": 649.2374999821186,
+      "dsh_llm_ms": 117.2000000178814,
+      "tts_playback_ms": 274.19999998807907,
+      "total_ms": 1040.637499988079,
+      "sources": 15
+    },
+    {
+      "key": "case-1-repeat-0",
+      "policy": "baseline",
+      "warmup": false,
+      "path": "fast",
+      "endpoint_stt_ms": 632.1374999880791,
+      "dsh_llm_ms": 172.0,
+      "tts_playback_ms": 258.90000000596046,
+      "total_ms": 1063.0374999940395,
+      "sources": 20
+    },
+    {
+      "key": "case-2-repeat-0",
+      "policy": "baseline",
+      "warmup": false,
+      "path": "fallback",
+      "endpoint_stt_ms": 1244.8624999821113,
+      "dsh_llm_ms": 154.30000001192093,
+      "tts_playback_ms": 469.2999999821186,
+      "total_ms": 1868.4624999761509,
+      "sources": 16
+    },
+    {
+      "key": "case-2-repeat-0",
+      "policy": "guard3",
+      "warmup": false,
+      "path": "fallback",
+      "endpoint_stt_ms": 1264.9625000059605,
+      "dsh_llm_ms": 137.30000001192093,
+      "tts_playback_ms": 608.0,
+      "total_ms": 2010.2625000178814,
+      "sources": 16
+    },
+    {
+      "key": "case-3-repeat-0",
+      "policy": "guard3",
+      "warmup": false,
+      "path": "fast",
+      "endpoint_stt_ms": 636.8499999940395,
+      "dsh_llm_ms": 143.90000000596046,
+      "tts_playback_ms": 401.7999999821186,
+      "total_ms": 1182.5499999821186,
+      "sources": 16
+    },
+    {
+      "key": "case-3-repeat-0",
+      "policy": "baseline",
+      "warmup": false,
+      "path": "fast",
+      "endpoint_stt_ms": 620.349999994025,
+      "dsh_llm_ms": 136.0,
+      "tts_playback_ms": 545.1999999880791,
+      "total_ms": 1301.549999982104,
+      "sources": 24
+    },
+    {
+      "key": "case-0-repeat-1",
+      "policy": "guard3",
+      "warmup": false,
+      "path": "fallback",
+      "endpoint_stt_ms": 1296.4499999880645,
+      "dsh_llm_ms": 121.40000000596046,
+      "tts_playback_ms": 332.2000000178814,
+      "total_ms": 1750.0500000119064,
+      "sources": 8
+    },
+    {
+      "key": "case-0-repeat-1",
+      "policy": "baseline",
+      "warmup": false,
+      "path": "fallback",
+      "endpoint_stt_ms": 1258.0499999821186,
+      "dsh_llm_ms": 117.2000000178814,
+      "tts_playback_ms": 436.7999999821186,
+      "total_ms": 1812.0499999821186,
+      "sources": 6
+    },
+    {
+      "key": "case-1-repeat-1",
+      "policy": "baseline",
+      "warmup": false,
+      "path": "fast",
+      "endpoint_stt_ms": 626.6374999880791,
+      "dsh_llm_ms": 125.09999999403954,
+      "tts_playback_ms": 328.08750000596046,
+      "total_ms": 1079.824999988079,
+      "sources": 7
+    },
+    {
+      "key": "case-1-repeat-1",
+      "policy": "guard3",
+      "warmup": false,
+      "path": "fast",
+      "endpoint_stt_ms": 609.9375,
+      "dsh_llm_ms": 178,
+      "tts_playback_ms": 354.39999997615814,
+      "total_ms": 1142.3374999761581,
+      "sources": 10
+    },
+    {
+      "key": "case-2-repeat-1",
+      "policy": "guard3",
+      "warmup": false,
+      "path": "fallback",
+      "endpoint_stt_ms": 1317.6624999940395,
+      "dsh_llm_ms": 121.19999998807907,
+      "tts_playback_ms": 516.7000000178814,
+      "total_ms": 1955.5625,
+      "sources": 14
+    },
+    {
+      "key": "case-2-repeat-1",
+      "policy": "baseline",
+      "warmup": false,
+      "path": "fallback",
+      "endpoint_stt_ms": 1302.862500011921,
+      "dsh_llm_ms": 151.2999999821186,
+      "tts_playback_ms": 456.7000000178814,
+      "total_ms": 1910.862500011921,
+      "sources": 17
+    },
+    {
+      "key": "case-3-repeat-1",
+      "policy": "baseline",
+      "warmup": false,
+      "path": "fast",
+      "endpoint_stt_ms": 666.4499999881082,
+      "dsh_llm_ms": 105.0,
+      "tts_playback_ms": 356.2000000178814,
+      "total_ms": 1127.6500000059896,
+      "sources": 28
+    },
+    {
+      "key": "case-3-repeat-1",
+      "policy": "guard3",
+      "warmup": false,
+      "path": "fast",
+      "endpoint_stt_ms": 602.4500000178814,
+      "dsh_llm_ms": 152.5,
+      "tts_playback_ms": 340,
+      "total_ms": 1094.9500000178814,
+      "sources": 30
+    }
+  ],
+  "playback": [
+    {
+      "key": "soft-0",
+      "policy": "baseline",
+      "first_voice_ms": 111.09999999403954,
+      "last_ended_ms": 3223.699999988079,
+      "sources": 89,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-0",
+      "policy": "guard99",
+      "first_voice_ms": 99.7000000178814,
+      "last_ended_ms": 751.0,
+      "sources": 22,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-0",
+      "policy": "guard3",
+      "first_voice_ms": 98.5,
+      "last_ended_ms": 2270.9000000059605,
+      "sources": 62,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-1",
+      "policy": "baseline",
+      "first_voice_ms": 100.0,
+      "last_ended_ms": 3661.399999976158,
+      "sources": 95,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-1",
+      "policy": "guard99",
+      "first_voice_ms": 99.69999998807907,
+      "last_ended_ms": 1447.7999999821186,
+      "sources": 36,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-1",
+      "policy": "guard3",
+      "first_voice_ms": 100.39999997615814,
+      "last_ended_ms": 2759.399999976158,
+      "sources": 76,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-2",
+      "policy": "baseline",
+      "first_voice_ms": 99.30000001192093,
+      "last_ended_ms": 2556.7000000178814,
+      "sources": 67,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-2",
+      "policy": "guard99",
+      "first_voice_ms": 98.80000001192093,
+      "last_ended_ms": 454.80000001192093,
+      "sources": 13,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-2",
+      "policy": "guard3",
+      "first_voice_ms": 99.80000001192093,
+      "last_ended_ms": 1657.2000000178814,
+      "sources": 45,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-3",
+      "policy": "baseline",
+      "first_voice_ms": 78.53749999403954,
+      "last_ended_ms": 3319.5,
+      "sources": 86,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-3",
+      "policy": "guard99",
+      "first_voice_ms": 75.6375000178814,
+      "last_ended_ms": 1286.7000000178814,
+      "sources": 28,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-3",
+      "policy": "guard3",
+      "first_voice_ms": 75.03749999403954,
+      "last_ended_ms": 2405.2999999821186,
+      "sources": 66,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-4",
+      "policy": "baseline",
+      "first_voice_ms": 99.7000000178814,
+      "last_ended_ms": 3433.300000011921,
+      "sources": 97,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-4",
+      "policy": "guard99",
+      "first_voice_ms": 98.19999998807907,
+      "last_ended_ms": 1331.0,
+      "sources": 29,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-4",
+      "policy": "guard3",
+      "first_voice_ms": 99.19999998807907,
+      "last_ended_ms": 2522.5,
+      "sources": 67,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-5",
+      "policy": "baseline",
+      "first_voice_ms": 107.40000000596046,
+      "last_ended_ms": 4154.0,
+      "sources": 111,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-5",
+      "policy": "guard99",
+      "first_voice_ms": 106.09999999403954,
+      "last_ended_ms": 2052.199999988079,
+      "sources": 54,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "soft-5",
+      "policy": "guard3",
+      "first_voice_ms": 99.90000000596046,
+      "last_ended_ms": 3245.199999988079,
+      "sources": 92,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "long-tail",
+      "policy": "baseline",
+      "first_voice_ms": 100.30000001192093,
+      "last_ended_ms": 7198.4000000059605,
+      "sources": 188,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "long-tail",
+      "policy": "guard99",
+      "first_voice_ms": 98.0,
+      "last_ended_ms": 2137.2000000178814,
+      "sources": 57,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "long-tail",
+      "policy": "guard3",
+      "first_voice_ms": 103.5,
+      "last_ended_ms": 2273.4000000059605,
+      "sources": 63,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "internal-pause",
+      "policy": "baseline",
+      "first_voice_ms": 99.09999999403954,
+      "last_ended_ms": 9167.90000000596,
+      "sources": 252,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "internal-pause",
+      "policy": "guard99",
+      "first_voice_ms": 110.2000000178814,
+      "last_ended_ms": 3972.5,
+      "sources": 79,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "internal-pause",
+      "policy": "guard3",
+      "first_voice_ms": 99.5,
+      "last_ended_ms": 4190.0999999940395,
+      "sources": 78,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "late-packet",
+      "policy": "baseline",
+      "first_voice_ms": 98.90000000596046,
+      "last_ended_ms": 8715.5,
+      "sources": 207,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "late-packet",
+      "policy": "guard99",
+      "first_voice_ms": 107.09999999403954,
+      "last_ended_ms": 3564.7999999821186,
+      "sources": 66,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "late-packet",
+      "policy": "guard3",
+      "first_voice_ms": 99.09999999403954,
+      "last_ended_ms": 3784.0999999940395,
+      "sources": 74,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "queued-two-segments",
+      "policy": "baseline",
+      "first_voice_ms": 98.09999999403954,
+      "last_ended_ms": 9428,
+      "sources": 188,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "queued-two-segments",
+      "policy": "guard3",
+      "first_voice_ms": 98.09999999403954,
+      "last_ended_ms": 4496.9000000059605,
+      "sources": 79,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": null
+    },
+    {
+      "key": "cancel-stream",
+      "policy": "baseline",
+      "first_voice_ms": 100.5,
+      "last_ended_ms": 312.40000000596046,
+      "sources": 28,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": false
+    },
+    {
+      "key": "cancel-stream",
+      "policy": "guard3",
+      "first_voice_ms": 98.10000002384186,
+      "last_ended_ms": 317.40000000596046,
+      "sources": 37,
+      "post_stop_new_sources": 0,
+      "speaking_after_stop": false
+    }
+  ],
+  "human_review": "pending"
+}

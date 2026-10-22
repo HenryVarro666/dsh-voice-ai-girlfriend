@@ -1,0 +1,94 @@
+{
+  "host": "127.0.0.1",
+  "port": 8765,
+  "cors_origins": [
+    "http://127.0.0.1:3080",
+    "http://localhost:3080"
+  ],
+  "stt": {
+    "backend": "funasr",
+    "model_name": "models/funasr/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch",
+    "device": "cuda",
+    "torch_dtype": "float16",
+    "compile_mode": null,
+    "language": "zh",
+    "gen_kwargs": {
+      "max_new_tokens": 128,
+      "num_beams": 2,
+      "return_timestamps": false,
+      "task": "transcribe"
+    }
+  },
+  "tts": {
+    "model_name": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "attn_implementation": "eager",
+    "ref_audio": "voices/my-voice/ref_audio.wav",
+    "ref_text": "请填写与参考音频完全一致的文字。",
+    "language": "zh",
+    "speaker": null,
+    "xvec_only": false,
+    "parity_mode": false,
+    "non_streaming_mode": false,
+    "max_new_tokens": 1536,
+    "blocksize": 512,
+    "streaming_chunk_size": 4
+  },
+  "turn": {
+    "enabled": false,
+    "mode": "text",
+    "text_model": "models/qwen3-0.6b",
+    "text_device": "cpu",
+    "text_threshold": 0.2,
+    "model": "models/smart-turn/smart-turn-v3.2-gpu.onnx",
+    "threads": 4,
+    "threshold": 0.5
+  },
+  "media": {
+    "bg_images_dir": "assets/bg-images",
+    "task_videos_dir": "assets/task-videos"
+  },
+  "deepseek": {
+    "api_key": ""
+  },
+  "qq": {
+    "enabled": false,
+    "napcat_base": "http://127.0.0.1:3000",
+    "napcat_token": "",
+    "target_qq": 0
+  },
+  "digital_human": {
+    "enabled": false,
+    "duix_base": "http://127.0.0.1:9000",
+    "data_dir": "duix-data/face2face",
+    "temp_dir": "temp",
+    "avatar_video": "",
+    "max_keep": 200,
+    "segment_chars": 48,
+    "submit_retry_sec": 5,
+    "query_interval_sec": 2,
+    "query_timeout_sec": 240,
+    "submit_conn_fails": 6,
+    "container_name": "duix-avatar-gen-video",
+    "docker_cli": "docker",
+    "stop_container_on_disable": true
+  },
+  "omnivoice": {
+    "base": "http://127.0.0.1:9877",
+    "lang": "Chinese",
+    "ns": 32,
+    "gs": 2.0,
+    "dn": true,
+    "sp": 1.0,
+    "pp": true,
+    "po": true,
+    "timeout_sec": 120
+  },
+  "persona": {
+    "default_voice": "my-voice",
+    "default_avatar": "",
+    "default_idle": "default"
+  },
+  "voices_dir": "voices"
+}

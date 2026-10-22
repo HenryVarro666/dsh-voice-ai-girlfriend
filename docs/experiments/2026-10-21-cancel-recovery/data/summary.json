@@ -1,0 +1,210 @@
+{
+  "counts": {
+    "api_cases": 36,
+    "browser_bursts": 4,
+    "intentional_faults": 8,
+    "restart_controls": 2
+  },
+  "arms": {
+    "v1": {
+      "control": {
+        "n": 4
+      },
+      "disconnect-after": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 264.43728152662516,
+        "consumer_close_to_worker_exit_ms": 79.25265899393708,
+        "model_starts": 2
+      },
+      "disconnect-before": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 303.04352001985535,
+        "consumer_close_to_worker_exit_ms": 113.70624447590671,
+        "model_starts": 2
+      },
+      "disconnect-queued": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 234.5166940067429,
+        "consumer_close_to_worker_exit_ms": 0.8570364734623581,
+        "model_starts": 0
+      },
+      "fault-close": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 223.2013999891933,
+        "consumer_read_errors": 0
+      },
+      "fault-generate": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 224.55889801494777,
+        "consumer_read_errors": 2
+      },
+      "slow-cancel": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 237.8032874839846,
+        "consumer_close_to_worker_exit_ms": 11.595463496632874,
+        "model_starts": 2
+      },
+      "wire-slow": {
+        "n": 1
+      },
+      "slow_controls": [
+        {
+          "case": 0,
+          "send_delay_ms": 0,
+          "queue_peak": 10,
+          "lock_held_ms": 836.9965929887258,
+          "request_to_voiced_pcm_ms": 225.81401700153947
+        },
+        {
+          "case": 0,
+          "send_delay_ms": 40,
+          "queue_peak": 70,
+          "lock_held_ms": 828.8559640059248,
+          "request_to_voiced_pcm_ms": 301.8238320364617
+        },
+        {
+          "case": 1,
+          "send_delay_ms": 0,
+          "queue_peak": 10,
+          "lock_held_ms": 487.83995502162725,
+          "request_to_voiced_pcm_ms": 141.4278430165723
+        },
+        {
+          "case": 1,
+          "send_delay_ms": 40,
+          "queue_peak": 38,
+          "lock_held_ms": 477.6382549898699,
+          "request_to_voiced_pcm_ms": 218.18093402544037
+        }
+      ],
+      "browser": {
+        "n": 2,
+        "stops": 4,
+        "late_sources": 0,
+        "followup_request_to_scheduled_voice_ms": 395.34999999403954
+      }
+    },
+    "fixed": {
+      "control": {
+        "n": 4
+      },
+      "disconnect-after": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 230.80892700818367,
+        "consumer_close_to_worker_exit_ms": 44.454426009906456,
+        "model_starts": 2
+      },
+      "disconnect-before": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 258.25033147702925,
+        "consumer_close_to_worker_exit_ms": 72.08551000803709,
+        "model_starts": 2
+      },
+      "disconnect-queued": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 242.90140750235878,
+        "consumer_close_to_worker_exit_ms": 0.5764469970017672,
+        "model_starts": 0
+      },
+      "fault-close": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 224.60661749937572,
+        "consumer_read_errors": 2
+      },
+      "fault-generate": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 227.03493045992218,
+        "consumer_read_errors": 2
+      },
+      "force-worker": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 290.53538251901045
+      },
+      "slow-cancel": {
+        "n": 2,
+        "followup_request_to_voiced_pcm_ms": 237.07377599203028,
+        "consumer_close_to_worker_exit_ms": 50.38895201869309,
+        "model_starts": 2
+      },
+      "wire-slow": {
+        "n": 1
+      },
+      "slow_controls": [
+        {
+          "case": 0,
+          "send_delay_ms": 0,
+          "queue_peak": 1,
+          "lock_held_ms": 846.776865015272,
+          "request_to_voiced_pcm_ms": 230.36005400354043
+        },
+        {
+          "case": 0,
+          "send_delay_ms": 40,
+          "queue_peak": 8,
+          "lock_held_ms": 3318.1282409932464,
+          "request_to_voiced_pcm_ms": 302.2570299799554
+        },
+        {
+          "case": 1,
+          "send_delay_ms": 0,
+          "queue_peak": 1,
+          "lock_held_ms": 493.2273590238765,
+          "request_to_voiced_pcm_ms": 143.84692098246887
+        },
+        {
+          "case": 1,
+          "send_delay_ms": 40,
+          "queue_peak": 8,
+          "lock_held_ms": 1700.8639050181955,
+          "request_to_voiced_pcm_ms": 227.4529779679142
+        }
+      ],
+      "browser": {
+        "n": 2,
+        "stops": 4,
+        "late_sources": 0,
+        "followup_request_to_scheduled_voice_ms": 371.69999998807907
+      }
+    }
+  },
+  "forced_worker": [
+    {
+      "cancel_to_producer_exit_ms": 107.27001097984612,
+      "lock_held_until_exit": true
+    },
+    {
+      "cancel_to_producer_exit_ms": 96.16477595409378,
+      "lock_held_until_exit": true
+    }
+  ],
+  "pcm_controls": [
+    {
+      "case": 0,
+      "fast_slow_cross_arm_identical": true,
+      "restart_identical": true,
+      "pcm_sha256": "cdeff993bdd5c380f6147f0a27ed0c9dc751790e2a89ea01a544ac75cffe826d"
+    },
+    {
+      "case": 1,
+      "fast_slow_cross_arm_identical": true,
+      "restart_identical": true,
+      "pcm_sha256": "ffa32e221e060ad29530e5d0044d0a16fc0c189a445673b2efc15ae5674f2b44"
+    }
+  ],
+  "shutdown": {
+    "pid": 2581600,
+    "signal_to_process_exit_ms": 2356.001053005457,
+    "received": {
+      "stream_id": "owned-0079",
+      "headers_ms": 37.13881701696664,
+      "first_voiced_pcm_ms": 2022.5808679824695,
+      "total_ms": 2192.6950389752164,
+      "received_samples": 14848,
+      "pcm_sha256": "d92aead9920c3b05fc89211b3c31585c2823103413fb562e804e1117847b1b2b",
+      "read_error": "IncompleteRead"
+    },
+    "process_absent": true,
+    "consumer_close_to_producer_exit_ms": 67.82354600727558
+  },
+  "scope": "HTTP PCM availability / WebAudio schedule; no new DSH/LLM or human mic/hardware measurement"
+}

@@ -1,0 +1,98 @@
+{
+  "owned-0021": {
+    "sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+    "samples": 129536,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 42495
+  },
+  "owned-0022": {
+    "sha256": "8a5d73da8adaf947d61d6899356674cfdc00e5b5b4976212312a8d6afd7510e5",
+    "samples": 29696,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 28104
+  },
+  "owned-0023": {
+    "sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+    "samples": 38400,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 36175
+  },
+  "owned-0024": {
+    "sha256": "a4fd2ae827531be5eb0533e31f67f28e43b988463c684c63ec11d48ce90a5c51",
+    "samples": 29696,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 27979
+  },
+  "owned-0025": {
+    "sha256": "3ecdb2608040a3283594bc4bef5d66cd9921053f9243cb0bdb831e9f35aedc9d",
+    "samples": 27136,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 23843
+  },
+  "owned-0026": {
+    "sha256": "96013d08e363ad482e8b95faeb11a7807a2ad73a7090ebefd0accc2f07307c49",
+    "samples": 29184,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 27697
+  },
+  "owned-0027": {
+    "sha256": "71144c116d7256b2d686f7c95e215d2e1e07a9e0ba87b9fd1a51ec4d82161a16",
+    "samples": 23040,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 22138
+  },
+  "owned-0028": {
+    "sha256": "4303cf5695a132d013f19d0e8784fcd6716450f80cf13777a25e3e6dce4863a6",
+    "samples": 35840,
+    "first_voiced_sample": 37,
+    "last_voiced_sample": 33830
+  },
+  "owned-0029": {
+    "sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+    "samples": 38400,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 36175
+  },
+  "owned-0030": {
+    "sha256": "a4fd2ae827531be5eb0533e31f67f28e43b988463c684c63ec11d48ce90a5c51",
+    "samples": 29696,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 27979
+  },
+  "owned-0031": {
+    "sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+    "samples": 129536,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 42495
+  },
+  "owned-0032": {
+    "sha256": "8a5d73da8adaf947d61d6899356674cfdc00e5b5b4976212312a8d6afd7510e5",
+    "samples": 29696,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 28104
+  },
+  "owned-0033": {
+    "sha256": "0651f84b3a122e2355fc7712d9d25362f4812a04915b5637bd9264c8983f92a2",
+    "samples": 28160,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 26837
+  },
+  "owned-0034": {
+    "sha256": "e310c02b790d5998d48ec2e32cdc80f690b6bddbae03897625973e1b26aabcef",
+    "samples": 37376,
+    "first_voiced_sample": 265,
+    "last_voiced_sample": 35341
+  },
+  "owned-0035": {
+    "sha256": "4fb6c4916e018e051df3ef78eabf5cda8af7e69922d8419746fb66129612cc1e",
+    "samples": 23552,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 22358
+  },
+  "owned-0036": {
+    "sha256": "08c3b9f854dc3eec245f9686846ff2f55a481b269aa6dd31d871fa83f9e6de75",
+    "samples": 36864,
+    "first_voiced_sample": 640,
+    "last_voiced_sample": 34082
+  }
+}

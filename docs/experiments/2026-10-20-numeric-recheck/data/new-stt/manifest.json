@@ -1,0 +1,806 @@
+{
+  "suite": [
+    {
+      "id": "diagnostic-baseline-t1-s4409",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-baseline-t1-s4409.wav",
+      "sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+      "text": "编号是一零零二零零三零零。",
+      "case": {
+        "code": "100200300",
+        "original_scenario_index": 2
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "diagnostic",
+      "text_index": 1,
+      "seed": 4409
+    },
+    {
+      "id": "diagnostic-xvector-t0-s5519",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-xvector-t0-s5519.wav",
+      "sha256": "22599087b0cdd37dfb36b65a144bcea0fff49b205bae2d327c6916f7684037e5",
+      "text": "编号是一一零零二二。",
+      "case": {
+        "code": "110022",
+        "original_scenario_index": 0
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 5519
+    },
+    {
+      "id": "diagnostic-xvector-t0-s4409",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-xvector-t0-s4409.wav",
+      "sha256": "98b02a6971f321b7fce177b5d0f2204837a5b0238391aed7d854593b2e39342f",
+      "text": "编号是一一零零二二。",
+      "case": {
+        "code": "110022",
+        "original_scenario_index": 0
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 4409
+    },
+    {
+      "id": "diagnostic-xvector-t0-s6619",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-xvector-t0-s6619.wav",
+      "sha256": "dd82df1a757a77580f797212b6b80612050bd4f0bba5e5cddb1c4c0c6126fc60",
+      "text": "编号是一一零零二二。",
+      "case": {
+        "code": "110022",
+        "original_scenario_index": 0
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 6619
+    },
+    {
+      "id": "diagnostic-xvector-t1-s6619",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-xvector-t1-s6619.wav",
+      "sha256": "7037cc445343925e8187970727e3b55626435e09e4b494941cb152b1a0a84c0a",
+      "text": "编号是一零零二零零三零零。",
+      "case": {
+        "code": "100200300",
+        "original_scenario_index": 2
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "diagnostic",
+      "text_index": 1,
+      "seed": 6619
+    },
+    {
+      "id": "diagnostic-baseline-t0-s5519",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-baseline-t0-s5519.wav",
+      "sha256": "79cba0bb3f27cf6679040da54739922e530a2330f21f8a3108a6b9d3d9dace3a",
+      "text": "编号是一一零零二二。",
+      "case": {
+        "code": "110022",
+        "original_scenario_index": 0
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 5519
+    },
+    {
+      "id": "diagnostic-baseline-t0-s4409",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-baseline-t0-s4409.wav",
+      "sha256": "65be41bf5a1d992f7f6a3fb6249196e5381e2e0ac6aea273de06ca8b025934c5",
+      "text": "编号是一一零零二二。",
+      "case": {
+        "code": "110022",
+        "original_scenario_index": 0
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 4409
+    },
+    {
+      "id": "diagnostic-baseline-t0-s6619",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-baseline-t0-s6619.wav",
+      "sha256": "87632666c86662790b206d05b43dfe85e88026fff3378591f53869f167e26be6",
+      "text": "编号是一一零零二二。",
+      "case": {
+        "code": "110022",
+        "original_scenario_index": 0
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "diagnostic",
+      "text_index": 0,
+      "seed": 6619
+    },
+    {
+      "id": "diagnostic-baseline-t1-s5519",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-baseline-t1-s5519.wav",
+      "sha256": "8810032d95af7cd132f2673cacdc115d5aa4f52b1aab61c1e85e4e547ab4db82",
+      "text": "编号是一零零二零零三零零。",
+      "case": {
+        "code": "100200300",
+        "original_scenario_index": 2
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "diagnostic",
+      "text_index": 1,
+      "seed": 5519
+    },
+    {
+      "id": "diagnostic-xvector-t1-s4409",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-xvector-t1-s4409.wav",
+      "sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+      "text": "编号是一零零二零零三零零。",
+      "case": {
+        "code": "100200300",
+        "original_scenario_index": 2
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "diagnostic",
+      "text_index": 1,
+      "seed": 4409
+    },
+    {
+      "id": "diagnostic-baseline-t1-s6619",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-baseline-t1-s6619.wav",
+      "sha256": "2be91821ee2c397bc011d85db609de86707aaa3bb23e5853ffd6356b763e2aa1",
+      "text": "编号是一零零二零零三零零。",
+      "case": {
+        "code": "100200300",
+        "original_scenario_index": 2
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "diagnostic",
+      "text_index": 1,
+      "seed": 6619
+    },
+    {
+      "id": "diagnostic-xvector-t1-s5519",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/diagnostic-xvector-t1-s5519.wav",
+      "sha256": "47fd4f6507bb5d733288c7b14f0be60309b825770fce328f595b08441c76918b",
+      "text": "编号是一零零二零零三零零。",
+      "case": {
+        "code": "100200300",
+        "original_scenario_index": 2
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "diagnostic",
+      "text_index": 1,
+      "seed": 5519
+    },
+    {
+      "id": "holdout-xvector-t4-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t4-s8803.wav",
+      "sha256": "4146a31582fed0fc83f1b2d9ca260a1ce52542679491df1a1043ce142f0de2a2",
+      "text": "编号是零零七七零零。日期是二零二七年三月四日，时间是十点五分。",
+      "case": {
+        "code": "007700",
+        "date": [
+          2027,
+          3,
+          4
+        ],
+        "time": [
+          10,
+          5
+        ]
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 4,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-baseline-t3-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t3-s8803.wav",
+      "sha256": "e9725d8ebe79565f232e55d37ae8e1ce8fad8c5ba4f01fb833c0dae4a3a8f7f3",
+      "text": "编号是九九零零八八七七。",
+      "case": {
+        "code": "99008877"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 3,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-baseline-t1-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t1-s9901.wav",
+      "sha256": "6e5cc7249f25b2aec3dd922ee2308aabb8b360ec813689908e7118ac6c0ccfa3",
+      "text": "编号是零零三三零零。",
+      "case": {
+        "code": "003300"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 1,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-baseline-t1-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t1-s7703.wav",
+      "sha256": "a2065f78a28e6603b2b7f73479185331f6b23255f7a1b8a65ffbd7bcd766db36",
+      "text": "编号是零零三三零零。",
+      "case": {
+        "code": "003300"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 1,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-xvector-t0-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t0-s8803.wav",
+      "sha256": "e2871c4f6ed35c44cf5bd602b6682aaf9566a78a5f767b76c2134a6b562d2efa",
+      "text": "编号是二二零零一一。",
+      "case": {
+        "code": "220011"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 0,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-xvector-t5-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t5-s8803.wav",
+      "sha256": "ac5b7a87b320362d267edb08fabbfa305df0039210b37228c94fabe3924f1baa",
+      "text": "编号是三三零零四四。日期是二零二八年二月二十九日，时间是二十三点零分。",
+      "case": {
+        "code": "330044",
+        "date": [
+          2028,
+          2,
+          29
+        ],
+        "time": [
+          23,
+          0
+        ]
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 5,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-baseline-t5-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t5-s9901.wav",
+      "sha256": "c323c3d42681cb4b922dcc41e631633a9d1cd5ca3065d51a5be8b6d26767f458",
+      "text": "编号是三三零零四四。日期是二零二八年二月二十九日，时间是二十三点零分。",
+      "case": {
+        "code": "330044",
+        "date": [
+          2028,
+          2,
+          29
+        ],
+        "time": [
+          23,
+          0
+        ]
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 5,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-baseline-t4-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t4-s9901.wav",
+      "sha256": "dd8cd6b61ccd8608a58f5ae1d5b930e3cf4dd1bd02a42e6447f9b9cb21d51f1f",
+      "text": "编号是零零七七零零。日期是二零二七年三月四日，时间是十点五分。",
+      "case": {
+        "code": "007700",
+        "date": [
+          2027,
+          3,
+          4
+        ],
+        "time": [
+          10,
+          5
+        ]
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 4,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-baseline-t1-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t1-s8803.wav",
+      "sha256": "02d4b18f6177ee773e96261826bb0fbba8f7e5f8d860ae3f28524644adb2e62a",
+      "text": "编号是零零三三零零。",
+      "case": {
+        "code": "003300"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 1,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-xvector-t3-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t3-s7703.wav",
+      "sha256": "9e0bc9f57712dfd61b9502bc4f1643ed7dce9191c8e8f4369c2b42e02556aac9",
+      "text": "编号是九九零零八八七七。",
+      "case": {
+        "code": "99008877"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 3,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-xvector-t2-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t2-s7703.wav",
+      "sha256": "122efb868e1713963e71d1526704c97d0bb53e5c7c04a7b75fb5890115e53380",
+      "text": "编号是一零一零二零二零。",
+      "case": {
+        "code": "10102020"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 2,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-xvector-t1-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t1-s7703.wav",
+      "sha256": "b2f8ebf8ee457d0b0cc024c5e4cef1755f730cf5019c7af6f9b3aeb3fe3dbdd9",
+      "text": "编号是零零三三零零。",
+      "case": {
+        "code": "003300"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 1,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-baseline-t2-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t2-s8803.wav",
+      "sha256": "eeb7e42860749a0af4f5918a6efcb3491e48e1754a9a91c90d5097dbeb91fa93",
+      "text": "编号是一零一零二零二零。",
+      "case": {
+        "code": "10102020"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 2,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-xvector-t2-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t2-s9901.wav",
+      "sha256": "bdc4119443487ce258aca5d56ae2e052183535729277224930067930f3cfb2c9",
+      "text": "编号是一零一零二零二零。",
+      "case": {
+        "code": "10102020"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 2,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-xvector-t3-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t3-s8803.wav",
+      "sha256": "59520f207c822763775e5935a84439929c1b4f69697d2c96a9e52e27716a333d",
+      "text": "编号是九九零零八八七七。",
+      "case": {
+        "code": "99008877"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 3,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-xvector-t2-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t2-s8803.wav",
+      "sha256": "49353569043aa1fef829f12f28aa781e430371072c39375ee4466ebc6abc85a9",
+      "text": "编号是一零一零二零二零。",
+      "case": {
+        "code": "10102020"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 2,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-baseline-t0-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t0-s8803.wav",
+      "sha256": "bdde3a3e6a8a7cd6ff5d263bda390b784e5304e7d6324cb0ad92040c889059fb",
+      "text": "编号是二二零零一一。",
+      "case": {
+        "code": "220011"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 0,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-xvector-t4-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t4-s9901.wav",
+      "sha256": "6a8afaf39c401922ba1ac56bc4b5ddbd4ea702b670cf91a1fe1384c4c582beb2",
+      "text": "编号是零零七七零零。日期是二零二七年三月四日，时间是十点五分。",
+      "case": {
+        "code": "007700",
+        "date": [
+          2027,
+          3,
+          4
+        ],
+        "time": [
+          10,
+          5
+        ]
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 4,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-xvector-t0-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t0-s9901.wav",
+      "sha256": "3ee7020443fb725a68847c0ac77c332538870f34665309197756421bc6d7f8b9",
+      "text": "编号是二二零零一一。",
+      "case": {
+        "code": "220011"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 0,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-baseline-t2-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t2-s9901.wav",
+      "sha256": "bbec54f7bf23d3041943706d7ef0ba236511e4964d5d32e65cee495e88b58282",
+      "text": "编号是一零一零二零二零。",
+      "case": {
+        "code": "10102020"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 2,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-xvector-t4-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t4-s7703.wav",
+      "sha256": "aefe1c58d4c683db4af92590a83fe0818e68ce9bbd458a6713ee239d1fa712ef",
+      "text": "编号是零零七七零零。日期是二零二七年三月四日，时间是十点五分。",
+      "case": {
+        "code": "007700",
+        "date": [
+          2027,
+          3,
+          4
+        ],
+        "time": [
+          10,
+          5
+        ]
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 4,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-xvector-t1-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t1-s9901.wav",
+      "sha256": "df7bc55fb33e8944ac3b6fe18e73c008a7288d3a89b156526cad99d80fb436a6",
+      "text": "编号是零零三三零零。",
+      "case": {
+        "code": "003300"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 1,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-xvector-t3-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t3-s9901.wav",
+      "sha256": "c229eb764cb46ccd7f94486e179071e65c38b6f69778e18a3c4642b46ed29e46",
+      "text": "编号是九九零零八八七七。",
+      "case": {
+        "code": "99008877"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 3,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-baseline-t3-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t3-s7703.wav",
+      "sha256": "150904c15b93c388a0d9f4a3ace4c7ba33543944fd632b83c8ed9107e84a144f",
+      "text": "编号是九九零零八八七七。",
+      "case": {
+        "code": "99008877"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 3,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-baseline-t2-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t2-s7703.wav",
+      "sha256": "aae6856009db85385e8f8173e566cff1a29d15c2b3d3b99258ccf01b5952900b",
+      "text": "编号是一零一零二零二零。",
+      "case": {
+        "code": "10102020"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 2,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-xvector-t5-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t5-s7703.wav",
+      "sha256": "6e919f80fa3aaf09bcfd3ac28e36778f1651017ab9237f595a4d4988baa3c6ea",
+      "text": "编号是三三零零四四。日期是二零二八年二月二十九日，时间是二十三点零分。",
+      "case": {
+        "code": "330044",
+        "date": [
+          2028,
+          2,
+          29
+        ],
+        "time": [
+          23,
+          0
+        ]
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 5,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-baseline-t0-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t0-s9901.wav",
+      "sha256": "e257962fb649e53bf9ac669ed4b15504668b80fa22bd3b621967dd1c1f5b3cf0",
+      "text": "编号是二二零零一一。",
+      "case": {
+        "code": "220011"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 0,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-baseline-t4-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t4-s8803.wav",
+      "sha256": "9fdc6842be7987e69ffc752cd3ea90217e99522d57fad4ebc70b712a19284dbe",
+      "text": "编号是零零七七零零。日期是二零二七年三月四日，时间是十点五分。",
+      "case": {
+        "code": "007700",
+        "date": [
+          2027,
+          3,
+          4
+        ],
+        "time": [
+          10,
+          5
+        ]
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 4,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-baseline-t0-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t0-s7703.wav",
+      "sha256": "da443064245b63ae6d675f8935497e35ac0d8170f78e18cfb45ad313f026a011",
+      "text": "编号是二二零零一一。",
+      "case": {
+        "code": "220011"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 0,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-baseline-t3-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t3-s9901.wav",
+      "sha256": "b2e93c52ea1ad5da75d1138f256d2bee47cb18368c58108cc77f2e6a9b83372a",
+      "text": "编号是九九零零八八七七。",
+      "case": {
+        "code": "99008877"
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 3,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-xvector-t0-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t0-s7703.wav",
+      "sha256": "1573e49b7af59544f095918af0fd6bd48934aea9282fc7f0b4b503511bbedd9a",
+      "text": "编号是二二零零一一。",
+      "case": {
+        "code": "220011"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 0,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-baseline-t5-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t5-s7703.wav",
+      "sha256": "b31c7316f46e995240293f333d9942a76f2d001de96c7a88afd42711e4638e5b",
+      "text": "编号是三三零零四四。日期是二零二八年二月二十九日，时间是二十三点零分。",
+      "case": {
+        "code": "330044",
+        "date": [
+          2028,
+          2,
+          29
+        ],
+        "time": [
+          23,
+          0
+        ]
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 5,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-xvector-t1-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t1-s8803.wav",
+      "sha256": "62cc5ccd2fed696a79226dd9801affd45a9ccb7fc65adfb16d1dd2d304df5d72",
+      "text": "编号是零零三三零零。",
+      "case": {
+        "code": "003300"
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 1,
+      "seed": 8803
+    },
+    {
+      "id": "holdout-baseline-t4-s7703",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t4-s7703.wav",
+      "sha256": "b58d90d5c8727a7133d11b5da8a27aba6ade79f41f070cdd7b36dc9c5fee96ba",
+      "text": "编号是零零七七零零。日期是二零二七年三月四日，时间是十点五分。",
+      "case": {
+        "code": "007700",
+        "date": [
+          2027,
+          3,
+          4
+        ],
+        "time": [
+          10,
+          5
+        ]
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 4,
+      "seed": 7703
+    },
+    {
+      "id": "holdout-xvector-t5-s9901",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-xvector-t5-s9901.wav",
+      "sha256": "ff3e8ec3466c8205e4f320b1ab91d8ae6c18fd1e605b90a888d545d083590c3e",
+      "text": "编号是三三零零四四。日期是二零二八年二月二十九日，时间是二十三点零分。",
+      "case": {
+        "code": "330044",
+        "date": [
+          2028,
+          2,
+          29
+        ],
+        "time": [
+          23,
+          0
+        ]
+      },
+      "repeats": 3,
+      "profile": "xvector",
+      "phase": "holdout",
+      "text_index": 5,
+      "seed": 9901
+    },
+    {
+      "id": "holdout-baseline-t5-s8803",
+      "wav": "/home/apex/voice-ai/experiments/20261020-numeric-recheck/generated-run-1/audio/holdout-baseline-t5-s8803.wav",
+      "sha256": "12a0c9617738e8db8fbcf86f6407feb59cab537531c1b26e1ea815e93781f574",
+      "text": "编号是三三零零四四。日期是二零二八年二月二十九日，时间是二十三点零分。",
+      "case": {
+        "code": "330044",
+        "date": [
+          2028,
+          2,
+          29
+        ],
+        "time": [
+          23,
+          0
+        ]
+      },
+      "repeats": 3,
+      "profile": "baseline",
+      "phase": "holdout",
+      "text_index": 5,
+      "seed": 8803
+    }
+  ],
+  "suite_sha256": "95da7c81a76ad0798510430647fa38b824efb753127da4b3b9aa5dfd7ac820db",
+  "allowed_gpu_pids": [
+    108257,
+    128361,
+    184829,
+    408436,
+    3504737
+  ],
+  "planned_requests": 144,
+  "script_sha256": "71e4714050aeb62b99a0b4bea86bddc94097d464ea601d9e51db942ce6aa3aa6"
+}

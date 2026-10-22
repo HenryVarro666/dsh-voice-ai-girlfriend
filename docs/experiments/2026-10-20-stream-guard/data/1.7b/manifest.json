@@ -1,0 +1,40 @@
+{
+  "label": "1.7B",
+  "model": "/home/apex/voice-ai/cache/hf/hub/models--Qwen--Qwen3-TTS-12Hz-1.7B-Base/snapshots/fd4b254389122332181a7c3db7f27e918eec64e3",
+  "seeds": [
+    0,
+    16,
+    25
+  ],
+  "texts": [
+    "好呀，我们开始吧。",
+    "你是想吃火锅还是螺蛳粉呢？",
+    "这个问题我想了一下，我们可以先从最简单的方法开始。",
+    "不过我知道大概的原理，是因为阳光穿过大气层时，蓝光最容易被空气中的小颗粒散射开来。"
+  ],
+  "scope": "Isolated handler and streaming guard, no HTTP/LLM/browser",
+  "gpu_before": {
+    "utilization_pct": 0,
+    "used_mib": 5456,
+    "free_mib": 10353,
+    "total_mib": 16303
+  },
+  "bridge_sha256": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+  "script_sha256": "dffc0ca206ea7234c59dc18061058dee01e3d94b47e8f69f85fd87212ac379c5",
+  "guard_sha256": "2fa0f66f1eb14fef8f648a5297eb9f2bd3c377e740fd82b46f4625705a177f39",
+  "load_ms": 3735.210671002278,
+  "gpu_loaded": {
+    "utilization_pct": 92,
+    "used_mib": 11111,
+    "free_mib": 4698,
+    "total_mib": 16303
+  },
+  "handler": {
+    "streaming_chunk_size": 4,
+    "non_streaming_mode": true,
+    "xvec_only": false,
+    "parity_mode": false
+  },
+  "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+  "completed": true
+}

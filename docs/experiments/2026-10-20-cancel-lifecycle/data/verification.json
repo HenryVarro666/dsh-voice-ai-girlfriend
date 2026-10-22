@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "verified_date": "2026-10-20",
+  "cancel_cases": 12,
+  "cancel_late_sources": 0,
+  "skipped_model_calls": 2,
+  "queued_fixed_model_starts": 0,
+  "queue_pcm_identical_pairs": 8,
+  "frozen_clause_pcm_identical_pairs": 4,
+  "e2e_samples_equal": 18,
+  "checked_wav_files": 78,
+  "candidate_ast_matches_executed": true,
+  "production_hashes": {
+    "bridge": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+    "config": "68dcd0a74297ad2179e42494a80ad125496db3b0aad15a2c3458f46bd4835f70",
+    "plugin": "4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74"
+  },
+  "health": {
+    "status": "ok",
+    "stt": true,
+    "tts": true,
+    "stt_error": null,
+    "tts_error": null,
+    "turn": true,
+    "turn_error": null
+  },
+  "gpu_after": "5456 MiB, 10353 MiB, 0 %",
+  "owned_process_gone": true,
+  "pending_before_cleanup": 0,
+  "ollama_empty": true
+}

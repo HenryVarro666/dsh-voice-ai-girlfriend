@@ -1,0 +1,97 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+venv*/
+.venv/
+*.egg-info/
+
+# ---- Node / DSH plugin build output ----
+node_modules/
+dist/
+lib/
+*.tsbuildinfo
+
+models/
+
+# ---- Local config with personal paths (never commit yours) ----
+bridge/bridge-config.json
+
+# ---- Reference audio: users bring their own (not committed) ----
+ref_audio.wav
+ref_audio.*
+
+# ---- Personal media assets ----
+# bg-images/bg1 stays local (user-only); bg2/bg4/bg9/bg56 are committed presets.
+assets/bg-images/*
+!assets/bg-images/bg2/
+!assets/bg-images/bg4/
+!assets/bg-images/bg9/
+!assets/bg-images/bg56/
+!assets/bg-images/bg5/
+assets/task-videos/*
+!assets/task-videos/README.md
+assets/*.mp4
+assets/*.jpg
+assets/*.png
+assets/*.wav
+
+# ---- Scratch / temp artifacts ----
+*.bak
+tts_out.wav
+*.local.json
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+bridge/docker-compose-5060ti.yml.bak-cpu
+
+
+# Local graph/cache and verification environments
+.code-review-graph/
+.venv*/
+
+# Runtime state and user-provided cloned voices
+bridge/logs/
+voices/
+
+# Public source backup: local-only artifacts
+.env
+.env.*
+!.env.example
+*.wav
+*.WAV
+*.mp3
+*.mp4
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.opus
+*.pcm
+*.webm
+*.mov
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+*.sqlite
+__pycache__/
+.DS_Store
+
+# Generated verification output and private runtime state
+.ruff_cache/
+.pytest_cache/
+.cache/
+.venv*/
+*.egg-info/
+build/
+dist/
+models/
+checkpoints/
+vendor/
+data/private/
+outputs/
+runs/
+*.log

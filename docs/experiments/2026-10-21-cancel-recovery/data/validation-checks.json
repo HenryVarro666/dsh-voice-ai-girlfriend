@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "executed_date": "2026-10-21",
+  "archived_date": "2026-10-22",
+  "python_tests": 88,
+  "apex_lifecycle_tests": 13,
+  "python_test_evidence_sha256": {
+    "cpu-final.log": "14051a9813fea970aa874f795c9b5edf2d3ebc0ac2a650ab3fe2d66755bd6e60",
+    "cpu-apex.log": "b28068b3be165dc9e348adfcc49b6f81c8bad1814a253b19f23eeedcc6379ca6"
+  },
+  "test_source_matches_executed": true,
+  "ruff": "passed",
+  "formatted_files": 8,
+  "js_bundle_sha256": "c84d94585d9a3bbd032ca05aa1b6ff5f4fba18b415f036f27c177f018587d041",
+  "js_rebuild": "byte-identical to actual served bundle",
+  "js_syntax": "passed",
+  "js_build_warning": "Upstream tsconfig.base.client.json unavailable; esbuild completed. This is not a full upstream typecheck.",
+  "plugin_mirror": "identical",
+  "public_summary_recompute": "byte-identical",
+  "historical_cancel_summary_and_pcm_verification": "passed against frozen v1; original summary/verification byte-identical",
+  "server_wav_files": 81,
+  "client_wav_files": 47,
+  "snapshot_files": 16,
+  "snapshot_hashes": "all matched",
+  "public_audio_model_files": 0,
+  "production_deployed": false,
+  "uncommitted": true,
+  "maintained_docs": 51,
+  "broken_local_links": 0,
+  "extra_root_private_claude_links_checked": 215,
+  "summary_sha256": "19f8999411306c68febd3ca32553a44e21072a422648a052bf72aa5302e903d3"
+}

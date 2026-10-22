@@ -1,0 +1,46 @@
+{
+  "label": "0.6B",
+  "model": "Qwen/Qwen3-TTS-12Hz-0.6B-Base",
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "texts": [
+    "我在，慢慢说就好。",
+    "可以呀，你想先聊哪一件事呢？",
+    "别着急，我们先把声音调小一点。",
+    "好的，我会记住这个时间。",
+    "今天是十月二十号，下午三点半提醒我喝水。",
+    "如果刚才没有听清，我可以换一种说法，再陪你试一次。",
+    "先打开设置里的麦克风权限，然后说一句你好，看看有没有收到声音。",
+    "我觉得这个办法值得试试，不过要先把原来的配置保存好，测试结束后再决定要不要换。"
+  ],
+  "scope": "Isolated handler and streaming guard, no HTTP/LLM/browser",
+  "gpu_before": {
+    "utilization_pct": 1,
+    "used_mib": 5456,
+    "free_mib": 10353,
+    "total_mib": 16303
+  },
+  "bridge_sha256": "d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576",
+  "script_sha256": "dc668bfcb02bb0e794feb216d0bba341da3cb92671d9dbfe60442a7958ec1b40",
+  "guard_sha256": "2fa0f66f1eb14fef8f648a5297eb9f2bd3c377e740fd82b46f4625705a177f39",
+  "load_ms": 3261.4763289748225,
+  "gpu_loaded": {
+    "utilization_pct": 92,
+    "used_mib": 9085,
+    "free_mib": 6724,
+    "total_mib": 16303
+  },
+  "handler": {
+    "streaming_chunk_size": 4,
+    "non_streaming_mode": true,
+    "xvec_only": false,
+    "parity_mode": false
+  },
+  "reference_sha256": "65c313f26a8bf18992784e77c3c93f9f9cce257f8accc3a57745bf1e8615e7ae",
+  "completed": true
+}

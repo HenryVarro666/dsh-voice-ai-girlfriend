@@ -1,0 +1,452 @@
+[
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0001",
+    "sha256": "ba584a378b11d9e9c98736fd8c256fe1453a84ee4139416d24b07acff424f0fb",
+    "samples": 0
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0002",
+    "sha256": "ba584a378b11d9e9c98736fd8c256fe1453a84ee4139416d24b07acff424f0fb",
+    "samples": 0
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0003",
+    "sha256": "ca5c08dce40d05622a39aa28d7e9ebecc7d83b42f218e3c6fcc139b3d2bdebda",
+    "samples": 17920
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0004",
+    "sha256": "ccf17b32afff6b3e1854eb0935991811c89d5696be1bc62d145fe0ad9e9bc611",
+    "samples": 20480
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0005",
+    "sha256": "ca5c08dce40d05622a39aa28d7e9ebecc7d83b42f218e3c6fcc139b3d2bdebda",
+    "samples": 17920
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0006",
+    "sha256": "ba584a378b11d9e9c98736fd8c256fe1453a84ee4139416d24b07acff424f0fb",
+    "samples": 0
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0007",
+    "sha256": "52ee58cb43b9a91da765aefb2bd99d9015eef2ed12618cfa7a009beead727b67",
+    "samples": 43520
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0008",
+    "sha256": "ccf17b32afff6b3e1854eb0935991811c89d5696be1bc62d145fe0ad9e9bc611",
+    "samples": 20480
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0009",
+    "sha256": "ba584a378b11d9e9c98736fd8c256fe1453a84ee4139416d24b07acff424f0fb",
+    "samples": 0
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0010",
+    "sha256": "741bc2a3a4deef55ec4c51224efb294f5ac7f0c4becb20cac1278f2631bf89bf",
+    "samples": 30208
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0011",
+    "sha256": "ba584a378b11d9e9c98736fd8c256fe1453a84ee4139416d24b07acff424f0fb",
+    "samples": 0
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0012",
+    "sha256": "ba584a378b11d9e9c98736fd8c256fe1453a84ee4139416d24b07acff424f0fb",
+    "samples": 0
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0013",
+    "sha256": "ccf17b32afff6b3e1854eb0935991811c89d5696be1bc62d145fe0ad9e9bc611",
+    "samples": 20480
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0014",
+    "sha256": "ca5c08dce40d05622a39aa28d7e9ebecc7d83b42f218e3c6fcc139b3d2bdebda",
+    "samples": 17920
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0015",
+    "sha256": "ccf17b32afff6b3e1854eb0935991811c89d5696be1bc62d145fe0ad9e9bc611",
+    "samples": 20480
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0016",
+    "sha256": "ba584a378b11d9e9c98736fd8c256fe1453a84ee4139416d24b07acff424f0fb",
+    "samples": 0
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0017",
+    "sha256": "741bc2a3a4deef55ec4c51224efb294f5ac7f0c4becb20cac1278f2631bf89bf",
+    "samples": 30208
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0018",
+    "sha256": "ca5c08dce40d05622a39aa28d7e9ebecc7d83b42f218e3c6fcc139b3d2bdebda",
+    "samples": 17920
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0019",
+    "sha256": "ba584a378b11d9e9c98736fd8c256fe1453a84ee4139416d24b07acff424f0fb",
+    "samples": 0
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0020",
+    "sha256": "52ee58cb43b9a91da765aefb2bd99d9015eef2ed12618cfa7a009beead727b67",
+    "samples": 43520
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0021",
+    "sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+    "samples": 129536
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0022",
+    "sha256": "8a5d73da8adaf947d61d6899356674cfdc00e5b5b4976212312a8d6afd7510e5",
+    "samples": 29696
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0023",
+    "sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+    "samples": 38400
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0024",
+    "sha256": "a4fd2ae827531be5eb0533e31f67f28e43b988463c684c63ec11d48ce90a5c51",
+    "samples": 29696
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0025",
+    "sha256": "3ecdb2608040a3283594bc4bef5d66cd9921053f9243cb0bdb831e9f35aedc9d",
+    "samples": 27136
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0026",
+    "sha256": "96013d08e363ad482e8b95faeb11a7807a2ad73a7090ebefd0accc2f07307c49",
+    "samples": 29184
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0027",
+    "sha256": "71144c116d7256b2d686f7c95e215d2e1e07a9e0ba87b9fd1a51ec4d82161a16",
+    "samples": 23040
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0028",
+    "sha256": "4303cf5695a132d013f19d0e8784fcd6716450f80cf13777a25e3e6dce4863a6",
+    "samples": 35840
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0029",
+    "sha256": "4c2f2b8e9a0738175a9c7e48d7655cd236d3e0df296d50e8392cf0c445aaf6c7",
+    "samples": 38400
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0030",
+    "sha256": "a4fd2ae827531be5eb0533e31f67f28e43b988463c684c63ec11d48ce90a5c51",
+    "samples": 29696
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0031",
+    "sha256": "8725a1b374f4a9439834aa88c722c570d0de8ccfdb648a4181af55dd01d57269",
+    "samples": 129536
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0032",
+    "sha256": "8a5d73da8adaf947d61d6899356674cfdc00e5b5b4976212312a8d6afd7510e5",
+    "samples": 29696
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0033",
+    "sha256": "0651f84b3a122e2355fc7712d9d25362f4812a04915b5637bd9264c8983f92a2",
+    "samples": 28160
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0034",
+    "sha256": "e310c02b790d5998d48ec2e32cdc80f690b6bddbae03897625973e1b26aabcef",
+    "samples": 37376
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0035",
+    "sha256": "4fb6c4916e018e051df3ef78eabf5cda8af7e69922d8419746fb66129612cc1e",
+    "samples": 23552
+  },
+  {
+    "stage": "run-2",
+    "stream_id": "owned-0036",
+    "sha256": "08c3b9f854dc3eec245f9686846ff2f55a481b269aa6dd31d871fa83f9e6de75",
+    "samples": 36864
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0001",
+    "sha256": "fdcbb63ddb8baa30a191842efb42f10548a5be980c84f934a5e5c67bfed0990d",
+    "samples": 125440
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0002",
+    "sha256": "2c9491480381d9a17471f675896d2ff8a5cf3f4a590429482004a255fa265d2f",
+    "samples": 28160
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0003",
+    "sha256": "0920899fc8f86db6ac9fe9978ce18cc4abf594e58e77d8d18f9352dcadaee656",
+    "samples": 18432
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0004",
+    "sha256": "0da89d3ea7f61fb52cf7072b372f5605849af9f73e3150bfdd203f63b5d7fe84",
+    "samples": 45056
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0005",
+    "sha256": "fe32ef804701271cf43b2cdb25049a9721bd8aab5977e1e56bd1ed8f24600eca",
+    "samples": 24064
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0006",
+    "sha256": "e6b58b84e850ed6f76924ce2b725578f240b36311553e80572f2d61ad7e7d049",
+    "samples": 54784
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0007",
+    "sha256": "c5522d38f710af521e070567de68aa14932b486d4de7f040dc723ffa88b006fc",
+    "samples": 33280
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0008",
+    "sha256": "e8c84b702868019e60d3776c54e825909e566fb660a3331482349e8bf7532a8f",
+    "samples": 47616
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0009",
+    "sha256": "4fa193c0c34a718c2c38882d8d8eb2fe82ce9872263110c9ac74ab4a3de87b0b",
+    "samples": 22016
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0010",
+    "sha256": "4e84f02c87d135c85e2a38e94949fda715c945a233cf5ef66805d6079b2c2c8a",
+    "samples": 10240
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0011",
+    "sha256": "b1305ce8276a89ff0a5cad50d8d8030ca2148fdb182948592dfba9e53224b75b",
+    "samples": 56320
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0012",
+    "sha256": "3f375a4146c03365389b71ee69612c7b7038d3301abe0cf881e8e6c313649945",
+    "samples": 41984
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0013",
+    "sha256": "b32c919fd8ea8a4ebbdcf3b30aec525df6ebae0c718645db01fa13ab2d6ceafc",
+    "samples": 45056
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0014",
+    "sha256": "4e0902e323419b5e67dbe7fa6748d3d38006efc73609cc8817ba27253ca16655",
+    "samples": 70656
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0015",
+    "sha256": "1a6804081163abe4de756d58d5a83a782709468a79500eae6046f00763a5f455",
+    "samples": 88576
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0016",
+    "sha256": "0f598600a36bc812f78a11ab81b4859d3180219ea45ca03e53e86c159bb17189",
+    "samples": 20480
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0017",
+    "sha256": "a0d46b50d949d16c36491e0cf1da26e7149202f210405b2497a92b6dc8c0ea81",
+    "samples": 138752
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0018",
+    "sha256": "1705d91cf20c3d997a3329ce5d854ac4a383d23b25f47ed3a298cc11e3af7283",
+    "samples": 30208
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0019",
+    "sha256": "01e80e2b5d45e7c6849b489966910edffd05018beb0e6d43b86db8f91b257d24",
+    "samples": 119296
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0020",
+    "sha256": "f3d219ed0bbcba93df08b7ad15017eb4b2baa698f2871a585388d48551273d98",
+    "samples": 22016
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0021",
+    "sha256": "cf16cc1870655a82716751043900e8d3995d1e030b8f10920213d8cf5b74a341",
+    "samples": 107520
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0022",
+    "sha256": "863d6f9f6f7b14fe272705379e90abbe9cfad593bea91c422834983e837667ed",
+    "samples": 81408
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0023",
+    "sha256": "1b60c0ae19b91735cc62aa231da8e9190c69c3db2649e1fba8d30c465bce88d3",
+    "samples": 27136
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0024",
+    "sha256": "85f3fd443367d0fedb411b4b60eb08cf67bf7261c1aff57d7549c65fb9c7c0b1",
+    "samples": 35328
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0025",
+    "sha256": "b2b5b2f19791fbc8a7757ac86754069159091ac2a01538cac5f51b8f309b519e",
+    "samples": 51712
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0026",
+    "sha256": "63c3531f4f9a560ee4b1d277a158fdbe1d7c00c1170e9bd84f3b2f4483fa8470",
+    "samples": 16896
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0027",
+    "sha256": "f1d6ce0275f6ff84476803137786871ea65557f54f45be9a3b2254235faa65ae",
+    "samples": 30208
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0028",
+    "sha256": "19ac320d40c7c56e028c64d11c986e89aaac6d2214d5a867f9acdec07f81fe69",
+    "samples": 20480
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0029",
+    "sha256": "c0b46a063b681d12c1b3443368df93f6486c28370d633544db32aa0107b43908",
+    "samples": 19456
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0030",
+    "sha256": "9107a533e749288fc2a257286d0075a7626052f2d4a250d9eee8c9fd1020442c",
+    "samples": 37376
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0031",
+    "sha256": "57b6d41ad82127e5aad0c9cddde64196b8c9959c89fc9b478e3a4a60946ef428",
+    "samples": 70656
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0032",
+    "sha256": "0662b001be1b85374da43a1b4e7ab3ec56493aa75ec70070fb733530302e49ba",
+    "samples": 78336
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0033",
+    "sha256": "e3eb4db83ad54ef0ff8028e38f72a7d0f7a561bf139d8fba1d68bccf04cd1410",
+    "samples": 12288
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0034",
+    "sha256": "2a9324455cab6e5bb97b21d23f67366988f735724b367e9b2fc9218204e500f8",
+    "samples": 151040
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0035",
+    "sha256": "4d1d1b2edf8f09cf414a8423ae4f507005b84fee0165ebbdb6d3ee91f6f7091b",
+    "samples": 22016
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0036",
+    "sha256": "78731ee2d772fb0b47cc572912a939d652b801c6d8c8814a916396729988703f",
+    "samples": 54272
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0037",
+    "sha256": "a041187561cefb035e8d9ee6afce952e0dce864485ffce28002e766e8b3e2f64",
+    "samples": 99328
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0038",
+    "sha256": "f227d21e391d4a7aa64a1fd73789f6dfb6e5be28266d344b97e0e643f9bc23b1",
+    "samples": 33280
+  },
+  {
+    "stage": "e2e-run-3",
+    "stream_id": "owned-0039",
+    "sha256": "2591b10e3a20e60e8047572d6d70fe00775493cb988448a289ed6e9cbb5479cb",
+    "samples": 64000
+  }
+]

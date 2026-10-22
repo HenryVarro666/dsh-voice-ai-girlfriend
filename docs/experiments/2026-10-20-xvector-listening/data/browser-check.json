@@ -1,0 +1,45 @@
+{
+  "checked_on": "2026-10-20",
+  "browser": "Codex in-app browser",
+  "url": "http://127.0.0.1:51733/review.html",
+  "audio_metadata": {
+    "count": 65,
+    "readyState": 4,
+    "media_errors": 0
+  },
+  "reference_playback": true,
+  "single_active_player": true,
+  "ending_seek": {
+    "audio": "p05-A",
+    "observed_time_s": 1.78524,
+    "file_duration_s": 3.712,
+    "continues_to_original_eof": true
+  },
+  "sequential_pair": {
+    "A_ended": true,
+    "A_time_s": 1.696,
+    "B_ended": true,
+    "B_time_s": 1.536
+  },
+  "stop_active_count": 0,
+  "rating_reload_restored": true,
+  "filters": {
+    "priority_uncompleted_with_one_QA_rating": 7,
+    "all_uncompleted_with_one_QA_rating": 31
+  },
+  "export_preview": {
+    "rows": 32,
+    "revealed": false,
+    "all_pending_after_cleanup": true
+  },
+  "final_progress": "0/32",
+  "human_quality_ratings": "pending",
+  "development_fixes": [
+    "explicit aria-label on three rating selects",
+    "replace playing status when media ends"
+  ],
+  "screenshot_files": [
+    "review-intro.png",
+    "review-pair.png"
+  ]
+}

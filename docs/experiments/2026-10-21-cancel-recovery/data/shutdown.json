@@ -1,0 +1,14 @@
+{
+  "pid": 2581600,
+  "signal_to_process_exit_ms": 2356.001053005457,
+  "received": {
+    "stream_id": "owned-0079",
+    "headers_ms": 37.13881701696664,
+    "first_voiced_pcm_ms": 2022.5808679824695,
+    "total_ms": 2192.6950389752164,
+    "received_samples": 14848,
+    "pcm_sha256": "d92aead9920c3b05fc89211b3c31585c2823103413fb562e804e1117847b1b2b",
+    "read_error": "IncompleteRead"
+  },
+  "process_absent": true
+}

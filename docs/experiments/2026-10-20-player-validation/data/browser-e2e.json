@@ -1,0 +1,3750 @@
+[
+  {
+    "kind": "e2e",
+    "key": "first-new-session",
+    "policy": "baseline",
+    "started": 7756.399999976158,
+    "events": [
+      {
+        "api": "turn",
+        "at": 11648.199999988079,
+        "status": 200,
+        "headers_at": 11823.299999982119,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.0884,
+          "text": "你好请用一句简短的话和我打招呼",
+          "ms": 72.4,
+          "stt_ms": 34.1
+        },
+        "done": 11823.59999999404
+      },
+      {
+        "api": "stt",
+        "at": 12368.899999976158,
+        "status": 200,
+        "headers_at": 12412.799999982119,
+        "stream_id": null,
+        "result": {
+          "text": "你好请用一句简短的话和我打招呼",
+          "language": "zh"
+        },
+        "done": 12420.59999999404
+      },
+      {
+        "api": "tts/stream",
+        "at": 14502.09999999404,
+        "text": "宝贝你终于来啦，",
+        "status": 200,
+        "headers_at": 14513.799999982119,
+        "stream_id": "stream-0034",
+        "done": 15160.59999999404
+      },
+      {
+        "api": "tts/stream",
+        "at": 15160.699999988079,
+        "text": "今天想聊点什么呢？",
+        "status": 200,
+        "headers_at": 15171.899999976158,
+        "stream_id": "stream-0035",
+        "done": 15699.09999999404
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 14777.59999999404,
+        "scheduled_start": 14827.59999999404,
+        "scheduled_end": 15051.59999999404,
+        "first_voiced_at": 14867.59999999404,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 15056
+      },
+      {
+        "called_at": 14874.399999976158,
+        "scheduled_start": 15052.399999976158,
+        "scheduled_end": 15276.399999976158,
+        "first_voiced_at": 15052.399999976158,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 15280
+      },
+      {
+        "called_at": 14874.5,
+        "scheduled_start": 15276.5,
+        "scheduled_end": 15372.5,
+        "first_voiced_at": 15276.5,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 15375.899999976158
+      },
+      {
+        "called_at": 14945.299999982119,
+        "scheduled_start": 15371.299999982119,
+        "scheduled_end": 15691.299999982119,
+        "first_voiced_at": 15426.924999982119,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 15696
+      },
+      {
+        "called_at": 15032.399999976158,
+        "scheduled_start": 15690.399999976158,
+        "scheduled_end": 16010.399999976158,
+        "first_voiced_at": 15690.399999976158,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 16016
+      },
+      {
+        "called_at": 15121.399999976158,
+        "scheduled_start": 16011.399999976158,
+        "scheduled_end": 16331.399999976158,
+        "first_voiced_at": 16011.399999976158,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 16336
+      },
+      {
+        "called_at": 15160.399999976158,
+        "scheduled_start": 16330.399999976158,
+        "scheduled_end": 16458.399999976158,
+        "first_voiced_at": 16330.399999976158,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 16464.59999999404
+      },
+      {
+        "called_at": 16464.59999999404,
+        "scheduled_start": 16514.59999999404,
+        "scheduled_end": 17922.59999999404,
+        "first_voiced_at": 16554.59999999404,
+        "frames": 22528,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 17925.59999999404
+      }
+    ],
+    "warmup": true,
+    "input_marks": [
+      {
+        "start": 8003.899999976158,
+        "end": 11114.149999976158
+      }
+    ],
+    "input_end": 11114.149999976158,
+    "first_voice_at": 14867.59999999404,
+    "last_ended_at": 17925.59999999404,
+    "finished": 18840.69999998808,
+    "voice_to_voice_ms": 3753.4500000178814
+  },
+  {
+    "kind": "e2e",
+    "key": "case-0-repeat-0",
+    "policy": "baseline",
+    "started": 18853.19999998808,
+    "events": [
+      {
+        "api": "turn",
+        "at": 22731.29999998212,
+        "status": 200,
+        "headers_at": 22808.5,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.0884,
+          "text": "你好请用一句简短的话和我打招呼",
+          "ms": 60.7,
+          "stt_ms": 22.6
+        },
+        "done": 22808.59999999404
+      },
+      {
+        "api": "stt",
+        "at": 23408.29999998212,
+        "status": 200,
+        "headers_at": 23447.899999976158,
+        "stream_id": null,
+        "result": {
+          "text": "你好请用一句简短的话和我打招呼",
+          "language": "zh"
+        },
+        "done": 23449.19999998808
+      },
+      {
+        "api": "tts/stream",
+        "at": 23565,
+        "text": "嘿，我在呢，",
+        "status": 200,
+        "headers_at": 23578.19999998808,
+        "stream_id": "stream-0036",
+        "done": 24117.899999976158
+      },
+      {
+        "api": "tts/stream",
+        "at": 24117.899999976158,
+        "text": "小雅这刚泡好茶，正等你过来一起聊聊天呢。",
+        "status": 200,
+        "headers_at": 24127.5,
+        "stream_id": "stream-0037",
+        "done": 25390.19999998808
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 23881.29999998212,
+        "scheduled_start": 23931.29999998212,
+        "scheduled_end": 24219.29999998212,
+        "first_voiced_at": 23971.29999998212,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 24224.09999999404
+      },
+      {
+        "called_at": 23965.899999976158,
+        "scheduled_start": 24223.899999976158,
+        "scheduled_end": 24255.899999976158,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 24256.79999998212
+      },
+      {
+        "called_at": 23966.19999998808,
+        "scheduled_start": 24256.19999998808,
+        "scheduled_end": 24544.19999998808,
+        "first_voiced_at": 24526.88749998808,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 24544.09999999404
+      },
+      {
+        "called_at": 24050.59999999404,
+        "scheduled_start": 24540.59999999404,
+        "scheduled_end": 24860.59999999404,
+        "first_voiced_at": 24540.59999999404,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 24864.09999999404
+      },
+      {
+        "called_at": 24117.79999998212,
+        "scheduled_start": 24855.79999998212,
+        "scheduled_end": 25143.79999998212,
+        "first_voiced_at": 24855.79999998212,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 25152.29999998212
+      },
+      {
+        "called_at": 25152.19999998808,
+        "scheduled_start": 25202.19999998808,
+        "scheduled_end": 28434.19999998808,
+        "first_voiced_at": 25242.19999998808,
+        "frames": 51712,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 28437.5
+      },
+      {
+        "called_at": 25195.5,
+        "scheduled_start": 28437.5,
+        "scheduled_end": 28757.5,
+        "first_voiced_at": 28437.5,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 28757.399999976158
+      },
+      {
+        "called_at": 25357.399999976158,
+        "scheduled_start": 28759.399999976158,
+        "scheduled_end": 29079.399999976158,
+        "first_voiced_at": 28759.399999976158,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 29077.5
+      },
+      {
+        "called_at": 25358.5,
+        "scheduled_start": 29080.5,
+        "scheduled_end": 29272.5,
+        "first_voiced_at": null,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 29269.5
+      },
+      {
+        "called_at": 25365.29999998212,
+        "scheduled_start": 29271.29999998212,
+        "scheduled_end": 29399.29999998212,
+        "first_voiced_at": null,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 29398
+      },
+      {
+        "called_at": 25389.899999976158,
+        "scheduled_start": 29399.899999976158,
+        "scheduled_end": 29527.899999976158,
+        "first_voiced_at": null,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 29525.5
+      },
+      {
+        "called_at": 25389.899999976158,
+        "scheduled_start": 29527.899999976158,
+        "scheduled_end": 29591.899999976158,
+        "first_voiced_at": null,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 29589.69999998808
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 19057,
+        "end": 22167.25
+      }
+    ],
+    "input_end": 22167.25,
+    "first_voice_at": 23971.29999998212,
+    "last_ended_at": 29589.69999998808,
+    "finished": 30499.19999998808,
+    "voice_to_voice_ms": 1804.0499999821186
+  },
+  {
+    "kind": "e2e",
+    "key": "case-0-repeat-0",
+    "policy": "guard3",
+    "started": 30608.899999976158,
+    "events": [
+      {
+        "api": "turn",
+        "at": 34491.09999999404,
+        "status": 200,
+        "headers_at": 34566.39999997616,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.0884,
+          "text": "你好请用一句简短的话和我打招呼",
+          "ms": 61,
+          "stt_ms": 24.5
+        },
+        "done": 34566.59999999404
+      },
+      {
+        "api": "stt",
+        "at": 35168.69999998808,
+        "status": 200,
+        "headers_at": 35203.69999998808,
+        "stream_id": null,
+        "result": {
+          "text": "你好请用一句简短的话和我打招呼",
+          "language": "zh"
+        },
+        "done": 35205.79999998212
+      },
+      {
+        "api": "tts/stream",
+        "at": 35333.29999998212,
+        "text": "哎呀别催啦，",
+        "status": 200,
+        "headers_at": 35345,
+        "stream_id": "stream-0038",
+        "done": 35926.19999998808
+      },
+      {
+        "api": "tts/stream",
+        "at": 35926.29999998212,
+        "text": "你终于来啦，想不想听听我今天听见的趣事？",
+        "status": 200,
+        "headers_at": 35936.79999998212,
+        "stream_id": "stream-0039",
+        "done": 37051.69999998808
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 35600.59999999404,
+        "scheduled_start": 35650.59999999404,
+        "scheduled_end": 35682.59999999404,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 35685.5
+      },
+      {
+        "called_at": 35686.59999999404,
+        "scheduled_start": 35736.59999999404,
+        "scheduled_end": 35992.59999999404,
+        "first_voiced_at": 35744.59999999404,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 36000.19999998808
+      },
+      {
+        "called_at": 35686.79999998212,
+        "scheduled_start": 35992.79999998212,
+        "scheduled_end": 36056.79999998212,
+        "first_voiced_at": 35992.79999998212,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 36064.19999998808
+      },
+      {
+        "called_at": 35846.29999998212,
+        "scheduled_start": 36056.29999998212,
+        "scheduled_end": 36376.29999998212,
+        "first_voiced_at": 36056.29999998212,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 36384.19999998808
+      },
+      {
+        "called_at": 35857.89999997616,
+        "scheduled_start": 36379.89999997616,
+        "scheduled_end": 36411.89999997616,
+        "first_voiced_at": 36379.89999997616,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 36416.19999998808
+      },
+      {
+        "called_at": 35857.89999997616,
+        "scheduled_start": 36411.89999997616,
+        "scheduled_end": 36507.89999997616,
+        "first_voiced_at": 36437.52499997616,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 36512.19999998808
+      },
+      {
+        "called_at": 35857.89999997616,
+        "scheduled_start": 36507.89999997616,
+        "scheduled_end": 36667.89999997616,
+        "first_voiced_at": 36507.89999997616,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 36672.29999998212
+      },
+      {
+        "called_at": 35858,
+        "scheduled_start": 36668,
+        "scheduled_end": 36700,
+        "first_voiced_at": 36668,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 36704.29999998212
+      },
+      {
+        "called_at": 35926,
+        "scheduled_start": 36696,
+        "scheduled_end": 36952,
+        "first_voiced_at": 36696,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 36960.79999998212
+      },
+      {
+        "called_at": 36960.79999998212,
+        "scheduled_start": 37010.79999998212,
+        "scheduled_end": 40658.79999998212,
+        "first_voiced_at": 37050.79999998212,
+        "frames": 58368,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 40661.59999999404
+      },
+      {
+        "called_at": 37009.59999999404,
+        "scheduled_start": 40659.59999999404,
+        "scheduled_end": 40722.97499999404,
+        "first_voiced_at": null,
+        "frames": 1014,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 40725.69999998808
+      },
+      {
+        "called_at": 37009.79999998212,
+        "scheduled_start": 40723.17499998212,
+        "scheduled_end": 40883.79999998212,
+        "first_voiced_at": null,
+        "frames": 2570,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 40885.59999999404
+      },
+      {
+        "called_at": 37010,
+        "scheduled_start": 40884,
+        "scheduled_end": 40948,
+        "first_voiced_at": null,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 40949.59999999404
+      },
+      {
+        "called_at": 37016.89999997616,
+        "scheduled_start": 40946.89999997616,
+        "scheduled_end": 40978.89999997616,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 40981.59999999404
+      },
+      {
+        "called_at": 37051.19999998808,
+        "scheduled_start": 40981.19999998808,
+        "scheduled_end": 41173.19999998808,
+        "first_voiced_at": null,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 41173.69999998808
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 30812.899999976158,
+        "end": 33923.14999997616
+      }
+    ],
+    "input_end": 33923.14999997616,
+    "first_voice_at": 35744.59999999404,
+    "last_ended_at": 41173.69999998808,
+    "finished": 42089.79999998212,
+    "voice_to_voice_ms": 1821.4500000178814
+  },
+  {
+    "kind": "e2e",
+    "key": "case-1-repeat-0",
+    "policy": "guard3",
+    "started": 42152.69999998808,
+    "events": [
+      {
+        "api": "turn",
+        "at": 43648.59999999404,
+        "status": 200,
+        "headers_at": 43774.59999999404,
+        "stream_id": null,
+        "result": {
+          "complete": true,
+          "probability": 0.7474,
+          "text": "你吃饭了吗",
+          "ms": 58,
+          "stt_ms": 22.5
+        },
+        "done": 43777.29999998212
+      },
+      {
+        "api": "tts/stream",
+        "at": 43894.5,
+        "text": "还没呢正准备点外卖，",
+        "status": 200,
+        "headers_at": 43905.09999999404,
+        "stream_id": "stream-0040",
+        "done": 44572.69999998808
+      },
+      {
+        "api": "tts/stream",
+        "at": 44572.69999998808,
+        "text": "你呢宝贝是早就吃过了吗",
+        "status": 200,
+        "headers_at": 44581,
+        "stream_id": "stream-0041",
+        "done": 45540.89999997616
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 44078.69999998808,
+        "scheduled_start": 44128.69999998808,
+        "scheduled_end": 44320.69999998808,
+        "first_voiced_at": 44168.69999998808,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 44320.29999998212
+      },
+      {
+        "called_at": 44234.09999999404,
+        "scheduled_start": 44316.09999999404,
+        "scheduled_end": 44636.09999999404,
+        "first_voiced_at": 44316.16249999404,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 44640.29999998212
+      },
+      {
+        "called_at": 44245.79999998212,
+        "scheduled_start": 44631.79999998212,
+        "scheduled_end": 44727.79999998212,
+        "first_voiced_at": 44631.79999998212,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 44736.5
+      },
+      {
+        "called_at": 44245.89999997616,
+        "scheduled_start": 44727.89999997616,
+        "scheduled_end": 44855.89999997616,
+        "first_voiced_at": 44727.89999997616,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 44864.5
+      },
+      {
+        "called_at": 44246,
+        "scheduled_start": 44856,
+        "scheduled_end": 44952,
+        "first_voiced_at": 44856,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 44960.59999999404
+      },
+      {
+        "called_at": 44332.59999999404,
+        "scheduled_start": 44958.59999999404,
+        "scheduled_end": 45022.59999999404,
+        "first_voiced_at": 44958.59999999404,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 45024.39999997616
+      },
+      {
+        "called_at": 44332.59999999404,
+        "scheduled_start": 45022.59999999404,
+        "scheduled_end": 45086.59999999404,
+        "first_voiced_at": 45022.59999999404,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 45088.39999997616
+      },
+      {
+        "called_at": 44332.69999998808,
+        "scheduled_start": 45086.69999998808,
+        "scheduled_end": 45278.69999998808,
+        "first_voiced_at": 45086.69999998808,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 45280.39999997616
+      },
+      {
+        "called_at": 44417.29999998212,
+        "scheduled_start": 45275.299999982126,
+        "scheduled_end": 45595.299999982126,
+        "first_voiced_at": 45275.299999982126,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 45600.39999997616
+      },
+      {
+        "called_at": 44505.09999999404,
+        "scheduled_start": 45595.09999999404,
+        "scheduled_end": 45851.09999999404,
+        "first_voiced_at": 45595.22499999404,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 45856.69999998808
+      },
+      {
+        "called_at": 44505.19999998808,
+        "scheduled_start": 45851.19999998808,
+        "scheduled_end": 45883.19999998808,
+        "first_voiced_at": 45851.19999998808,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 45888.39999997616
+      },
+      {
+        "called_at": 44505.19999998808,
+        "scheduled_start": 45883.19999998808,
+        "scheduled_end": 45915.19999998808,
+        "first_voiced_at": 45883.32499998808,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 45920.39999997616
+      },
+      {
+        "called_at": 44572.5,
+        "scheduled_start": 45918.5,
+        "scheduled_end": 46142.5,
+        "first_voiced_at": 45918.5,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 46144.39999997616
+      },
+      {
+        "called_at": 44572.59999999404,
+        "scheduled_start": 46142.59999999405,
+        "scheduled_end": 46206.59999999405,
+        "first_voiced_at": null,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 46208.89999997616
+      },
+      {
+        "called_at": 46208.79999998212,
+        "scheduled_start": 46258.79999998212,
+        "scheduled_end": 49426.79999998212,
+        "first_voiced_at": 46298.79999998212,
+        "frames": 50688,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 49429.89999997616
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 42374,
+        "end": 43128.0625
+      }
+    ],
+    "input_end": 43128.0625,
+    "first_voice_at": 44168.69999998808,
+    "last_ended_at": 49429.89999997616,
+    "finished": 50363.29999998212,
+    "voice_to_voice_ms": 1040.637499988079
+  },
+  {
+    "kind": "e2e",
+    "key": "case-1-repeat-0",
+    "policy": "baseline",
+    "started": 50376,
+    "events": [
+      {
+        "api": "turn",
+        "at": 51888.69999998808,
+        "status": 200,
+        "headers_at": 51961.79999998212,
+        "stream_id": null,
+        "result": {
+          "complete": true,
+          "probability": 0.7474,
+          "text": "你吃饭了吗",
+          "ms": 55.5,
+          "stt_ms": 22.3
+        },
+        "done": 51964.89999997616
+      },
+      {
+        "api": "tts/stream",
+        "at": 52136.89999997616,
+        "text": "刚把今天的便当热好香喷喷的，",
+        "status": 200,
+        "headers_at": 52147.09999999404,
+        "stream_id": "stream-0042",
+        "done": 53147.39999997616
+      },
+      {
+        "api": "tts/stream",
+        "at": 53147.5,
+        "text": "正想着要不要打包给你尝尝呢。",
+        "status": 200,
+        "headers_at": 53158.19999998808,
+        "stream_id": "stream-0043",
+        "done": 54057.5
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 52305.79999998212,
+        "scheduled_start": 52355.79999998212,
+        "scheduled_end": 52419.79999998212,
+        "first_voiced_at": 52395.79999998212,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 52421.79999998212
+      },
+      {
+        "called_at": 52392.5,
+        "scheduled_start": 52442.5,
+        "scheduled_end": 52666.5,
+        "first_voiced_at": 52442.5,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 52672.5
+      },
+      {
+        "called_at": 52392.59999999404,
+        "scheduled_start": 52666.59999999403,
+        "scheduled_end": 52762.59999999403,
+        "first_voiced_at": 52666.59999999403,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 52768.5
+      },
+      {
+        "called_at": 52474.79999998212,
+        "scheduled_start": 52764.799999982104,
+        "scheduled_end": 53020.799999982104,
+        "first_voiced_at": 52764.799999982104,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 53024.5
+      },
+      {
+        "called_at": 52474.89999997616,
+        "scheduled_start": 53020.89999997614,
+        "scheduled_end": 53084.89999997614,
+        "first_voiced_at": 53020.89999997614,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 53088.5
+      },
+      {
+        "called_at": 52623.19999998808,
+        "scheduled_start": 53089.199999988065,
+        "scheduled_end": 53281.199999988065,
+        "first_voiced_at": 53089.199999988065,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 53280.5
+      },
+      {
+        "called_at": 52623.29999998212,
+        "scheduled_start": 53281.299999982104,
+        "scheduled_end": 53409.299999982104,
+        "first_voiced_at": 53281.424999982104,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 53408.5
+      },
+      {
+        "called_at": 52645.79999998212,
+        "scheduled_start": 53399.79999998211,
+        "scheduled_end": 53591.79999998211,
+        "first_voiced_at": 53399.79999998211,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 53600.5
+      },
+      {
+        "called_at": 52645.89999997616,
+        "scheduled_start": 53591.89999997615,
+        "scheduled_end": 53719.89999997615,
+        "first_voiced_at": 53591.96249997615,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 53728.5
+      },
+      {
+        "called_at": 52731.59999999404,
+        "scheduled_start": 53725.59999999403,
+        "scheduled_end": 53789.59999999403,
+        "first_voiced_at": 53725.59999999403,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 53792.5
+      },
+      {
+        "called_at": 52731.69999998808,
+        "scheduled_start": 53789.69999998807,
+        "scheduled_end": 54045.69999998807,
+        "first_voiced_at": 53789.69999998807,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 54048.5
+      },
+      {
+        "called_at": 52819.69999998808,
+        "scheduled_start": 54045.69999998807,
+        "scheduled_end": 54109.69999998807,
+        "first_voiced_at": 54045.76249998807,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 54113.09999999404
+      },
+      {
+        "called_at": 52819.89999997616,
+        "scheduled_start": 54109.89999997615,
+        "scheduled_end": 54269.89999997615,
+        "first_voiced_at": 54109.89999997615,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 54272.5
+      },
+      {
+        "called_at": 52820,
+        "scheduled_start": 54269.999999999985,
+        "scheduled_end": 54365.999999999985,
+        "first_voiced_at": 54269.999999999985,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 54369
+      },
+      {
+        "called_at": 52895.89999997616,
+        "scheduled_start": 54369.89999997614,
+        "scheduled_end": 54689.89999997614,
+        "first_voiced_at": 54369.89999997614,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 54688.59999999404
+      },
+      {
+        "called_at": 52972.19999998808,
+        "scheduled_start": 54686.099999994025,
+        "scheduled_end": 55006.099999994025,
+        "first_voiced_at": 54686.099999994025,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 55008.5
+      },
+      {
+        "called_at": 53048.79999998212,
+        "scheduled_start": 55002.799999982104,
+        "scheduled_end": 55194.799999982104,
+        "first_voiced_at": null,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 55200.59999999404
+      },
+      {
+        "called_at": 53048.79999998212,
+        "scheduled_start": 55194.799999982104,
+        "scheduled_end": 55322.799999982104,
+        "first_voiced_at": null,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 55328.5
+      },
+      {
+        "called_at": 53147.19999998808,
+        "scheduled_start": 55325.199999988065,
+        "scheduled_end": 55421.199999988065,
+        "first_voiced_at": null,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 55424.59999999404
+      },
+      {
+        "called_at": 55424.59999999404,
+        "scheduled_start": 55474.59999999404,
+        "scheduled_end": 58706.59999999404,
+        "first_voiced_at": 55514.59999999404,
+        "frames": 51712,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 58709.89999997616
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 50578.69999998808,
+        "end": 51332.76249998808
+      }
+    ],
+    "input_end": 51332.76249998808,
+    "first_voice_at": 52395.79999998212,
+    "last_ended_at": 58709.89999997616,
+    "finished": 59628.39999997616,
+    "voice_to_voice_ms": 1063.0374999940395
+  },
+  {
+    "kind": "e2e",
+    "key": "case-2-repeat-0",
+    "policy": "baseline",
+    "started": 59646.79999998212,
+    "events": [
+      {
+        "api": "turn",
+        "at": 62251.29999998212,
+        "status": 200,
+        "headers_at": 62323.59999999404,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.1132,
+          "text": "给我讲一个很短的笑话吧",
+          "ms": 59,
+          "stt_ms": 23.8
+        },
+        "done": 62323.69999998808
+      },
+      {
+        "api": "stt",
+        "at": 62928.79999998212,
+        "status": 200,
+        "headers_at": 62965.29999998212,
+        "stream_id": null,
+        "result": {
+          "text": "给我讲一个很短的笑话吧",
+          "language": "zh"
+        },
+        "done": 62967.29999998212
+      },
+      {
+        "api": "tts/stream",
+        "at": 63121.59999999404,
+        "text": "哎哟你这人怎么总是问饭啊，",
+        "status": 200,
+        "headers_at": 63132.59999999404,
+        "stream_id": "stream-0044",
+        "done": 64199.29999998212
+      },
+      {
+        "api": "tts/stream",
+        "at": 64199.29999998212,
+        "text": "行行行逗你笑去。",
+        "status": 200,
+        "headers_at": 64209,
+        "stream_id": "stream-0045",
+        "done": 64737.79999998212
+      },
+      {
+        "api": "tts/stream",
+        "at": 64737.89999997616,
+        "text": "有一天我熬夜追剧结果睡着了，结果早上看发现我在演宫斗剧！",
+        "status": 200,
+        "headers_at": 64754.89999997616,
+        "stream_id": "stream-0046",
+        "done": 66275.89999997616
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 63500.89999997616,
+        "scheduled_start": 63550.89999997616,
+        "scheduled_end": 63774.89999997616,
+        "first_voiced_at": 63590.89999997616,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 63776.69999998808
+      },
+      {
+        "called_at": 63634.29999998212,
+        "scheduled_start": 63772.29999998211,
+        "scheduled_end": 63932.29999998211,
+        "first_voiced_at": 63772.29999998211,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 63936.59999999404
+      },
+      {
+        "called_at": 63649.89999997616,
+        "scheduled_start": 63931.89999997615,
+        "scheduled_end": 64091.89999997615,
+        "first_voiced_at": 63931.89999997615,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 64096.69999998808
+      },
+      {
+        "called_at": 63687.39999997616,
+        "scheduled_start": 64089.39999997614,
+        "scheduled_end": 64409.39999997614,
+        "first_voiced_at": 64238.77499997614,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 64416.59999999404
+      },
+      {
+        "called_at": 63773.69999998808,
+        "scheduled_start": 64415.69999998806,
+        "scheduled_end": 64735.69999998806,
+        "first_voiced_at": 64415.69999998806,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 64736.59999999404
+      },
+      {
+        "called_at": 63858.29999998212,
+        "scheduled_start": 64732.299999982104,
+        "scheduled_end": 65052.299999982104,
+        "first_voiced_at": 64732.299999982104,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 65057
+      },
+      {
+        "called_at": 63946.5,
+        "scheduled_start": 65052.499999999985,
+        "scheduled_end": 65372.499999999985,
+        "first_voiced_at": 65053.062499999985,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 65376.59999999404
+      },
+      {
+        "called_at": 64019.29999998212,
+        "scheduled_start": 65373.299999982104,
+        "scheduled_end": 65469.299999982104,
+        "first_voiced_at": 65373.362499982104,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 65472.59999999404
+      },
+      {
+        "called_at": 64020.5,
+        "scheduled_start": 65470.49999999998,
+        "scheduled_end": 65630.49999999997,
+        "first_voiced_at": 65483.93749999998,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 65632.59999999404
+      },
+      {
+        "called_at": 64020.59999999404,
+        "scheduled_start": 65630.59999999401,
+        "scheduled_end": 65694.59999999401,
+        "first_voiced_at": 65630.59999999401,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 65696.69999998808
+      },
+      {
+        "called_at": 64154.79999998212,
+        "scheduled_start": 65692.79999998209,
+        "scheduled_end": 65884.79999998209,
+        "first_voiced_at": 65692.79999998209,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 65888.69999998808
+      },
+      {
+        "called_at": 64156.79999998212,
+        "scheduled_start": 65886.79999998209,
+        "scheduled_end": 66014.79999998209,
+        "first_voiced_at": 65886.79999998209,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 66016.59999999404
+      },
+      {
+        "called_at": 64174.39999997616,
+        "scheduled_start": 66016.39999997613,
+        "scheduled_end": 66336.39999997613,
+        "first_voiced_at": null,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 66336.69999998808
+      },
+      {
+        "called_at": 64199.19999998808,
+        "scheduled_start": 66329.19999998806,
+        "scheduled_end": 66457.19999998806,
+        "first_voiced_at": null,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 66465.09999999404
+      },
+      {
+        "called_at": 66465.09999999404,
+        "scheduled_start": 66515.09999999404,
+        "scheduled_end": 68019.09999999404,
+        "first_voiced_at": 66555.09999999404,
+        "frames": 24064,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 68022.29999998212
+      },
+      {
+        "called_at": 68022.29999998212,
+        "scheduled_start": 68072.29999998212,
+        "scheduled_end": 73800.29999998212,
+        "first_voiced_at": 68112.29999998212,
+        "frames": 91648,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 73808.89999997616
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 59883.50000000001,
+        "end": 61722.43750000001
+      }
+    ],
+    "input_end": 61722.43750000001,
+    "first_voice_at": 63590.89999997616,
+    "last_ended_at": 73808.89999997616,
+    "finished": 74718.89999997616,
+    "voice_to_voice_ms": 1868.4624999761509
+  },
+  {
+    "kind": "e2e",
+    "key": "case-2-repeat-0",
+    "policy": "guard3",
+    "started": 74741.19999998808,
+    "events": [
+      {
+        "api": "turn",
+        "at": 77328.89999997616,
+        "status": 200,
+        "headers_at": 77402,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.1132,
+          "text": "给我讲一个很短的笑话吧",
+          "ms": 58.5,
+          "stt_ms": 22.6
+        },
+        "done": 77402.09999999404
+      },
+      {
+        "api": "stt",
+        "at": 78011.69999998808,
+        "status": 200,
+        "headers_at": 78047,
+        "stream_id": null,
+        "result": {
+          "text": "给我讲一个很短的笑话吧",
+          "language": "zh"
+        },
+        "done": 78049.19999998808
+      },
+      {
+        "api": "tts/stream",
+        "at": 78186.5,
+        "text": "上次我去超市买糖醋排骨，",
+        "status": 200,
+        "headers_at": 78197.89999997616,
+        "stream_id": "stream-0047",
+        "done": 79370
+      },
+      {
+        "api": "tts/stream",
+        "at": 79370.09999999404,
+        "text": "结果忘了拿，只能空着手回家煮了顿糖醋排骨，嘿嘿开玩笑的啦。",
+        "status": 200,
+        "headers_at": 79381.39999997616,
+        "stream_id": "stream-0048",
+        "done": 80988.39999997616
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 78704.5,
+        "scheduled_start": 78754.5,
+        "scheduled_end": 78882.5,
+        "first_voiced_at": 78794.5,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 78880.89999997616
+      },
+      {
+        "called_at": 78838.5,
+        "scheduled_start": 78888.5,
+        "scheduled_end": 78984.5,
+        "first_voiced_at": 78888.5625,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 78992.89999997616
+      },
+      {
+        "called_at": 78838.69999998808,
+        "scheduled_start": 78984.69999998808,
+        "scheduled_end": 79208.69999998808,
+        "first_voiced_at": 78984.69999998808,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 79216.89999997616
+      },
+      {
+        "called_at": 78878,
+        "scheduled_start": 79216.00000000001,
+        "scheduled_end": 79536.00000000001,
+        "first_voiced_at": 79216.00000000001,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 79536.89999997616
+      },
+      {
+        "called_at": 78966.59999999404,
+        "scheduled_start": 79528.59999999404,
+        "scheduled_end": 79848.59999999404,
+        "first_voiced_at": 79528.66249999404,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 79857.09999999404
+      },
+      {
+        "called_at": 79041.89999997616,
+        "scheduled_start": 79851.89999997614,
+        "scheduled_end": 80171.89999997614,
+        "first_voiced_at": 79851.89999997614,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 80176.79999998212
+      },
+      {
+        "called_at": 79117.39999997616,
+        "scheduled_start": 80175.39999997614,
+        "scheduled_end": 80495.39999997614,
+        "first_voiced_at": 80175.58749997614,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 80496.89999997616
+      },
+      {
+        "called_at": 79193.79999998212,
+        "scheduled_start": 80491.79999998209,
+        "scheduled_end": 80811.79999998209,
+        "first_voiced_at": 80501.04999998209,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 80817.09999999404
+      },
+      {
+        "called_at": 79270.19999998808,
+        "scheduled_start": 80808.19999998805,
+        "scheduled_end": 80999.69999998805,
+        "first_voiced_at": 80808.19999998805,
+        "frames": 3064,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 81008.89999997616
+      },
+      {
+        "called_at": 79270.39999997616,
+        "scheduled_start": 80999.89999997613,
+        "scheduled_end": 81091.77499997613,
+        "first_voiced_at": null,
+        "frames": 1470,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 81094.59999999404
+      },
+      {
+        "called_at": 79270.39999997616,
+        "scheduled_start": 81091.77499997613,
+        "scheduled_end": 81096.39999997613,
+        "first_voiced_at": null,
+        "frames": 74,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 81104.89999997616
+      },
+      {
+        "called_at": 79270.5,
+        "scheduled_start": 81096.49999999999,
+        "scheduled_end": 81128.49999999999,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 81136.79999998212
+      },
+      {
+        "called_at": 79361.79999998212,
+        "scheduled_start": 81131.7999999821,
+        "scheduled_end": 81395.1749999821,
+        "first_voiced_at": null,
+        "frames": 4214,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 81398.59999999404
+      },
+      {
+        "called_at": 79363.69999998808,
+        "scheduled_start": 81397.07499998805,
+        "scheduled_end": 81453.69999998805,
+        "first_voiced_at": null,
+        "frames": 906,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 81457
+      },
+      {
+        "called_at": 79369.69999998808,
+        "scheduled_start": 81451.69999998805,
+        "scheduled_end": 81579.69999998805,
+        "first_voiced_at": null,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 81585.09999999404
+      },
+      {
+        "called_at": 81585.09999999404,
+        "scheduled_start": 81635.09999999404,
+        "scheduled_end": 87491.09999999404,
+        "first_voiced_at": 81675.09999999404,
+        "frames": 93696,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 87494.69999998808
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 74945.29999998212,
+        "end": 76784.23749998212
+      }
+    ],
+    "input_end": 76784.23749998212,
+    "first_voice_at": 78794.5,
+    "last_ended_at": 87494.69999998808,
+    "finished": 88442,
+    "voice_to_voice_ms": 2010.2625000178814
+  },
+  {
+    "kind": "e2e",
+    "key": "case-3-repeat-0",
+    "policy": "guard3",
+    "started": 88462.59999999404,
+    "events": [
+      {
+        "api": "turn",
+        "at": 90289.09999999404,
+        "status": 200,
+        "headers_at": 90433.59999999404,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.0007,
+          "text": "我想问一下那个",
+          "ms": 56.1,
+          "stt_ms": 22.2
+        },
+        "done": 90433.59999999404
+      },
+      {
+        "api": "turn",
+        "at": 92529.19999998808,
+        "status": 200,
+        "headers_at": 92607.89999997616,
+        "stream_id": null,
+        "result": {
+          "complete": true,
+          "probability": 0.5711,
+          "text": "我想问一下那个明天出门要不要带伞",
+          "ms": 61.5,
+          "stt_ms": 21.6
+        },
+        "done": 92610.09999999404
+      },
+      {
+        "api": "tts/stream",
+        "at": 92754,
+        "text": "我看了一下天气预报说后天会下雨，",
+        "status": 200,
+        "headers_at": 92765.19999998808,
+        "stream_id": "stream-0049",
+        "done": 93704.69999998808
+      },
+      {
+        "api": "tts/stream",
+        "at": 93704.69999998808,
+        "text": "不过明天好像雨还没下来呢，还是带把轻巧点的小伞比较安全吧？",
+        "status": 200,
+        "headers_at": 93714.39999997616,
+        "stream_id": "stream-0050",
+        "done": 95516.39999997616
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 93010,
+        "scheduled_start": 93060,
+        "scheduled_end": 93092,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 93094.39999997616
+      },
+      {
+        "called_at": 93097.79999998212,
+        "scheduled_start": 93147.79999998212,
+        "scheduled_end": 93467.79999998212,
+        "first_voiced_at": 93155.79999998212,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 93473.39999997616
+      },
+      {
+        "called_at": 93179.69999998808,
+        "scheduled_start": 93469.69999998806,
+        "scheduled_end": 93565.69999998806,
+        "first_voiced_at": 93469.69999998806,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 93569.39999997616
+      },
+      {
+        "called_at": 93179.69999998808,
+        "scheduled_start": 93565.69999998808,
+        "scheduled_end": 93597.69999998808,
+        "first_voiced_at": 93565.76249998808,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 93601.09999999404
+      },
+      {
+        "called_at": 93179.89999997616,
+        "scheduled_start": 93597.89999997614,
+        "scheduled_end": 93789.89999997614,
+        "first_voiced_at": 93597.89999997614,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 93793.09999999404
+      },
+      {
+        "called_at": 93266.89999997616,
+        "scheduled_start": 93788.89999997613,
+        "scheduled_end": 94076.89999997613,
+        "first_voiced_at": 93788.89999997613,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 94081.09999999404
+      },
+      {
+        "called_at": 93266.89999997616,
+        "scheduled_start": 94076.89999997613,
+        "scheduled_end": 94108.89999997613,
+        "first_voiced_at": 94077.08749997613,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 94113
+      },
+      {
+        "called_at": 93353.39999997616,
+        "scheduled_start": 94107.39999997613,
+        "scheduled_end": 94331.39999997613,
+        "first_voiced_at": 94107.46249997613,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 94337.09999999404
+      },
+      {
+        "called_at": 93353.5,
+        "scheduled_start": 94331.49999999999,
+        "scheduled_end": 94427.49999999999,
+        "first_voiced_at": 94337.93749999999,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 94433
+      },
+      {
+        "called_at": 93517.39999997616,
+        "scheduled_start": 94431.39999997614,
+        "scheduled_end": 94559.39999997614,
+        "first_voiced_at": 94431.39999997614,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 94561.29999998212
+      },
+      {
+        "called_at": 93517.5,
+        "scheduled_start": 94559.49999999999,
+        "scheduled_end": 94751.49999999999,
+        "first_voiced_at": 94559.49999999999,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 94753
+      },
+      {
+        "called_at": 93528.19999998808,
+        "scheduled_start": 94746.19999998805,
+        "scheduled_end": 95066.19999998805,
+        "first_voiced_at": 94746.19999998805,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 95073
+      },
+      {
+        "called_at": 93605.79999998212,
+        "scheduled_start": 95071.79999998209,
+        "scheduled_end": 95391.79999998209,
+        "first_voiced_at": 95073.54999998209,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 95393.09999999404
+      },
+      {
+        "called_at": 93681.19999998808,
+        "scheduled_start": 95387.19999998804,
+        "scheduled_end": 95707.19999998804,
+        "first_voiced_at": 95387.38749998804,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 95713.09999999404
+      },
+      {
+        "called_at": 93704.69999998808,
+        "scheduled_start": 95706.69999998804,
+        "scheduled_end": 95834.69999998804,
+        "first_voiced_at": 95706.69999998804,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 95841.29999998212
+      },
+      {
+        "called_at": 95841.29999998212,
+        "scheduled_start": 95891.29999998212,
+        "scheduled_end": 101939.29999998212,
+        "first_voiced_at": 95931.29999998212,
+        "frames": 96768,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 101942.5
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 88711.5,
+        "end": 89733.6875
+      },
+      {
+        "start": 90333.6875,
+        "end": 91973.25
+      }
+    ],
+    "input_end": 91973.25,
+    "first_voice_at": 93155.79999998212,
+    "last_ended_at": 101942.5,
+    "finished": 102853.69999998808,
+    "voice_to_voice_ms": 1182.5499999821186
+  },
+  {
+    "kind": "e2e",
+    "key": "case-3-repeat-0",
+    "policy": "baseline",
+    "started": 102962.39999997616,
+    "events": [
+      {
+        "api": "turn",
+        "at": 104770.09999999404,
+        "status": 200,
+        "headers_at": 104841.29999998212,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.0007,
+          "text": "我想问一下那个",
+          "ms": 56.2,
+          "stt_ms": 22.6
+        },
+        "done": 104841.39999997616
+      },
+      {
+        "api": "turn",
+        "at": 106972.19999998808,
+        "status": 200,
+        "headers_at": 107046,
+        "stream_id": null,
+        "result": {
+          "complete": true,
+          "probability": 0.5711,
+          "text": "我想问一下那个明天出门要不要带伞",
+          "ms": 57.1,
+          "stt_ms": 20.2
+        },
+        "done": 107049.09999999404
+      },
+      {
+        "api": "tts/stream",
+        "at": 107185.09999999404,
+        "text": "我查了下预报，",
+        "status": 200,
+        "headers_at": 107196.19999998808,
+        "stream_id": "stream-0051",
+        "done": 107835.39999997616
+      },
+      {
+        "api": "tts/stream",
+        "at": 107835.39999997616,
+        "text": "明天有小雨的概率不大但也不算低，你还是顺手带把轻便的小伞防着更稳妥啦。",
+        "status": 200,
+        "headers_at": 107845.29999998212,
+        "stream_id": "stream-0052",
+        "done": 109551.79999998212
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 107527.79999998212,
+        "scheduled_start": 107577.79999998212,
+        "scheduled_end": 107609.79999998212,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 107617.29999998212
+      },
+      {
+        "called_at": 107672.29999998212,
+        "scheduled_start": 107722.29999998212,
+        "scheduled_end": 108042.29999998212,
+        "first_voiced_at": 107730.29999998212,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 108049.19999998808
+      },
+      {
+        "called_at": 107699.09999999404,
+        "scheduled_start": 108045.09999999404,
+        "scheduled_end": 108333.09999999404,
+        "first_voiced_at": 108045.16249999404,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 108337.19999998808
+      },
+      {
+        "called_at": 107699.09999999404,
+        "scheduled_start": 108333.09999999404,
+        "scheduled_end": 108365.09999999404,
+        "first_voiced_at": 108333.09999999404,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 108369.29999998212
+      },
+      {
+        "called_at": 107784.09999999404,
+        "scheduled_start": 108362.09999999402,
+        "scheduled_end": 108586.09999999402,
+        "first_voiced_at": 108362.09999999402,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 108593.29999998212
+      },
+      {
+        "called_at": 107784.09999999404,
+        "scheduled_start": 108586.09999999402,
+        "scheduled_end": 108682.09999999402,
+        "first_voiced_at": 108586.09999999402,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 108689.29999998212
+      },
+      {
+        "called_at": 107835.29999998212,
+        "scheduled_start": 108685.29999998212,
+        "scheduled_end": 108877.29999998212,
+        "first_voiced_at": 108685.29999998212,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 108881.39999997616
+      },
+      {
+        "called_at": 108881.39999997616,
+        "scheduled_start": 108931.39999997616,
+        "scheduled_end": 112483.39999997616,
+        "first_voiced_at": 108971.39999997616,
+        "frames": 56832,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 112486.69999998808
+      },
+      {
+        "called_at": 108917.09999999404,
+        "scheduled_start": 112487.09999999404,
+        "scheduled_end": 112807.09999999404,
+        "first_voiced_at": 112487.16249999404,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 112806.69999998808
+      },
+      {
+        "called_at": 108995,
+        "scheduled_start": 112805,
+        "scheduled_end": 112869,
+        "first_voiced_at": 112805,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 112870.59999999404
+      },
+      {
+        "called_at": 108995,
+        "scheduled_start": 112869,
+        "scheduled_end": 113125,
+        "first_voiced_at": 112869.0625,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 113126.69999998808
+      },
+      {
+        "called_at": 109069,
+        "scheduled_start": 113127,
+        "scheduled_end": 113447,
+        "first_voiced_at": 113127,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 113446.59999999404
+      },
+      {
+        "called_at": 109147,
+        "scheduled_start": 113444.99999999999,
+        "scheduled_end": 113764.99999999999,
+        "first_voiced_at": 113444.99999999999,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 113766.69999998808
+      },
+      {
+        "called_at": 109245.89999997616,
+        "scheduled_start": 113767.89999997613,
+        "scheduled_end": 113895.89999997613,
+        "first_voiced_at": 113767.89999997613,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 113894.89999997616
+      },
+      {
+        "called_at": 109245.89999997616,
+        "scheduled_start": 113895.89999997613,
+        "scheduled_end": 114087.89999997613,
+        "first_voiced_at": 113895.96249997613,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 114086.69999998808
+      },
+      {
+        "called_at": 109299.89999997616,
+        "scheduled_start": 114085.89999997613,
+        "scheduled_end": 114405.89999997613,
+        "first_voiced_at": 114085.96249997613,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 114406.59999999404
+      },
+      {
+        "called_at": 109376.09999999404,
+        "scheduled_start": 114410.09999999401,
+        "scheduled_end": 114666.09999999401,
+        "first_voiced_at": 114410.09999999401,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 114662.69999998808
+      },
+      {
+        "called_at": 109376.19999998808,
+        "scheduled_start": 114666.19999998805,
+        "scheduled_end": 114730.19999998805,
+        "first_voiced_at": 114666.19999998805,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 114726.69999998808
+      },
+      {
+        "called_at": 109452.5,
+        "scheduled_start": 114726.49999999996,
+        "scheduled_end": 114982.49999999996,
+        "first_voiced_at": 114726.49999999996,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 114982.69999998808
+      },
+      {
+        "called_at": 109452.5,
+        "scheduled_start": 114982.49999999996,
+        "scheduled_end": 115046.49999999996,
+        "first_voiced_at": 115031.12499999996,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 115046.69999998808
+      },
+      {
+        "called_at": 109529.5,
+        "scheduled_start": 115043.49999999996,
+        "scheduled_end": 115139.49999999996,
+        "first_voiced_at": 115043.49999999996,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 115142.69999998808
+      },
+      {
+        "called_at": 109529.5,
+        "scheduled_start": 115139.49999999996,
+        "scheduled_end": 115171.49999999996,
+        "first_voiced_at": 115139.81249999996,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 115174.69999998808
+      },
+      {
+        "called_at": 109529.59999999404,
+        "scheduled_start": 115171.599999994,
+        "scheduled_end": 115363.599999994,
+        "first_voiced_at": 115171.599999994,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 115366.59999999404
+      },
+      {
+        "called_at": 109551.69999998808,
+        "scheduled_start": 115369.69999998802,
+        "scheduled_end": 115497.69999998802,
+        "first_voiced_at": null,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 115495.29999998212
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 103167.00000000001,
+        "end": 104189.18750000001
+      },
+      {
+        "start": 104789.18750000001,
+        "end": 106428.75000000001
+      }
+    ],
+    "input_end": 106428.75000000001,
+    "first_voice_at": 107730.29999998212,
+    "last_ended_at": 115495.29999998212,
+    "finished": 116404.79999998212,
+    "voice_to_voice_ms": 1301.549999982104
+  },
+  {
+    "kind": "e2e",
+    "key": "case-0-repeat-1",
+    "policy": "guard3",
+    "started": 116429,
+    "events": [
+      {
+        "api": "turn",
+        "at": 120332.89999997616,
+        "status": 200,
+        "headers_at": 120412.39999997616,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.0884,
+          "text": "你好请用一句简短的话和我打招呼",
+          "ms": 61,
+          "stt_ms": 24.4
+        },
+        "done": 120412.5
+      },
+      {
+        "api": "stt",
+        "at": 121052.29999998212,
+        "status": 200,
+        "headers_at": 121088.89999997616,
+        "stream_id": null,
+        "result": {
+          "text": "你好请用一句简短的话和我打招呼",
+          "language": "zh"
+        },
+        "done": 121091.39999997616
+      },
+      {
+        "api": "tts/stream",
+        "at": 121212.79999998212,
+        "text": "宝贝你终于来啦，",
+        "status": 200,
+        "headers_at": 121320.5,
+        "stream_id": "stream-0053",
+        "done": 121851.69999998808
+      },
+      {
+        "api": "tts/stream",
+        "at": 121851.79999998212,
+        "text": "今天过得怎么样呀？",
+        "status": 200,
+        "headers_at": 121862.29999998212,
+        "stream_id": "stream-0054",
+        "done": 122391.59999999404
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 121455,
+        "scheduled_start": 121505,
+        "scheduled_end": 121729,
+        "first_voiced_at": 121545,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 121729.5
+      },
+      {
+        "called_at": 121539,
+        "scheduled_start": 121725,
+        "scheduled_end": 121917,
+        "first_voiced_at": 121725,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 121921.5
+      },
+      {
+        "called_at": 121539,
+        "scheduled_start": 121917,
+        "scheduled_end": 122045,
+        "first_voiced_at": 121917,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 122050.39999997616
+      },
+      {
+        "called_at": 121622.69999998808,
+        "scheduled_start": 122048.69999998808,
+        "scheduled_end": 122368.69999998808,
+        "first_voiced_at": 122153.44999998808,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 122370.09999999404
+      },
+      {
+        "called_at": 121708.39999997616,
+        "scheduled_start": 122366.39999997614,
+        "scheduled_end": 122686.39999997614,
+        "first_voiced_at": 122366.39999997614,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 122689.5
+      },
+      {
+        "called_at": 121829.29999998212,
+        "scheduled_start": 122687.2999999821,
+        "scheduled_end": 123007.2999999821,
+        "first_voiced_at": 122687.2999999821,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 123009.5
+      },
+      {
+        "called_at": 121851.39999997616,
+        "scheduled_start": 123005.39999997614,
+        "scheduled_end": 123197.39999997614,
+        "first_voiced_at": 123005.39999997614,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 123201.69999998808
+      },
+      {
+        "called_at": 123201.69999998808,
+        "scheduled_start": 123251.69999998808,
+        "scheduled_end": 124819.69999998808,
+        "first_voiced_at": 123291.69999998808,
+        "frames": 25088,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 124822.89999997616
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 116684.6999999881,
+        "end": 119794.9499999881
+      }
+    ],
+    "input_end": 119794.9499999881,
+    "first_voice_at": 121545,
+    "last_ended_at": 124822.89999997616,
+    "finished": 125744.59999999404,
+    "voice_to_voice_ms": 1750.0500000119064
+  },
+  {
+    "kind": "e2e",
+    "key": "case-0-repeat-1",
+    "policy": "baseline",
+    "started": 125762.29999998212,
+    "events": [
+      {
+        "api": "turn",
+        "at": 129612.29999998212,
+        "status": 200,
+        "headers_at": 129761,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.0884,
+          "text": "你好请用一句简短的话和我打招呼",
+          "ms": 59.5,
+          "stt_ms": 22.7
+        },
+        "done": 129761.19999998808
+      },
+      {
+        "api": "stt",
+        "at": 130289.79999998212,
+        "status": 200,
+        "headers_at": 130330.29999998212,
+        "stream_id": null,
+        "result": {
+          "text": "你好请用一句简短的话和我打招呼",
+          "language": "zh"
+        },
+        "done": 130332.79999998212
+      },
+      {
+        "api": "tts/stream",
+        "at": 130450,
+        "text": "嘿宝宝你来啦，",
+        "status": 200,
+        "headers_at": 130461.19999998808,
+        "stream_id": "stream-0055",
+        "done": 131122
+      },
+      {
+        "api": "tts/stream",
+        "at": 131122.09999999404,
+        "text": "想我啦吗？",
+        "status": 200,
+        "headers_at": 131138.69999998808,
+        "stream_id": "stream-0056",
+        "done": 131550.5
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 130796.79999998212,
+        "scheduled_start": 130846.79999998212,
+        "scheduled_end": 131070.79999998212,
+        "first_voiced_at": 130886.79999998212,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 131073.69999998808
+      },
+      {
+        "called_at": 130878.69999998808,
+        "scheduled_start": 131072.69999998808,
+        "scheduled_end": 131392.69999998808,
+        "first_voiced_at": 131072.76249998808,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 131393.59999999404
+      },
+      {
+        "called_at": 130965.39999997616,
+        "scheduled_start": 131391.39999997616,
+        "scheduled_end": 131711.39999997616,
+        "first_voiced_at": 131392.46249997616,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 131713.69999998808
+      },
+      {
+        "called_at": 131051.69999998808,
+        "scheduled_start": 131709.69999998808,
+        "scheduled_end": 132029.69999998808,
+        "first_voiced_at": 131709.69999998808,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 132033.59999999404
+      },
+      {
+        "called_at": 131121.39999997616,
+        "scheduled_start": 132035.39999997613,
+        "scheduled_end": 132291.39999997613,
+        "first_voiced_at": 132035.52499997613,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 132289.79999998212
+      },
+      {
+        "called_at": 132289.79999998212,
+        "scheduled_start": 132339.79999998212,
+        "scheduled_end": 133619.79999998212,
+        "first_voiced_at": 132379.79999998212,
+        "frames": 20480,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 133623.09999999404
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 125964.5,
+        "end": 129074.75
+      }
+    ],
+    "input_end": 129074.75,
+    "first_voice_at": 130886.79999998212,
+    "last_ended_at": 133623.09999999404,
+    "finished": 134548.89999997616,
+    "voice_to_voice_ms": 1812.0499999821186
+  },
+  {
+    "kind": "e2e",
+    "key": "case-1-repeat-1",
+    "policy": "baseline",
+    "started": 134565.5,
+    "events": [
+      {
+        "api": "turn",
+        "at": 136092.5,
+        "status": 200,
+        "headers_at": 136164.39999997616,
+        "stream_id": null,
+        "result": {
+          "complete": true,
+          "probability": 0.7474,
+          "text": "你吃饭了吗",
+          "ms": 54.5,
+          "stt_ms": 22
+        },
+        "done": 136166.69999998808
+      },
+      {
+        "api": "tts/stream",
+        "at": 136291.79999998212,
+        "text": "还没呢刚在忙代码，",
+        "status": 200,
+        "headers_at": 136301,
+        "stream_id": "stream-0057",
+        "done": 136939.09999999404
+      },
+      {
+        "api": "tts/stream",
+        "at": 136939.19999998808,
+        "text": "你呢宝贝有没有按时吃饭呀。",
+        "status": 200,
+        "headers_at": 137033.79999998212,
+        "stream_id": "stream-0058",
+        "done": 137639.59999999404
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 136546.19999998808,
+        "scheduled_start": 136596.19999998808,
+        "scheduled_end": 136916.19999998808,
+        "first_voiced_at": 136619.88749998808,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 136919.09999999404
+      },
+      {
+        "called_at": 136630.5,
+        "scheduled_start": 136920.5,
+        "scheduled_end": 137240.5,
+        "first_voiced_at": 136920.5,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 137239
+      },
+      {
+        "called_at": 136716.69999998808,
+        "scheduled_start": 137238.69999998808,
+        "scheduled_end": 137558.69999998808,
+        "first_voiced_at": 137365.88749998808,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 137559.09999999404
+      },
+      {
+        "called_at": 136801.19999998808,
+        "scheduled_start": 137563.19999998808,
+        "scheduled_end": 137883.19999998808,
+        "first_voiced_at": 137563.19999998808,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 137879
+      },
+      {
+        "called_at": 136890.59999999404,
+        "scheduled_start": 137876.599999994,
+        "scheduled_end": 138196.599999994,
+        "first_voiced_at": 137876.599999994,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 138199.69999998808
+      },
+      {
+        "called_at": 136938.69999998808,
+        "scheduled_start": 138196.69999998805,
+        "scheduled_end": 138356.69999998805,
+        "first_voiced_at": 138196.69999998805,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 138359.19999998808
+      },
+      {
+        "called_at": 138359.09999999404,
+        "scheduled_start": 138409.09999999404,
+        "scheduled_end": 140649.09999999404,
+        "first_voiced_at": 138449.09999999404,
+        "frames": 35840,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 140658.19999998808
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 134786,
+        "end": 135540.0625
+      }
+    ],
+    "input_end": 135540.0625,
+    "first_voice_at": 136619.88749998808,
+    "last_ended_at": 140658.19999998808,
+    "finished": 141579.79999998212,
+    "voice_to_voice_ms": 1079.824999988079
+  },
+  {
+    "kind": "e2e",
+    "key": "case-1-repeat-1",
+    "policy": "guard3",
+    "started": 141594.29999998212,
+    "events": [
+      {
+        "api": "turn",
+        "at": 143090,
+        "status": 200,
+        "headers_at": 143158.39999997616,
+        "stream_id": null,
+        "result": {
+          "complete": true,
+          "probability": 0.7474,
+          "text": "你吃饭了吗",
+          "ms": 55.6,
+          "stt_ms": 22
+        },
+        "done": 143160
+      },
+      {
+        "api": "tts/stream",
+        "at": 143338,
+        "text": "还没吃呢正忙着给你回消息，",
+        "status": 200,
+        "headers_at": 143350.39999997616,
+        "stream_id": "stream-0059",
+        "done": 144167.69999998808
+      },
+      {
+        "api": "tts/stream",
+        "at": 144167.69999998808,
+        "text": "等我吃完马上过来陪你聊天好不好？",
+        "status": 200,
+        "headers_at": 144179.09999999404,
+        "stream_id": "stream-0060",
+        "done": 145005.89999997616
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 143602.39999997616,
+        "scheduled_start": 143652.39999997616,
+        "scheduled_end": 143908.39999997616,
+        "first_voiced_at": 143692.39999997616,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 143911.89999997616
+      },
+      {
+        "called_at": 143686.09999999404,
+        "scheduled_start": 143912.09999999407,
+        "scheduled_end": 144232.09999999407,
+        "first_voiced_at": 143912.09999999407,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 144231.19999998808
+      },
+      {
+        "called_at": 143851.09999999404,
+        "scheduled_start": 144229.09999999404,
+        "scheduled_end": 144485.09999999404,
+        "first_voiced_at": 144229.09999999404,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 144487.5
+      },
+      {
+        "called_at": 143851.09999999404,
+        "scheduled_start": 144485.09999999404,
+        "scheduled_end": 144549.09999999404,
+        "first_voiced_at": 144485.09999999404,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 144551.09999999404
+      },
+      {
+        "called_at": 143855.09999999404,
+        "scheduled_start": 144553.09999999404,
+        "scheduled_end": 144873.09999999404,
+        "first_voiced_at": 144553.09999999404,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 144871.09999999404
+      },
+      {
+        "called_at": 143943.69999998808,
+        "scheduled_start": 144865.69999998808,
+        "scheduled_end": 145185.69999998808,
+        "first_voiced_at": 144865.69999998808,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 145191.39999997616
+      },
+      {
+        "called_at": 144031.5,
+        "scheduled_start": 145193.49999999997,
+        "scheduled_end": 145513.49999999997,
+        "first_voiced_at": 145193.49999999997,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 145511.09999999404
+      },
+      {
+        "called_at": 144108.39999997616,
+        "scheduled_start": 145510.39999997616,
+        "scheduled_end": 145830.39999997616,
+        "first_voiced_at": 145510.46249997616,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 145831.09999999404
+      },
+      {
+        "called_at": 144167.69999998808,
+        "scheduled_start": 145825.69999998808,
+        "scheduled_end": 146113.69999998808,
+        "first_voiced_at": 145825.69999998808,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 146119.39999997616
+      },
+      {
+        "called_at": 146119.39999997616,
+        "scheduled_start": 146169.39999997616,
+        "scheduled_end": 148953.39999997616,
+        "first_voiced_at": 146209.39999997616,
+        "frames": 44544,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 148962.69999998808
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 141796,
+        "end": 142550.0625
+      }
+    ],
+    "input_end": 142550.0625,
+    "first_voice_at": 143692.39999997616,
+    "last_ended_at": 148962.69999998808,
+    "finished": 149906.29999998212,
+    "voice_to_voice_ms": 1142.3374999761581
+  },
+  {
+    "kind": "e2e",
+    "key": "case-2-repeat-1",
+    "policy": "guard3",
+    "started": 149921.19999998808,
+    "events": [
+      {
+        "api": "turn",
+        "at": 152530,
+        "status": 200,
+        "headers_at": 152601,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.1132,
+          "text": "给我讲一个很短的笑话吧",
+          "ms": 57.6,
+          "stt_ms": 22
+        },
+        "done": 152601.09999999404
+      },
+      {
+        "api": "stt",
+        "at": 153212.69999998808,
+        "status": 200,
+        "headers_at": 153315.29999998212,
+        "stream_id": null,
+        "result": {
+          "text": "给我讲一个很短的笑话吧",
+          "language": "zh"
+        },
+        "done": 153316.59999999404
+      },
+      {
+        "api": "tts/stream",
+        "at": 153437.79999998212,
+        "text": "上次我去买衣服，",
+        "status": 200,
+        "headers_at": 153450.5,
+        "stream_id": "stream-0061",
+        "done": 154337.5
+      },
+      {
+        "api": "tts/stream",
+        "at": 154337.59999999404,
+        "text": "结果不小心把老板的招牌拆了回家当门帘挂，嘿嘿就这招能逗乐你吗？",
+        "status": 200,
+        "headers_at": 154348.09999999404,
+        "stream_id": "stream-0062",
+        "done": 155910.09999999404
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 153812.69999998808,
+        "scheduled_start": 153862.69999998808,
+        "scheduled_end": 153894.69999998808,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 153895.29999998212
+      },
+      {
+        "called_at": 153896.5,
+        "scheduled_start": 153946.5,
+        "scheduled_end": 154266.5,
+        "first_voiced_at": 153954.5,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 154274
+      },
+      {
+        "called_at": 153981.5,
+        "scheduled_start": 154271.5,
+        "scheduled_end": 154591.5,
+        "first_voiced_at": 154271.5,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 154594
+      },
+      {
+        "called_at": 154067.69999998808,
+        "scheduled_start": 154589.69999998808,
+        "scheduled_end": 154909.69999998808,
+        "first_voiced_at": 154589.69999998808,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 154913.89999997616
+      },
+      {
+        "called_at": 154153,
+        "scheduled_start": 154907,
+        "scheduled_end": 155163,
+        "first_voiced_at": 154907,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 155170.69999998808
+      },
+      {
+        "called_at": 154153,
+        "scheduled_start": 155163,
+        "scheduled_end": 155227,
+        "first_voiced_at": 155163,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 155234
+      },
+      {
+        "called_at": 154241.69999998808,
+        "scheduled_start": 155235.69999998805,
+        "scheduled_end": 155555.69999998805,
+        "first_voiced_at": 155302.51249998805,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 155553.89999997616
+      },
+      {
+        "called_at": 154337.39999997616,
+        "scheduled_start": 155555.39999997613,
+        "scheduled_end": 155683.39999997613,
+        "first_voiced_at": 155567.08749997613,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 155682.19999998808
+      },
+      {
+        "called_at": 155682.19999998808,
+        "scheduled_start": 155732.19999998808,
+        "scheduled_end": 160788.19999998808,
+        "first_voiced_at": 155772.19999998808,
+        "frames": 80896,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 160791.79999998212
+      },
+      {
+        "called_at": 155725.39999997616,
+        "scheduled_start": 160791.39999997616,
+        "scheduled_end": 160823.39999997616,
+        "first_voiced_at": 160791.39999997616,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 160823.39999997616
+      },
+      {
+        "called_at": 155725.5,
+        "scheduled_start": 160823.5,
+        "scheduled_end": 161111.5,
+        "first_voiced_at": 160823.5,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 161111.29999998212
+      },
+      {
+        "called_at": 155802.19999998808,
+        "scheduled_start": 161108.1999999881,
+        "scheduled_end": 161428.1999999881,
+        "first_voiced_at": 161108.1999999881,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 161431.39999997616
+      },
+      {
+        "called_at": 155909.69999998808,
+        "scheduled_start": 161431.6999999881,
+        "scheduled_end": 161623.6999999881,
+        "first_voiced_at": null,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 161623.39999997616
+      },
+      {
+        "called_at": 155909.79999998212,
+        "scheduled_start": 161623.79999998215,
+        "scheduled_end": 161783.79999998215,
+        "first_voiced_at": null,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 161783.5
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 150160,
+        "end": 151998.9375
+      }
+    ],
+    "input_end": 151998.9375,
+    "first_voice_at": 153954.5,
+    "last_ended_at": 161783.5,
+    "finished": 162708.39999997616,
+    "voice_to_voice_ms": 1955.5625
+  },
+  {
+    "kind": "e2e",
+    "key": "case-2-repeat-1",
+    "policy": "baseline",
+    "started": 162742.5,
+    "events": [
+      {
+        "api": "turn",
+        "at": 165330.19999998808,
+        "status": 200,
+        "headers_at": 165421.59999999404,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.1132,
+          "text": "给我讲一个很短的笑话吧",
+          "ms": 56.6,
+          "stt_ms": 21.9
+        },
+        "done": 165421.79999998212
+      },
+      {
+        "api": "stt",
+        "at": 166050.39999997616,
+        "status": 200,
+        "headers_at": 166084.39999997616,
+        "stream_id": null,
+        "result": {
+          "text": "给我讲一个很短的笑话吧",
+          "language": "zh"
+        },
+        "done": 166086.5
+      },
+      {
+        "api": "tts/stream",
+        "at": 166237.79999998212,
+        "text": "昨天我问程序员为什么 bug 是复数，",
+        "status": 200,
+        "headers_at": 166251.19999998808,
+        "stream_id": "stream-0063",
+        "done": 167248
+      },
+      {
+        "api": "tts/stream",
+        "at": 167248.09999999404,
+        "text": "他说因为 bug 从来不是单独出现的，它们总是成群结队地来，嘿嘿别笑啦。",
+        "status": 200,
+        "headers_at": 167258.39999997616,
+        "stream_id": "stream-0064",
+        "done": 169017.5
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 166604.5,
+        "scheduled_start": 166654.5,
+        "scheduled_end": 166910.5,
+        "first_voiced_at": 166694.5,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 166917.39999997616
+      },
+      {
+        "called_at": 166689.5,
+        "scheduled_start": 166915.50000000003,
+        "scheduled_end": 167171.50000000003,
+        "first_voiced_at": 166915.50000000003,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 167170.19999998808
+      },
+      {
+        "called_at": 166689.59999999404,
+        "scheduled_start": 167171.59999999407,
+        "scheduled_end": 167235.59999999407,
+        "first_voiced_at": 167171.59999999407,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 167234.09999999404
+      },
+      {
+        "called_at": 166773.69999998808,
+        "scheduled_start": 167231.69999998808,
+        "scheduled_end": 167263.69999998808,
+        "first_voiced_at": 167231.69999998808,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 167266.79999998212
+      },
+      {
+        "called_at": 166773.79999998212,
+        "scheduled_start": 167263.79999998212,
+        "scheduled_end": 167551.79999998212,
+        "first_voiced_at": 167263.79999998212,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 167554.19999998808
+      },
+      {
+        "called_at": 166919.79999998212,
+        "scheduled_start": 167545.79999998215,
+        "scheduled_end": 167865.79999998215,
+        "first_voiced_at": 167545.79999998215,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 167874.19999998808
+      },
+      {
+        "called_at": 166947.19999998808,
+        "scheduled_start": 167869.1999999881,
+        "scheduled_end": 167901.1999999881,
+        "first_voiced_at": 167869.1999999881,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 167906.09999999404
+      },
+      {
+        "called_at": 166947.39999997616,
+        "scheduled_start": 167901.3999999762,
+        "scheduled_end": 168189.3999999762,
+        "first_voiced_at": 167901.3999999762,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 168194.19999998808
+      },
+      {
+        "called_at": 167034.19999998808,
+        "scheduled_start": 168188.19999998814,
+        "scheduled_end": 168508.19999998814,
+        "first_voiced_at": 168188.19999998814,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 168514.19999998808
+      },
+      {
+        "called_at": 167110.69999998808,
+        "scheduled_start": 168512.69999998814,
+        "scheduled_end": 168704.69999998814,
+        "first_voiced_at": 168512.69999998814,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 168706.09999999404
+      },
+      {
+        "called_at": 167110.89999997616,
+        "scheduled_start": 168704.89999997622,
+        "scheduled_end": 168832.89999997622,
+        "first_voiced_at": 168704.89999997622,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 168834.09999999404
+      },
+      {
+        "called_at": 167190.89999997616,
+        "scheduled_start": 168832.8999999762,
+        "scheduled_end": 169152.8999999762,
+        "first_voiced_at": 168832.8999999762,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 169154.09999999404
+      },
+      {
+        "called_at": 167247.39999997616,
+        "scheduled_start": 169153.3999999762,
+        "scheduled_end": 169281.3999999762,
+        "first_voiced_at": 169153.3999999762,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 169282.09999999404
+      },
+      {
+        "called_at": 167247.5,
+        "scheduled_start": 169281.50000000003,
+        "scheduled_end": 169377.50000000003,
+        "first_voiced_at": 169281.50000000003,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 169378.79999998212
+      },
+      {
+        "called_at": 167247.5,
+        "scheduled_start": 169377.50000000003,
+        "scheduled_end": 169409.50000000003,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 169410.09999999404
+      },
+      {
+        "called_at": 167247.59999999404,
+        "scheduled_start": 169409.59999999407,
+        "scheduled_end": 169441.59999999407,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 169442.29999998212
+      },
+      {
+        "called_at": 169442.29999998212,
+        "scheduled_start": 169492.29999998212,
+        "scheduled_end": 175892.29999998212,
+        "first_voiced_at": 169532.29999998212,
+        "frames": 102400,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 175895.69999998808
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 162944.69999998808,
+        "end": 164783.63749998808
+      }
+    ],
+    "input_end": 164783.63749998808,
+    "first_voice_at": 166694.5,
+    "last_ended_at": 175895.69999998808,
+    "finished": 176831.59999999404,
+    "voice_to_voice_ms": 1910.862500011921
+  },
+  {
+    "kind": "e2e",
+    "key": "case-3-repeat-1",
+    "policy": "baseline",
+    "started": 176899.19999998808,
+    "events": [
+      {
+        "api": "turn",
+        "at": 178733.69999998808,
+        "status": 200,
+        "headers_at": 178803.59999999404,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.0007,
+          "text": "我想问一下那个",
+          "ms": 55.7,
+          "stt_ms": 21.8
+        },
+        "done": 178804.5
+      },
+      {
+        "api": "turn",
+        "at": 180930.39999997616,
+        "status": 200,
+        "headers_at": 181076.29999998212,
+        "stream_id": null,
+        "result": {
+          "complete": true,
+          "probability": 0.5711,
+          "text": "我想问一下那个明天出门要不要带伞",
+          "ms": 56.3,
+          "stt_ms": 20.9
+        },
+        "done": 181079.29999998212
+      },
+      {
+        "api": "tts/stream",
+        "at": 181184.29999998212,
+        "text": "我看了一下，",
+        "status": 200,
+        "headers_at": 181197.39999997616,
+        "stream_id": "stream-0065",
+        "done": 181620.09999999404
+      },
+      {
+        "api": "tts/stream",
+        "at": 181620.09999999404,
+        "text": "明天好像有点小雨的预报呢，为了保险起见你还是顺手带把小伞比较稳妥哦。",
+        "status": 200,
+        "headers_at": 181629.39999997616,
+        "stream_id": "stream-0066",
+        "done": 183372.89999997616
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 181450.5,
+        "scheduled_start": 181500.5,
+        "scheduled_end": 181660.5,
+        "first_voiced_at": 181540.5,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 181667.19999998808
+      },
+      {
+        "called_at": 181599.29999998212,
+        "scheduled_start": 181665.29999998212,
+        "scheduled_end": 181889.29999998212,
+        "first_voiced_at": 181667.61249998212,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 181890.29999998212
+      },
+      {
+        "called_at": 181599.39999997616,
+        "scheduled_start": 181889.39999997616,
+        "scheduled_end": 181985.39999997616,
+        "first_voiced_at": 181889.39999997616,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 181986.29999998212
+      },
+      {
+        "called_at": 181619.79999998212,
+        "scheduled_start": 181981.79999998212,
+        "scheduled_end": 182269.79999998212,
+        "first_voiced_at": 181981.79999998212,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 182274.39999997616
+      },
+      {
+        "called_at": 181619.89999997616,
+        "scheduled_start": 182269.89999997616,
+        "scheduled_end": 182301.89999997616,
+        "first_voiced_at": 182269.89999997616,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 182306.29999998212
+      },
+      {
+        "called_at": 181619.89999997616,
+        "scheduled_start": 182301.8999999762,
+        "scheduled_end": 182333.8999999762,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 182338.39999997616
+      },
+      {
+        "called_at": 182338.39999997616,
+        "scheduled_start": 182388.39999997616,
+        "scheduled_end": 184500.39999997616,
+        "first_voiced_at": 182428.39999997616,
+        "frames": 33792,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 184503.69999998808
+      },
+      {
+        "called_at": 182399.39999997616,
+        "scheduled_start": 184505.39999997616,
+        "scheduled_end": 184825.39999997616,
+        "first_voiced_at": 184505.39999997616,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 184823.69999998808
+      },
+      {
+        "called_at": 182475.39999997616,
+        "scheduled_start": 184821.39999997616,
+        "scheduled_end": 185141.39999997616,
+        "first_voiced_at": 184855.52499997616,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 185143.79999998212
+      },
+      {
+        "called_at": 182551.19999998808,
+        "scheduled_start": 185145.19999998808,
+        "scheduled_end": 185305.19999998808,
+        "first_voiced_at": 185145.19999998808,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 185304.09999999404
+      },
+      {
+        "called_at": 182551.19999998808,
+        "scheduled_start": 185305.19999998808,
+        "scheduled_end": 185465.19999998808,
+        "first_voiced_at": 185305.26249998808,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 185463.69999998808
+      },
+      {
+        "called_at": 182648.19999998808,
+        "scheduled_start": 185458.19999998805,
+        "scheduled_end": 185490.19999998805,
+        "first_voiced_at": 185458.19999998805,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 185495.89999997616
+      },
+      {
+        "called_at": 182648.29999998212,
+        "scheduled_start": 185490.2999999821,
+        "scheduled_end": 185778.2999999821,
+        "first_voiced_at": 185490.2999999821,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 185783.69999998808
+      },
+      {
+        "called_at": 182702.69999998808,
+        "scheduled_start": 185784.69999998808,
+        "scheduled_end": 185848.69999998808,
+        "first_voiced_at": 185784.69999998808,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 185847.69999998808
+      },
+      {
+        "called_at": 182702.79999998212,
+        "scheduled_start": 185848.79999998212,
+        "scheduled_end": 185976.79999998212,
+        "first_voiced_at": 185849.29999998212,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 185975.69999998808
+      },
+      {
+        "called_at": 182702.79999998212,
+        "scheduled_start": 185976.7999999821,
+        "scheduled_end": 186104.7999999821,
+        "first_voiced_at": 185976.7999999821,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 186104.19999998808
+      },
+      {
+        "called_at": 182779.69999998808,
+        "scheduled_start": 186101.69999998805,
+        "scheduled_end": 186421.69999998805,
+        "first_voiced_at": 186101.76249998805,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 186423.69999998808
+      },
+      {
+        "called_at": 182855.5,
+        "scheduled_start": 186425.49999999997,
+        "scheduled_end": 186617.49999999997,
+        "first_voiced_at": 186425.49999999997,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 186615.69999998808
+      },
+      {
+        "called_at": 182855.59999999404,
+        "scheduled_start": 186617.599999994,
+        "scheduled_end": 186745.599999994,
+        "first_voiced_at": 186617.662499994,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 186743.69999998808
+      },
+      {
+        "called_at": 182931.79999998212,
+        "scheduled_start": 186741.79999998206,
+        "scheduled_end": 187061.79999998206,
+        "first_voiced_at": 186741.79999998206,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 187063.69999998808
+      },
+      {
+        "called_at": 183007.89999997616,
+        "scheduled_start": 187065.8999999761,
+        "scheduled_end": 187385.8999999761,
+        "first_voiced_at": 187065.8999999761,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 187383.69999998808
+      },
+      {
+        "called_at": 183084.69999998808,
+        "scheduled_start": 187382.69999998802,
+        "scheduled_end": 187638.69999998802,
+        "first_voiced_at": 187382.69999998802,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 187639.69999998808
+      },
+      {
+        "called_at": 183084.69999998808,
+        "scheduled_start": 187638.69999998802,
+        "scheduled_end": 187702.69999998802,
+        "first_voiced_at": 187638.69999998802,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 187703.69999998808
+      },
+      {
+        "called_at": 183172.5,
+        "scheduled_start": 187702.49999999994,
+        "scheduled_end": 187830.49999999994,
+        "first_voiced_at": 187702.49999999994,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 187831.79999998212
+      },
+      {
+        "called_at": 183177.79999998212,
+        "scheduled_start": 187827.79999998203,
+        "scheduled_end": 188019.79999998203,
+        "first_voiced_at": 187827.79999998203,
+        "frames": 3072,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 188023.89999997616
+      },
+      {
+        "called_at": 183236.19999998808,
+        "scheduled_start": 188022.199999988,
+        "scheduled_end": 188342.199999988,
+        "first_voiced_at": 188084.074999988,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 188343.79999998212
+      },
+      {
+        "called_at": 183311.79999998212,
+        "scheduled_start": 188345.79999998203,
+        "scheduled_end": 188665.79999998203,
+        "first_voiced_at": 188345.79999998203,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 188663.79999998212
+      },
+      {
+        "called_at": 183372.69999998808,
+        "scheduled_start": 188662.699999988,
+        "scheduled_end": 188918.699999988,
+        "first_voiced_at": null,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 188919.79999998212
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 177151.09999999404,
+        "end": 178173.28749999404
+      },
+      {
+        "start": 178773.287499994,
+        "end": 180412.849999994
+      }
+    ],
+    "input_end": 180412.849999994,
+    "first_voice_at": 181540.5,
+    "last_ended_at": 188919.79999998212,
+    "finished": 189836,
+    "voice_to_voice_ms": 1127.6500000059896
+  },
+  {
+    "kind": "e2e",
+    "key": "case-3-repeat-1",
+    "policy": "guard3",
+    "started": 189856.09999999404,
+    "events": [
+      {
+        "api": "turn",
+        "at": 191650.5,
+        "status": 200,
+        "headers_at": 191719.19999998808,
+        "stream_id": null,
+        "result": {
+          "complete": false,
+          "probability": 0.0007,
+          "text": "我想问一下那个",
+          "ms": 55.5,
+          "stt_ms": 22.2
+        },
+        "done": 191719.19999998808
+      },
+      {
+        "api": "turn",
+        "at": 193853.19999998808,
+        "status": 200,
+        "headers_at": 193922.09999999404,
+        "stream_id": null,
+        "result": {
+          "complete": true,
+          "probability": 0.5711,
+          "text": "我想问一下那个明天出门要不要带伞",
+          "ms": 55.7,
+          "stt_ms": 20.2
+        },
+        "done": 193923.5
+      },
+      {
+        "api": "tts/stream",
+        "at": 194076,
+        "text": "我查了下天气预报说明天可能会飘点小雨，",
+        "status": 200,
+        "headers_at": 194085.59999999404,
+        "stream_id": "stream-0067",
+        "done": 195358.89999997616
+      },
+      {
+        "api": "tts/stream",
+        "at": 195358.89999997616,
+        "text": "不过概率不大，你要是怕淋湿就带把轻便的小伞防身吧～",
+        "status": 200,
+        "headers_at": 195370.39999997616,
+        "stream_id": "stream-0068",
+        "done": 197014.39999997616
+      }
+    ],
+    "sources": [
+      {
+        "called_at": 194326,
+        "scheduled_start": 194376,
+        "scheduled_end": 194440,
+        "first_voiced_at": 194416,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 194439.89999997616
+      },
+      {
+        "called_at": 194411.59999999404,
+        "scheduled_start": 194461.59999999404,
+        "scheduled_end": 194781.59999999404,
+        "first_voiced_at": 194461.59999999404,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 194786.5
+      },
+      {
+        "called_at": 194495.89999997616,
+        "scheduled_start": 194785.89999997616,
+        "scheduled_end": 195105.89999997616,
+        "first_voiced_at": 194785.89999997616,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 195106.5
+      },
+      {
+        "called_at": 194581.5,
+        "scheduled_start": 195103.5,
+        "scheduled_end": 195391.5,
+        "first_voiced_at": 195103.5,
+        "frames": 4608,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 195394.5
+      },
+      {
+        "called_at": 194581.59999999404,
+        "scheduled_start": 195391.59999999404,
+        "scheduled_end": 195423.59999999404,
+        "first_voiced_at": 195391.59999999404,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 195426.5
+      },
+      {
+        "called_at": 194707.29999998212,
+        "scheduled_start": 195421.29999998215,
+        "scheduled_end": 195517.29999998215,
+        "first_voiced_at": 195421.29999998215,
+        "frames": 1536,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 195522.5
+      },
+      {
+        "called_at": 194707.29999998212,
+        "scheduled_start": 195517.29999998215,
+        "scheduled_end": 195549.29999998215,
+        "first_voiced_at": 195517.42499998215,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 195554.5
+      },
+      {
+        "called_at": 194707.5,
+        "scheduled_start": 195549.50000000003,
+        "scheduled_end": 195613.50000000003,
+        "first_voiced_at": 195549.50000000003,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 195618.5
+      },
+      {
+        "called_at": 194707.59999999404,
+        "scheduled_start": 195613.59999999407,
+        "scheduled_end": 195741.59999999407,
+        "first_voiced_at": 195613.59999999407,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 195746.39999997616
+      },
+      {
+        "called_at": 194755,
+        "scheduled_start": 195741.00000000003,
+        "scheduled_end": 196061.00000000003,
+        "first_voiced_at": 195741.00000000003,
+        "frames": 5120,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 196066.79999998212
+      },
+      {
+        "called_at": 194841.69999998808,
+        "scheduled_start": 196059.69999998808,
+        "scheduled_end": 196219.69999998808,
+        "first_voiced_at": 196059.69999998808,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 196226.5
+      },
+      {
+        "called_at": 194841.69999998808,
+        "scheduled_start": 196219.69999998808,
+        "scheduled_end": 196379.69999998808,
+        "first_voiced_at": 196219.69999998808,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 196386.59999999404
+      },
+      {
+        "called_at": 194917.69999998808,
+        "scheduled_start": 196383.69999998808,
+        "scheduled_end": 196447.69999998808,
+        "first_voiced_at": 196383.69999998808,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 196450.5
+      },
+      {
+        "called_at": 194917.79999998212,
+        "scheduled_start": 196447.79999998212,
+        "scheduled_end": 196703.79999998212,
+        "first_voiced_at": 196447.79999998212,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 196706.5
+      },
+      {
+        "called_at": 194994.5,
+        "scheduled_start": 196700.5,
+        "scheduled_end": 196732.5,
+        "first_voiced_at": 196700.5,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 196738.5
+      },
+      {
+        "called_at": 194994.59999999404,
+        "scheduled_start": 196732.59999999404,
+        "scheduled_end": 196860.59999999404,
+        "first_voiced_at": 196732.72499999404,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 196867
+      },
+      {
+        "called_at": 194994.59999999404,
+        "scheduled_start": 196860.59999999404,
+        "scheduled_end": 196892.59999999404,
+        "first_voiced_at": 196860.59999999404,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 196898.59999999404
+      },
+      {
+        "called_at": 194994.59999999404,
+        "scheduled_start": 196892.59999999404,
+        "scheduled_end": 197020.59999999404,
+        "first_voiced_at": 196892.59999999404,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 197026.59999999404
+      },
+      {
+        "called_at": 195069.79999998212,
+        "scheduled_start": 197023.7999999821,
+        "scheduled_end": 197247.7999999821,
+        "first_voiced_at": 197023.7999999821,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 197250.5
+      },
+      {
+        "called_at": 195069.79999998212,
+        "scheduled_start": 197247.7999999821,
+        "scheduled_end": 197311.7999999821,
+        "first_voiced_at": 197247.7999999821,
+        "frames": 1024,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 197314.59999999404
+      },
+      {
+        "called_at": 195069.79999998212,
+        "scheduled_start": 197311.7999999821,
+        "scheduled_end": 197343.7999999821,
+        "first_voiced_at": 197311.8624999821,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 197346.59999999404
+      },
+      {
+        "called_at": 195230.69999998808,
+        "scheduled_start": 197344.69999998805,
+        "scheduled_end": 197504.69999998805,
+        "first_voiced_at": 197344.69999998805,
+        "frames": 2560,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 197506.5
+      },
+      {
+        "called_at": 195230.79999998212,
+        "scheduled_start": 197504.7999999821,
+        "scheduled_end": 197632.7999999821,
+        "first_voiced_at": 197504.7999999821,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 197634.5
+      },
+      {
+        "called_at": 195230.79999998212,
+        "scheduled_start": 197632.7999999821,
+        "scheduled_end": 197856.7999999821,
+        "first_voiced_at": 197632.7999999821,
+        "frames": 3584,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 197858.69999998808
+      },
+      {
+        "called_at": 195240.69999998808,
+        "scheduled_start": 197850.69999998805,
+        "scheduled_end": 197978.69999998805,
+        "first_voiced_at": 197850.69999998805,
+        "frames": 2048,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 197986.5
+      },
+      {
+        "called_at": 195299.69999998808,
+        "scheduled_start": 197981.69999998802,
+        "scheduled_end": 198082.07499998802,
+        "first_voiced_at": null,
+        "frames": 1606,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 198082.5
+      },
+      {
+        "called_at": 195299.89999997616,
+        "scheduled_start": 198082.2749999761,
+        "scheduled_end": 198269.8999999761,
+        "first_voiced_at": null,
+        "frames": 3002,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 198274.59999999404
+      },
+      {
+        "called_at": 195299.89999997616,
+        "scheduled_start": 198269.8999999761,
+        "scheduled_end": 198301.8999999761,
+        "first_voiced_at": null,
+        "frames": 512,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 198306.59999999404
+      },
+      {
+        "called_at": 195358.69999998808,
+        "scheduled_start": 198304.69999998802,
+        "scheduled_end": 198560.69999998802,
+        "first_voiced_at": null,
+        "frames": 4096,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 198562.89999997616
+      },
+      {
+        "called_at": 198562.89999997616,
+        "scheduled_start": 198612.89999997616,
+        "scheduled_end": 204276.89999997616,
+        "first_voiced_at": 198652.89999997616,
+        "frames": 90624,
+        "sample_rate": 16000,
+        "context_state": "running",
+        "ended_at": 204280
+      }
+    ],
+    "warmup": false,
+    "input_marks": [
+      {
+        "start": 190059.29999998215,
+        "end": 191081.48749998215
+      },
+      {
+        "start": 191681.48749998212,
+        "end": 193321.04999998212
+      }
+    ],
+    "input_end": 193321.04999998212,
+    "first_voice_at": 194416,
+    "last_ended_at": 204280,
+    "finished": 205213,
+    "voice_to_voice_ms": 1094.9500000178814
+  }
+]

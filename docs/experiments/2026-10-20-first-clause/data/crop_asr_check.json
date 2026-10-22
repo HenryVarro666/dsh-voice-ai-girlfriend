@@ -1,0 +1,23 @@
+[
+  {
+    "trial_id": 17,
+    "policy": "later_18",
+    "text_index": 2,
+    "removed_ms": 5262.375,
+    "transcript": "先检查服务日志里的报错再确认端口和模型路径最后重试一次请求每次只改一个地方更容易定位问题"
+  },
+  {
+    "trial_id": 23,
+    "policy": "later_18",
+    "text_index": 1,
+    "removed_ms": 5094.1875,
+    "transcript": "午饭可以先吃一碗面再搭配鸡蛋和青菜准备起来比较省时间吃完以后再安排下午的事情"
+  },
+  {
+    "trial_id": 34,
+    "policy": "later_18",
+    "text_index": 0,
+    "removed_ms": 5075.125,
+    "transcript": "先把重要文件备份好再更新显卡驱动最后重启电脑检查是否正常这样出问题时也容易恢复"
+  }
+]

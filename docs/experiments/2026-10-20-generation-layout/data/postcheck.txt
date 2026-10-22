@@ -1,0 +1,18 @@
+POSTCHECK 2026-10-20T20:31:27.877441+00:00
+http://127.0.0.1:8765/api/health {'status': 'ok', 'stt': True, 'tts': True, 'stt_error': None, 'tts_error': None, 'turn': True, 'turn_error': None}
+http://127.0.0.1:11434/api/ps {'models': []}
+voice_bridge.py d8b527cf94e762c5d2bf7ee5ba762ae3861cea72c04f6bc7b841229f69649576
+client.js 4519465705834132671dced9ddd784d9ad519355754ac02e985cb5dbc2e28f74
+ 408436 python          Sun Oct 18 04:28:18 2026
+3504737 python          Tue Oct 20 01:47:39 2026
+
+5462 MiB, 10347 MiB, 0 %
+
+128361, /usr/bin/ptyxis, 137 MiB
+184829, /usr/bin/coolercontrol, 193 MiB
+108257, /usr/libexec/xdg-desktop-portal-gnome, 6 MiB
+408436, /home/apex/.local/share/local-ai/comfyui-env/bin/python, 470 MiB
+3504737, /home/apex/voice-ai/venv-bridge/bin/python, 3750 MiB
+
+artifacts 58M	/home/apex/voice-ai/experiments/20261020-generation-layout
+

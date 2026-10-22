@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-22",
+  "publication_scope": "code, tests, reviewed technical documentation, aggregate metadata and diagrams",
+  "excluded": "credentials, actual local configuration, weights, environments, raw/generated audio-video and private review state",
+  "secret_review": {
+    "tool": "gitleaks 8.30.1",
+    "file_candidates_reviewed": 246,
+    "actual_credentials_found": 0,
+    "unresolved_candidates": 0,
+    "false_positive_types": [
+      "SHA256 file hashes",
+      "experiment case IDs",
+      "browser preference keys",
+      "synthetic credential-redaction test token"
+    ],
+    "retained_history_review": "plugin nine preference-key candidates; lab one SHA256 and one synthetic test token; no unresolved credentials"
+  },
+  "local_verification": {
+    "dsh": {
+      "unittest_passed": 88,
+      "ruff": "pass",
+      "format_checked_files": 64
+    },
+    "plugin": {
+      "tests_passed": 11,
+      "speech_core_typecheck": "pass",
+      "bundle": "pass"
+    },
+    "local-speaker-lab": {
+      "pytest_passed": 636,
+      "skipped": 4,
+      "subtests_passed": 22,
+      "distribution_test": "fresh wheel and isolated installation outside checkout; PYTHONPATH cleared"
+    },
+    "speech-avatar": {
+      "unittest_passed": 15
+    }
+  },
+  "limitations": "Local tests do not certify GPU inference, real microphones, hardware playback, human quality or production deployment."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "seed": 0,
+    "phase": "main",
+    "expected": "好呀，我们开始吧。",
+    "transcript": "好呀我们开始吧"
+  },
+  {
+    "seed": 16,
+    "phase": "main",
+    "expected": "好呀，我们开始吧。",
+    "transcript": "好呀我们开始吧"
+  },
+  {
+    "seed": 16,
+    "phase": "replay",
+    "expected": "好呀，我们开始吧。",
+    "transcript": "好呀我们开始吧"
+  },
+  {
+    "seed": 25,
+    "phase": "main",
+    "expected": "好呀，我们开始吧。",
+    "transcript": "好呀我们开始吧"
+  }
+]

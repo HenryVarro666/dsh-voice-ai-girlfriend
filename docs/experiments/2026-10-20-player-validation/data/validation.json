@@ -1,0 +1,14 @@
+{
+  "python_tests": 46,
+  "guard_tests": 18,
+  "lint": "passed",
+  "format": "passed",
+  "source_mirror": "in_sync",
+  "existing_docs_checked": 33,
+  "missing_documents_from_concurrent_work": [
+    "docs/experiments/2026-10-20-repetition-validation/RESULTS.md"
+  ],
+  "broken_links_in_existing_docs": [],
+  "global_doc_check": "pending",
+  "apex_guard_tests": 18
+}

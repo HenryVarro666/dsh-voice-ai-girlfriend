@@ -1,0 +1,95 @@
+{
+  "status": "passed",
+  "apex_verified_date": "2026-10-20",
+  "production_hashes_unchanged": true,
+  "local_pcm_matches_apex_suite": 48,
+  "local_pcm_and_raw_files_decoded": 96,
+  "executed_source_hashes_match": 8,
+  "repeated_stt_calls": {
+    "archived": 30,
+    "existing": 192,
+    "new": 144
+  },
+  "formal_generations": 48,
+  "errors": 0,
+  "public_audio_or_full_transcripts": false,
+  "commands": [
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "bridge/tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "check-1.txt"
+    },
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/ruff",
+        "check",
+        "scripts/bench_generation_layout.py",
+        "scripts/bench_xvector_numbers.py",
+        "scripts/recheck_audio_stt.py",
+        "scripts/recheck_metrics.py",
+        "scripts/report_numeric_recheck.py",
+        "scripts/check_docs.py",
+        "bridge/tests/test_recheck_metrics.py"
+      ],
+      "exit_code": 1,
+      "log": "check-2.txt",
+      "followup_exit_code": 0,
+      "followup_log": "check-2-retry.txt",
+      "repair": "Restored executable mode to the modified check_docs.py shebang script."
+    },
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/ruff",
+        "format",
+        "--check",
+        "scripts/bench_generation_layout.py",
+        "scripts/bench_xvector_numbers.py",
+        "scripts/recheck_audio_stt.py",
+        "scripts/recheck_metrics.py",
+        "scripts/report_numeric_recheck.py",
+        "scripts/check_docs.py",
+        "bridge/tests/test_recheck_metrics.py"
+      ],
+      "exit_code": 0,
+      "log": "check-3.txt"
+    },
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/python",
+        "scripts/check_docs.py"
+      ],
+      "exit_code": 0,
+      "log": "check-4.txt"
+    },
+    {
+      "command": [
+        "/tmp/voice-maint-venv/bin/python",
+        "scripts/sync_plugin.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "check-5.txt"
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "check-6.txt"
+    }
+  ],
+  "root_status_and_private_evidence_links": true,
+  "bilingual_measurements_present": true,
+  "summary_recompute_identical": true,
+  "date_time_stable_audio_per_mode": 6
+}

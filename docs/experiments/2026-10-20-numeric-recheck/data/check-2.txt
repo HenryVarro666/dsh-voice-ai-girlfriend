@@ -1,0 +1,9 @@
+EXE001 Shebang is present but file is not executable
+ --> scripts/check_docs.py:1:1
+  |
+1 | #!/usr/bin/env python3
+  | ^^^^^^^^^^^^^^^^^^^^^^
+2 | """Check repository-relative links in the maintained public documentation."""
+  |
+
+Found 1 error.

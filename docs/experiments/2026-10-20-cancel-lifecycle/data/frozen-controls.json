@@ -1,0 +1,26 @@
+[
+  {
+    "case": 0,
+    "seed": 8201,
+    "text_sha256": "28cd5b6391c5fdc0dfd239c854e3d1bbf5e1ad74240e8e2c52a8f7233fa7dfbd",
+    "chars": 7
+  },
+  {
+    "case": 1,
+    "seed": 8301,
+    "text_sha256": "c56fd4a1f255a262cf59c34279304dd53c34771504156d72831bf97f6f0ad1bc",
+    "chars": 12
+  },
+  {
+    "case": 2,
+    "seed": 8401,
+    "text_sha256": "b19dc2da8d3fe57c5238717b04429099d064f96dd1320320659258cdb3abd58a",
+    "chars": 23
+  },
+  {
+    "case": 3,
+    "seed": 8501,
+    "text_sha256": "9f9a536dbef36a9572976d5cdc0a0f1a2feef4fd23627d503f6924316207dbd6",
+    "chars": 8
+  }
+]

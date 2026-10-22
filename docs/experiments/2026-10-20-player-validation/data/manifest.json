@@ -1,0 +1,19 @@
+{
+  "audit_date": "2026-10-20",
+  "created_after_run": true,
+  "protocol": "PLAN.md, including development correction before formal rerun",
+  "files": {
+    "bridge/stream_tail.py": "46c5b0c800e789d1793894f658eb84018a263ef18f63b2e0927c34291fdd0631",
+    "bridge/tests/test_stream_tail.py": "e932200923f5e7c5149b06ab51e647c2dac48dfb1ed46de2b3978e7d5d02cf51",
+    "scripts/prepare_player_validation.py": "9ba32d158f739a2fda7ca580153557770415155593db95a1cb662823bf162b1c",
+    "scripts/player_validation_proxy.py": "0e81d3b9a176b63bb72eebc330b55f406ecc79670fa254c86c06bfdde81adcd6",
+    "scripts/player_validation_client.js": "36ab7cd3b84febcaa81d22d957f1c72753f8b37a91db618f425f05f993dfbfd9",
+    "scripts/review_player_audio.py": "bd0c90139b435308b7b352257c744fd7eb0d9f8074aacedb723bffb81afde20e",
+    "scripts/report_player_validation.py": "95a8f130a19c8053b88e92956646304f424c43d175bb28ebbd0160b2ab5efbda",
+    "scripts/replay_stream_tail.py": "23bf99cf20fd260aec8a6a77406b9d523b553d6e9ae790cd72e247f085b4dd97",
+    "scripts/probe_tts_tail_crop.py": "ae4f64dd91c8d70ebda2a6f2a909fffba35c297f57d8c17153cf11e344766609"
+  },
+  "browser_bundle_sha256": "9124c473fa49f2b140923f00338e84cfacb6adc6bf842ca58882cd7e6bee48d5",
+  "scope": "31 formal browser player tests, 17 actual DSH turns; synthetic input; human ratings pending",
+  "production_files_unchanged": true
+}

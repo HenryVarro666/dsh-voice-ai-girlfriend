@@ -1,0 +1,170 @@
+{
+  "unloaded": {
+    "n": 20,
+    "first_voiced_median_ms": 184.69,
+    "first_voiced_mean_ms": 151.93,
+    "first_voiced_min_ms": 100.13,
+    "first_voiced_max_ms": 269.73,
+    "over_1000_ms": 0,
+    "rtf_median": 0.2793
+  },
+  "resident": {
+    "n": 20,
+    "first_voiced_median_ms": 185.21,
+    "first_voiced_mean_ms": 254.6,
+    "first_voiced_min_ms": 101.07,
+    "first_voiced_max_ms": 1906.1,
+    "over_1000_ms": 1,
+    "rtf_median": 0.2805
+  },
+  "decode": {
+    "n": 20,
+    "first_voiced_median_ms": 313.12,
+    "first_voiced_mean_ms": 288.96,
+    "first_voiced_min_ms": 187.57,
+    "first_voiced_max_ms": 439.53,
+    "over_1000_ms": 0,
+    "rtf_median": 0.4109
+  },
+  "attempts": 60,
+  "errors": 0,
+  "decode_overlap_invalid": 0,
+  "by_text": {
+    "0": {
+      "unloaded": {
+        "n": 5,
+        "first_voiced_median_ms": 185.16,
+        "first_voiced_mean_ms": 151.77,
+        "first_voiced_min_ms": 100.13,
+        "first_voiced_max_ms": 185.62,
+        "over_1000_ms": 0,
+        "rtf_median": 0.3141
+      },
+      "resident": {
+        "n": 5,
+        "first_voiced_median_ms": 185.16,
+        "first_voiced_mean_ms": 529.09,
+        "first_voiced_min_ms": 101.19,
+        "first_voiced_max_ms": 1906.1,
+        "over_1000_ms": 1,
+        "rtf_median": 0.3357
+      },
+      "decode": {
+        "n": 5,
+        "first_voiced_median_ms": 430.66,
+        "first_voiced_mean_ms": 360.18,
+        "first_voiced_min_ms": 187.57,
+        "first_voiced_max_ms": 439.53,
+        "over_1000_ms": 0,
+        "rtf_median": 0.5639
+      }
+    },
+    "1": {
+      "unloaded": {
+        "n": 5,
+        "first_voiced_median_ms": 101.81,
+        "first_voiced_mean_ms": 134.8,
+        "first_voiced_min_ms": 101.03,
+        "first_voiced_max_ms": 185.22,
+        "over_1000_ms": 0,
+        "rtf_median": 0.2875
+      },
+      "resident": {
+        "n": 5,
+        "first_voiced_median_ms": 101.85,
+        "first_voiced_mean_ms": 118.3,
+        "first_voiced_min_ms": 101.07,
+        "first_voiced_max_ms": 185.36,
+        "over_1000_ms": 0,
+        "rtf_median": 0.2963
+      },
+      "decode": {
+        "n": 5,
+        "first_voiced_median_ms": 313.08,
+        "first_voiced_mean_ms": 290.05,
+        "first_voiced_min_ms": 196.63,
+        "first_voiced_max_ms": 430.4,
+        "over_1000_ms": 0,
+        "rtf_median": 0.4415
+      }
+    },
+    "2": {
+      "unloaded": {
+        "n": 5,
+        "first_voiced_median_ms": 184.81,
+        "first_voiced_mean_ms": 152.33,
+        "first_voiced_min_ms": 101.71,
+        "first_voiced_max_ms": 186.94,
+        "over_1000_ms": 0,
+        "rtf_median": 0.2751
+      },
+      "resident": {
+        "n": 5,
+        "first_voiced_median_ms": 185.3,
+        "first_voiced_mean_ms": 185.34,
+        "first_voiced_min_ms": 185.03,
+        "first_voiced_max_ms": 185.71,
+        "over_1000_ms": 0,
+        "rtf_median": 0.2794
+      },
+      "decode": {
+        "n": 5,
+        "first_voiced_median_ms": 313.21,
+        "first_voiced_mean_ms": 288.33,
+        "first_voiced_min_ms": 187.88,
+        "first_voiced_max_ms": 313.94,
+        "over_1000_ms": 0,
+        "rtf_median": 0.4012
+      }
+    },
+    "3": {
+      "unloaded": {
+        "n": 5,
+        "first_voiced_median_ms": 184.89,
+        "first_voiced_mean_ms": 168.85,
+        "first_voiced_min_ms": 101.93,
+        "first_voiced_max_ms": 269.73,
+        "over_1000_ms": 0,
+        "rtf_median": 0.2543
+      },
+      "resident": {
+        "n": 5,
+        "first_voiced_median_ms": 185.82,
+        "first_voiced_mean_ms": 185.69,
+        "first_voiced_min_ms": 185.13,
+        "first_voiced_max_ms": 186.27,
+        "over_1000_ms": 0,
+        "rtf_median": 0.2576
+      },
+      "decode": {
+        "n": 5,
+        "first_voiced_median_ms": 196.52,
+        "first_voiced_mean_ms": 217.29,
+        "first_voiced_min_ms": 187.78,
+        "first_voiced_max_ms": 314.88,
+        "over_1000_ms": 0,
+        "rtf_median": 0.3645
+      }
+    }
+  },
+  "unloaded_phases": {
+    "before": {
+      "n": 8,
+      "first_voiced_median_ms": 143.63,
+      "first_voiced_mean_ms": 143.32,
+      "first_voiced_min_ms": 100.13,
+      "first_voiced_max_ms": 186.94,
+      "over_1000_ms": 0,
+      "rtf_median": 0.2841
+    },
+    "after": {
+      "n": 12,
+      "first_voiced_median_ms": 184.87,
+      "first_voiced_mean_ms": 157.68,
+      "first_voiced_min_ms": 101.71,
+      "first_voiced_max_ms": 269.73,
+      "over_1000_ms": 0,
+      "rtf_median": 0.2751
+    }
+  }
+}
