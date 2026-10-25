@@ -72,7 +72,13 @@ class PcmClip {
   }
 }
 
-type Clip = { wav: ArrayBuffer } | { pcm: PcmClip; sampleRate: number }
+export type PlaybackEvent = {
+  type: 'scheduled'; epoch: number; utteranceId: string; chunkIndex: number;
+  sampleRate: number; sampleOffset: number; contextStartTime: number;
+  pcm: Float32Array; context: AudioContext; source: AudioBufferSourceNode;
+} | { type: 'reset'; epoch: number }
+
+type Clip = ({ wav: ArrayBuffer } | { pcm: PcmClip; sampleRate: number }) & { id: string }
 
 export class ReplySpeaker {
   private ctx: AudioContext | null = null
@@ -83,6 +89,8 @@ export class ReplySpeaker {
   private readers = new Set<ReadableStreamDefaultReader<Uint8Array>>()
   private drainRunning = false
   private gen = 0
+  private nextUtterance = 0
+  private playbackObservers = new Set<(event: PlaybackEvent) => void>()
   private disposed = false
   private listeners = new Set<() => void>()
 
@@ -99,6 +107,18 @@ export class ReplySpeaker {
     }
   }
 
+  /** Analysis observers must not play audio or mutate the source; PCM is copied. */
+  observePlayback(observer: (event: PlaybackEvent) => void): () => void {
+    this.playbackObservers.add(observer)
+    return () => this.playbackObservers.delete(observer)
+  }
+
+  private emitPlayback(event: PlaybackEvent): void {
+    for (const observer of this.playbackObservers) {
+      try { observer(event) } catch { /* Visual failures must never block speech. */ }
+    }
+  }
+
   private emit(): void {
     for (const listener of this.listeners) listener()
   }
@@ -106,7 +126,7 @@ export class ReplySpeaker {
   /** Enqueue one clip for playback (order preserved; plays after earlier clips). */
   speak(wav: ArrayBuffer): void {
     if (this.disposed) return
-    this.queue.push({ wav })
+    this.queue.push({ wav, id: `${this.gen}:${++this.nextUtterance}` })
     this.emit()
     void this.drain()
   }
@@ -125,7 +145,7 @@ export class ReplySpeaker {
     }
     const gen = this.gen
     const pcm = new PcmClip()
-    this.queue.push({ pcm, sampleRate })
+    this.queue.push({ pcm, sampleRate, id: `${this.gen}:${++this.nextUtterance}` })
     this.emit()
     void this.drain()
     this.readers.add(reader)
@@ -171,8 +191,8 @@ export class ReplySpeaker {
       while (this.queue.length > 0 && !this.disposed) {
         const clip = this.queue.shift()!
         this.current = clip
-        if ('wav' in clip) await this.playWav(ctx, clip.wav)
-        else await this.playPcm(ctx, clip.pcm, clip.sampleRate)
+        if ('wav' in clip) await this.playWav(ctx, clip.wav, clip.id)
+        else await this.playPcm(ctx, clip.pcm, clip.sampleRate, clip.id)
         this.current = null
       }
     } finally {
@@ -182,7 +202,7 @@ export class ReplySpeaker {
     }
   }
 
-  private async playWav(ctx: AudioContext, wav: ArrayBuffer): Promise<void> {
+  private async playWav(ctx: AudioContext, wav: ArrayBuffer, utteranceId: string): Promise<void> {
     const gen = this.gen
     let buffer: AudioBuffer
     try {
@@ -191,13 +211,15 @@ export class ReplySpeaker {
       return
     }
     if (this.disposed || gen !== this.gen) return
-    await this.schedule(ctx, buffer, 0)
+    await this.schedule(ctx, buffer, 0, utteranceId, 0, 0)
   }
 
   /** Schedule chunks back to back as they arrive; resolves when the last one has played. */
-  private async playPcm(ctx: AudioContext, pcm: PcmClip, sampleRate: number): Promise<void> {
+  private async playPcm(ctx: AudioContext, pcm: PcmClip, sampleRate: number, utteranceId: string): Promise<void> {
     const gen = this.gen
     let at = 0
+    let sampleOffset = 0
+    let chunkIndex = 0
     let last: Promise<void> | null = null
     for (;;) {
       if (this.disposed || gen !== this.gen) return
@@ -212,13 +234,14 @@ export class ReplySpeaker {
       // A chunk that arrives after the previous one ran out restarts just
       // ahead of now instead of being scheduled in the past.
       at = Math.max(at, ctx.currentTime + STREAM_LEAD_SEC)
-      last = this.schedule(ctx, buffer, at)
+      last = this.schedule(ctx, buffer, at, utteranceId, chunkIndex++, sampleOffset)
+      sampleOffset += samples.length
       at += buffer.duration
     }
     if (last !== null) await last
   }
 
-  private schedule(ctx: AudioContext, buffer: AudioBuffer, when: number): Promise<void> {
+  private schedule(ctx: AudioContext, buffer: AudioBuffer, when: number, utteranceId: string, chunkIndex: number, sampleOffset: number): Promise<void> {
     const source = ctx.createBufferSource()
     source.buffer = buffer
     source.connect(ctx.destination)
@@ -229,13 +252,20 @@ export class ReplySpeaker {
       }
       this.sources.set(source, finish)
       source.onended = finish
-      source.start(when)
+      const contextStartTime = Math.max(when, ctx.currentTime)
+      source.start(contextStartTime)
+      if (this.playbackObservers.size > 0) this.emitPlayback({
+        type: 'scheduled', epoch: this.gen, utteranceId, chunkIndex, sampleOffset,
+        sampleRate: buffer.sampleRate, contextStartTime,
+        pcm: buffer.getChannelData(0).slice(), context: ctx, source,
+      })
     })
   }
 
   /** Stop playback immediately, cancel the stream being read and clear the queue. */
   stop(): void {
     this.gen += 1
+    this.emitPlayback({ type: 'reset', epoch: this.gen })
     for (const [source, finish] of this.sources) {
       try {
         source.stop()
@@ -263,5 +293,6 @@ export class ReplySpeaker {
       this.ctx = null
     }
     this.listeners.clear()
+    this.playbackObservers.clear()
   }
 }

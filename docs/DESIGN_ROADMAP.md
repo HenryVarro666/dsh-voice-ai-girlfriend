@@ -1,5 +1,7 @@
 # DSH Voice AI 设计与改进路线
 
+2026-10-24独立Avatar E5a：[真实TTS→实际ReplySpeaker→视觉时钟](https://github.com/HenryVarro666/speech-avatar/blob/main/experiments/2026-10-24-e5-live-tts/RESULTS.md)验证7请求/5完整、客户端更正取消和传输断流恢复。CPU实时门槛未过；这是隔离测试，没有替换DSH默认服务，不替代M2真人麦克风/回声或ASR/翻译整链路验收。
+
 更新日期：2026-10-20。适用范围是单用户、单张消费级 GPU 上的 DSH 中文语音助手。接下来的主线是：验证整理版与旧部署行为一致，建立可比较的测量，再根据真人失败样本改善断轮和首声延迟。数字人与原生全双工作为独立实验推进。
 
 本文是下一阶段的设计建议和执行依据。下文标为目标的数字尚未达成，阶段任务按实际证据更新。已完成的工作和历史结果以[实验记录](EXPERIMENTS.md)为依据，现有协议见[架构说明](ARCHITECTURE.md)。

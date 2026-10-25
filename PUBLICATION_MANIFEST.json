@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "scope": "public source and reviewed metadata; no weights/credentials/raw media",
   "files": [
     {
@@ -209,8 +209,8 @@
     },
     {
       "path": "docs/DESIGN_ROADMAP.md",
-      "sha256": "601b43bec1a9eca7491a64616b01c8c260f0ea7cdc6d0b27702407af83fe69ce",
-      "bytes": 35355
+      "sha256": "8636895da183ad2c5b0ece990ac507ae1cc0a4784f3a279fae0eddd696359fe5",
+      "bytes": 35745
     },
     {
       "path": "docs/EXPERIMENTS.md",
@@ -2069,8 +2069,8 @@
     },
     {
       "path": "dsh-plugin/src/client/voice/speaker.ts",
-      "sha256": "9aa68fe7720e4646f48ddf435cb6f106f1fb02b19499afd7b6953bcc56005741",
-      "bytes": 8470
+      "sha256": "090a2e6ccdb471ff1b278acfacadf5cb0bb1a42421fc1e60f83ece75795b7d29",
+      "bytes": 10148
     },
     {
       "path": "dsh-plugin/src/client/worklets/mic-capture.ts",
